@@ -1,0 +1,752 @@
+[
+    {
+        "pieceTitle": "(Valid)Red Clay",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_IV_V (Prep_IV_V (Prep_Descending5th Term (Prep_IV_V Term Term)) Term) Term) (Prol_Repeat Term (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)) Term))))",
+        "progression": "Cm7 B♭m7 D♭sus E♭sus Fsus Gsus Cm7 B♭m7 E♭7 A♭^7 D%7 G7 Cm7"
+    },
+    {
+        "pieceTitle": "(Valid)Equinox",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_IV_I (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term)))",
+        "progression": "C♯m7 C♯m7 C♯m7 C♯m7 F♯m7 F♯m7 C♯m7 C♯m7 A7 G♯7 C♯m7 C♯m7"
+    },
+    {
+        "pieceTitle": "(Valid)Jody Grind, The",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_IV_I (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_TritoneSub_I (Prep_IV_V Term Term) (Prol_Repeat Term Term)))",
+        "progression": "B♭m7 B♭m7 B♭m7 B♭m7 E♭7 E♭7 B♭m7 B♭m7 A7 B7 B♭m7 B♭m7"
+    },
+    {
+        "pieceTitle": "(Valid)Mr. P.C.",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_IV_I (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term)))",
+        "progression": "Cm7 Cm7 Cm7 Cm7 Fm7 Fm7 Cm7 Cm7 A♭7 G7 Cm7 Cm7"
+    },
+    {
+        "pieceTitle": "(Valid)Blues For Wood",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Hexatonic (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_IV_V (Prol_Octatonic Term Term) (Prep_Descending5th Term Term)) Term))",
+        "progression": "Fm7 Fm7 Fm7 Fm7 D♭7 D♭7 Fm7 Fm7 D♭7 B♭^7 G%7 C7 Fm7"
+    },
+    {
+        "pieceTitle": "(Valid)Interplay",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_IV_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prep_TritoneSub_I Term Term) Term))",
+        "progression": "Fm6 Fm6 Fm6 Fm6 F7 B♭m7 B♭m7 Fm6 Fm6 D♭7 C7 Fm6"
+    },
+    {
+        "pieceTitle": "(Valid)Solar",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_VOct_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) Term) (Prep_Descending5th Term Term)) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)))",
+        "progression": "Cm^7 Cm^7 Gm7 C7 F^7 F^7 Fm7 B♭7 E♭^7 E♭m7 A♭7 D♭^7 D%7 G7 Cm^7"
+    },
+    {
+        "pieceTitle": "(Valid)Birk's Works",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_IV_I (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)))",
+        "progression": "Fm6 G%7 C7 Fm6 C%7 F7 B♭m7 B♭m7 Fm6 Fm6 A♭m7 D♭7 G%7 C7 Fm6 Fm6"
+    },
+    {
+        "pieceTitle": "(Valid)Blue In Green",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_IV_V Term Term) Term) (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I Term Term) Term) Term) Term) Term)) (Prep_Descending5th (Prep_V_I Term Term) Term)) (Prep_V_I (Prep_IV_V Term Term) (Prol_Repeat Term Term)))",
+        "progression": "Gm6 A7 Dm7 D♭7 Cm7 F7 B♭^7 A7 Dm6 E7 Am7 Dm7 Gm6 A7 Dm6 Dm6"
+    },
+    {
+        "pieceTitle": "(Valid)Booker's Waltz",
+        "program": "(Prol_Repeat (Prol_Repeat Term (Prol_RelativeTonic (Prep_V_I (Prol_Octatonic Term (Prep_Descending5th Term Term)) Term) (Prep_IV_I (Prol_Octatonic (Prol_Octatonic Term Term) Term) Term))) (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I Term Term) Term) (Prol_Repeat Term Term)))",
+        "progression": "A♭^7 E♭7 G%7 C7 Fm7 D♭7 B♭7 D♭7 A♭^7 B7 B♭m7 E♭7 A♭^7 A♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Contemplation",
+        "program": "(Prep_V_I (Prep_IV_I (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_VI_V (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)))) Term)",
+        "progression": "Cm7 Cm7 Cm7 Cm7 Cm7 Cm7 Cm7 Cm7 A♭^7 A♭^7 A♭^7 A♭^7 G7 G7 G7 G7 Cm7"
+    },
+    {
+        "pieceTitle": "(Valid)Friday The 13th",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prol_Octatonic Term (Prep_TritoneSub_I Term Term)) (Prol_Repeat Term (Prep_V_I (Prol_Octatonic Term (Prep_TritoneSub_I Term Term)) (Prol_Repeat Term (Prep_V_I (Prol_Octatonic Term (Prep_TritoneSub_I Term Term)) (Prol_Repeat Term (Prep_V_I (Prol_Octatonic Term (Prep_TritoneSub_I Term Term)) Term))))))))",
+        "progression": "G^7 F7 E♭7 D7 G^7 F7 E♭7 D7 G^7 F7 E♭7 D7 G^7 F7 E♭7 D7 G^7"
+    },
+    {
+        "pieceTitle": "(Valid)If You Never Come To Me",
+        "program": "(Prol_Repeat Term (Prep_Backdoor_I (Prep_VOct_I (Prep_V_I (Prep_VI_V (Prep_VOct_I Term Term) Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I Term Term) Term) Term) (Prep_IV_I (Prep_V_I Term Term) Term))))",
+        "progression": "C^7 B^7 B♭^7 A7 Dm7 Dm7 Fm7 B♭7 E7 A7 D7 G7 C7 F7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)Pent Up House",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))))",
+        "progression": "Am7 D7 G^7 G^7 Am7 D7 G^7 G^7 Dm7 G7 Cm7 F7 Am7 D7 G^7 G^7"
+    },
+    {
+        "pieceTitle": "(Valid)Sweet Georgia Bright",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_IV_V (Prol_Repeat Term Term) (Prol_Repeat (Prol_Repeat Term Term) (Prep_IV_V (Prol_Repeat Term Term) (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) Term) Term) (Prol_Repeat Term Term))))))",
+        "progression": "C7 C7 B♭7 B♭7 C7 C7 B♭7 B♭7 E♭7 E♭7 E♭7 E♭7 D7 D♭7 C7 C7"
+    },
+    {
+        "pieceTitle": "(Valid)Valse Hot",
+        "program": "(Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_VOct_I Term Term) Term) Term) Term) Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_V_I Term Term) (Prep_VOct_I Term Term)) Term) Term) Term) Term))",
+        "progression": "A♭^7 D♭^7 Cm7 F7 B♭m7 E♭7 A♭^7 F7 B♭m7 D♭m7 Cm7 F7 B♭m7 E♭7 A♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Wayne's Thang",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_VI_V (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_VI_V (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term))))",
+        "progression": "Em7 Em7 C6 C6 B7 B7 Em7 Em7 Em7 Em7 C6 C6 B7 B7 Em7 Em7"
+    },
+    {
+        "pieceTitle": "(Valid)We Will Meet Again",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_IV_V (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prep_IV_I (Prep_V_I (Prep_VI_V Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) Term))",
+        "progression": "Cm6 Cm6 Fm7 Fm7 D%7 G7 Cm6 Cm6 A♭^7 G7 Cm6 Cm6 A%7 D7 Gsus G7 Cm6"
+    },
+    {
+        "pieceTitle": "(Valid)Blue Bossa",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_IV_V (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))) (Prep_VOct_I (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) Term)))",
+        "progression": "Cm7 Cm7 Fm7 Fm7 D%7 G7 Cm7 Cm7 E♭m7 A♭7 D♭^7 D♭^7 D%7 G7 Cm7"
+    },
+    {
+        "pieceTitle": "(Valid)Israel",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) Term) (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term) (Prep_V_I (Prep_VI_V Term (Prep_Descending5th Term Term)) Term)))",
+        "progression": "Dm Dm7 Dm6 D7 Gm7 C7 F^7 B♭^7 E%7 A7 Dm"
+    },
+    {
+        "pieceTitle": "(Valid)Mac The Knife",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prep_Descending5th (Prep_Descending5th (Prol_Repeat Term Term) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) Term) (Prol_Repeat Term Term)))",
+        "progression": "B♭6 B♭6 Cm7 Cm7 F7 F7 B♭6 B♭6 Gm7 Gm7 Cm7 Cm7 Cm7 Cm7 F7 B♭6 B♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Sugar",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I Term (Prol_Repeat Term Term))) (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term (Prep_V_I (Prep_IV_V (Prep_TritoneSub_I Term Term) (Prep_Descending5th (Prep_TritoneSub_I Term Term) Term)) Term))))",
+        "progression": "Cm7 D%7 G7 Cm7 G7 Cm7 Cm7 Gsus G7 Cm7 G♭7 Fm7 E♭7 D%7 G7 Cm7"
+    },
+    {
+        "pieceTitle": "(Valid)When The Saints Go Marching In",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_IV_V (Prep_V_I Term (Prol_Octatonic Term Term)) (Prep_V_I (Prep_IV_V Term Term) Term)) Term))))",
+        "progression": "F^ F^ F^ F^ F^ F^ C7 C7 F^ F7 B♭^ B♭m F^ G7 C7 F^"
+    },
+    {
+        "pieceTitle": "(Valid)Work Song",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I Term Term) (Prep_V_I Term Term)) Term)))))",
+        "progression": "Fm Fm Fm Fm Fm Fm C7 C7 Fm Fm Fm Fm F7 B♭7 G7 C7 Fm"
+    },
+    {
+        "pieceTitle": "(Valid)Beatrice",
+        "program": "(Prol_Octatonic (Prol_Repeat Term (Prep_VOct_I Term Term)) (Prep_VOct_I (Prep_VOct_I (Prep_Descending5th (Prol_Repeat (Prol_Repeat (Prep_VOct_I Term Term) (Prep_VOct_I Term Term)) (Prep_V_I (Prol_Octatonic (Prep_VOct_I (Prep_IVOct_I Term Term) Term) (Prep_VI_V Term (Prep_Descending5th Term Term))) Term)) Term) Term) Term))",
+        "progression": "F^7 G♭^7 F^7 E♭^7 Dm7 E♭^7 Dm7 Cm7 B♭m7 Am7 B♭^7 E%7 A7 Dm7 Gm7 G♭^7 Fm7"
+    },
+    {
+        "pieceTitle": "(Valid)Jackie-ing",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prol_Repeat (Prep_Descending5th Term Term) Term) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)))))))",
+        "progression": "B♭^7 B♭^7 B♭^7 B♭^7 B♭^7 B♭^7 Cm7 Fsus Fsus B♭^7 B♭^7 G7 Cm7 F7 B♭^7 B♭^7 B♭^7 B♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Lady Bird",
+        "program": "(Prol_Repeat (Prep_Backdoor_I (Prep_IVOct_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) Term))",
+        "progression": "C^7 C^7 Fm7 B♭7 C^7 C^7 B♭m7 E♭7 A♭^7 A♭^7 Am7 D7 Dm7 G7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)On The Trail",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_V_I (Prep_TritoneSub_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) Term))))",
+        "progression": "F^7 F^7 F^7 F^7 F^7 Am7 D7 Gm7 C7 A♭m7 D♭7 A♭m7 D♭7 Gm7 C7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Peace",
+        "program": "(Prol_Repeat (Prep_VOct_I (Prep_TritoneSub_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_VI_V (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_RelativeTonic Term Term)) (Prep_Descending5th Term Term)) Term) Term) Term) Term))",
+        "progression": "A%7 D7 Gm7 C7 B^7 C%7 F7 B♭^7 Bm7 E7 A^7 F♯m7 E♭%7 A♭7 D♭^7 C7 B7 B♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Sunny",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_VI_V (Prep_V_I Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_VI_V (Prep_V_I Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_TritoneSub_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)))))))",
+        "progression": "Am7 C7 F^7 B%7 E7 Am7 C7 F^7 B%7 E7 Am7 C7 F^7 B♭7 B%7 E7 Am7"
+    },
+    {
+        "pieceTitle": "(Valid)United",
+        "program": "(Prol_RelativeTonic (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prep_VOct_I (Prep_VOct_I (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))))",
+        "progression": "E%7 A7 Dm Dm E%7 A7 Dm Dm Cm7 F7 B♭^7 A♭m7 D♭7 G♭^7 Gm7 C7 F^7 F^7"
+    },
+    {
+        "pieceTitle": "(Valid)Funkallero",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_V_I Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_V_I Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_Descending5th Term (Prep_Descending5th Term Term)) Term) (Prep_IV_V (Prep_Descending5th (Prep_TritoneSub_I Term Term) Term) (Prep_V_I Term Term))) (Prol_Repeat Term Term)))",
+        "progression": "D7 G7 Cm6 Cm6 D7 G7 Cm6 Cm6 B♭m7 B♭m7 E♭7 A♭^7 D♭7 Cm7 Fm7 D7 G7 Cm6 Cm6"
+    },
+    {
+        "pieceTitle": "(Valid)Yesterdays",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat (Prol_Repeat Term Term) Term))) (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) Term) Term) (Prep_Descending5th Term Term)) Term))",
+        "progression": "Dm E%7 A7 Dm E%7 A7 Dm Dm^7 Dm7 B%7 E7 A7 D7 G7 C7 F7 B♭^7 E%7 A7 Dm"
+    },
+    {
+        "pieceTitle": "(Valid)Afro Blue",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_IVOct_I (Prol_Repeat Term (Prep_VOct_I Term Term)) Term)) (Prol_Repeat Term (Prep_IVOct_I (Prol_Repeat Term (Prep_VOct_I Term Term)) Term))) (Prol_Repeat (Prep_VOct_I (Prol_Repeat (Prol_Repeat Term Term) (Prep_VOct_I Term Term)) Term) (Prep_VOct_I (Prol_Repeat (Prol_Repeat Term Term) (Prep_VOct_I Term Term)) Term)))",
+        "progression": "Fm7 Gm7 A♭^7 Gm7 Fm7 Fm7 Gm7 A♭^7 Gm7 Fm7 E♭^ E♭^ D♭^ E♭^ Fm7 E♭^ E♭^ D♭^ E♭^ Fm7"
+    },
+    {
+        "pieceTitle": "(Valid)Blues For Alice",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prol_Repeat (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) Term) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th (Prep_Backdoor_I Term (Prep_V_I Term Term)) Term)) Term))",
+        "progression": "F^7 E%7 A7 Dm7 G7 Cm7 F7 B♭7 B♭m7 E♭7 Am7 D7 A♭m7 D♭7 Gm7 C7 F7 D7 Gm7 C7 F^7"
+    },
+    {
+        "pieceTitle": "(Valid)Brotherhood Of Man",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_VOct_I Term Term) Term) Term) Term) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I Term (Prep_V_I Term Term)) Term) Term) Term) Term)))))",
+        "progression": "E♭^ E♭^ E♭^ E♭^ E♭^ Fm7 Gm7 C7 F7 B♭7 E♭^ E♭^ A♭7 Co7 Gm7 C7 Fm7 B♭7 E♭^"
+    },
+    {
+        "pieceTitle": "(Valid)Freight Train",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prol_Repeat (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_VOct_I (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) Term) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term)) Term))",
+        "progression": "A♭^7 G%7 C7 Fm7 Em7 E♭m7 A♭7 D♭^7 D♭m7 G♭7 Cm7 F7 Bm7 E7 B♭m7 E♭7 Cm7 F7 B♭m7 E♭7 A♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Got A Match?",
+        "program": "(Prol_Repeat (Prol_Repeat Term (Prep_V_I Term Term)) (Prep_V_I (Prep_IV_V (Prol_Repeat (Prep_V_I Term Term) (Prep_V_I Term (Prol_Repeat Term Term))) (Prol_Repeat (Prep_Descending5th Term Term) (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)))) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th Term Term) Term))))",
+        "progression": "Dm7 A7 Dm7 D7 Gm7 D7 Gm7 Gm7 Em7 A7 Fm7 B♭7 E♭^7 Em7 A7 Dm7 E%7 A7 Dm7"
+    },
+    {
+        "pieceTitle": "(Valid)Half Nelson",
+        "program": "(Prol_Repeat (Prep_Backdoor_I (Prep_IVOct_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) Term))",
+        "progression": "C^7 C^7 Fm7 B♭7 C^7 C^7 Bm7 E7 B♭m7 E♭7 A♭^7 A♭^7 Am7 D7 Dm7 G7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)Leaving",
+        "program": "(Prol_RelativeTonic (Prol_Repeat (Prep_V_I (Prep_VI_V Term Term) (Prol_Repeat Term Term)) (Prep_Backdoor_I (Prep_VI_V Term Term) (Prep_V_I Term (Prol_Repeat Term Term)))) (Prol_Repeat (Prep_Backdoor_I (Prep_VOct_I Term Term) Term) (Prep_VOct_I (Prep_VOct_I (Prep_V_I (Prep_IV_V Term (Prep_TritoneSub_I Term Term)) Term) (Prep_Descending5th Term Term)) Term)))",
+        "progression": "E♭^7 D7 Gm7 Gm7 G♭^7 F7 D7 Gm7 Gm7 Cm7 A♭sus B♭^ F^ A♭7 G7 Cm^7 G♭^7 B^7 B♭^"
+    },
+    {
+        "pieceTitle": "(Valid)Old Country, The",
+        "program": "(Prol_Repeat (Prol_RelativeTonic (Prol_Repeat Term (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I (Prep_Descending5th (Prep_Descending5th Term (Prep_V_I Term Term)) (Prol_Repeat Term Term)) Term)) (Prol_Repeat (Prol_RelativeTonic Term (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_TritoneSub_I (Prep_TritoneSub_I Term Term) (Prep_Descending5th Term Term)) Term)))",
+        "progression": "Dm E%7 A7 Dm Dm D7 Gm7 Csus C7 F^7 F^7 E%7 A7 Dm Dm B7 B♭7 E%7 A7 Dm"
+    },
+    {
+        "pieceTitle": "(Valid)Recordame",
+        "program": "(Prol_Repeat (Prol_Octatonic (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) Term)) (Prep_V_I (Prep_VI_V (Prep_VOct_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)) Term) (Prep_Descending5th Term Term)) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)) Term) Term))",
+        "progression": "Am Am Am Am Cm Cm Cm Cm7 F7 B♭^7 B♭m7 E♭7 A♭^7 A♭m7 D♭7 G♭^7 Gm7 C7 F^7 E7 Am"
+    },
+    {
+        "pieceTitle": "(Valid)Just A Gigolo",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) Term) (Prep_V_I (Prep_Descending5th (Prol_Repeat (Prep_VOct_I Term Term) (Prep_V_I Term (Prol_Repeat Term Term))) Term) Term)) (Prep_V_I (Prep_Descending5th (Prep_Backdoor_I Term (Prep_V_I (Prep_TritoneSub_I Term Term) Term)) (Prep_Descending5th (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) Term) Term)) Term))",
+        "progression": "F^ F^7 F^ A♭o7 Gm7 D7 Gm Gm7 C7 F^ F7 E♭7 D7 Gm7 B♭m7 E♭7 Am7 D7 Gm7 C7 F^"
+    },
+    {
+        "pieceTitle": "(Valid)Little Boat (O Barquinho)",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prol_Repeat (Prep_VI_V (Prep_TritoneSub_I (Prep_VI_V (Prep_TritoneSub_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) (Prol_Repeat Term Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term)) Term))",
+        "progression": "B♭^7 B♭^7 Em7 A7 Em7 A7 A♭^7 A♭^7 Dm7 G7 Dm7 G7 G♭^7 G♭^7 Cm7 F7 Cm7 F7 Dm7 G7 Cm7 F7 B♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Armando's Rhumba",
+        "program": "(Prol_RelativeTonic (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_V_I Term Term) Term)) (Prol_Repeat Term (Prep_V_I (Prep_V_I Term Term) Term))) (Prep_V_I (Prep_VOct_I (Prep_IV_I (Prep_VOct_I (Prep_V_I Term Term) (Prep_V_I Term Term)) (Prol_Octatonic Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))))",
+        "progression": "Cm7 D7 G7 Cm7 Cm7 D7 G7 Cm7 C7 Fm7 D7 Gm7 A♭o7 D7 B♭sus B♭sus B♭sus B♭sus E♭6 E♭6 E♭6 E♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Summertime",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I Term (Prol_Repeat Term Term))) (Prep_V_I (Prep_IV_V (Prep_V_I Term Term) (Prep_TritoneSub_I Term (Prep_V_I Term Term))) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I Term Term)) (Prol_RelativeTonic (Prol_RelativeTonic (Prep_V_I (Prep_V_I Term Term) Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)))))",
+        "progression": "Am7 Am7 E7 Am7 Am7 A7 Dm7 F7 B7 E7 Am7 Am7 E7 Am7 D7 G7 C^7 Am7 B%7 E7 Am7"
+    },
+    {
+        "pieceTitle": "(Valid)Why Don't You Do Right?",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_TritoneSub_I (Prep_VOct_I Term Term) Term) (Prol_Repeat Term (Prep_V_I (Prep_TritoneSub_I (Prep_VOct_I Term Term) Term) (Prol_Repeat (Prep_V_I (Prep_IV_V (Prol_Repeat Term Term) Term) Term) (Prep_V_I (Prep_TritoneSub_I (Prep_VOct_I Term Term) Term) (Prep_V_I (Prol_Repeat (Prep_TritoneSub_I Term Term) (Prep_TritoneSub_I Term Term)) Term)))))))",
+        "progression": "Dm7 B%7 B♭7 A7 Dm7 B%7 B♭7 A7 Gm7 Gm7 A7 Dm7 B%7 B♭7 A7 B♭7 A7 B♭7 A7 Dm7"
+    },
+    {
+        "pieceTitle": "(Valid)Bluesette",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prol_Octatonic (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term))) Term))",
+        "progression": "B♭^7 B♭^7 A%7 D7 Gm7 C7 Fm7 B♭7 E♭^7 E♭^7 E♭m7 A♭7 D♭^7 D♭^7 C♯m7 F♯7 B^7 B^7 Cm7 F7 Dm7 G7 Cm7 F7 B♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Central Park West",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Octatonic Term (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prol_Octatonic (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)))) (Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_Repeat Term Term)))",
+        "progression": "B^7 Em7 A7 D^7 B♭m7 E♭7 A♭^7 Gm7 C7 F^7 C♯m7 F♯7 B^7 Em7 A7 D^7 C♯m7 F♯7 B^7 B6 B^7 B6"
+    },
+    {
+        "pieceTitle": "(Valid)Footprints",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_IV_I (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)))) (Prep_TritoneSub_I (Prep_TritoneSub_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))))",
+        "progression": "Cm7 Cm7 Cm7 Cm7 Cm7 Cm7 Cm7 Cm7 Fm7 Fm7 Fm7 Fm7 Cm7 Cm7 Cm7 Cm7 D7 D7 D♭7 D♭7 Cm7 Cm7 Cm7 Cm7"
+    },
+    {
+        "pieceTitle": "(Valid)Four On Six",
+        "program": "(Prep_V_I (Prep_IV_I (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_TritoneSub_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_Octatonic (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)))) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) Term) (Prol_RelativeTonic (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_V_I (Prep_TritoneSub_I Term Term) Term))))",
+        "progression": "Gm7 Gm7 Gm7 Gm7 Cm7 F7 B♭m7 E♭7 Am7 D7 E♭m7 A♭7 Gm7 Gm7 Gm7 Cm7 F7 B♭^7 Gm7 E♭7 D7 Gm7"
+    },
+    {
+        "pieceTitle": "(Valid)Light Blue",
+        "program": "(Prol_Repeat (Prep_Backdoor_I (Prep_Descending5th (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I Term Term) (Prol_Repeat Term Term))) (Prep_V_I Term Term)) Term) (Prep_V_I (Prep_V_I Term Term) (Prol_Repeat (Prep_IV_I (Prol_Octatonic (Prol_Repeat (Prol_Octatonic (Prol_Repeat Term Term) Term) (Prep_TritoneSub_I Term (Prol_Repeat Term Term))) (Prep_VOct_I Term Term)) Term) (Prep_V_I (Prol_Octatonic (Prep_V_I (Prol_Repeat Term Term) Term) Term) Term))))",
+        "progression": "F^7 F^7 G7 C7 F^7 F^7 F7 B♭7 C^7 D7 G7 F^7 F^7 F7 G♭7 F^7 F^7 F♯m7 Fm7 C^7 D7 D7 G7 D♭^7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)Paper Doll",
+        "program": "(Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_V_I (Prep_V_I Term Term) Term) Term)) (Prep_V_I (Prol_Octatonic (Prol_Octatonic (Prep_IV_I (Prol_Octatonic Term Term) Term) Term) (Prep_V_I Term Term)) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prol_Octatonic (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_IV_I (Prep_IV_I (Prol_Octatonic Term Term) Term) (Prep_Descending5th (Prep_V_I (Prep_V_I Term Term) Term) Term)) Term)))))",
+        "progression": "F^7 D7 G7 C7 F6 F^7 Fm^7 C^7 A7 G7 C7 Gm7 C7 F6 Gm7 C7 A7 B♭^ Bo7 F^ A7 D7 Gm7 C7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Serenity",
+        "program": "(Prol_Repeat (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prol_Octatonic (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_IVOct_I Term Term)) (Prep_Descending5th Term Term)) Term) Term) Term) (Prep_VOct_I (Prep_TritoneSub_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_TritoneSub_I (Prep_V_I (Prep_Descending5th Term Term) (Prep_TritoneSub_I Term Term)) Term)) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)))",
+        "progression": "D%7 G7 A♭^7 G♭^7 Em7 A7 Fm7 B♭7 E♭^7 D%7 G7 Cm7 Cm7 A♭m7 D♭7 G7 G♭7 F7 E^7 Fm7 B♭7 E♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Simone",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_Descending5th Term Term)) (Prep_TritoneSub_I Term Term)) (Prol_Repeat (Prep_TritoneSub_I (Prol_Octatonic (Prep_VOct_I (Prep_V_I (Prep_Descending5th (Prol_Repeat Term Term) Term) Term) Term) (Prep_Descending5th Term Term)) (Prol_RelativeTonic Term (Prep_IVOct_I Term Term))) (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th (Prep_VOct_I Term Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_Descending5th Term Term)))))",
+        "progression": "Dm7 Am7 Dm7 E♭7 Dm7 Am7 Am7 D7 Gm7 Am7 B♭m7 E♭7 Dm7 Em7 F^7 F♯m7 Fm7 B♭7 Em7 A7 Dm7 Am7 Dm7"
+    },
+    {
+        "pieceTitle": "(Valid)St. Thomas",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I Term Term) Term) Term) Term) Term)) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I Term Term) Term) Term) Term) Term))) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_Repeat Term (Prep_V_I (Prep_IV_V (Prep_V_I Term Term) (Prep_V_I Term Term)) Term))))",
+        "progression": "C^7 F7 Em7 A7 Dm7 G7 C6 C^7 F7 Em7 A7 Dm7 G7 C6 E%7 A7 Dm7 G7 C^7 C7 F^7 F♯o7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)Ballade",
+        "program": "(Prep_V_I (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)) Term) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term (Prep_Descending5th Term Term)))) (Prep_Descending5th (Prol_Repeat Term (Prep_V_I Term Term)) Term)) (Prol_Repeat (Prol_RelativeTonic Term Term) (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))))",
+        "progression": "Cm7 F7 B♭^7 B♭m7 E♭7 A♭^7 Dm7 G7 Dm7 Dm7 G7 Gm7 D7 Gm7 C7 F^7 Dm7 A7 D7 D7 G7 G%7 C7 F6 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Minor Strain",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_VOct_I (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th (Prep_VOct_I (Prol_Repeat Term Term) (Prol_Octatonic (Prep_Descending5th Term Term) Term)) Term)))",
+        "progression": "Dm7 Dm7 Dm7 Dm7 Cm7 Cm7 Cm7 Cm7 Gm7 Gm7 B♭m7 E♭7 Am7 Dm7"
+    },
+    {
+        "pieceTitle": "(Valid)Song For My Father",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_Backdoor_I (Prol_Repeat Term Term) (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term)))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_Backdoor_I (Prol_Repeat Term Term) (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term))))) (Prol_Repeat (Prep_Backdoor_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_Backdoor_I Term (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term)))))",
+        "progression": "Fm7 Fm7 E♭7 E♭7 D♭7 Csus Fm7 Fm7 Fm7 Fm7 E♭7 E♭7 D♭7 Csus Fm7 Fm7 E♭7 E♭7 Fm7 Fm7 E♭7 D♭7 C7 Fm7 Fm7"
+    },
+    {
+        "pieceTitle": "(Valid)Witch Hunt",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prol_RelativeTonic (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)))) (Prep_V_I (Prep_VOct_I (Prep_V_I (Prol_Repeat (Prep_VI_V (Prep_TritoneSub_I (Prep_VI_V Term Term) Term) Term) Term) (Prol_Repeat Term (Prep_VOct_I Term Term))) Term) Term))",
+        "progression": "Cm7 Cm7 Cm7 Cm7 Cm7 Cm7 Cm7 Cm7 E♭7 E♭7 E♭7 E♭7 Cm7 Cm7 Cm7 Cm7 G♭^7 F7 E^7 E♭7 E♭7 A♭m7 A^ A♭m7 G7 Cm7"
+    },
+    {
+        "pieceTitle": "(Valid)If You Ever Should Leave",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) Term) Term) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)))))))",
+        "progression": "C^ C^ A7 A7 D7 D7 G7 G7 C7 C7 F^ F^ D7 D7 G7 G7 C^ C^ A7 A7 D7 G7 C^ C^ C^ C^"
+    },
+    {
+        "pieceTitle": "(Valid)Night Dreamer",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prol_Octatonic Term (Prep_VI_V Term Term)) (Prol_Repeat Term (Prep_V_I (Prol_Octatonic Term (Prep_VI_V Term Term)) (Prol_Repeat Term (Prep_V_I (Prol_Octatonic Term (Prep_VI_V Term Term)) (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Backdoor_I (Prep_IVOct_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_V_I (Prol_Octatonic Term (Prep_VI_V Term Term)) Term))))))))))",
+        "progression": "G^7 Fm7 E♭^7 D7 G^7 Fm7 E♭^7 D7 G^7 Fm7 E♭^7 D7 E♭m7 A♭7 Esus Esus Fsus Fsus G^7 Fm7 E♭^7 D7 G^7"
+    },
+    {
+        "pieceTitle": "(Valid)Boo Boo's Birthday",
+        "program": "(Prol_Repeat Term (Prep_VOct_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I Term Term) Term) Term) (Prol_Octatonic Term Term)) (Prol_Repeat Term (Prep_VOct_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I Term Term) Term) Term) (Prol_Octatonic Term Term)) (Prol_Repeat (Prep_IV_I (Prep_TritoneSub_I (Prep_VOct_I Term (Prep_V_I Term Term)) Term) Term) (Prep_IV_I Term Term))))))))",
+        "progression": "C^7 B7 E7 E7 F7 E7 E♭7 D7 D♭^7 D♭7 C^7 B7 E7 E7 F7 E7 E♭7 D7 D♭^7 D♭7 Gm7 D♭7 G♭7 F^7 C^7 F^7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)Girl Talk",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th (Prep_TritoneSub_I Term Term) Term) (Prep_Descending5th Term Term)) Term) (Prol_RelativeTonic Term (Prep_IV_V Term Term))) (Prep_V_I (Prol_Repeat (Prep_V_I (Prep_V_I (Prep_IV_V (Prep_IV_V (Prep_Descending5th Term Term) (Prep_V_I Term Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term (Prep_IV_V (Prep_VOct_I Term Term) Term)))) Term) Term) (Prep_Descending5th (Prep_Descending5th (Prep_Descending5th (Prep_VOct_I Term Term) Term) Term) Term)) Term)))",
+        "progression": "F^7 B7 B♭^7 E♭7 Am7 D7 Gm7 Am7 B♭6 C7 Fm7 B♭m7 G7 C7 Am7 D7 Am7 B♭m7 Cm7 D7 G7 C7 B♭m7 Am7 Dm7 Gm7 C7 F^7"
+    },
+    {
+        "pieceTitle": "(Valid)Serenade To A Cuckoo",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term))) (Prol_Repeat (Prep_V_I (Prep_VI_V (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term) Term) (Prep_Descending5th Term Term)) Term) (Prep_V_I (Prep_VI_V (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term) Term) (Prep_Descending5th Term Term)) Term)))",
+        "progression": "Fm7 G%7 C7 Fm7 G%7 C7 Fm7 G%7 C7 Fm7 F7 B♭m7 E♭7 A♭^7 D♭^7 G%7 C7 Fm7 F7 B♭m7 E♭7 A♭^7 D♭^7 G%7 C7 Fm7"
+    },
+    {
+        "pieceTitle": "(Valid)It's Been A Long Long Time",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) Term) (Prol_Octatonic Term Term)) (Prep_V_I Term (Prep_V_I (Prep_Descending5th Term (Prep_Descending5th (Prep_V_I Term Term) Term)) (Prep_V_I (Prep_Descending5th Term Term) Term)))) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_IV_V Term (Prep_TritoneSub_I Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_TritoneSub_I (Prep_VOct_I (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term)))))",
+        "progression": "F^ F^7 F6 F6 F♯o7 C7 Gm7 D7 Gm7 C7 Gm7 C7 F^7 F^7 A%7 D7 Gm7 B♭m6 D♭7 C7 F^ F^7 Am7 D7 Gm7 G♭7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)My Ideal",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_V_I (Prol_Octatonic (Prep_V_I Term Term) (Prep_V_I (Prep_TritoneSub_I Term Term) Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_TritoneSub_I Term Term)))) (Prol_Repeat Term (Prep_V_I (Prep_V_I (Prol_Octatonic (Prep_V_I Term Term) (Prep_V_I (Prep_TritoneSub_I Term Term) Term)) (Prep_TritoneSub_I (Prep_TritoneSub_I (Prol_Hexatonic (Prol_Octatonic Term Term) (Prep_Descending5th (Prep_TritoneSub_I (Prep_Descending5th Term Term) Term) Term)) Term) Term)) Term))))",
+        "progression": "E♭6 C7 Fm7 D♭7 C7 F7 Fm7 B♭7 D%7 G7 Cm7 F7 B7 B♭7 E♭6 C7 Fm7 D♭7 C7 F7 Fm7 A♭m6 E♭^ A♭7 Gm7 C7 B7 B♭7 E♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Chucho",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term))) (Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I (Prep_TritoneSub_I (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_VOct_I (Prep_V_I (Prep_IV_V (Prep_V_I Term (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) Term) Term) Term) Term) Term) (Prep_Descending5th Term Term)) Term)))",
+        "progression": "Dm E%7 A7 Dm E%7 A7 Dm E%7 A7 Dm E%7 A7 Dm E%7 A7 Dm D7 Gm Gm7 E%7 A7 Dm D♭m Cm7 F7 B♭7 E%7 A7 Dm"
+    },
+    {
+        "pieceTitle": "(Valid)Bemsha Swing",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_TritoneSub_I (Prep_V_I (Prep_TritoneSub_I Term Term) Term) Term)) (Prol_Repeat (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I Term Term) Term) Term) (Prep_TritoneSub_I (Prep_V_I (Prep_TritoneSub_I Term Term) Term) Term))) (Prep_V_I (Prep_IV_V (Prol_Repeat (Prep_TritoneSub_I (Prep_V_I (Prep_V_I Term Term) Term) Term) (Prep_TritoneSub_I (Prep_V_I (Prep_TritoneSub_I Term Term) Term) Term)) (Prep_TritoneSub_I Term Term)) (Prol_Repeat (Prep_TritoneSub_I Term Term) (Prep_TritoneSub_I (Prep_V_I (Prep_TritoneSub_I Term Term) Term) Term))))",
+        "progression": "C^ A7 A♭7 D♭7 C^ E♭7 D7 D♭7 C^ A7 A♭7 D♭7 C^ A♭7 D♭7 G♭7 F^ D7 D♭7 G♭7 F^ A♭7 G7 D♭7 C^ A7 A♭7 D♭7 C^"
+    },
+    {
+        "pieceTitle": "(Valid)Idle Moments",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)))) (Prep_V_I (Prol_Repeat (Prep_IV_V (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) (Prol_Repeat (Prep_VI_V Term (Prep_IV_V Term Term)) (Prep_TritoneSub_I Term (Prep_Descending5th Term Term)))) Term)))",
+        "progression": "Cm Cm^7 Cm7 Cm6 Cm Cm^7 Cm7 Cm6 Cm Cm^7 Cm7 Cm6 D%7 G7 Cm Cm^7 Cm7 Cm6 D%7 G7 Cm7 Fm6 G7 A♭^7 Fm6 G7 A♭7 D%7 G7 Cm"
+    },
+    {
+        "pieceTitle": "(Valid)I Wish I Knew How It Would Feel To Be Free",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_RelativeTonic Term (Prep_V_I Term Term)) (Prep_V_I (Prol_Octatonic Term (Prep_IV_V Term Term)) Term)) (Prep_V_I (Prep_IV_I (Prol_Repeat (Prol_Repeat Term (Prep_IV_I Term Term)) (Prol_Repeat Term (Prep_Descending5th Term Term))) (Prol_Octatonic Term (Prep_V_I Term Term))) (Prol_Repeat (Prol_Repeat (Prol_RelativeTonic Term (Prep_V_I Term Term)) (Prep_V_I (Prol_Octatonic Term (Prep_IV_V Term Term)) Term)) (Prol_Repeat (Prol_RelativeTonic (Prol_Octatonic Term Term) (Prep_V_I Term Term)) (Prol_Repeat (Prol_Octatonic Term Term) (Prep_V_I Term Term))))))",
+        "progression": "F^ A7 Dm Cm7 B♭^ Csus F^ F^ B♭^ F^ F^ C^ F^ C^ G7 C7 F^ A7 Dm Cm7 B♭^ Csus F^ Bo7 F^ C♯o7 Dm Bo7 F^ Csus F^"
+    },
+    {
+        "pieceTitle": "(Valid)When You're Smilin'",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_V_I (Prep_Descending5th (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_Repeat Term Term)))))",
+        "progression": "C6 C6 C6 C6 Em7 A7 Dm7 G7 Dm7 Dm7 Dm7 Dm7 G7 G7 C6 C6 C7 C7 F6 F6 Am7 D7 Dm7 G7 C6 C6 Em7 A7 Dm7 G7 C6 C6"
+    },
+    {
+        "pieceTitle": "(Valid)Avalon",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_Descending5th (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I Term (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)))) (Prep_Backdoor_I (Prep_VOct_I (Prep_V_I (Prep_Descending5th (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) Term) Term) (Prol_Repeat Term Term)))))",
+        "progression": "Cm7 Cm7 F7 F7 B♭6 B♭6 B♭6 G7 Cm7 Cm7 F7 F7 B♭6 B♭6 B♭6 B♭6 Dm7 Dm7 G7 G7 Cm7 Cm7 E♭m7 A♭7 B♭6 B♭6 G7 G7 Cm7 F7 B♭6 B♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Backstage Sally",
+        "program": "(Prol_Repeat (Prol_Repeat Term (Prep_TritoneSub_I (Prep_VOct_I (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I Term Term) Term) (Prol_Octatonic (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) Term) (Prep_TritoneSub_I (Prep_TritoneSub_I Term Term) Term)) Term)) (Prep_V_I (Prol_Octatonic (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prep_V_I Term Term)) Term) Term) Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_V_I (Prep_V_I Term Term) Term) Term))))",
+        "progression": "Fm6 D7 G7 C7 E♭m7 A♭7 Cm7 F7 B♭m6 A♭7 G7 G♭7 Fm7 B♭7 E♭m7 A♭7 D7 G7 C7 F7 B♭7 E♭7 G%7 C7 Fm6 D7 G7 C7 Fm7"
+    },
+    {
+        "pieceTitle": "(Valid)Gary's Notebook",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_TritoneSub_I Term Term)) (Prol_Repeat (Prep_TritoneSub_I Term Term) (Prep_TritoneSub_I Term Term))) (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prep_TritoneSub_I Term Term) (Prep_TritoneSub_I Term Term)) (Prol_Repeat (Prep_TritoneSub_I Term Term) (Prep_TritoneSub_I Term Term))) (Prol_Repeat (Prep_IV_I (Prol_Repeat (Prep_V_I Term Term) (Prep_TritoneSub_I Term (Prol_Repeat Term Term))) (Prol_Repeat Term (Prep_TritoneSub_I Term (Prol_Repeat Term Term)))) (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_TritoneSub_I Term Term))))))",
+        "progression": "Cm D♭7 Cm D♭7 Cm D♭7 Cm D♭7 Cm D♭7 Cm D♭7 Cm D♭7 Cm C7 Fm6 F♯7 Fm6 Fm6 Cm D♭7 Cm Cm6 E♭m7 A♭7 Dm7 G7 Cm D♭7 Cm"
+    },
+    {
+        "pieceTitle": "(Valid)Glad To Be Unhappy",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prol_Octatonic (Prep_VOct_I Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Octatonic (Prep_VOct_I Term Term) (Prol_Repeat Term Term)) Term)) (Prol_Repeat (Prep_V_I (Prep_IV_V (Prol_Octatonic (Prep_V_I Term Term) Term) (Prep_Descending5th (Prep_VOct_I Term Term) Term)) Term) (Prep_V_I (Prep_IV_V (Prol_Octatonic Term Term) (Prep_Descending5th (Prep_VOct_I Term Term) Term)) Term))) (Prep_V_I (Prol_Octatonic (Prep_VOct_I Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_Descending5th Term Term) Term) (Prol_Repeat Term Term)))))",
+        "progression": "Gm7 E♭^7 C7 C7 Gm7 E♭7 C7 C7 F^ F7 B♭^7 Bo7 F^7 Gm7 C7 F^7 B♭^7 Bo7 F^7 Gm7 C7 F^7 Gm7 E♭^7 C7 C7 F^7 Dm7 Gm7 C7 F^7 F^7"
+    },
+    {
+        "pieceTitle": "(Valid)Hot House",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_TritoneSub_I (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))))",
+        "progression": "G%7 C7 Fm^7 Fm^7 D%7 G7 C^7 C^7 G%7 C7 Fm^7 Fm^7 D%7 G7 C^7 C^7 Cm7 F7 B♭^7 B♭^7 A♭7 A♭7 G7 G7 G%7 C7 Fm^7 Fm^7 D%7 G7 C^7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)Hungaria",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_VOct_I (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prol_Repeat (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Octatonic Term Term) (Prep_Descending5th Term Term))) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_VOct_I (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) Term) (Prep_V_I (Prol_Octatonic (Prep_IV_I Term Term) Term) (Prep_Descending5th Term Term))) (Prol_Repeat Term Term)))))",
+        "progression": "G6 G6 A♭6 A♭6 G6 G6 E7 E7 A7 A7 D7 D7 G^ B♭o7 Am7 D7 G6 G6 A♭6 A♭6 G6 G6 E7 E7 Am7 Cm6 G^ B♭o7 Am7 D7 G6 G6"
+    },
+    {
+        "pieceTitle": "(Valid)In A Mellow Tone (In A Mellotone)",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_V_I Term Term) (Prol_Repeat Term Term)) (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) Term)) (Prep_V_I (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) Term) (Prol_Repeat (Prep_V_I (Prep_V_I (Prep_V_I Term Term) Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_IV_V (Prol_Octatonic Term Term) (Prep_V_I (Prep_V_I (Prol_Octatonic Term Term) Term) Term))) Term))))",
+        "progression": "B♭7 E♭7 A♭6 A♭6 E♭m7 A♭7 D♭^7 D♭^7 D♭6 G♭7 A♭6 F7 B♭7 B♭7 E♭7 F7 B♭7 E♭7 A♭6 A♭6 E♭m7 A♭7 D♭^7 D♭^7 D♭7 Do7 A♭6 F7 B♭7 E♭7 A♭6"
+    },
+    {
+        "pieceTitle": "(Valid)I've Found A New Baby v2",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_V_I (Prep_Descending5th (Prol_Repeat Term (Prep_V_I Term Term)) (Prep_V_I Term Term)) Term) Term) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prol_Repeat (Prep_V_I Term Term) (Prep_V_I Term Term)) (Prep_V_I Term Term)) Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) Term) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prol_Repeat (Prep_V_I Term Term) (Prep_V_I Term Term)) (Prep_V_I Term Term)) Term) Term)))",
+        "progression": "Dm7 A7 Dm7 D7 G7 C7 F6 A7 Dm7 A7 Dm7 D7 G7 C7 F6 F6 A7 A7 Dm7 Dm7 G7 G7 C7 A7 Dm7 A7 Dm7 D7 G7 C7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Lennie's Pennies",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_TritoneSub_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_V_I (Prep_V_I Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V Term (Prol_Repeat Term Term)) Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_V_I (Prep_V_I Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_Descending5th (Prol_Repeat (Prol_Octatonic Term Term) (Prep_VOct_I Term (Prep_V_I Term Term))) Term)) (Prol_Repeat Term Term)))))",
+        "progression": "Cm6 Cm6 D7 D♭7 Cm6 Cm6 D7 G7 G%7 C7 Fm6 Fm6 Cm6 D7 D7 G7 Cm6 Cm6 D7 G7 C7 C7 Fm6 Fm6 Fm6 D%7 Cm6 A7 D%7 G7 Cm6 Cm6"
+    },
+    {
+        "pieceTitle": "(Valid)Move",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_IV_I Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat Term (Prep_IV_I Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prol_Repeat Term Term)))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term))) (Prol_Repeat (Prol_Repeat Term (Prep_IV_I Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prol_Repeat Term Term)))))",
+        "progression": "B♭6 E♭7 B♭6 Bo7 Cm7 F7 B♭6 B♭6 B♭6 E♭7 B♭6 Bo7 Cm7 F7 B♭6 B♭6 Fm7 B♭7 E♭6 E♭6 C7 C7 Cm7 F7 B♭6 E♭7 B♭6 Bo7 Cm7 F7 B♭6 B♭6"
+    },
+    {
+        "pieceTitle": "(Valid)So Danco Samba",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_IV_V Term (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term))) Term)) (Prol_Repeat (Prep_IV_I Term Term) (Prep_V_I (Prep_IV_V Term (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term))) (Prol_Repeat Term Term)))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prol_Repeat Term (Prep_V_I (Prep_IV_V Term (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term))) Term))))",
+        "progression": "C6 F7 D7 D7 Dm7 G7 C6 F7 C6 F7 D7 D7 Dm7 G7 C6 C6 Gm7 C7 F^7 F^7 Am7 D7 G7 G7 C6 F7 D7 D7 Dm7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)Someday My Prince Will Come",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_V_I Term (Prol_Hexatonic Term Term)) (Prol_Repeat Term (Prep_V_I Term Term))) Term) (Prep_V_I (Prol_Repeat (Prol_RelativeTonic Term (Prep_V_I Term (Prep_Descending5th Term Term))) (Prol_RelativeTonic Term (Prep_V_I Term (Prep_Descending5th Term Term)))) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_V_I Term (Prol_Hexatonic Term Term)) (Prol_Repeat Term (Prep_V_I Term Term))) Term) (Prep_V_I (Prep_IV_V (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_Descending5th (Prep_VOct_I Term (Prep_V_I Term Term)) Term)) Term))))))",
+        "progression": "B♭^7 D7 E♭^7 G7 Cm7 G7 Cm7 F7 Dm7 C♯o7 Cm7 F7 Dm7 C♯o7 Cm7 F7 B♭^7 D7 E♭^7 G7 Cm7 G7 Cm7 F7 Fm7 B♭7 E♭^7 Eo7 B♭^7 G7 Cm7 F7 B♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Subconscious Lee",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_TritoneSub_I (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))))",
+        "progression": "G%7 C7 Fm7 Fm7 D%7 G7 C^7 C^7 G%7 C7 Fm7 Fm7 D%7 G7 C^7 C^7 Cm7 F7 B♭^7 B♭^7 A♭7 A♭7 G7 G7 G%7 C7 Fm7 Fm7 D%7 G7 C^7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)Tune Up",
+        "program": "(Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_RelativeTonic Term Term)) (Prep_Descending5th Term (Prep_VI_V (Prep_V_I Term Term) Term))) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_RelativeTonic Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)))))",
+        "progression": "Em7 A7 D^7 D^7 Dm7 G7 C^7 C^7 Cm7 F7 B♭^7 Gm7 Em7 F7 B♭^7 A7 Em7 A7 D^7 D^7 Dm7 G7 C^7 C^7 Cm7 F7 B♭^7 Gm7 Em7 A7 D^7 D^7"
+    },
+    {
+        "pieceTitle": "(Valid)What Is This Thing Called Love",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_TritoneSub_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))))",
+        "progression": "G%7 C7 Fm6 Fm6 D%7 G7 C^7 C^7 G%7 C7 Fm6 Fm6 D%7 G7 C^7 C^7 Cm7 F7 B♭^7 B♭^7 A♭7 A♭7 D%7 G7 G%7 C7 Fm6 Fm6 D%7 G7 C^7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)Bossa Antigua",
+        "program": "(Prep_VOct_I (Prep_V_I (Prep_IV_V (Prol_Octatonic (Prep_Backdoor_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prep_IV_V (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) (Prep_IV_V (Prep_Backdoor_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Octatonic Term (Prep_Descending5th Term Term)))) Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prol_Repeat (Prep_Descending5th (Prep_Descending5th Term Term) Term) (Prep_Descending5th (Prep_Descending5th (Prep_Descending5th Term Term) Term) Term)) Term) Term) (Prep_Descending5th (Prep_Backdoor_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) Term)) Term) (Prol_Repeat Term Term)))",
+        "progression": "B♭m7 E♭7 Cm7 Fm7 B♭m7 E♭7 Cm7 F7 B♭m7 E♭7 Cm7 Fm7 B♭m7 Dm7 G7 C^7 Am7 Dm7 G7 Em7 Am7 Dm7 G7 Cm7 F7 B♭m7 E♭7 Cm7 Fm7 B♭m7 E♭7 A♭^7 A♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Bright Mississippi",
+        "program": "(Prep_VOct_I (Prep_Descending5th (Prep_VOct_I (Prep_V_I (Prep_V_I (Prep_V_I (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prol_Repeat Term Term)) Term) Term) (Prep_VOct_I (Prep_IV_V (Prep_V_I (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prol_Repeat (Prep_IV_I Term Term) (Prep_IV_I Term Term))) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term))))",
+        "progression": "F7 F7 F7 F7 B♭7 B♭7 B♭7 B♭7 E♭7 E♭7 E♭7 E♭7 A♭^7 A♭^7 G%7 C7 F7 F7 F7 F7 B♭7 B♭7 B♭7 B♭7 Fm C7 Fm C7 A♭^7 F7 B♭m7 E♭7 A♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Cool One, The",
+        "program": "(Prep_V_I (Prol_Repeat (Prol_Repeat (Prep_Descending5th (Prep_V_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat (Prep_Descending5th (Prep_V_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) Term) Term) (Prep_Descending5th Term Term))) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prol_Octatonic (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)) Term)) (Prep_V_I (Prol_Repeat (Prep_Descending5th (Prep_V_I (Prol_Repeat (Prep_Descending5th (Prep_TritoneSub_I Term Term) Term) (Prep_Descending5th Term Term)) Term) Term) (Prep_Descending5th Term Term)) Term)))",
+        "progression": "Bm7 E7 Bm7 E7 Am7 D7 Am7 D7 Bm7 E7 Bm7 E7 Am7 D7 Am7 D7 G^7 G^7 B%7 E7 C♯%7 A%7 D7 G^7 C7 Bm7 E7 Bm7 E7 Am7 D7 Am7 D7 G^7"
+    },
+    {
+        "pieceTitle": "(Valid)Fine And Dandy",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I (Prep_V_I (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) Term) Term) Term) (Prol_Repeat Term (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Octatonic Term Term)) (Prep_V_I Term (Prep_Descending5th Term Term))) (Prol_Repeat Term Term)))))))))))",
+        "progression": "F^7 A♭o7 Gm7 C7 F^7 A♭o7 Gm7 C7 F7 F7 B♭7 B♭7 E♭7 E♭7 A♭7 Gm7 C7 F^7 A♭o7 Gm7 C7 F^7 A♭o7 Gm7 C7 Cm7 F7 B♭^7 B♭m7 G7 Gm7 C7 F^7 F^7"
+    },
+    {
+        "pieceTitle": "(Valid)I've Got A Crush On You",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I (Prep_V_I Term (Prep_VOct_I Term (Prep_Descending5th Term Term))) (Prep_Descending5th Term Term)) Term) (Prep_IV_I Term (Prep_V_I (Prep_Descending5th Term Term) Term))) Term)))))))))",
+        "progression": "B♭^7 D♭o7 Cm7 F7 B♭^7 D♭o7 Cm7 F7 Dm7 Gm7 C7 C7 Cm7 F7 B♭^7 D♭o7 Cm7 F7 B♭^7 D♭o7 Cm7 E♭m7 A♭7 Dm7 Gm7 C7 B♭^ Gm7 C7 F7 B♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Jeannie's Song",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) Term) (Prep_V_I (Prol_RelativeTonic (Prep_TritoneSub_I Term Term) (Prep_V_I Term (Prep_Descending5th Term Term))) Term)) (Prol_Repeat (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Descending5th (Prep_V_I Term Term) Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) Term) (Prep_V_I (Prol_Repeat (Prol_RelativeTonic (Prep_TritoneSub_I Term Term) (Prep_V_I Term (Prep_Descending5th Term Term))) (Prep_IVOct_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) (Prol_Repeat Term Term))))",
+        "progression": "Gm7 C7 Gm7 C7 F^7 B♭7 Am7 A♭o7 Gm7 C7 F^7 Em7 A7 D^7 A7 Dm7 G7 Gm7 C7 Gm7 C7 F^7 B♭7 Am7 A♭o7 Gm7 C7 Am7 D7 Gm7 C7 F^7 F^7"
+    },
+    {
+        "pieceTitle": "(Valid)Minor Mood",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_IV_V Term Term) Term)) (Prep_Backdoor_I (Prep_V_I Term (Prep_Descending5th (Prol_Repeat Term Term) Term)) (Prep_V_I (Prep_Descending5th Term Term) Term))) (Prol_Repeat Term (Prep_V_I (Prep_TritoneSub_I (Prol_Repeat Term Term) Term) Term))) (Prol_Repeat (Prol_Repeat (Prep_V_I Term Term) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I (Prep_Descending5th (Prep_IV_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_IV_V Term Term)) (Prep_IV_I Term Term)) (Prep_Descending5th (Prep_VOct_I Term Term) Term)) (Prol_Repeat Term Term))))",
+        "progression": "Fm7 B♭m6 C7 Fm7 B♭7 B♭m7 B♭m7 E♭7 G%7 C7 Fm7 Fm7 D♭7 D♭7 C7 Fm^7 C7 Fm7 G%7 C7 Fm7 C%7 F7 B♭m7 B♭m7 C7 C7 G%7 A♭^7 G%7 C7 Fm^7 Fm^7"
+    },
+    {
+        "pieceTitle": "(Valid)Nothing Personal",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)))) (Prep_IV_I (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) Term))) (Prep_V_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))))",
+        "progression": "Gm Gm Gm Gm Gm Gm Gm Gm Gm Gm Gm Gm Gm Gm Gm Gm C7 C7 C7 C7 Gm Gm Gm F7 E7 E♭7 E♭7 D7 D7 Gm Gm Gm Gm"
+    },
+    {
+        "pieceTitle": "(Valid)O Grande Amor",
+        "program": "(Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I (Prep_V_I Term (Prep_Descending5th Term Term)) Term) Term) Term)) (Prep_V_I (Prol_Octatonic (Prep_Descending5th (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term) Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_VOct_I (Prep_Descending5th (Prol_RelativeTonic (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I (Prep_V_I Term (Prep_Descending5th Term Term)) Term) Term) (Prep_Descending5th Term Term)) Term) (Prep_VOct_I Term (Prep_Descending5th Term Term))) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)))))",
+        "progression": "Am A♭o7 Gm7 C7 B%7 E7 Am A7 Dm7 G7 C^7 F^7 B♭^7 B♭^7 B%7 E7 Am A♭o7 Gm7 C7 B%7 E7 E%7 A7 Dm7 E♭o7 C^ F^7 B♭^7 B%7 E7 Am"
+    },
+    {
+        "pieceTitle": "(Valid)All Of Me",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_IV_V (Prol_Octatonic Term Term) (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term))) Term))))",
+        "progression": "C^7 C^7 E7 E7 A7 A7 Dm7 Dm7 E7 E7 Am7 Am7 D7 D7 Dm7 G7 C^7 C^7 E7 E7 A7 A7 Dm7 Dm7 F^7 Fm6 Em7 A7 Dm7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)Autumn Leaves",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_VI_V (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_VI_V (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_VOct_I (Prep_TritoneSub_I (Prep_VOct_I (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) Term) Term) (Prol_Repeat Term Term))))",
+        "progression": "Cm7 F7 B♭^7 E♭^7 A%7 D7 Gm6 Gm6 Cm7 F7 B♭^7 E♭^7 A%7 D7 Gm6 Gm6 A%7 D7 Gm6 Gm6 Cm7 F7 B♭^7 B♭^7 A%7 D7 Gm7 G♭7 Fm7 E7 A%7 D7 Gm6 Gm6"
+    },
+    {
+        "pieceTitle": "(Valid)Fools Rush In",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) Term) Term)) (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) Term) Term)) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_IV_V (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Octatonic Term Term)) (Prep_Descending5th (Prep_Descending5th (Prol_RelativeTonic Term Term) Term) Term)) Term))))",
+        "progression": "Dm7 G7 C^7 Am7 Dm7 G7 C^7 Am7 Dm7 G7 C6 Am7 D7 D7 G7 G7 Dm7 G7 C^7 Am7 Dm7 G7 E%7 A7 Dm7 Fm6 C^7 Am7 Dm7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)Boy Next Door",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term)) (Prep_V_I (Prep_V_I (Prep_Descending5th Term (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_RelativeTonic Term Term))) (Prep_V_I (Prep_Descending5th (Prep_TritoneSub_I (Prep_VOct_I (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) (Prep_TritoneSub_I (Prep_IVOct_I (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term)) (Prep_TritoneSub_I (Prep_Descending5th Term Term) Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prep_VOct_I Term Term) (Prep_TritoneSub_I Term Term)) (Prol_Repeat Term Term))))))",
+        "progression": "B♭^7 G7 Cm7 F7 B♭^7 Gm7 C7 C7 Cm7 F7 B♭^7 Gm7 E%7 A7 Dm7 D♭7 Cm7 F7 B♭^7 G7 Cm7 F7 B♭^7 Gm7 C7 B7 B♭^7 B♭^7 E%7 C7 G♭7 F7 B♭^7 B♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)I Fall In Love Too Easily",
+        "program": "(Prol_RelativeTonic (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_VI_V Term (Prep_Descending5th Term Term)) Term)) (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prol_Repeat Term Term)) (Prep_VOct_I (Prep_V_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prep_V_I (Prep_Descending5th (Prol_Repeat (Prep_V_I (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)) Term) (Prep_V_I Term Term)) (Prep_Descending5th (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_V_I Term Term)) Term) Term)) Term))))",
+        "progression": "Fm7 B♭7 E♭^7 A♭^7 D%7 G7 Cm A7 D%7 G7 Cm7 Cm7 A%7 D7 D%7 G7 A%7 D7 G7 G%7 C7 Fm7 C7 Fm7 A♭m7 D♭7 G7 C7 Fm7 B♭7 E♭6"
+    },
+    {
+        "pieceTitle": "(Valid)In A Shanty In Old Shanty Town",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_TritoneSub_I Term (Prol_Repeat Term Term)))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I Term (Prol_Repeat Term Term))) (Prep_Descending5th Term Term))) (Prol_Repeat Term (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_TritoneSub_I Term (Prol_Repeat Term Term)))) (Prep_IV_I (Prep_IV_I (Prol_Octatonic Term Term) Term) (Prep_Descending5th (Prep_V_I (Prep_V_I Term Term) Term) Term))) Term))))",
+        "progression": "F^7 A7 D7 D7 G7 A♭7 G7 G7 C7 C7 F6 F6 D7 G7 G7 Gm7 C7 F^7 A7 D7 D7 G7 A♭7 G7 G7 B♭6 B♭m6 F^7 A7 D7 Gm7 C7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Rose Room",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_V_I Term Term) (Prol_Repeat Term Term)) (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) Term)) (Prep_V_I (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_V_I Term Term) (Prol_Repeat Term Term)) (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) Term)) (Prep_V_I (Prep_V_I (Prep_V_I Term Term) Term) (Prol_Repeat Term Term)))))",
+        "progression": "A7 D7 G6 G6 G7 G7 C^ C^ Cm F7 G6 E7 A7 A7 Am7 D7 A7 D7 G6 G6 G7 G7 C^ C^ Cm F7 G6 E7 A7 D7 G6 G6"
+    },
+    {
+        "pieceTitle": "(Valid)Shadow Of Your Smile, The",
+        "program": "(Prol_RelativeTonic (Prol_Repeat (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) Term)) (Prep_V_I (Prep_VI_V Term (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))) (Prep_VOct_I (Prep_V_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_V_I (Prep_V_I (Prep_TritoneSub_I (Prep_VOct_I (Prep_V_I (Prep_IV_V (Prep_V_I Term (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) Term) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)))))",
+        "progression": "F♯m7 B7 Em7 A7 Am7 D7 G^7 C^7 F♯%7 B7 Em7 Em7 C♯%7 F♯7 F♯%7 B7 F♯m7 B7 Em7 A7 Am7 D7 B%7 E7 Am7 Cm7 F7 Bm7 E7 A7 Dsus D7 G6 G6"
+    },
+    {
+        "pieceTitle": "(Valid)Shine",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th Term Term) (Prep_V_I (Prep_Descending5th (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Octatonic (Prep_Backdoor_I (Prep_Descending5th Term (Prep_Descending5th Term Term)) Term) Term) Term)) Term) Term)))))",
+        "progression": "E♭^7 E♭^7 Fm7 B♭7 E♭^7 E♭^7 Fm7 B♭7 G7 G7 Cm7 Cm7 F7 F7 B♭7 B♭7 E♭^7 E♭^7 Fm7 B♭7 G7 G7 Cm7 Cm7 A♭^7 A♭^7 D♭7 E♭6 C7 Fm7 B♭7 E♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Smile",
+        "program": "(Prep_V_I (Prep_IV_I (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_Backdoor_I (Prep_VOct_I (Prep_V_I (Prol_Octatonic Term (Prep_IV_I Term Term)) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)))) (Prep_Descending5th Term Term)) (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_IVOct_I (Prep_V_I (Prol_Octatonic Term (Prep_IV_I Term Term)) (Prol_Repeat Term Term)) (Prep_Backdoor_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))))) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))))",
+        "progression": "F^7 F^7 F^7 F^7 F^7 A♭o7 Gm7 D7 Gm7 Gm7 B♭m7 E♭7 F^7 F^7 Gm7 C7 F^7 F^7 F^7 F^7 F^7 A♭o7 Gm7 D7 Gm7 Gm7 B♭m7 E♭7 F^7 F^7 Gm7 C7 F6 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Struttin' With Some Barbecue",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_Backdoor_I (Prol_Octatonic (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) Term) Term) Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_IV_I (Prep_IV_I (Prol_Octatonic Term Term) Term) (Prep_Descending5th (Prep_V_I Term Term) Term))) Term))))",
+        "progression": "F^7 F^7 F6 F6 F^7 F^7 D7 D7 Gm7 C7 C♯o7 Dm7 Dm7 G7 G7 C7 C7 F^7 F^7 F6 F6 Cm F7 B♭6 B♭6 B♭6 B♭m6 F^7 D7 Gm7 C7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Weaver Of Dreams, A",
+        "program": "(Prol_Repeat (Prol_RelativeTonic (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_V_I (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat (Prol_RelativeTonic (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_VOct_I Term Term)) Term) (Prep_Descending5th Term Term)) Term))))",
+        "progression": "C^7 C^7 B%7 E7 Am7 Am7 Gm7 C7 F^7 B♭7 Em7 A7 D7 D7 Dm7 G7 C^7 C^7 B%7 E7 Am7 Am7 Gm7 C7 F^7 B♭7 Em7 E♭m7 A♭7 Dm7 G7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)502 Blues",
+        "program": "(Prol_Octatonic (Prep_V_I (Prep_Descending5th (Prol_Octatonic Term (Prep_Backdoor_I (Prol_Octatonic Term (Prep_Descending5th Term Term)) (Prol_Octatonic Term (Prep_Backdoor_I (Prol_Octatonic Term (Prep_Descending5th Term Term)) (Prep_V_I (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)) Term))))) Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th (Prol_Octatonic (Prep_V_I Term Term) (Prep_Backdoor_I (Prol_Octatonic Term (Prep_Descending5th Term Term)) (Prol_Octatonic Term (Prep_Backdoor_I (Prol_Octatonic Term (Prep_Descending5th Term Term)) (Prep_V_I (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)) Term))))) Term) (Prol_Repeat Term Term)))",
+        "progression": "Am7 D♭^7 B%7 E7 Am7 D♭^7 B%7 E7 Cm7 F7 B♭^7 A♭m7 D♭7 F♯%7 B7 E^7 E^7 E7 Am7 D♭^7 B%7 E7 Am7 D♭^7 B%7 E7 Cm7 F7 B♭^7 A♭m7 D♭7 F♯%7 B7 Em7 Em7"
+    },
+    {
+        "pieceTitle": "(Valid)Bill Bailey",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prep_V_I (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat Term Term) Term)))) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_IV_I (Prol_Octatonic (Prep_IVOct_I Term Term) Term) (Prep_V_I (Prep_V_I Term Term) Term))) Term)))",
+        "progression": "G^ G^ G^ G^ G^ G^ A♭o7 Am7 D7 D7 D7 D7 D7 D7 D7 G^ Am7 D7 G^ G^ G^ G^ Dm7 G7 C^ C^ C^ C♯o7 G^ E7 A7 D7 G^"
+    },
+    {
+        "pieceTitle": "(Valid)Blue Lou",
+        "program": "(Prol_Repeat (Prep_V_I (Prep_IV_I (Prep_V_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) Term) (Prep_IV_V Term (Prep_Descending5th Term Term))) (Prep_V_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_IV_V Term (Prep_V_I Term Term)) Term)))) (Prep_V_I (Prol_Octatonic Term (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prol_Octatonic Term (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term)))) (Prep_V_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_IV_V Term (Prep_V_I Term Term)) Term)))))",
+        "progression": "C%7 F7 C%7 F7 B♭^7 E♭^7 Cm7 F7 C%7 F7 C%7 F7 B♭^7 E♭^7 C7 F7 B♭^7 F^7 F♯o7 Gm7 C7 F^7 F♯o7 Gm7 C7 F7 C%7 F7 C%7 F7 B♭^7 E♭^7 C7 F7 B♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Broadway",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_IV_V (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) Term)) (Prol_Repeat (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_TritoneSub_I (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_IV_V (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)))))",
+        "progression": "B♭^7 B♭^7 E♭7 E♭7 Cm7 F7 B♭^7 G7 Cm7 F7 B♭^7 B♭^7 E♭7 E♭7 Cm7 F7 B♭6 B♭6 Fm7 B♭7 E♭^7 E♭^7 E♭m7 A♭7 D♭7 G♭7 F7 B♭^7 B♭^7 E♭7 E♭7 Cm7 F7 B♭6 B♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Dearly Beloved",
+        "program": "(Prep_V_I (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) (Prep_TritoneSub_I (Prep_VOct_I (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) (Prol_Repeat (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) Term)))",
+        "progression": "Dm7 G7 Dm7 G7 Dm7 G7 Dm7 G7 C6 C6 Dm7 G7 C^7 C^7 E♭m7 A♭7 E♭m7 A♭7 Dm7 G7 Dm7 G7 Dm7 G7 Dm7 G7 C6 C6 D7 D7 Dm7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)Good Life, The",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_Backdoor_I (Prep_TritoneSub_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) Term)) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_Backdoor_I (Prep_TritoneSub_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) (Prol_Repeat Term Term)) Term))))",
+        "progression": "A♭^7 A♭^7 Gm7 C7 Fm7 Fm7 D%7 G7 D♭^7 G♭7 A♭^7 G%7 C7 Fm7 B♭7 B♭m7 E♭7 A♭^7 A♭^7 Gm7 C7 Fm7 Fm7 D%7 G7 D♭^7 G♭7 A♭^7 F7 B♭m7 E♭sus E♭7 A♭6"
+    },
+    {
+        "pieceTitle": "(Valid)I Love Paris",
+        "program": "(Prol_Octatonic (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prep_V_I Term Term) Term) (Prol_Repeat Term Term)) Term) (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_VOct_I Term Term) Term) Term) (Prep_V_I (Prep_IV_V (Prol_Repeat Term Term) (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term)) Term))))",
+        "progression": "Cm6 Cm6 Cm6 Cm6 Cm6 Cm6 D%7 G7 D%7 G7 D%7 G7 D%7 G7 Cm6 Cm6 G7 C6 C6 C6 C6 C6 Em7 E♭o7 Dm7 G7 F6 F6 Em7 A7 Dm7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)I Love You",
+        "program": "(Prep_VOct_I (Prol_Hexatonic (Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)))) (Prep_V_I (Prep_IV_I (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term)) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_Repeat Term Term)))))",
+        "progression": "G%7 C7 F^7 F^7 Gm7 C7 F^7 F^7 G%7 C7 F^7 Bm7 E7 A^7 Bm7 E7 A^7 A^7 Gm7 C7 F^7 F^7 A%7 D7 Gm7 C7 G%7 C7 F^7 A%7 D7 G7 C7 F6 F6"
+    },
+    {
+        "pieceTitle": "(Valid)In A Little Spanish Town",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th Term Term) (Prep_V_I (Prol_Repeat Term Term) Term))) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th (Prep_VOct_I Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)))) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat (Prep_Descending5th Term Term) (Prep_V_I (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat Term Term) (Prol_Octatonic Term Term))) (Prep_IV_I Term Term))) Term)))",
+        "progression": "G^7 G^7 Am7 D7 D7 D7 G6 Am7 D7 G^7 B♭o7 Am7 D7 Am7 D7 G^7 Am7 D7 G^7 G^7 Am7 D7 B7 B7 E7 E7 E7 E7 A7 B♭o7 G^7 D7 G6"
+    },
+    {
+        "pieceTitle": "(Valid)Look For The Silver Lining",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_V_I Term Term)) (Prep_V_I Term (Prep_V_I (Prol_RelativeTonic Term (Prep_Descending5th Term Term)) Term))) (Prep_V_I (Prep_Descending5th (Prep_Descending5th Term Term) Term) (Prol_Repeat Term Term))) (Prep_V_I (Prol_Repeat (Prep_TritoneSub_I (Prep_VOct_I Term Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat (Prol_Repeat Term (Prep_V_I Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prol_Octatonic Term Term)) (Prep_Descending5th (Prep_V_I (Prol_Octatonic Term (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term)) Term) Term)) Term))))",
+        "progression": "B♭^7 F7 B♭^7 F7 Dm7 Cm7 F7 B♭^7 Gm7 Cm7 F7 B♭^7 B♭^7 Gm7 F♯7 F7 Cm7 F7 B♭^7 F7 B♭^7 F7 Fm7 B♭7 E♭^7 E♭7 Gm7 Em7 A7 Dm7 G7 Cm7 F7 B♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)My Melancholy Baby",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prol_Repeat (Prep_Descending5th (Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_TritoneSub_I Term Term) Term) (Prep_V_I Term Term)) (Prep_V_I Term (Prol_Repeat Term Term))) Term) (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prep_Descending5th Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_IV_I (Prol_Octatonic (Prep_IVOct_I (Prep_V_I (Prep_Descending5th (Prep_Descending5th (Prol_Repeat (Prep_V_I (Prep_TritoneSub_I Term Term) Term) (Prep_V_I Term Term)) Term) Term) Term) Term) Term) (Prep_Descending5th (Prep_V_I Term Term) Term)) Term))))",
+        "progression": "B♭^7 B♭^7 A♭7 G7 Cm7 G7 Cm7 G7 Cm7 Cm7 F7 G♭o7 Gm7 C7 Cm7 F7 B♭^7 B♭^7 A♭7 G7 Cm7 G7 Cm7 Fm7 B♭7 E♭^7 Eo7 B♭7 G7 Cm7 F7 B♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Nuages",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term (Prep_V_I Term Term)))) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_IVOct_I Term Term))) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term)) (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prep_TritoneSub_I Term Term) (Prol_Repeat Term (Prep_V_I Term Term))))))",
+        "progression": "E♭7 D7 G6 G6 E♭7 D7 G6 D7 G6 B7 B7 Em6 Em6 A7 A♭7 A7 D7 D7 E♭7 D7 G6 G6 A♭7 G7 C^ C^ Cm6 F7 G6 G6 E♭7 D7 G6 D7 G6"
+    },
+    {
+        "pieceTitle": "(Valid)Remember",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_Descending5th (Prep_V_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I Term Term) Term) Term) (Prep_Descending5th Term Term)) Term) (Prep_Descending5th (Prep_V_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) (Prep_Descending5th Term Term)) Term)) (Prep_VOct_I (Prol_Octatonic (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th (Prep_VOct_I (Prol_Repeat Term Term) Term) Term)) (Prep_Descending5th (Prep_V_I (Prep_TritoneSub_I (Prep_TritoneSub_I (Prep_TritoneSub_I Term Term) Term) Term) (Prep_Descending5th Term Term)) Term)))",
+        "progression": "D♭7 C7 B7 B♭7 B♭m7 E♭%7 A♭^7 E♭m7 A♭7 D♭7 C7 B7 B♭7 B♭m7 E♭%7 A♭^7 E♭m7 A♭7 D♭^7 D♭^7 D♭m7 G♭7 A♭^7 A♭^7 G%7 C7 D♭7 C7 B7 B♭7 B♭m7 E♭%7 A♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)So Nice (Summer Samba)",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_Backdoor_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)) Term) Term) (Prep_TritoneSub_I (Prol_Octatonic Term Term) Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_Backdoor_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_Repeat Term (Prep_IV_I Term Term))))))))",
+        "progression": "F^7 F^7 Bm7 E7 B♭^7 B♭6 E♭7 E♭7 Am7 D7 Gm7 E%7 A7 Dm7 G7 Gm7 D♭7 C7 F^7 F^7 Bm7 E7 B♭^7 B♭6 E♭7 E♭7 Am7 D7 Gm7 C7 F^7 B♭7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Stella By Starlight",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prep_V_I (Prep_VOct_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) Term) Term) Term) (Prep_Backdoor_I (Prep_VOct_I (Prep_V_I (Prep_V_I (Prol_Octatonic (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_Backdoor_I (Prep_Descending5th Term Term) Term)) (Prep_VI_V (Prep_VOct_I (Prol_Repeat Term Term) Term) Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) (Prol_Repeat Term Term)))",
+        "progression": "E%7 A7 Cm7 F7 Fm7 B♭7 E♭^7 A♭7 B♭^7 E%7 A7 Dm7 B♭m7 E♭7 F^7 E%7 E%7 E♭^7 D7 G7 G7 Cm7 Cm7 A♭7 A♭7 B♭^7 B♭^7 E%7 A7 D%7 G7 C%7 F7 B♭^7 B♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Them There Eyes",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) Term) (Prep_V_I (Prol_Repeat (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_IV_V (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_IV_I (Prep_IV_I (Prol_Octatonic Term Term) Term) (Prep_V_I Term Term))) (Prol_Repeat Term (Prep_V_I (Prep_V_I (Prep_V_I Term Term) Term) Term))))))",
+        "progression": "A♭^7 A♭^7 A♭^7 A♭^7 A♭6 F7 B♭7 B♭7 B♭m7 E♭7 C7 Fm7 B♭7 B♭7 E♭7 E♭7 A♭^7 A♭^7 A♭^7 A♭^7 A♭7 A♭7 D♭^7 D♭^7 D♭^7 Do7 A♭^7 B♭7 E♭7 A♭^7 F7 B♭7 E♭7 A♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Time On My Hands",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_VOct_I (Prep_Descending5th Term Term) (Prep_Descending5th (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_VOct_I (Prep_Descending5th Term Term) (Prep_Descending5th (Prol_Repeat Term Term) (Prol_Repeat (Prep_V_I (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) Term) (Prep_Descending5th Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))))) (Prol_Repeat Term (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I (Prep_TritoneSub_I Term Term) Term) Term) Term) Term))))))",
+        "progression": "F^7 F^7 B%7 E7 Gm7 Gm7 C7 C7 F^7 F^7 B%7 E7 Gm7 Gm7 E%7 A7 D7 D7 G7 Gm7 C7 Dm7 G7 Gm7 C7 F^7 B♭7 A7 D7 G7 C7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Why Do I Love You?",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_Descending5th Term Term) Term) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_IV_V (Prep_Descending5th (Prep_Descending5th Term Term) Term) (Prep_Descending5th Term Term)) Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_Descending5th Term Term) Term) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th Term Term) Term))))))))))))",
+        "progression": "A♭^7 Fm7 B♭m7 E♭7 A♭^7 F7 B♭m7 E♭7 Cm7 Fm7 B♭m7 G%7 C7 Fm7 B♭7 B♭m7 E♭7 A♭^7 Fm7 B♭m7 E♭7 A♭^7 F7 B♭m7 E♭7 E♭m7 A♭7 D♭^7 G♭7 A♭^7 B♭m7 E♭7 A♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Zingaro (Retrato Em Branco E Preto)",
+        "program": "(Prol_Repeat (Prol_RelativeTonic (Prol_Repeat Term Term) (Prep_VOct_I (Prep_VI_V (Prep_VOct_I (Prep_Backdoor_I (Prol_Repeat Term Term) (Prep_VOct_I (Prol_Repeat Term Term) Term)) (Prol_Repeat Term Term)) (Prep_IV_V Term Term)) (Prol_Repeat Term Term))) (Prep_Descending5th (Prep_V_I (Prol_Repeat Term Term) Term) (Prol_Repeat (Prep_TritoneSub_I Term (Prol_Repeat Term Term)) (Prep_V_I (Prep_VI_V (Prol_Repeat (Prep_VOct_I (Prep_Backdoor_I (Prol_Repeat Term Term) (Prep_VOct_I (Prol_Repeat Term Term) Term)) (Prol_Repeat Term Term)) (Prol_RelativeTonic (Prol_Octatonic Term Term) (Prep_VOct_I Term Term))) (Prep_IV_V Term (Prep_VOct_I Term Term))) Term))))",
+        "progression": "Gm7 Gm7 D7 D7 Fm6 Fm6 E^7 E♭^7 E♭^7 Cm7 D7 B♭^7 B♭^7 A7 A7 D^7 A♭7 Gm7 Gm7 D7 D7 Fm6 Fm6 E^7 E♭^7 E♭^7 Cm7 C♯o7 Gm E♭^7 Cm7 E♭m7 D7 Gm7"
+    },
+    {
+        "pieceTitle": "(Valid)Baubles, Bangles And Beads",
+        "program": "(Prol_Repeat (Prep_V_I (Prep_Descending5th (Prep_Descending5th (Prep_Backdoor_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) Term) Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_Descending5th (Prep_Backdoor_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) Term) Term) (Prol_Repeat Term Term)) (Prep_IV_V (Prep_VI_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term))) (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_IV_V Term (Prep_Descending5th Term Term)) Term)) (Prep_V_I (Prep_IV_V Term (Prep_TritoneSub_I Term Term)) Term))) Term) (Prol_Repeat Term Term)))",
+        "progression": "B♭m7 E♭7 Cm7 Fm7 B♭m7 E♭7 A♭^7 A♭^7 Dm7 G7 Em7 Am7 Dm7 G7 C^7 C^7 F♯m7 B7 E^7 E^7 B♭m7 E♭7 Cm7 F7 B♭m7 E♭7 Cm7 F7 B♭m7 E♭7 G♭7 F7 B♭m7 E♭7 A♭^7 A♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Beautiful Love",
+        "program": "(Prol_Repeat (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I (Prep_IV_V (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_TritoneSub_I Term (Prep_IV_V (Prep_Descending5th (Prep_V_I Term Term) Term) (Prep_Descending5th Term Term)))) (Prol_Repeat (Prol_RelativeTonic (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I (Prep_IV_V (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prep_TritoneSub_I Term (Prep_TritoneSub_I (Prep_VOct_I (Prep_V_I Term Term) (Prep_TritoneSub_I Term Term)) Term))) (Prol_Repeat Term Term)))))",
+        "progression": "E%7 A7 Dm Dm Gm7 C7 F^7 E%7 A7 Dm Gm7 B♭7 A7 Dm G7 E%7 A7 E%7 A7 Dm Dm Gm7 C7 F^7 E%7 A7 Dm Gm7 B♭7 A7 Dm B7 B♭7 A7 Dm Dm"
+    },
+    {
+        "pieceTitle": "(Valid)Candy",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_VOct_I (Prep_VOct_I (Prol_Octatonic Term Term) Term) Term) Term) Term) Term) (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_VOct_I (Prep_VOct_I (Prol_Octatonic (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) Term) Term) (Prol_Repeat Term (Prep_IV_I Term Term)))) (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_VOct_I (Prep_VOct_I (Prol_Octatonic (Prep_V_I Term Term) Term) Term) Term) Term) Term) (Prol_Repeat Term (Prep_IV_I Term Term)))))",
+        "progression": "E♭^7 E♭m6 Dm7 D♭o7 Cm7 F7 B♭6 Fm7 B♭7 E♭^7 E♭m6 Dm7 D♭o7 Cm7 F7 B♭6 E♭7 B♭6 Am7 D7 Dm7 G7 Gm7 C7 Cm7 F7 B♭7 E♭^7 E♭m6 Dm7 D♭o7 Cm7 F7 B♭6 E♭7 B♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Dancing In The Dark",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th (Prol_Repeat Term Term) (Prep_Descending5th Term Term))) (Prol_Octatonic Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prep_Descending5th Term (Prep_TritoneSub_I Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th (Prol_Repeat Term Term) (Prep_Descending5th Term (Prep_Descending5th Term Term)))) (Prol_Octatonic Term Term)) (Prep_TritoneSub_I Term (Prep_VOct_I (Prep_TritoneSub_I Term Term) Term))) Term) Term))))",
+        "progression": "C^7 C^7 Co7 Co7 Dm7 Dm7 D%7 G7 C^7 Cm7 E%7 A7 D%7 D%7 D%7 A♭7 G7 C^7 C^7 Co7 Co7 Dm7 Dm7 D%7 D%7 G7 C^7 Cm7 E♭7 D♭7 C6 D%7 Gsus C6"
+    },
+    {
+        "pieceTitle": "(Valid)Donna Lee",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_IVOct_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) Term))) (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term)) (Prep_V_I (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prol_Octatonic (Prol_Repeat (Prep_V_I (Prep_IV_V (Prep_V_I Term (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) Term) (Prol_Repeat (Prep_V_I Term Term) (Prep_V_I Term Term))) Term) Term) Term) Term) Term) Term))))",
+        "progression": "A♭^7 F7 B♭7 B♭7 B♭m7 E♭7 A♭^7 E♭m7 A♭7 D♭^7 G♭7 A♭^7 F7 B♭7 B♭7 B♭m7 E♭7 A♭^7 F7 B♭7 B♭7 G%7 C7 Fm C7 Fm C7 Fm Bo7 Cm7 F7 B♭m7 E♭7 A♭^7"
+    },
+    {
+        "pieceTitle": "(Valid)Fine Romance, A",
+        "program": "(Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) (Prep_Descending5th (Prep_Descending5th (Prep_Descending5th (Prep_V_I Term Term) Term) Term) Term)) Term)) (Prep_V_I (Prol_Repeat (Prep_V_I Term (Prep_Descending5th Term Term)) (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) Term) Term)) (Prol_Repeat (Prol_Repeat Term (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) (Prep_Descending5th (Prep_Descending5th (Prep_Descending5th (Prep_V_I Term Term) Term) Term) Term)) Term)) (Prep_V_I (Prep_IV_V (Prep_V_I Term Term) (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term)) Term))))",
+        "progression": "C6 C♯o7 Dm6 D♯o7 Em7 Am7 Dm7 G7 C6 E♭o7 Dm7 G7 Em7 A7 D7 G7 C6 C♯o7 Dm6 D♯o7 Em7 Am7 Dm7 G7 C6 C7 F^7 F♯%7 B7 Em7 A7 Dm7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)Hackensack",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term (Prep_IV_I Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term)) (Prol_Repeat (Prol_Repeat (Prep_V_I Term Term) (Prep_IV_I Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_Repeat Term Term)))) (Prep_V_I (Prep_IV_I (Prep_IV_I (Prol_Octatonic Term Term) Term) (Prol_ParallelMotion (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) Term) Term)) (Prol_Repeat (Prol_Repeat Term (Prep_IV_I Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term))))",
+        "progression": "F6 B♭7 F6 Am7 D7 Gm7 C7 F6 C7 F6 B♭7 F6 Am7 D7 Gm7 C7 F6 F6 B♭7 Bo7 F6 Am7 D7 G7 G7 C7 D♭7 F6 B♭7 F6 Am7 D7 Gm7 C7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)I Can't Believe...You're In Love...",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prep_Backdoor_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) Term)) (Prol_Repeat (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_IV_I Term Term))))) (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term) (Prep_V_I (Prep_V_I Term (Prol_Repeat Term Term)) Term))))",
+        "progression": "F6 B♭7 C^7 D7 G7 G7 C^7 Gm7 C7 F6 B♭7 C^7 D7 G7 G7 C6 F7 C6 E7 E7 A7 A7 D7 D7 G7 G7 C7 F6 B♭7 C^7 D7 G7 G7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)I'll Close My Eyes",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term))) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) (Prol_Repeat (Prol_Repeat Term Term) (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term) Term) Term) (Prep_Descending5th Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) (Prol_Repeat Term Term))))))",
+        "progression": "F^7 F^7 E%7 A7 Dm7 G7 Cm7 F7 B♭^7 B♭m7 E♭7 F^7 F^7 B%7 E7 Am7 D7 Gm7 C7 F^7 F^7 E%7 A7 Dm7 G7 Cm7 F7 B♭^7 B♭m7 E♭7 A%7 D7 Gm7 C7 F^7 F^7"
+    },
+    {
+        "pieceTitle": "(Valid)Jersey Bounce",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) Term)) (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prol_Hexatonic Term Term)))))) (Prep_V_I (Prep_TritoneSub_I (Prep_IVOct_I (Prep_IVOct_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term (Prol_Hexatonic Term Term))))))",
+        "progression": "F6 F6 G7 G7 Gm7 C7 F6 A♭o7 Gm7 C7 F6 F6 G7 G7 Gm7 C7 F6 D♭7 F6 F7 F7 E♭7 E♭7 D♭7 D♭7 C7 C7 F6 F6 G7 G7 Gm7 C7 F6 D♭7 F6"
+    },
+    {
+        "pieceTitle": "(Valid)Just Friends",
+        "program": "(Prol_Repeat (Prep_Backdoor_I (Prep_Descending5th (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_Backdoor_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I Term (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_Backdoor_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prep_V_I (Prep_Descending5th Term Term) Term)) Term) (Prep_Descending5th Term Term)) Term))))",
+        "progression": "C^7 C^7 Cm7 F7 G^7 G^7 B♭m7 E♭7 Am7 D7 Bm7 Em7 A7 A7 Am7 D7 G7 C^7 C^7 Cm7 F7 G^7 G^7 B♭m7 E♭7 Am7 D7 F♯%7 B7 Em7 A7 Am7 D7 G6"
+    },
+    {
+        "pieceTitle": "(Valid)Just In Time",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_VOct_I (Prep_Descending5th (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) Term) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term (Prol_Octatonic Term Term))) (Prep_V_I (Prep_Descending5th (Prep_Backdoor_I (Prep_V_I (Prep_V_I (Prol_Octatonic (Prol_Repeat Term Term) (Prep_TritoneSub_I Term Term)) Term) Term) (Prep_Descending5th Term Term)) Term) (Prep_Descending5th Term Term))) Term)))",
+        "progression": "B♭^7 B♭^7 A%7 D7 G7 G7 C7 C7 F7 F7 B♭7 B♭7 E♭^7 E♭^7 A♭^7 A%7 D7 Gm7 Gm Gm7 C7 C♯o7 B♭6 B♭6 A♭7 G7 C7 F7 Dm7 Gm7 C7 Cm7 F7 B♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Take The A Train",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) Term)) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) Term))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term))) (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term (Prol_Repeat Term Term)))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) Term))))",
+        "progression": "C6 C6 D7 D7 Dm7 G7 C6 Dm7 G7 C6 C6 D7 D7 Dm7 G7 C6 Gm7 C7 F^7 F^7 F^7 F^7 D7 D7 Dm7 G7 G7 C6 C6 D7 D7 Dm7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)This Can't Be Love",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_IV_I (Prol_Repeat Term Term) Term)) (Prep_V_I (Prep_Descending5th (Prep_Descending5th Term Term) Term) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_Descending5th (Prep_Descending5th (Prep_TritoneSub_I (Prol_Repeat Term Term) Term) Term) Term) Term) (Prol_Repeat Term Term))))) (Prep_V_I (Prep_Descending5th (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) Term)) Term) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_Descending5th (Prep_Descending5th (Prep_TritoneSub_I (Prol_Repeat Term Term) Term) Term) Term) Term) (Prol_Repeat Term Term)))))",
+        "progression": "F^7 F^7 B♭7 B♭7 F^7 Dm7 Gm7 C7 F^7 F^7 B♭7 B♭7 Am7 Dm7 Gm7 C7 F6 F6 Em7 A7 Dm7 Dm7 A%7 D7 Gm7 C7 F^7 F^7 B♭7 B♭7 Am7 Dm7 Gm7 C7 F6 F6"
+    },
+    {
+        "pieceTitle": "(Valid)You Stepped Out Of A Dream",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_VI_V (Prep_V_I (Prep_IV_V (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term))))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_IV_V (Prep_IV_V (Prep_IV_V (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) (Prep_TritoneSub_I Term Term)) (Prol_Repeat (Prep_Descending5th Term Term) (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term))) Term))))",
+        "progression": "C^7 C^7 D♭^7 D♭^7 B♭m7 E♭7 A♭^7 A♭^7 Gm7 C7 F^7 F^7 Am7 D7 E♭m7 A♭7 Dm7 G7 C^7 C^7 D♭^7 D♭^7 B♭m7 E♭7 G♭7 F7 D%7 G7 Em7 A7 Dm7 G7 C^7"
+    },
+    {
+        "pieceTitle": "(Valid)Across The Valley From The Alamo",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th Term Term) Term))) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat (Prol_Repeat Term Term) (Prep_Descending5th Term Term)) Term))) (Prol_Repeat (Prol_Repeat (Prep_IV_I Term Term) (Prep_IV_I (Prol_Octatonic Term Term) Term)) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) (Prol_Repeat Term Term)) Term) (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th Term Term) Term))))))",
+        "progression": "F^7 F^7 F^7 F^7 C7 C7 Gm7 C7 F^7 F^7 F^7 F^7 F^7 C7 C7 Gm7 C7 F^7 B♭^7 F^7 B♭^7 B♭m7 F^7 A7 Dm7 G7 G7 C7 F^7 F^7 F^7 F^7 C7 C7 Gm7 C7 F^7"
+    },
+    {
+        "pieceTitle": "(Valid)Beautiful Friendship, A",
+        "program": "(Prol_Repeat Term (Prep_V_I (Prep_IV_V (Prep_TritoneSub_I Term Term) (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term))) (Prol_Repeat Term (Prep_V_I (Prep_IV_V (Prep_TritoneSub_I Term Term) (Prep_V_I (Prep_V_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prep_Descending5th Term Term))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_V_I (Prep_TritoneSub_I Term (Prep_Descending5th Term Term)) Term) Term)) (Prol_Repeat Term (Prep_V_I (Prep_IV_V (Prep_TritoneSub_I Term Term) (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term)) Term)))))))",
+        "progression": "C^7 G♭7 F^7 E%7 A7 Am7 D7 Dm7 G7 C^7 G♭7 F^7 E%7 A7 Am7 D7 Dm7 G7 Gm7 C7 F^7 B♭7 Em7 A7 D7 G7 C^7 G♭7 F^7 E%7 A7 Dm7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)Best Things In Life Are Free, The",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prep_V_I Term (Prep_Descending5th Term Term)) (Prep_V_I (Prep_Descending5th (Prol_Repeat (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prol_Repeat Term (Prep_Descending5th Term Term))) Term))) (Prep_V_I (Prep_IV_V (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I Term Term) Term) (Prol_Repeat Term Term)) (Prol_Repeat Term Term)) (Prep_V_I (Prol_Repeat Term Term) (Prep_Descending5th Term Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) Term) (Prol_Repeat Term Term)))))",
+        "progression": "C6 C6 C^7 C^7 C6 C6 E♭o7 Dm7 G7 Dm7 Dm7 Dm7 Dm7 G7 Dm7 G7 C^7 C♯o7 Dm7 G7 C7 C7 F^7 F^7 D7 D7 Dm7 G7 C6 C6 Em7 A7 Dm7 Dm7 G7 C6 C6"
+    },
+    {
+        "pieceTitle": "(Valid)Don't Worry 'Bout Me",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prol_Octatonic (Prep_Descending5th (Prol_Octatonic (Prep_VOct_I (Prep_VOct_I Term Term) Term) Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) Term) Term) (Prep_Descending5th Term Term)) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th (Prep_VOct_I (Prep_Descending5th Term (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term))) (Prol_Octatonic (Prep_Descending5th Term Term) Term)) Term) Term) Term) Term))))",
+        "progression": "B♭m7 E♭7 A♭^7 A♭^7 B♭m7 E♭7 A♭6 Cm7 Bo7 B♭m7 D♭m6 G♭7 G♭7 G%7 C7 Fm7 B♭7 B♭m7 E♭7 B♭m7 E♭7 A♭^7 A♭^7 A♭^7 E♭m7 A♭7 D♭^7 D♭^7 D♭^7 G♭7 Cm7 F7 B♭m7 E♭7 A♭6"
+    },
+    {
+        "pieceTitle": "(Valid)Exactly Like You",
+        "program": "(Prol_Repeat (Prol_Repeat (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) Term)) (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) Term))) (Prol_Repeat (Prep_Backdoor_I (Prep_Descending5th (Prep_V_I Term Term) Term) Term) (Prep_V_I (Prol_Repeat (Prep_Descending5th (Prep_Descending5th Term Term) (Prep_IV_V Term Term)) (Prep_Descending5th (Prep_VOct_I (Prep_VOct_I Term Term) Term) Term)) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prep_V_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) Term)))))",
+        "progression": "C6 C6 D7 D7 G7 G7 C6 Dm7 G7 C6 C6 D7 D7 G7 G7 C6 C7 F^7 B♭7 C6 Am7 Dm7 Fm6 G7 Em7 E♭o7 Dm7 G7 C6 C6 D7 D7 G7 G7 C6"
+    },
+    {
+        "pieceTitle": "(Valid)I've Found A New Baby",
+        "program": "(Prol_Repeat (Prol_Repeat (Prep_V_I (Prep_V_I (Prep_Descending5th (Prol_Repeat Term (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I Term Term)) Term) Term) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I Term Term)) Term) (Prol_Repeat Term Term))) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_V_I Term Term) (Prol_Repeat Term Term)) (Prep_V_I Term Term)) Term) (Prep_V_I (Prep_V_I (Prep_Descending5th (Prol_Repeat (Prep_V_I (Prep_Descending5th Term Term) Term) (Prep_V_I (Prep_Descending5th Term Term) Term)) (Prep_V_I Term Term)) Term) (Prol_Repeat Term Term))))",
+        "progression": "Dm7 E%7 A7 Dm7 D7 G7 C7 F^7 E%7 A7 Dm7 E%7 A7 Dm7 D7 G7 C7 F^7 F^7 E7 A7 Dm7 Dm7 D7 G7 C7 E%7 A7 Dm7 E%7 A7 Dm7 D7 G7 C7 F^7 F^7"
+    },
+    {
+        "pieceTitle": "(Valid)How High The Moon",
+        "program": "(Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prol_Repeat (Prol_Repeat (Prep_VI_V (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) Term) (Prep_Descending5th Term Term)) (Prep_Descending5th (Prep_VOct_I Term Term) Term)) (Prep_IV_I Term (Prep_Descending5th (Prep_Descending5th Term Term) Term))) (Prol_Repeat (Prol_Repeat Term Term) (Prep_V_I (Prol_Repeat (Prep_VI_V (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) Term) (Prep_Descending5th Term Term)) (Prep_Descending5th (Prep_VOct_I Term Term) Term)) (Prep_V_I (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term) Term)))))",
+        "progression": "G^7 G^7 Gm7 C7 F^7 F^7 Fm7 B♭7 E♭^7 A%7 D7 Gm7 A%7 D7 G^7 Em7 Am7 D7 G^7 G^7 Gm7 C7 F^7 F^7 Fm7 B♭7 E♭^7 A%7 D7 G^7 Am7 D7 Bm7 E7 Am7 D7 G6"
+    },
+    {
+        "pieceTitle": "(Valid)Corcovado",
+        "program": "(Prep_V_I (Prol_Repeat (Prep_IV_V (Prep_V_I (Prep_V_I (Prep_VOct_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat (Prol_Repeat Term Term) Term)) (Prep_V_I (Prep_V_I (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term))) (Prep_IV_V (Prep_V_I (Prep_V_I (Prep_VOct_I (Prol_Repeat Term Term) (Prol_Repeat Term Term)) (Prep_Descending5th Term Term)) (Prol_Repeat (Prol_Repeat Term Term) Term)) (Prol_Repeat (Prep_Descending5th (Prep_Descending5th (Prep_TritoneSub_I (Prep_Descending5th Term Term) (Prep_Descending5th Term Term)) Term) Term) (Prep_Descending5th (Prep_V_I (Prep_Descending5th Term Term) Term) Term)))) (Prol_Repeat Term Term))",
+        "progression": "Am6 Am6 A♭o7 A♭o7 Gm7 C7 F^7 F^7 F^7 Fm7 B♭7 Em7 A7 D7 D7 Dm7 G7 Am6 Am6 A♭o7 A♭o7 Gm7 C7 F^7 F^7 F^7 Fm7 B♭7 Em7 Am7 Dm7 G7 Em7 A7 Dm7 G7 C6 C6"
+    }
+]
