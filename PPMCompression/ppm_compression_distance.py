@@ -13,8 +13,8 @@ def distance(
     aggregation: Callable = np.mean,
 ) -> float:
     """
-    Compression distance using Prediction by Partial Matching.
-    Reimplimentation of IDyOM compression distance usied by Pearce & Mullensiefen (2017).
+    Normalised symetric compression distance using Prediction by Partial Matching.
+    Reimplimentation of IDyOM compression distance used by Pearce & Mullensiefen (2017).
 
     :param x: A list of symbols (note: symbols must be accepted by np.searchsorted)
     :param y: Another list
@@ -47,13 +47,15 @@ def compress_seq(
     If pretraining sequence is given, first train on `pretrain_seq`, then predict `seq`.
     If no `pretrain_seq`, train and predict `seq`.
     """
-    model = ppm.new_ppm_simple(alphabet_size)
     if pretrain_seq:
+        # i.e. an LTM+
+        model = ppm.new_ppm_simple(alphabet_size, update_exclusion=False, escape="c")
         ppm.model_seq(model, pretrain_seq, train=True, predict=False)
-        train = False
+        res = ppm.model_seq(model, seq, train=True, predict=True)
     else:
-        train = True
-    res = ppm.model_seq(model, seq, train=train, predict=True)
+        # i.e. an STM
+        model = ppm.new_ppm_simple(alphabet_size, update_exclusion=True, escape="ax")
+        res = ppm.model_seq(model, seq, train=True, predict=True)
     return aggregation(res.rx2("information_content"))
 
 

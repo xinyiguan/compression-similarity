@@ -1,0 +1,5 @@
+c1.did c1.cid c1.description c2.did c2.cid c2.description similarity
+0 0 "BWV255" 0 0 "BWV255" 0.31334463
+0 0 "BWV255" 0 1 "BWV340" 0.7772869
+0 1 "BWV340" 0 0 "BWV255" 0.7772869
+0 1 "BWV340" 0 1 "BWV340" 0.33452734
