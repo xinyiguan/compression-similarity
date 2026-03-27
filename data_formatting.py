@@ -27,7 +27,7 @@ def chord_transition_format(chord1_str: str, chord2_str: str) -> str:
         quality2 = 'maj'
 
     interval = m21.interval.Interval(m21.pitch.Pitch(pitch1), m21.pitch.Pitch(pitch2)).semitones % 12
-    return f'{interval},{quality1},{quality2}'
+    return f'{interval}-{quality1}-{quality2}'
 
 
 def convert_treebank_to_corpus_rep(treebank_entry: Dict[str, Any]) -> Dict[str, Any]:
@@ -165,9 +165,9 @@ def _process_tree_node(node: Dict[str, Any]) -> str:
     right_base_label = right_label.rstrip('*')
     
     if right_base_label == node_base_label:
-        head_direction = "right-head"
+        head_direction = "rightHeaded"
     else:
-        head_direction = "left-head"
+        head_direction = "leftHeaded"
     
     # Compute chord transition between left and right children
     transition = chord_transition_format(left_label, right_label)
@@ -176,7 +176,7 @@ def _process_tree_node(node: Dict[str, Any]) -> str:
     processed_children = [_process_tree_node(child) for child in children]
     children_str = ' '.join(processed_children)
     
-    return f"({head_direction} {transition} {children_str})"
+    return f"({head_direction}-{transition} {children_str})"
 
 
 def format_progression(progression: str) -> str:
@@ -188,11 +188,11 @@ def format_progression(progression: str) -> str:
         transitions.append(chord_transition_format(chord1, chord2))
     return ' '.join(transitions)
 
-with open('treebank.json', 'r') as f:
+with open('corpus/treebank.json', 'r') as f:
     treebank = json.load(f)
 
 corpus_rep = [convert_treebank_to_corpus_rep(entry) for entry in treebank]
 corpus_rep = [entry for entry in corpus_rep if entry is not None]
 
-with open('converted_corpus_rep.json', 'w') as f:
+with open('corpus/converted_corpus_rep.json', 'w') as f:
     json.dump(corpus_rep, f, indent=2)
