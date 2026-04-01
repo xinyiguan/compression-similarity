@@ -16,7 +16,7 @@ class Corpus:
     @classmethod
     def from_json(cls, fpath: str) -> Corpus:
         """Load corpus metadata and programs from a JSON file."""
-        with open(fpath) as f:
+        with open(fpath,'r') as f:
             corpus_data = json.load(f)
         return cls(
             titles=[x["pieceTitle"] for x in corpus_data],
@@ -117,7 +117,7 @@ def individual_program_abstractions(programs: List[str], stitch_config: Dict,
     save result to json file
     """
     
-    res = [learned_abstractions_from_programs(programs=p, stitch_config=stitch_config) for p in programs]
+    res = [learned_abstractions_from_programs(programs=[p], stitch_config=stitch_config) for p in programs]
     json_strings = [[str(abs_obj) for abs_obj in sublist] for sublist in res]
 
     if save_json:
@@ -244,13 +244,10 @@ def compress_rewrtie_behavior_test(testing_programs: List[str], stitch_config: D
     lib_size = sum(program_size(x["body"]) for x in self_rewritten.json["abstractions"])
 
     assert cross_compression_function_size == rewritten_size + lib_size
-    
-    
-if __name__ == "__main__":
-    user = os.path.expanduser("~")
-    repo = f"{user}/codes/compression-similarity/"
-    
-    corpus = Corpus.from_json(fpath=f"{repo}corpus/converted_corpus_rep.json")
+
+
+def run(path_preprocessed:str, path_output:str):
+    corpus = Corpus.from_json(fpath=path_preprocessed)
     all_programs = corpus.programs
 
     stitch_cfg = {
@@ -265,16 +262,23 @@ if __name__ == "__main__":
     }
     
     # create result folder
-    stitch_res_path = f'{repo}stitchCompression/stitch_res/'
-    if not os.path.exists(stitch_res_path):
-        os.makedirs(stitch_res_path)
     
-    # individual_program_abstractions(programs=all_programs,
-    #                                 stitch_config=stitch_cfg,
-    #                                 save_json_path=f"{stitch_res_path}all_individual_library.json")
+    if not os.path.exists(path_output):
+        os.makedirs(path_output)
     
-    # pairwise_normalized_symmetric_compression_distance(corpus=corpus, 
-    #                                                    stitch_config=stitch_cfg, 
-    #                                                    save_json=f"{stitch_res_path}similarity_stats.json")
+    individual_program_abstractions(
+        programs=all_programs,
+        stitch_config=stitch_cfg,
+        save_json=f"{path_output}/all_individual_library.json"
+        )
     
-    corpus_stats(corpus=corpus, stitch_config=stitch_cfg, save_json=f"{stitch_res_path}corpus_stats.json")
+    pairwise_normalized_symmetric_compression_distance(
+        corpus=corpus, 
+        stitch_config=stitch_cfg, 
+        save_json=f"{path_output}/similarity_stats.json"
+        )
+    
+    corpus_stats(corpus=corpus, stitch_config=stitch_cfg, save_json=f"{path_output}/corpus_stats.json")
+    
+# if __name__ == "__main__":
+#     run()
