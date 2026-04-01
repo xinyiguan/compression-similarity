@@ -17,7 +17,7 @@ Rscript requirement.r
 install Python packages
 
 ```
-pip -r install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Overview
