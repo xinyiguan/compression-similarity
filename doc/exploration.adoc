@@ -9,21 +9,16 @@ A dashboard for all the result data.
 
 === Phase 1: Comparing compression distance between PPM and Stitch
 
-
-
 .Pair-wise compression distance (to model similarity). This is based on the normalized compression distance (D) paramatrized by a custom function C(x|y).
-include::figs/pairwise-similarity.vega[]
 
-.correlating compression distance D_ppm and D_stitch (kendall correlation)
-placeholder (scatterplot: x=D_ppm, y=D_stitch) highlight top + bottom N data points
-placeholder correlation statistics (r, p)
+vegalite::figs/pairwise-similarity.vega[svg, role=chart,align=center,subs="attributes+"]
 
-----
-data := [(nameX = ..., nameY=...,D_ppm = ..., D_stitch = ...),...]
-----
+// placeholder (scatterplot: x=D_ppm, y=D_stitch) highlight top + bottom N data points
 
+.Correlating compression distance D_ppm and D_stitch (kendall correlation)
+// placeholder correlation statistics (r, p)
 
-in addition we are interested in pairs where the two D's differ and agrees.
+In addition, we are interested in pairs where the two D's differ and agrees.
 
 .Top N pairs that are highest/lowest D in each model
 ----

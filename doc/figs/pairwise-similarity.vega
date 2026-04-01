@@ -1,0 +1,11 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "description",
+  "title":"Pair-wise compression distance",
+  "data": {"url": "../../data/result/stitch_res/mock_pairwise_similarity.json"},
+  "mark": {"type": "point", "tooltip": {"content": "data"}},
+  "encoding": {
+    "x": {"field": "D_ppm", "type": "quantitative"},
+    "y": {"field": "D_stitch", "type": "quantitative"}    
+  }
+}

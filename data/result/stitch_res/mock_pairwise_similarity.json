@@ -1,0 +1,20 @@
+[
+    {
+        "nameX": "p1",
+        "nameY": "p2",
+        "D_ppm": 14,
+        "D_stitch": 23
+    },
+    {
+        "nameX": "p1",
+        "nameY": "p3",
+        "D_ppm": 32,
+        "D_stitch": 13
+    },
+    {
+        "nameX": "p2",
+        "nameY": "p3",
+        "D_ppm": 2,
+        "D_stitch": 17
+    }
+]
