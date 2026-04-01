@@ -18,7 +18,7 @@ class Corpus:
     @classmethod
     def from_json(cls, fpath: str) -> Corpus:
         """Load corpus metadata and programs from a JSON file."""
-        with open(fpath) as f:
+        with open(fpath,'r') as f:
             corpus_data = json.load(f)
         return cls(
             titles=[x["pieceTitle"] for x in corpus_data],
@@ -285,9 +285,9 @@ if __name__ == "__main__":
     
 
     # create result folder
-    stitch_res_path = f'{repo}stitchCompression/stitch_res/'
-    if not os.path.exists(stitch_res_path):
-        os.makedirs(stitch_res_path)
+    
+    if not os.path.exists(path_output):
+        os.makedirs(path_output)
     
     
     # pairwise_normalized_symmetric_compression_distance(corpus=corpus, 

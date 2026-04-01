@@ -1,0 +1,6 @@
+stitch_core == 0.1.29
+numpy
+seaborn
+matplotlib
+music21
+rpy2

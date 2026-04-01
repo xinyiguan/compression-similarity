@@ -1,8 +1,31 @@
 # Compression Similarity
 
+## set-up
+
+install R
+
+```
+brew install r
+```
+
+install R packages
+
+```
+Rscript requirement.r
+```
+
+install Python packages
+
+```
+pip -r install requirements.txt
+```
 
 ## Overview
 
+## Directory structure
+
+`src` read and write to `data`
+`doc` read from `data`
 
 ## Data Format
 
@@ -14,15 +37,16 @@ For example:
 - (Dm, G7) -> "7,m,7"
 - (Am, C) -> "3,m,maj"
 
-
 ## Conversion
 
 Run the conversion:
+
 ```bash
 python data_formatting.py
 ```
 
 This will:
+
 1. Read all entries from `treebank.json`
 2. Convert each entry using `convert_treebank_to_corpus_rep()`
 3. Filter out any entries without valid tree structures

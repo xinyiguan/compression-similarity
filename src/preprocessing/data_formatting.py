@@ -188,11 +188,13 @@ def format_progression(progression: str) -> str:
         transitions.append(chord_transition_format(chord1, chord2))
     return ' '.join(transitions)
 
-with open('corpus/treebank.json', 'r') as f:
-    treebank = json.load(f)
+def run(path_treebank,path_output):
+    with open(path_treebank, 'r') as f:
+        treebank = json.load(f)
 
-corpus_rep = [convert_treebank_to_corpus_rep(entry) for entry in treebank]
-corpus_rep = [entry for entry in corpus_rep if entry is not None]
+    corpus_rep = [convert_treebank_to_corpus_rep(entry) for entry in treebank]
+    corpus_rep = [entry for entry in corpus_rep if entry is not None]
 
-with open('corpus/converted_corpus_rep.json', 'w') as f:
-    json.dump(corpus_rep, f, indent=2)
+    with open(path_output, 'w') as f:
+        json.dump(corpus_rep, f, indent=2)
+        
