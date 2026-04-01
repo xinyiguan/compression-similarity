@@ -7,7 +7,7 @@ from typing import Any, Dict, List, Optional
 import pandas as pd
 from stitch_core import Abstraction, compress, rewrite
 
-from utils import save_json_file
+from model.stitchCompression.utils import save_json_file
 
 @dataclass
 class Corpus:
@@ -264,11 +264,8 @@ def rewrite_individual_using_global_lib(corpus:Corpus,
         save_json_file(fpath=save_json, res=res)
     return res
 
-if __name__ == "__main__":
-    user = os.path.expanduser("~")
-    repo = f"{user}/codes/compression-similarity/"
-    
-    corpus = Corpus.from_json(fpath=f"{repo}corpus/converted_corpus_rep.json")
+def run(path_preprocessed:str,path_output:str):
+    corpus = Corpus.from_json(fpath=path_preprocessed)
 
     all_programs = corpus.programs
 
@@ -283,18 +280,11 @@ if __name__ == "__main__":
         "no_mismatch_check": True,  # if this is False we will see an assertion error from Rust
     }
     
-
-    # create result folder
-    
-    if not os.path.exists(path_output):
-        os.makedirs(path_output)
-    
-    
     # pairwise_normalized_symmetric_compression_distance(corpus=corpus, 
     #                                                    stitch_config=stitch_cfg, 
     #                                                    save_json=f"{stitch_res_path}similarity_stats.json")
     
-    get_corpus_stats(corpus=corpus, stitch_config=stitch_cfg, save_json=f"{stitch_res_path}corpus_stats.json")
-    get_global_library(corpus=corpus,stitch_config=stitch_cfg, save_json=f"{stitch_res_path}global_lib.json")
+    get_corpus_stats(corpus=corpus, stitch_config=stitch_cfg, save_json=f"{path_output}/corpus_stats.json")
+    get_global_library(corpus=corpus,stitch_config=stitch_cfg, save_json=f"{path_output}/global_lib.json")
     
     

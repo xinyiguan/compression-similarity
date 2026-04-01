@@ -2,751 +2,1465 @@
   {
     "piece": "(Valid)Red Clay",
     "program_size": 25,
-    "library_size": 1
+    "library_size": 3,
+    "library": [
+      "fn_0(#0) := (rightHeaded-2-sus-sus #0 T)"
+    ]
   },
   {
     "piece": "(Valid)Equinox",
     "program_size": 23,
-    "library_size": 2
+    "library_size": 10,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 #0 #0) (#1 #0 #0))",
+      "fn_1() := (rightHeaded-0-m7-m7 T T)"
+    ]
   },
   {
     "piece": "(Valid)Jody Grind, The",
     "program_size": 23,
-    "library_size": 1
+    "library_size": 7,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T) (rightHeaded-0-m7-m7 T T))"
+    ]
   },
   {
     "piece": "(Valid)Mr. P.C.",
     "program_size": 23,
-    "library_size": 2
+    "library_size": 10,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 #0 #0) (#1 #0 #0))",
+      "fn_1() := (rightHeaded-0-m7-m7 T T)"
+    ]
   },
   {
     "piece": "(Valid)Blues For Wood",
     "program_size": 25,
-    "library_size": 2
+    "library_size": 11,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 #0 #0) (#1 #0)))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Interplay",
     "program_size": 23,
-    "library_size": 2
+    "library_size": 11,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-m6-m6 (rightHeaded-0-m6-m6 (rightHeaded-0-m6-m6 #0 #0) (#1 #0)))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Solar",
     "program_size": 29,
-    "library_size": 2
+    "library_size": 10,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0) := (rightHeaded-5-7-^7 (fn_0 rightHeaded-5-m7-7 (rightHeaded-5-^7-7 #0)) T)"
+    ]
   },
   {
     "piece": "(Valid)Birk's Works",
     "program_size": 31,
-    "library_size": 3
+    "library_size": 11,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-%7-7)",
+      "fn_2(#0,#1) := (rightHeaded-0-m6-m6 #1 (fn_0 rightHeaded-0-m6-m6 #0))"
+    ]
   },
   {
     "piece": "(Valid)Blue In Green",
     "program_size": 31,
-    "library_size": 2
+    "library_size": 8,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (fn_0 #1 #0 T)"
+    ]
   },
   {
     "piece": "(Valid)Booker's Waltz",
     "program_size": 27,
-    "library_size": 1
+    "library_size": 4,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Contemplation",
     "program_size": 33,
-    "library_size": 1
+    "library_size": 7,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#1 #0 #0) (#1 #0 #0))"
+    ]
   },
   {
     "piece": "(Valid)Friday The 13th",
     "program_size": 33,
-    "library_size": 1
+    "library_size": 9,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-9-7-7 T (rightHeaded-11-7-7 T T)) #0))"
+    ]
   },
   {
     "piece": "(Valid)If You Never Come To Me",
     "program_size": 29,
-    "library_size": 2
+    "library_size": 9,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (#1 (fn_0 rightHeaded-5-7-7 #0 T))"
+    ]
   },
   {
     "piece": "(Valid)Pent Up House",
     "program_size": 31,
-    "library_size": 1
+    "library_size": 7,
+    "library": [
+      "fn_0() := (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T))"
+    ]
   },
   {
     "piece": "(Valid)Sweet Georgia Bright",
     "program_size": 31,
-    "library_size": 2
+    "library_size": 8,
+    "library": [
+      "fn_0() := (rightHeaded-0-7-7 T T)",
+      "fn_1(#0) := (rightHeaded-0-7-7 fn_0 (rightHeaded-2-7-7 fn_0 #0))"
+    ]
   },
   {
     "piece": "(Valid)Valse Hot",
     "program_size": 29,
-    "library_size": 2
+    "library_size": 15,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-^7 #1 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-m7-7 #0 T) T) T) T))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Wayne's Thang",
     "program_size": 31,
-    "library_size": 1
+    "library_size": 3,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-m7-m7 #0 #0)"
+    ]
   },
   {
     "piece": "(Valid)We Will Meet Again",
     "program_size": 33,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-m6-m6)"
+    ]
   },
   {
     "piece": "(Valid)Blue Bossa",
     "program_size": 29,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-m7-m7)"
+    ]
   },
   {
     "piece": "(Valid)Israel",
     "program_size": 21,
-    "library_size": 1
+    "library_size": 4,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Mac The Knife",
     "program_size": 33,
-    "library_size": 3
+    "library_size": 8,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-m7-m7)",
+      "fn_2() := (fn_0 rightHeaded-0-6-6)"
+    ]
   },
   {
     "piece": "(Valid)Sugar",
     "program_size": 31,
-    "library_size": 2
+    "library_size": 9,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (#1 (rightHeaded-0-m7-m7 T (#0 T)))"
+    ]
   },
   {
     "piece": "(Valid)When The Saints Go Marching In",
     "program_size": 31,
-    "library_size": 2
+    "library_size": 7,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-^-^ #0 #0)",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Work Song",
     "program_size": 33,
-    "library_size": 3
+    "library_size": 11,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-m-m #0 #0)",
+      "fn_1(#0,#1) := (rightHeaded-5-7-m (#1 #0 #0))",
+      "fn_2() := (rightHeaded-0-m-m (fn_0 (fn_0 T)))"
+    ]
   },
   {
     "piece": "(Valid)Beatrice",
     "program_size": 33,
-    "library_size": 1
+    "library_size": 4,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Jackie-ing",
     "program_size": 35,
-    "library_size": 3
+    "library_size": 10,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-^7-^7 #0 #0)",
+      "fn_1() := (fn_0 T)",
+      "fn_2(#0,#1) := (#1 (#0 T T) T)"
+    ]
   },
   {
     "piece": "(Valid)Lady Bird",
     "program_size": 29,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0() := (rightHeaded-5-m7-7 T T)",
+      "fn_1() := (rightHeaded-0-^7-^7 T T)"
+    ]
   },
   {
     "piece": "(Valid)On The Trail",
     "program_size": 31,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0() := (rightHeaded-5-m7-7 T T)",
+      "fn_1(#0) := (rightHeaded-0-^7-^7 #0 #0)"
+    ]
   },
   {
     "piece": "(Valid)Peace",
     "program_size": 35,
-    "library_size": 2
+    "library_size": 9,
+    "library": [
+      "fn_0() := (rightHeaded-5-%7-7 T T)",
+      "fn_1(#0,#1) := (rightHeaded-11-7-^7 (#1 (#0 T) T) T)"
+    ]
   },
   {
     "piece": "(Valid)Sunny",
     "program_size": 33,
-    "library_size": 2
+    "library_size": 16,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-m7-m7 T (rightHeaded-5-7-m7 (rightHeaded-11-^7-7 (rightHeaded-5-7-^7 T T) (rightHeaded-5-%7-7 T T)) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T) T)"
+    ]
   },
   {
     "piece": "(Valid)United",
     "program_size": 35,
-    "library_size": 3
+    "library_size": 10,
+    "library": [
+      "fn_0(#0,#1) := (#1 #0 #0)",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2() := (fn_1 rightHeaded-5-m7-7 rightHeaded-5-7-^7)"
+    ]
   },
   {
     "piece": "(Valid)Funkallero",
     "program_size": 37,
-    "library_size": 2
+    "library_size": 8,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-0-m6-m6 #0 #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Yesterdays",
     "program_size": 39,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0() := (rightHeaded-5-%7-7 T T)",
+      "fn_1(#0) := (rightHeaded-5-7-7 #0 T)"
+    ]
   },
   {
     "piece": "(Valid)Afro Blue",
     "program_size": 39,
-    "library_size": 2
+    "library_size": 9,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-0-m7-m7 #0 #0))",
+      "fn_1(#0,#1) := (#1 (rightHeaded-0-m7-m7 T (#0 T)))"
+    ]
   },
   {
     "piece": "(Valid)Blues For Alice",
     "program_size": 41,
-    "library_size": 3
+    "library_size": 11,
+    "library": [
+      "fn_0() := (rightHeaded-5-m7-7 T T)",
+      "fn_1(#0) := (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 #0 T) T)",
+      "fn_2(#0) := (rightHeaded-11-7-7 (#0 fn_0))"
+    ]
   },
   {
     "piece": "(Valid)Brotherhood Of Man",
     "program_size": 37,
-    "library_size": 2
+    "library_size": 8,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-^-^ #0 #0)",
+      "fn_1(#0,#1) := (#1 (rightHeaded-5-m7-7 #0 T) T)"
+    ]
   },
   {
     "piece": "(Valid)Freight Train",
     "program_size": 41,
-    "library_size": 3
+    "library_size": 10,
+    "library": [
+      "fn_0() := (rightHeaded-5-m7-7 T T)",
+      "fn_1(#0,#1) := (#1 (#0 T) T)",
+      "fn_2(#0) := (rightHeaded-11-7-7 (#0 fn_0))"
+    ]
   },
   {
     "piece": "(Valid)Got A Match?",
     "program_size": 37,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-m7-7)"
+    ]
   },
   {
     "piece": "(Valid)Half Nelson",
     "program_size": 33,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0() := (rightHeaded-5-m7-7 T T)",
+      "fn_1() := (rightHeaded-0-^7-^7 T T)"
+    ]
   },
   {
     "piece": "(Valid)Leaving",
     "program_size": 37,
-    "library_size": 1
+    "library_size": 4,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Old Country, The",
     "program_size": 39,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-%7-7)"
+    ]
   },
   {
     "piece": "(Valid)Recordame",
     "program_size": 41,
-    "library_size": 4
+    "library_size": 17,
+    "library": [
+      "fn_0() := (rightHeaded-5-m7-7 T T)",
+      "fn_1(#0,#1) := (#1 (rightHeaded-0-m-m #0 #0) (rightHeaded-0-m-m #0 T))",
+      "fn_2(#0) := (rightHeaded-5-7-^7 #0 T)",
+      "fn_3(#0) := (fn_2 (rightHeaded-5-^7-7 #0 fn_0))"
+    ]
   },
   {
     "piece": "(Valid)Just A Gigolo",
     "program_size": 41,
-    "library_size": 3
+    "library_size": 15,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-5-7-m7 (rightHeaded-11-7-7 #0 #0) T))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0,#1) := (rightHeaded-0-^-^ #1 (rightHeaded-5-7-^ #0 T))"
+    ]
   },
   {
     "piece": "(Valid)Little Boat (O Barquinho)",
     "program_size": 45,
-    "library_size": 2
+    "library_size": 12,
+    "library": [
+      "fn_0() := (rightHeaded-5-m7-7 T T)",
+      "fn_1(#0) := (rightHeaded-11-^7-7 (rightHeaded-11-7-^7 #0 (rightHeaded-0-^7-^7 T T)) (rightHeaded-0-7-7 fn_0 fn_0))"
+    ]
   },
   {
     "piece": "(Valid)Armando's Rhumba",
     "program_size": 43,
-    "library_size": 2
+    "library_size": 11,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#1 T #0) (#1 T #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Summertime",
     "program_size": 41,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-m7-m7)"
+    ]
   },
   {
     "piece": "(Valid)Why Don't You Do Right?",
     "program_size": 39,
-    "library_size": 2
+    "library_size": 12,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-m7-m7 #1 (rightHeaded-5-7-m7 (rightHeaded-11-7-7 (rightHeaded-11-%7-7 T T) T) #0))",
+      "fn_1(#0,#1) := (#1 #0 #0)"
+    ]
   },
   {
     "piece": "(Valid)Bluesette",
     "program_size": 49,
-    "library_size": 4
+    "library_size": 20,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0) := (fn_0 rightHeaded-0-^7-^7 (rightHeaded-5-7-^7 (fn_0 rightHeaded-5-m7-7 (rightHeaded-5-^7-7 #0))))",
+      "fn_2(#0) := (rightHeaded-5-m7-7 (#0 T) T)",
+      "fn_3(#0,#1) := (#1 (fn_2 (fn_0 #0 rightHeaded-5-7-m7)))"
+    ]
   },
   {
     "piece": "(Valid)Central Park West",
     "program_size": 43,
-    "library_size": 1
+    "library_size": 5,
+    "library": [
+      "fn_0() := (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) T)"
+    ]
   },
   {
     "piece": "(Valid)Footprints",
     "program_size": 47,
-    "library_size": 3
+    "library_size": 13,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 #0 #0) (#1 #0 #0))",
+      "fn_1(#0,#1) := (#1 #0 #0)",
+      "fn_2() := (fn_0 T rightHeaded-0-m7-m7)"
+    ]
   },
   {
     "piece": "(Valid)Four On Six",
     "program_size": 43,
-    "library_size": 4
+    "library_size": 13,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-m7-7)",
+      "fn_2() := (fn_0 rightHeaded-0-m7-m7)",
+      "fn_3(#0,#1) := (#1 (fn_1 #0 T) T)"
+    ]
   },
   {
     "piece": "(Valid)Light Blue",
     "program_size": 49,
-    "library_size": 4
+    "library_size": 12,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-^7-^7)",
+      "fn_2() := (fn_0 rightHeaded-5-7-7)",
+      "fn_3(#0,#1) := (rightHeaded-0-^7-^7 (#1 T) #0)"
+    ]
   },
   {
     "piece": "(Valid)Paper Doll",
     "program_size": 49,
-    "library_size": 2
+    "library_size": 10,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T) T)",
+      "fn_1(#0,#1) := (#1 (fn_0 rightHeaded-5-7-7 #0) T)"
+    ]
   },
   {
     "piece": "(Valid)Serenity",
     "program_size": 43,
-    "library_size": 3
+    "library_size": 11,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-m7-7)",
+      "fn_2(#0,#1) := (fn_0 #1 (fn_0 rightHeaded-5-%7-7 #0))"
+    ]
   },
   {
     "piece": "(Valid)Simone",
     "program_size": 45,
-    "library_size": 3
+    "library_size": 13,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-m7-m7 (rightHeaded-0-m7-m7 T))",
+      "fn_2(#0,#1) := (fn_0 rightHeaded-5-m7-7 (#1 (#0 T)))"
+    ]
   },
   {
     "piece": "(Valid)St. Thomas",
     "program_size": 47,
-    "library_size": 3
+    "library_size": 15,
+    "library": [
+      "fn_0(#0,#1) := (#1 #0 #0)",
+      "fn_1(#0,#1) := (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (#1 T) T) T) #0)",
+      "fn_2(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Ballade",
     "program_size": 49,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-m7-7)"
+    ]
   },
   {
     "piece": "(Valid)Minor Strain",
     "program_size": 27,
-    "library_size": 2
+    "library_size": 5,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-m7-m7 #0 #0)",
+      "fn_1() := (fn_0 T)"
+    ]
   },
   {
     "piece": "(Valid)Song For My Father",
     "program_size": 49,
-    "library_size": 2
+    "library_size": 10,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-0-m7-m7 #0 #0))",
+      "fn_1(#0,#1) := (fn_0 T (#1 (#0 T T)))"
+    ]
   },
   {
     "piece": "(Valid)Witch Hunt",
     "program_size": 51,
-    "library_size": 3
+    "library_size": 13,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 #0 #0) (#1 #0))",
+      "fn_1(#0) := (rightHeaded-0-7-7 #0 #0)",
+      "fn_2(#0,#1) := (#1 (#0 T) T)"
+    ]
   },
   {
     "piece": "(Valid)If You Ever Should Leave",
     "program_size": 51,
-    "library_size": 3
+    "library_size": 19,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^-^ (rightHeaded-0-^-^ T T) (rightHeaded-5-7-^ (rightHeaded-5-7-7 (rightHeaded-5-7-7 (rightHeaded-0-7-7 T T) #1) #1) #0))",
+      "fn_1() := (rightHeaded-0-7-7 T T)",
+      "fn_2(#0) := (rightHeaded-0-^-^ #0 #0)"
+    ]
   },
   {
     "piece": "(Valid)Night Dreamer",
     "program_size": 45,
-    "library_size": 2
+    "library_size": 12,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-9-m7-7 T (rightHeaded-11-^7-7 T T)) #0))",
+      "fn_1(#0,#1) := (#1 #0 #0)"
+    ]
   },
   {
     "piece": "(Valid)Boo Boo's Birthday",
     "program_size": 53,
-    "library_size": 1
+    "library_size": 21,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-^7-^7 T (rightHeaded-8-7-^7 (rightHeaded-5-7-7 T (rightHeaded-0-7-7 T T)) (rightHeaded-11-7-^7 (rightHeaded-11-7-7 (rightHeaded-11-7-7 (rightHeaded-11-7-7 (rightHeaded-11-7-7 T T) T) T) (rightHeaded-0-^7-7 T T)) #0)))"
+    ]
   },
   {
     "piece": "(Valid)Girl Talk",
     "program_size": 55,
-    "library_size": 2
+    "library_size": 8,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (fn_0 #1 #0 T)"
+    ]
   },
   {
     "piece": "(Valid)Serenade To A Cuckoo",
     "program_size": 51,
-    "library_size": 3
+    "library_size": 11,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-m7-m7 #1 (rightHeaded-0-m7-m7 #0 #0))",
+      "fn_1() := (rightHeaded-5-%7-7 T T)",
+      "fn_2(#0) := (rightHeaded-5-7-m7 #0 T)"
+    ]
   },
   {
     "piece": "(Valid)It's Been A Long Long Time",
     "program_size": 53,
-    "library_size": 2
+    "library_size": 9,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T) T)",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)My Ideal",
     "program_size": 57,
-    "library_size": 3
+    "library_size": 25,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-6-6 T (rightHeaded-5-7-6 (rightHeaded-5-7-7 (rightHeaded-0-m7-7 (rightHeaded-5-7-m7 T T) (rightHeaded-5-7-7 (rightHeaded-11-7-7 T T) T)) #1) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0,#1) := (rightHeaded-5-m7-7 (fn_1 #1 #0 T) T)"
+    ]
   },
   {
     "piece": "(Valid)Chucho",
     "program_size": 57,
-    "library_size": 3
+    "library_size": 15,
+    "library": [
+      "fn_0() := (rightHeaded-5-7-m (rightHeaded-5-%7-7 T T) T)",
+      "fn_1(#0,#1) := (#1 (rightHeaded-5-7-m (#0 (rightHeaded-5-%7-7 T T)) T))",
+      "fn_2() := (rightHeaded-0-m-m fn_0 fn_0)"
+    ]
   },
   {
     "piece": "(Valid)Bemsha Swing",
     "program_size": 57,
-    "library_size": 2
+    "library_size": 19,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-0-^-^ #0 (rightHeaded-11-7-^ (rightHeaded-5-7-7 (rightHeaded-11-7-7 T T) T) T)))",
+      "fn_1(#0,#1) := (fn_0 (rightHeaded-11-7-^ (#1 (#1 T T) T) T) #0)"
+    ]
   },
   {
     "piece": "(Valid)Idle Moments",
     "program_size": 59,
-    "library_size": 3
+    "library_size": 15,
+    "library": [
+      "fn_0() := (leftHeaded-0-m-m7 (leftHeaded-0-m-m^7 T T) (leftHeaded-0-m7-m6 T T))",
+      "fn_1() := (rightHeaded-5-%7-7 T T)",
+      "fn_2(#0,#1) := (rightHeaded-0-m-m (rightHeaded-0-m-m fn_0 #1) #0)"
+    ]
   },
   {
     "piece": "(Valid)I Wish I Knew How It Would Feel To Be Free",
     "program_size": 61,
-    "library_size": 4
+    "library_size": 28,
+    "library": [
+      "fn_0() := (rightHeaded-0-^-^ (rightHeaded-0-^-^ (leftHeaded-9-^-m T (rightHeaded-5-7-m T T)) (rightHeaded-5-sus-^ (rightHeaded-0-m7-sus T (rightHeaded-2-^-sus T T)) T)))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0,#1) := (#1 (fn_1 #0 (rightHeaded-0-^-^ T)))",
+      "fn_3(#0,#1) := (fn_1 #1 (fn_1 rightHeaded-6-o7-^ #0))"
+    ]
   },
   {
     "piece": "(Valid)When You're Smilin'",
     "program_size": 63,
-    "library_size": 3
+    "library_size": 21,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-6-6 (rightHeaded-0-6-6 #0 #0) (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-m7-7 T T) T) T) (#1 #0)))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0,#1) := (#1 (#1 #0))"
+    ]
   },
   {
     "piece": "(Valid)Avalon",
     "program_size": 63,
-    "library_size": 5
+    "library_size": 18,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-7-7 (fn_0 rightHeaded-0-m7-m7 rightHeaded-5-m7-7))",
+      "fn_2() := (fn_0 rightHeaded-0-6-6)",
+      "fn_3() := (fn_2 rightHeaded-0-6-6)",
+      "fn_4(#0,#1) := (#1 (fn_0 rightHeaded-0-m7-m7 (rightHeaded-5-7-m7 #0)))"
+    ]
   },
   {
     "piece": "(Valid)Backstage Sally",
     "program_size": 57,
-    "library_size": 5
+    "library_size": 20,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#1 #0 T) T)",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0) := (fn_0 #0 rightHeaded-5-7-7)",
+      "fn_3(#0,#1) := (#1 (#1 #0))",
+      "fn_4(#0,#1) := (#1 (rightHeaded-0-m6-m7 T (#0 T)))"
+    ]
   },
   {
     "piece": "(Valid)Gary's Notebook",
     "program_size": 61,
-    "library_size": 5
+    "library_size": 16,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-m-m #0 #0)",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2() := (fn_1 rightHeaded-11-7-m)",
+      "fn_3() := (rightHeaded-0-m-m T)",
+      "fn_4(#0,#1) := (rightHeaded-0-m-m (#1 (fn_2 fn_0)) #0)"
+    ]
   },
   {
     "piece": "(Valid)Glad To Be Unhappy",
     "program_size": 63,
-    "library_size": 3
+    "library_size": 17,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (#1 (rightHeaded-5-7-^7 (#0 (fn_0 rightHeaded-2-^7-m7 rightHeaded-5-m7-7 T)) T))",
+      "fn_2() := (fn_0 rightHeaded-0-7-7 (fn_0 rightHeaded-8-m7-^7 rightHeaded-9-^7-7))"
+    ]
   },
   {
     "piece": "(Valid)Hot House",
     "program_size": 63,
-    "library_size": 2
+    "library_size": 19,
+    "library": [
+      "fn_0() := (rightHeaded-5-7-^7 (rightHeaded-2-m^7-7 (rightHeaded-5-7-m^7 (rightHeaded-5-%7-7 T T) (rightHeaded-0-m^7-m^7 T T)) (rightHeaded-5-%7-7 T T)) (rightHeaded-0-^7-^7 T T))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Hungaria",
     "program_size": 63,
-    "library_size": 4
+    "library_size": 20,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (rightHeaded-0-6-6 (fn_0 rightHeaded-0-6-6 rightHeaded-0-6-6 (fn_0 rightHeaded-0-6-6 (fn_0 rightHeaded-0-6-6 rightHeaded-11-6-6))))",
+      "fn_2() := (fn_0 rightHeaded-0-7-7)",
+      "fn_3(#0,#1) := (rightHeaded-5-7-6 (#1 (fn_0 rightHeaded-5-m7-7 #0)))"
+    ]
   },
   {
     "piece": "(Valid)In A Mellow Tone (In A Mellotone)",
     "program_size": 61,
-    "library_size": 5
+    "library_size": 25,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-^7-^7 (fn_0 rightHeaded-5-m7-7 rightHeaded-5-7-^7))",
+      "fn_2(#0,#1) := (rightHeaded-0-6-6 (fn_0 rightHeaded-0-6-6 #1) (#0 T))",
+      "fn_3(#0,#1) := (#1 (fn_0 #0 rightHeaded-5-7-7 T))",
+      "fn_4(#0,#1) := (fn_2 #1 (#0 rightHeaded-5-7-7 rightHeaded-5-7-6))"
+    ]
   },
   {
     "piece": "(Valid)I've Found A New Baby v2",
     "program_size": 61,
-    "library_size": 2
+    "library_size": 17,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-5-7-6 (rightHeaded-5-7-7 (rightHeaded-5-m7-7 (rightHeaded-0-m7-m7 #1 (rightHeaded-5-7-m7 T T)) (rightHeaded-5-7-7 T T)) T) #0)",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Lennie's Pennies",
     "program_size": 63,
-    "library_size": 3
+    "library_size": 23,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (rightHeaded-5-7-m6 (rightHeaded-2-m6-7 (fn_0 rightHeaded-0-m6-m6 (rightHeaded-5-7-m6 (fn_0 #1 (fn_0 rightHeaded-5-7-7 rightHeaded-5-7-7)))) (#0 T)))",
+      "fn_2(#0,#1) := (#1 (fn_0 rightHeaded-0-m6-m6 rightHeaded-0-m6-m6 (fn_0 rightHeaded-0-m6-m6 #0)))"
+    ]
   },
   {
     "piece": "(Valid)Move",
     "program_size": 63,
-    "library_size": 2
+    "library_size": 19,
+    "library": [
+      "fn_0() := (rightHeaded-0-6-6 (rightHeaded-0-6-6 T (rightHeaded-7-7-6 T T)) (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-1-o7-m7 T T) T) (rightHeaded-0-6-6 T T)))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)So Danco Samba",
     "program_size": 61,
-    "library_size": 3
+    "library_size": 22,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-6-6 #1 (rightHeaded-5-7-6 (rightHeaded-2-7-7 T (rightHeaded-5-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-5-m7-7 T T))) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0,#1) := (fn_1 #1 (fn_1 rightHeaded-5-m7-7 #0))"
+    ]
   },
   {
     "piece": "(Valid)Someday My Prince Will Come",
     "program_size": 65,
-    "library_size": 3
+    "library_size": 25,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-7-7 T (rightHeaded-4-^7-7 T T)) (rightHeaded-0-m7-m7 T (rightHeaded-5-7-m7 T T))) T) (rightHeaded-5-7-^7 #1 #0)))",
+      "fn_1(#0,#1) := (#1 #0 #0)",
+      "fn_2() := (rightHeaded-5-m7-7 T T)"
+    ]
   },
   {
     "piece": "(Valid)Subconscious Lee",
     "program_size": 63,
-    "library_size": 2
+    "library_size": 19,
+    "library": [
+      "fn_0() := (rightHeaded-5-7-^7 (rightHeaded-2-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-%7-7 T T) (rightHeaded-0-m7-m7 T T)) (rightHeaded-5-%7-7 T T)) (rightHeaded-0-^7-^7 T T))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Tune Up",
     "program_size": 63,
-    "library_size": 2
+    "library_size": 34,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-^7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T)) (rightHeaded-5-7-^7 (rightHeaded-11-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T)) (rightHeaded-5-m7-7 T T)) (leftHeaded-9-^7-m7 T T)) (rightHeaded-5-m7-7 T #1)) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T) T)"
+    ]
   },
   {
     "piece": "(Valid)What Is This Thing Called Love",
     "program_size": 63,
-    "library_size": 2
+    "library_size": 19,
+    "library": [
+      "fn_0() := (rightHeaded-5-7-^7 (rightHeaded-2-m6-7 (rightHeaded-5-7-m6 (rightHeaded-5-%7-7 T T) (rightHeaded-0-m6-m6 T T)) (rightHeaded-5-%7-7 T T)) (rightHeaded-0-^7-^7 T T))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Bossa Antigua",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 15,
+    "library": [
+      "fn_0() := (rightHeaded-2-7-m7 (rightHeaded-5-m7-7 T T) (rightHeaded-5-m7-m7 T T))",
+      "fn_1(#0) := (rightHeaded-5-m7-7 #0 T)",
+      "fn_2(#0) := (rightHeaded-5-m7-m7 #0 T)",
+      "fn_3() := (fn_1 T)"
+    ]
   },
   {
     "piece": "(Valid)Bright Mississippi",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 13,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-7-7 #0 #0)",
+      "fn_1() := (fn_0 (fn_0 T))",
+      "fn_2() := (rightHeaded-5-7-7 fn_1 fn_1)",
+      "fn_3(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Cool One, The",
     "program_size": 67,
-    "library_size": 2
+    "library_size": 20,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-0-7-7 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-0-7-7 (rightHeaded-5-m7-7 #0 T) (rightHeaded-5-m7-7 T T)) T) T) (rightHeaded-5-m7-7 T T)))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Fine And Dandy",
     "program_size": 67,
-    "library_size": 3
+    "library_size": 15,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-4-o7-7 T (rightHeaded-5-m7-7 T T)) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2() := (fn_1 rightHeaded-0-7-7)"
+    ]
   },
   {
     "piece": "(Valid)I've Got A Crush On You",
     "program_size": 61,
-    "library_size": 3
+    "library_size": 15,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-^7-6 T (rightHeaded-5-7-6 (rightHeaded-4-o7-7 T (rightHeaded-5-m7-7 T T)) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2() := (fn_1 rightHeaded-5-m7-7)"
+    ]
   },
   {
     "piece": "(Valid)Jeannie's Song",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 17,
+    "library": [
+      "fn_0() := (rightHeaded-5-m7-7 T T)",
+      "fn_1() := (rightHeaded-3-m7-7 (rightHeaded-11-7-m7 T T) (rightHeaded-4-o7-7 T fn_0))",
+      "fn_2(#0,#1) := (#1 (rightHeaded-5-7-^7 #0 T))",
+      "fn_3() := (rightHeaded-0-7-7 fn_0 fn_0)"
+    ]
   },
   {
     "piece": "(Valid)Minor Mood",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 16,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T) T)",
+      "fn_1() := (fn_0 rightHeaded-5-%7-7 rightHeaded-5-7-m7)",
+      "fn_2(#0,#1) := (#1 (#0 T T))",
+      "fn_3(#0,#1) := (fn_2 #1 (#1 #0))"
+    ]
   },
   {
     "piece": "(Valid)Nothing Personal",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 13,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-m-m #0 #0)",
+      "fn_1(#0) := (rightHeaded-0-7-7 #0 #0)",
+      "fn_2(#0) := (#0 (#0 T))",
+      "fn_3(#0) := (rightHeaded-11-7-7 #0 (fn_1 T))"
+    ]
   },
   {
     "piece": "(Valid)O Grande Amor",
     "program_size": 63,
-    "library_size": 3
+    "library_size": 15,
+    "library": [
+      "fn_0() := (rightHeaded-5-%7-7 (rightHeaded-11-7-%7 (rightHeaded-4-o7-7 T (rightHeaded-5-m7-7 T T)) T) T)",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2() := (fn_1 rightHeaded-5-%7-7)"
+    ]
   },
   {
     "piece": "(Valid)All Of Me",
     "program_size": 61,
-    "library_size": 2
+    "library_size": 23,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-6 (rightHeaded-0-^7-^7 T T) (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-0-7-7 T T)) (rightHeaded-0-m7-m7 T T)) #1) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Autumn Leaves",
     "program_size": 67,
-    "library_size": 6
+    "library_size": 19,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-0-m6-m6 #0 #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0,#1) := (#1 (#0 T) T)",
+      "fn_3() := (fn_0 T)",
+      "fn_4() := (fn_1 rightHeaded-5-%7-7)",
+      "fn_5() := (fn_1 rightHeaded-5-m7-7 rightHeaded-5-7-^7)"
+    ]
   },
   {
     "piece": "(Valid)Fools Rush In",
     "program_size": 61,
-    "library_size": 2
+    "library_size": 11,
+    "library": [
+      "fn_0() := (leftHeaded-9-^7-m7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) T) T)",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Boy Next Door",
     "program_size": 67,
-    "library_size": 2
+    "library_size": 12,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (fn_0 rightHeaded-5-7-m7 rightHeaded-5-m7-7 T) T))"
+    ]
   },
   {
     "piece": "(Valid)I Fall In Love Too Easily",
     "program_size": 61,
-    "library_size": 2
+    "library_size": 6,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-%7-7)"
+    ]
   },
   {
     "piece": "(Valid)In A Shanty In Old Shanty Town",
     "program_size": 65,
-    "library_size": 2
+    "library_size": 23,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-6 T (rightHeaded-5-7-6 (rightHeaded-5-7-7 (rightHeaded-5-7-7 (rightHeaded-5-7-7 T (rightHeaded-0-7-7 T T)) (rightHeaded-0-7-7 T (rightHeaded-11-7-7 T (rightHeaded-0-7-7 T T)))) #1) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Rose Room",
     "program_size": 63,
-    "library_size": 2
+    "library_size": 29,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-6-6 (rightHeaded-0-6-6 (rightHeaded-5-7-6 (rightHeaded-5-7-7 T T) (rightHeaded-0-6-6 T T)) (rightHeaded-2-7-6 (rightHeaded-5-^-7 (rightHeaded-5-7-^ (rightHeaded-0-7-7 T T) (rightHeaded-0-^-^ T T)) (rightHeaded-5-m-7 T T)) T)) (rightHeaded-5-7-6 #1 #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Shadow Of Your Smile, The",
     "program_size": 67,
-    "library_size": 5
+    "library_size": 14,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-m7-7)",
+      "fn_2() := (fn_0 rightHeaded-5-%7-7)",
+      "fn_3() := (fn_1 rightHeaded-5-7-m7 T)",
+      "fn_4() := (fn_1 (rightHeaded-5-7-7 T))"
+    ]
   },
   {
     "piece": "(Valid)Shine",
     "program_size": 63,
-    "library_size": 4
+    "library_size": 13,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-m7-m7 (fn_0 rightHeaded-0-7-7 rightHeaded-5-7-m7))",
+      "fn_2() := (fn_0 rightHeaded-0-^7-^7)",
+      "fn_3() := (fn_0 rightHeaded-5-m7-7)"
+    ]
   },
   {
     "piece": "(Valid)Smile",
     "program_size": 67,
-    "library_size": 4
+    "library_size": 23,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (#1 (rightHeaded-0-^7-^7 (fn_0 rightHeaded-0-^7-^7 (fn_0 rightHeaded-0-^7-^7 rightHeaded-0-^7-^7)) (rightHeaded-0-^7-^7 T #0)))",
+      "fn_2() := (fn_0 rightHeaded-0-m7-m7 (rightHeaded-5-7-m7 (fn_0 rightHeaded-7-m7-7 (rightHeaded-6-o7-7 T))))",
+      "fn_3() := (fn_0 rightHeaded-5-m7-7)"
+    ]
   },
   {
     "piece": "(Valid)Struttin' With Some Barbecue",
     "program_size": 63,
-    "library_size": 3
+    "library_size": 11,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (fn_0 rightHeaded-0-6-6 (fn_0 #1 #0))",
+      "fn_2() := (fn_0 rightHeaded-0-7-7)"
+    ]
   },
   {
     "piece": "(Valid)Weaver Of Dreams, A",
     "program_size": 63,
-    "library_size": 2
+    "library_size": 29,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-^7 (leftHeaded-9-^7-m7 (rightHeaded-0-^7-^7 T T) (rightHeaded-5-7-m7 (rightHeaded-5-%7-7 T T) (rightHeaded-0-m7-m7 T T))) (rightHeaded-5-7-^7 (#1 (rightHeaded-5-m7-7 T T)) #0))",
+      "fn_1(#0,#1) := (#1 (rightHeaded-5-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) T) T) (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)502 Blues",
     "program_size": 69,
-    "library_size": 2
+    "library_size": 34,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-5-%7-7 (rightHeaded-9-m7-%7 #0 (rightHeaded-2-7-%7 (rightHeaded-3-^7-7 T (rightHeaded-5-%7-7 T T)) (rightHeaded-9-m7-%7 T (rightHeaded-2-7-%7 (rightHeaded-3-^7-7 T (rightHeaded-5-%7-7 T T)) (rightHeaded-5-7-%7 (rightHeaded-3-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) T) (rightHeaded-5-m7-7 T T)) T))))) T))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Bill Bailey",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 20,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (#1 (fn_0 #0 (fn_0 #0 #0)))",
+      "fn_2(#0,#1) := (fn_0 #1 #0 T)",
+      "fn_3(#0,#1) := (#1 (#0 rightHeaded-0-^-^ (fn_0 rightHeaded-5-m7-7 rightHeaded-5-7-^)))"
+    ]
   },
   {
     "piece": "(Valid)Blue Lou",
     "program_size": 69,
-    "library_size": 3
+    "library_size": 32,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-5-7-^7 #0 (rightHeaded-5-7-^7 (rightHeaded-0-7-7 (rightHeaded-5-%7-7 T T) (rightHeaded-5-%7-7 T T)) (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-2-^7-7 T (rightHeaded-5-7-7 T T)) T)))))",
+      "fn_1(#0) := (rightHeaded-0-^7-7 T (rightHeaded-5-7-7 (rightHeaded-5-m7-7 (rightHeaded-1-o7-m7 T T) T) #0))",
+      "fn_2(#0,#1) := (#1 #0 #0)"
+    ]
   },
   {
     "piece": "(Valid)Broadway",
     "program_size": 69,
-    "library_size": 4
+    "library_size": 15,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-m7-7 (fn_0 rightHeaded-0-7-7 rightHeaded-2-7-7))",
+      "fn_2() := (fn_0 rightHeaded-0-^7-^7)",
+      "fn_3() := (fn_0 rightHeaded-0-6-6 (rightHeaded-5-7-6 fn_1))"
+    ]
   },
   {
     "piece": "(Valid)Dearly Beloved",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 11,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-7-7 #0 #0)",
+      "fn_1() := (rightHeaded-5-m7-7 T T)",
+      "fn_2() := (fn_0 fn_1)",
+      "fn_3() := (rightHeaded-0-6-6 T T)"
+    ]
   },
   {
     "piece": "(Valid)Good Life, The",
     "program_size": 65,
-    "library_size": 2
+    "library_size": 29,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-6 (rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 T T) (rightHeaded-2-7-^7 (rightHeaded-11-7-7 (rightHeaded-2-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-m7-m7 T T)) (rightHeaded-5-%7-7 T T)) (rightHeaded-5-^7-7 T T)) T)) (rightHeaded-5-7-6 #1 #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)I Love Paris",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 22,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#1 #0 #0) (#1 #0 #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0,#1) := (#1 (fn_1 #1 (#1 #0)))",
+      "fn_3(#0,#1) := (rightHeaded-5-m7-7 (fn_1 #1 #0 T) T)"
+    ]
   },
   {
     "piece": "(Valid)I Love You",
     "program_size": 69,
-    "library_size": 3
+    "library_size": 16,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-5-7-^7 (#0 T T) (rightHeaded-0-^7-^7 T T)))",
+      "fn_1(#0,#1) := (#1 (#0 (rightHeaded-5-%7-7 T T) T))",
+      "fn_2() := (fn_0 rightHeaded-5-m7-7)"
+    ]
   },
   {
     "piece": "(Valid)In A Little Spanish Town",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 10,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-m7-7)",
+      "fn_2() := (fn_0 rightHeaded-0-7-7)",
+      "fn_3() := (fn_1 rightHeaded-5-7-^7)"
+    ]
   },
   {
     "piece": "(Valid)Look For The Silver Lining",
     "program_size": 67,
-    "library_size": 4
+    "library_size": 21,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (rightHeaded-0-^7-^7 (fn_0 rightHeaded-5-7-^7 (rightHeaded-0-^7-^7 T)) (rightHeaded-5-7-^7 #1 #0))",
+      "fn_2(#0) := (rightHeaded-5-7-^7 (fn_0 rightHeaded-5-m7-7 #0))",
+      "fn_3(#0,#1) := (#1 (rightHeaded-5-m7-7 (#0 T) T))"
+    ]
   },
   {
     "piece": "(Valid)My Melancholy Baby",
     "program_size": 63,
-    "library_size": 4
+    "library_size": 28,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-5-m7-7 (#1 (rightHeaded-0-m7-m7 (rightHeaded-5-7-m7 (rightHeaded-11-7-7 T T) T) (rightHeaded-5-7-m7 T T)) #0) T)",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0,#1) := (fn_1 rightHeaded-0-^7-^7 rightHeaded-0-^7-6 (rightHeaded-5-7-6 #1 #0))",
+      "fn_3(#0,#1) := (#1 (fn_1 #0 rightHeaded-5-m7-7 T))"
+    ]
   },
   {
     "piece": "(Valid)Nuages",
     "program_size": 69,
-    "library_size": 3
+    "library_size": 19,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (#1 (rightHeaded-0-6-6 #0 (fn_0 rightHeaded-11-7-7 rightHeaded-5-7-6 (fn_0 rightHeaded-5-7-6 (rightHeaded-0-6-6 T)))))",
+      "fn_2() := (fn_0 rightHeaded-0-6-6 (fn_0 rightHeaded-11-7-7 rightHeaded-5-7-6))"
+    ]
   },
   {
     "piece": "(Valid)Remember",
     "program_size": 65,
-    "library_size": 3
+    "library_size": 20,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-5-%7-^7 (rightHeaded-5-7-%7 (rightHeaded-11-7-7 (rightHeaded-11-7-7 (rightHeaded-11-7-7 #0 T) T) T) (rightHeaded-5-m7-%7 T T)) T))",
+      "fn_1() := (rightHeaded-5-m7-7 T T)",
+      "fn_2() := (rightHeaded-0-^7-^7 T T)"
+    ]
   },
   {
     "piece": "(Valid)So Nice (Summer Samba)",
     "program_size": 65,
-    "library_size": 3
+    "library_size": 28,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-6 (rightHeaded-0-^7-^7 T T) (rightHeaded-2-7-6 (rightHeaded-11-7-7 (rightHeaded-5-m7-7 T T) (rightHeaded-5-6-7 (rightHeaded-0-^7-6 T T) (rightHeaded-0-7-7 T T))) (rightHeaded-5-7-6 #1 #0)))",
+      "fn_1() := (rightHeaded-5-7-m7 (rightHeaded-5-m7-7 T T) T)",
+      "fn_2(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Stella By Starlight",
     "program_size": 69,
-    "library_size": 5
+    "library_size": 17,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0,#1) := (#1 (#0 T) T)",
+      "fn_2() := (fn_0 rightHeaded-5-m7-7)",
+      "fn_3() := (fn_0 rightHeaded-5-%7-7)",
+      "fn_4(#0,#1) := (rightHeaded-0-^7-^7 #1 (fn_0 rightHeaded-0-^7-^7 #0))"
+    ]
   },
   {
     "piece": "(Valid)Them There Eyes",
     "program_size": 67,
-    "library_size": 3
+    "library_size": 12,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (rightHeaded-0-^7-6 (fn_0 rightHeaded-0-^7-^7 (fn_0 rightHeaded-0-^7-^7 rightHeaded-0-^7-^7)))",
+      "fn_2() := (fn_0 rightHeaded-0-7-7)"
+    ]
   },
   {
     "piece": "(Valid)Time On My Hands",
     "program_size": 63,
-    "library_size": 4
+    "library_size": 24,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 T T) (rightHeaded-5-7-^7 (rightHeaded-8-7-7 (rightHeaded-5-%7-7 T T) (rightHeaded-5-m7-7 (rightHeaded-0-m7-m7 T T) #1)) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2() := (fn_1 rightHeaded-5-m7-7)",
+      "fn_3(#0) := (rightHeaded-5-7-7 (#0 T))"
+    ]
   },
   {
     "piece": "(Valid)Why Do I Love You?",
     "program_size": 65,
-    "library_size": 4
+    "library_size": 21,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-^7-6 T (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (#1 T T) T) #0))",
+      "fn_1() := (rightHeaded-5-m7-7 T T)",
+      "fn_2(#0) := (fn_0 (fn_0 #0 rightHeaded-5-7-m7) rightHeaded-5-m7-m7)",
+      "fn_3(#0,#1) := (#1 (#0 T) T)"
+    ]
   },
   {
     "piece": "(Valid)Zingaro (Retrato Em Branco E Preto)",
     "program_size": 67,
-    "library_size": 2
+    "library_size": 14,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-^7-^7 (rightHeaded-11-^7-^7 (fn_0 rightHeaded-0-7-7 rightHeaded-2-7-^7 (fn_0 rightHeaded-0-m6-m6 rightHeaded-11-m6-^7 T))))"
+    ]
   },
   {
     "piece": "(Valid)Baubles, Bangles And Beads",
     "program_size": 71,
-    "library_size": 4
+    "library_size": 30,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 #0 T) (rightHeaded-0-^7-^7 T T)))",
+      "fn_1() := (fn_0 (rightHeaded-5-m7-m7 (rightHeaded-2-7-m7 (rightHeaded-5-m7-7 T T) (rightHeaded-5-m7-m7 T T)) T))",
+      "fn_2(#0,#1) := (rightHeaded-0-m7-m7 #1 (rightHeaded-5-7-m7 (rightHeaded-2-7-7 T (#0 T T)) T))",
+      "fn_3() := (rightHeaded-5-m7-7 T T)"
+    ]
   },
   {
     "piece": "(Valid)Beautiful Love",
     "program_size": 71,
-    "library_size": 2
+    "library_size": 31,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-m-m (leftHeaded-3-m-^7 (rightHeaded-5-7-m (rightHeaded-5-%7-7 T T) (rightHeaded-0-m-m T T)) (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) T)) (rightHeaded-5-7-m (rightHeaded-2-m7-7 (rightHeaded-5-m-m7 (rightHeaded-5-7-m (rightHeaded-5-%7-7 T T) T) T) (rightHeaded-11-7-7 T #1)) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Candy",
     "program_size": 71,
-    "library_size": 4
+    "library_size": 29,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-11-o7-m7 (rightHeaded-11-m7-o7 (rightHeaded-11-m6-m7 (rightHeaded-0-^7-m6 #1 T) T) T) T) T) #0)",
+      "fn_1() := (rightHeaded-5-m7-7 T T)",
+      "fn_2(#0,#1) := (#1 (fn_0 (rightHeaded-0-6-6 T (rightHeaded-7-7-6 T T)) (rightHeaded-5-7-^7 #0 T)))",
+      "fn_3(#0) := (rightHeaded-5-7-7 #0 fn_1)"
+    ]
   },
   {
     "piece": "(Valid)Dancing In The Dark",
     "program_size": 67,
-    "library_size": 3
+    "library_size": 24,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-2-^7-%7 (rightHeaded-5-7-^7 (rightHeaded-7-o7-7 (rightHeaded-0-o7-o7 T T) (rightHeaded-5-m7-7 (rightHeaded-0-m7-m7 T T) (rightHeaded-5-%7-7 T #1))) (leftHeaded-0-^7-m7 T T)) #0)",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2() := (fn_1 rightHeaded-0-^7-^7 rightHeaded-0-^7-6)"
+    ]
   },
   {
     "piece": "(Valid)Donna Lee",
     "program_size": 67,
-    "library_size": 4
+    "library_size": 17,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-5-7-7 T (rightHeaded-0-7-7 T T)) (#0 T))",
+      "fn_1(#0,#1) := (#1 (#0 T) T)",
+      "fn_2(#0,#1) := (#1 #0 #0)",
+      "fn_3() := (rightHeaded-5-m7-7 T)"
+    ]
   },
   {
     "piece": "(Valid)Fine Romance, A",
     "program_size": 67,
-    "library_size": 3
+    "library_size": 28,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-6-6 (rightHeaded-0-6-6 T (rightHeaded-5-7-6 (rightHeaded-5-m6-7 (rightHeaded-1-o7-m6 T T) (rightHeaded-5-m7-7 (rightHeaded-5-m7-m7 (rightHeaded-5-m7-m7 (rightHeaded-1-o7-m7 T T) T) T) T)) T)) (rightHeaded-5-7-6 #1 #0))",
+      "fn_1(#0) := (rightHeaded-5-m7-7 #0 T)",
+      "fn_2(#0) := (fn_1 (rightHeaded-5-7-m7 #0 T))"
+    ]
   },
   {
     "piece": "(Valid)Hackensack",
     "program_size": 69,
-    "library_size": 2
+    "library_size": 19,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-6-6 (rightHeaded-0-6-6 #1 (rightHeaded-7-7-6 T T)) (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-m7-7 T T) T) T) #0))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)I Can't Believe...You're In Love...",
     "program_size": 67,
-    "library_size": 3
+    "library_size": 20,
+    "library": [
+      "fn_0(#0) := (rightHeaded-5-7-7 #0 (rightHeaded-0-7-7 T T))",
+      "fn_1(#0,#1) := (#1 (rightHeaded-0-^7-^7 (rightHeaded-2-7-^7 (rightHeaded-5-6-7 #0 T) T) (rightHeaded-5-7-^7 (fn_0 T) T)))",
+      "fn_2(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)I'll Close My Eyes",
     "program_size": 71,
-    "library_size": 3
+    "library_size": 28,
+    "library": [
+      "fn_0() := (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-%7-7 T T) T) T) T) T))",
+      "fn_1(#0,#1) := (#1 (rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 T T) (rightHeaded-2-7-^7 (rightHeaded-5-^7-7 (fn_0 T) (rightHeaded-5-m7-7 T T)) #0)))",
+      "fn_2() := (rightHeaded-0-^7-^7 T T)"
+    ]
   },
   {
     "piece": "(Valid)Jersey Bounce",
     "program_size": 71,
-    "library_size": 3
+    "library_size": 28,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-0-6-6 (rightHeaded-0-6-6 T T) (rightHeaded-5-7-6 (rightHeaded-5-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-5-m7-7 T T)) #0)))",
+      "fn_1(#0,#1) := (fn_0 (rightHeaded-0-6-6 T (rightHeaded-4-7-6 T T)) (rightHeaded-5-7-6 (#1 (#0 T T))))",
+      "fn_2() := (rightHeaded-0-7-7 T T)"
+    ]
   },
   {
     "piece": "(Valid)Just Friends",
     "program_size": 67,
-    "library_size": 4
+    "library_size": 28,
+    "library": [
+      "fn_0() := (rightHeaded-5-m7-7 T T)",
+      "fn_1(#0,#1) := (rightHeaded-5-7-6 (rightHeaded-5-7-7 (rightHeaded-5-m7-7 (rightHeaded-2-7-m7 (rightHeaded-11-7-7 fn_0 fn_0) (#1 T)) #0) fn_0))",
+      "fn_2(#0,#1) := (rightHeaded-0-^7-6 (rightHeaded-2-7-^7 (rightHeaded-5-^7-7 (#1 T #0) fn_0) (rightHeaded-0-^7-^7 T T)))",
+      "fn_3(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Just In Time",
     "program_size": 67,
-    "library_size": 2
+    "library_size": 8,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1(#0) := (rightHeaded-5-7-7 (fn_0 rightHeaded-0-7-7 #0))"
+    ]
   },
   {
     "piece": "(Valid)Take The A Train",
     "program_size": 67,
-    "library_size": 3
+    "library_size": 18,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-0-6-6 #0 (rightHeaded-5-7-6 (rightHeaded-5-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-5-m7-7 T T)) T)))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2() := (fn_1 rightHeaded-0-6-6)"
+    ]
   },
   {
     "piece": "(Valid)This Can't Be Love",
     "program_size": 71,
-    "library_size": 2
+    "library_size": 29,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-5-m7-m7 #1 #0) T) (rightHeaded-0-^7-6 (rightHeaded-0-^7-^7 T T) (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-5-m7-m7 (rightHeaded-5-m7-m7 (rightHeaded-11-7-m7 (rightHeaded-0-7-7 T T) T) T) T) T) (rightHeaded-0-6-6 T T))))",
+      "fn_1(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)You Stepped Out Of A Dream",
     "program_size": 65,
-    "library_size": 5
+    "library_size": 16,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-5-m7-7)",
+      "fn_2() := (fn_0 rightHeaded-0-^7-^7)",
+      "fn_3() := (fn_1 (fn_2 rightHeaded-2-^7-7))",
+      "fn_4(#0,#1) := (fn_2 rightHeaded-0-^7-^7 (rightHeaded-5-7-^7 #1 #0))"
+    ]
   },
   {
     "piece": "(Valid)Across The Valley From The Alamo",
     "program_size": 73,
-    "library_size": 3
+    "library_size": 26,
+    "library": [
+      "fn_0() := (rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 T T) (rightHeaded-0-^7-^7 T T)) (rightHeaded-5-7-^7 (rightHeaded-0-7-7 T T) (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) T)))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2(#0,#1) := (fn_1 #1 (fn_1 #0 #0))"
+    ]
   },
   {
     "piece": "(Valid)Beautiful Friendship, A",
     "program_size": 67,
-    "library_size": 3
+    "library_size": 28,
+    "library": [
+      "fn_0(#0) := (rightHeaded-0-^7-6 T (rightHeaded-5-7-6 (rightHeaded-2-^7-7 (rightHeaded-11-7-^7 T T) (rightHeaded-5-7-7 (rightHeaded-5-7-7 (rightHeaded-5-%7-7 T T) (rightHeaded-5-m7-7 T T)) (rightHeaded-5-m7-7 T T))) #0))",
+      "fn_1(#0,#1) := (rightHeaded-5-7-6 (rightHeaded-2-^7-7 (#1 T) (#0 T)))",
+      "fn_2() := (rightHeaded-5-m7-7 T T)"
+    ]
   },
   {
     "piece": "(Valid)Best Things In Life Are Free, The",
     "program_size": 73,
-    "library_size": 4
+    "library_size": 10,
+    "library": [
+      "fn_0(#0,#1) := (#1 (#0 T T))",
+      "fn_1() := (fn_0 rightHeaded-0-6-6)",
+      "fn_2() := (fn_0 rightHeaded-5-m7-7)",
+      "fn_3() := (fn_0 rightHeaded-0-m7-m7)"
+    ]
   },
   {
     "piece": "(Valid)Don't Worry 'Bout Me",
     "program_size": 69,
-    "library_size": 4
+    "library_size": 22,
+    "library": [
+      "fn_0() := (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T))",
+      "fn_1(#0,#1) := (#1 (#0 T) T)",
+      "fn_2(#0,#1) := (#1 (rightHeaded-0-^7-6 fn_0 (fn_1 (rightHeaded-5-m7-7 #0) rightHeaded-5-7-6)))",
+      "fn_3(#0,#1) := (#1 (#0 T T))"
+    ]
   },
   {
     "piece": "(Valid)Exactly Like You",
     "program_size": 69,
-    "library_size": 3
+    "library_size": 18,
+    "library": [
+      "fn_0(#0,#1) := (#1 (rightHeaded-0-6-6 #0 (rightHeaded-5-7-6 (rightHeaded-5-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-0-7-7 T T)) T)))",
+      "fn_1(#0,#1) := (#1 (#0 T T))",
+      "fn_2() := (fn_1 rightHeaded-0-6-6)"
+    ]
   },
   {
     "piece": "(Valid)I've Found A New Baby",
     "program_size": 73,
-    "library_size": 3
+    "library_size": 30,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-5-7-^7 (rightHeaded-5-7-7 (rightHeaded-5-m7-7 (rightHeaded-0-m7-m7 #1 (rightHeaded-5-7-m7 (rightHeaded-5-%7-7 T T) T)) (rightHeaded-5-7-7 T T)) T) #0)",
+      "fn_1(#0,#1) := (#1 (#0 T) (fn_0 (rightHeaded-0-^7-^7 T T) (rightHeaded-5-7-m7 (rightHeaded-5-%7-7 T T) T)))",
+      "fn_2() := (rightHeaded-5-7-7 T T)"
+    ]
   },
   {
     "piece": "(Valid)How High The Moon",
     "program_size": 73,
-    "library_size": 3
+    "library_size": 33,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-0-7-7 (rightHeaded-11-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T)) (rightHeaded-5-m7-7 T T)) T) (rightHeaded-5-%7-7 T T)) (#1 (#0 T T) T))",
+      "fn_1(#0,#1) := (rightHeaded-0-^7-6 (rightHeaded-0-^7-^7 T T) (rightHeaded-5-7-6 #1 #0))",
+      "fn_2(#0) := (rightHeaded-5-m7-7 #0 T)"
+    ]
   },
   {
     "piece": "(Valid)Corcovado",
     "program_size": 75,
-    "library_size": 3
+    "library_size": 29,
+    "library": [
+      "fn_0(#0,#1) := (rightHeaded-2-^7-7 (rightHeaded-5-7-^7 (rightHeaded-4-o7-7 (rightHeaded-11-m6-o7 (rightHeaded-0-m6-m6 T T) (rightHeaded-0-o7-o7 T T)) (rightHeaded-5-m7-7 T T)) (rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 T T) T)) (#1 (rightHeaded-5-m7-7 #0 T)))",
+      "fn_1() := (rightHeaded-5-m7-7 T T)",
+      "fn_2(#0,#1) := (#1 (#0 T T))"
+    ]
   }
 ]
