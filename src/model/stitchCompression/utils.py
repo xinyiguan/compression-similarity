@@ -60,7 +60,7 @@ def jaccard_similarity(set_a: List[str], set_b: List[str])->float:
 def top_k_abstractions(lib_corpus: List[List[str]], k: int) -> Tuple[List,List]:
     ...
 
-def save_json_file(fpath:str, res:List|Dict):
+def save_json(fpath:str, res:List|Dict):
     with open(fpath, "w") as f:
         json.dump(res, f, indent=2)
     print(f'Results saved to {fpath} !')

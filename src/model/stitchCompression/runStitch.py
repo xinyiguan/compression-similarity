@@ -1,30 +1,48 @@
 from dataclasses import dataclass
 import json
-import os
 import re
 from typing import Any, Dict, List, Optional
 
 import pandas as pd
 from stitch_core import Abstraction, compress, rewrite
 
-from model.stitchCompression.utils import save_json_file
+from model.stitchCompression.utils import save_json
+from experiment.stitch_stats import get_corpus_stats
+
+@dataclass
+class Piece: 
+    title: str 
+    progression: str 
+    program: str
 
 @dataclass
 class Corpus:
-    titles: List[str]
-    progressions: List[str]
-    programs: List[str]
+    pieces: List[Piece]    
 
     @classmethod
     def from_json(cls, fpath: str) -> Corpus:
         """Load corpus metadata and programs from a JSON file."""
         with open(fpath,'r') as f:
             corpus_data = json.load(f)
-        return cls(
-            titles=[x["pieceTitle"] for x in corpus_data],
-            progressions=[x["progression"] for x in corpus_data],
-            programs=[x["program"] for x in corpus_data],
-        )
+        pieces = [Piece(
+            title = x["pieceTitle"],
+            progression = x["progression"],
+            program = x["program"]
+            ) for x in corpus_data]
+                
+        return cls(pieces = pieces[:10])
+    
+    @property
+    def programs(self) -> List[str]:
+        return [x.program for x in self.pieces]
+    
+    @property
+    def titles(self) -> List[str]:
+        return [x.title for x in self.pieces]
+    
+    @property
+    def progressions(self) -> List[str]:
+        return [x.progressions for x in self.pieces]
 
 ##  compress and rewrite programs 
 
@@ -37,7 +55,7 @@ def learned_abstractions_from_programs(programs:list[str],
     ab = compress(programs=programs, **stitch_config).abstractions
     return ab
 
-def rewrite_summary_with_abstractions(programs: List[str], abstractions: List[Abstraction]) -> Dict[str, Any]:
+def rewrite_with_abstractions(programs: List[str], abstractions: List[Abstraction]) -> Dict[str, Any]:
     """
     rewrite the a given set of programs with existing abstractions (library) and,
     return a dictionary containing summary stats/results of the rewrite operation.
@@ -83,7 +101,7 @@ def encoding_size_with_abstractions(programs: List[str], abstractions: List[Abst
     """
     Compute the compressed encoding size of given programs using a precomputed abstraction library.
     """
-    return rewrite_summary_with_abstractions(programs, abstractions)["compressed_encoding_size"]
+    return rewrite_with_abstractions(programs, abstractions)["compressed_encoding_size"]
 
 def compressed_encoding_size(programs_test: List[str], programs_train: List[str], stitch_config: Dict) -> int:
     """
@@ -184,90 +202,34 @@ def pairwise_normalized_symmetric_compression_distance(corpus: Corpus,
 
     return pd.DataFrame(records)
 
-
-
-## statistics
-def get_corpus_stats(corpus:Corpus, stitch_config: Dict, save_json:Optional[str]) -> List[Dict[str,Any]]:
-    """
-    
-    all stats before abstraction learning and rewrite
-    program size dist
-    library size dist
-    """
-    programs = corpus.programs
-    titles = corpus.titles
-    res: List[Dict[str, Any]] = []
-    for i,x in enumerate(programs):
-        p_size = program_size(program=x)     
-        learned_lib = learned_abstractions_from_programs(programs=[x], stitch_config=stitch_config)
-        lib_strings = [str(abs_obj) for abs_obj in learned_lib]
-        lib_size = library_size(lib=learned_lib)
-        res.append(
-            {
-                "piece": titles[i],
-                "program_size": p_size,
-                "library_size":lib_size , 
-                "library": lib_strings
-            }
-        )
-    if save_json:
-         save_json_file(fpath=save_json, res=res)
-    return res       
-        
-
-def get_global_library(corpus:Corpus, stitch_config: Dict, save_json:Optional[str]) -> List[Abstraction]:
+def get_global_library(corpus:Corpus, stitch_config: Dict) -> List[Abstraction]:
     """
     get the global library
     """
-    g_lib = compress(programs=corpus.programs, **stitch_config).abstractions
-    g_lib_str = [str(l) for l in g_lib]
-    if save_json:
-        save_json_file(fpath=save_json, res=g_lib_str)
-    return 
+    return compress(programs=corpus.programs, **stitch_config).abstractions
     
-## testing
 
-def compress_rewrtie_behavior_test(testing_programs: List[str], stitch_config: Dict) -> None:
-    """
-    sanity check: helper-based size matches explicit rewrite + used library size.
-    """
-    
-    cross_compression_function_size = compressed_encoding_size(
-        programs_test=testing_programs,
-        programs_train=testing_programs,
-        stitch_config=stitch_config,
-    )
-    
-    self_compression = compress(programs=testing_programs, **stitch_config)
-    lib = self_compression.abstractions
-    self_rewritten = rewrite(programs=testing_programs, abstractions=lib)
-    
-    rewritten_size = sum(program_size(x) for x in self_rewritten.rewritten)
-    lib_size = sum(program_size(x["body"]) for x in self_rewritten.json["abstractions"])
-
-    assert cross_compression_function_size == rewritten_size + lib_size
-    
 ## experiments
 
 def rewrite_individual_using_global_lib(corpus:Corpus, 
                                         stitch_config: Dict, 
-                                        save_json:Optional[str]) -> List[Dict[str,Any]]:
+                                        save_json_path:Optional[str]) -> List[Dict[str,Any]]:
     all_programs = corpus.programs
     titles = corpus.titles
-    g_lib = get_global_library(corpus=corpus, stitch_config=stitch_config, save_json=None)
+    g_lib = get_global_library(corpus=corpus, stitch_config=stitch_config, save_json_path=None)
     res: List[Dict[str, Any]] = []
     for i,x in enumerate(all_programs):
-        rewrite_res = rewrite_summary_with_abstractions(programs=[x], abstractions=g_lib)
+        rewrite_res = rewrite_with_abstractions(programs=[x], abstractions=g_lib)
         rewrite_res["piece"] = titles[i]
         res.append(rewrite_res)
-    if save_json:
-        save_json_file(fpath=save_json, res=res)
+    if save_json_path:
+        save_json_file(fpath=save_json_path, res=res)
     return res
+
+
 
 def run(path_preprocessed:str,path_output:str):
     corpus = Corpus.from_json(fpath=path_preprocessed)
-
-    all_programs = corpus.programs
 
     stitch_cfg = {
         "iterations": 100,
@@ -280,11 +242,15 @@ def run(path_preprocessed:str,path_output:str):
         "no_mismatch_check": True,  # if this is False we will see an assertion error from Rust
     }
     
+
+    print(f'Computing corpus statistics ...')
+    get_corpus_stats(corpus=corpus, stitch_config=stitch_cfg, save_json_path=f"{path_output}/corpus_stats.json")
+    
+    print(f'Computing the global library ...')
+    get_global_library(corpus=corpus,stitch_config=stitch_cfg)
+    
+    # print(f'Running pairwise similarity measure ...)')
     # pairwise_normalized_symmetric_compression_distance(corpus=corpus, 
     #                                                    stitch_config=stitch_cfg, 
-    #                                                    save_json=f"{stitch_res_path}similarity_stats.json")
-    
-    get_corpus_stats(corpus=corpus, stitch_config=stitch_cfg, save_json=f"{path_output}/corpus_stats.json")
-    get_global_library(corpus=corpus,stitch_config=stitch_cfg, save_json=f"{path_output}/global_lib.json")
-    
+    #                                                    save_json_path=f"{path_output}/pairwise_similarity_stats.json")
     

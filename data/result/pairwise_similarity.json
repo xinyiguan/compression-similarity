@@ -1,0 +1,602 @@
+[
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 25,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 25,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 25,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 25,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 26,
+    "D_stitch": 1.04
+  },
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 26,
+    "D_stitch": 1.04
+  },
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 26,
+    "D_stitch": 1.16
+  },
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 27,
+    "D_stitch": 1.1071428571428572
+  },
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 29,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Red Clay",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 26,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 23,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 19,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 18,
+    "D_stitch": 1.3157894736842106
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 19,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 22,
+    "D_stitch": 1.2083333333333333
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 21,
+    "D_stitch": 1.0434782608695652
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 21,
+    "D_stitch": 1.16
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 21,
+    "D_stitch": 1.1428571428571428
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 21,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Equinox",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 21,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 23,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 25,
+    "D_stitch": 1.3157894736842106
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 18,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 25,
+    "D_stitch": 1.3157894736842106
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 22,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 21,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 21,
+    "D_stitch": 1.16
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 21,
+    "D_stitch": 1.2142857142857142
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 21,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Jody Grind, The",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 21,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 23,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 19,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 18,
+    "D_stitch": 1.3157894736842106
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 19,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 22,
+    "D_stitch": 1.2083333333333333
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 21,
+    "D_stitch": 1.0434782608695652
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 21,
+    "D_stitch": 1.16
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 21,
+    "D_stitch": 1.1428571428571428
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 21,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Mr. P.C.",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 21,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 25,
+    "D_stitch": 1.04
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 29,
+    "D_stitch": 1.2083333333333333
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 24,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 29,
+    "D_stitch": 1.2083333333333333
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 24,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 23,
+    "D_stitch": 0.9583333333333334
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 23,
+    "D_stitch": 1.08
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 24,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 23,
+    "D_stitch": 0.967741935483871
+  },
+  {
+    "nameX": "(Valid)Blues For Wood",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 23,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 23,
+    "D_stitch": 1.04
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 24,
+    "D_stitch": 1.0434782608695652
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 23,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 24,
+    "D_stitch": 1.0434782608695652
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 22,
+    "D_stitch": 0.9583333333333334
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 23,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 22,
+    "D_stitch": 1.08
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 25,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 25,
+    "D_stitch": 0.967741935483871
+  },
+  {
+    "nameX": "(Valid)Interplay",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 22,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 29,
+    "D_stitch": 1.16
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 29,
+    "D_stitch": 1.16
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 29,
+    "D_stitch": 1.16
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 29,
+    "D_stitch": 1.16
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 27,
+    "D_stitch": 1.08
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 27,
+    "D_stitch": 1.08
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 25,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 28,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 30,
+    "D_stitch": 0.967741935483871
+  },
+  {
+    "nameX": "(Valid)Solar",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 27,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 31,
+    "D_stitch": 1.1071428571428572
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 32,
+    "D_stitch": 1.1428571428571428
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 34,
+    "D_stitch": 1.2142857142857142
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 32,
+    "D_stitch": 1.1428571428571428
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 28,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 28,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 28,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 28,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 31,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Birk's Works",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 28,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 31,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 31,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 31,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 31,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 30,
+    "D_stitch": 0.967741935483871
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 30,
+    "D_stitch": 0.967741935483871
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 30,
+    "D_stitch": 0.967741935483871
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 30,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 31,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Blue In Green",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 30,
+    "D_stitch": 0.967741935483871
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Red Clay",
+    "C_stitch": 27,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Equinox",
+    "C_stitch": 27,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Jody Grind, The",
+    "C_stitch": 27,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Mr. P.C.",
+    "C_stitch": 27,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Blues For Wood",
+    "C_stitch": 27,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Interplay",
+    "C_stitch": 27,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Solar",
+    "C_stitch": 27,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Birk's Works",
+    "C_stitch": 28,
+    "D_stitch": 1.0
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Blue In Green",
+    "C_stitch": 29,
+    "D_stitch": 0.967741935483871
+  },
+  {
+    "nameX": "(Valid)Booker's Waltz",
+    "nameY": "(Valid)Booker's Waltz",
+    "C_stitch": 27,
+    "D_stitch": 1.0
+  }
+]
