@@ -6,13 +6,12 @@ from typing import Any, Dict, List, Optional
 import pandas as pd
 from stitch_core import Abstraction, compress, rewrite
 
-from model.stitchCompression.utils import save_json
 from experiment.stitch_stats import get_corpus_stats
 
 @dataclass
 class Piece: 
     title: str 
-    progression: str 
+    progression: List[str] 
     program: str
 
 @dataclass
@@ -26,11 +25,11 @@ class Corpus:
             corpus_data = json.load(f)
         pieces = [Piece(
             title = x["pieceTitle"],
-            progression = x["progression"],
+            progression = x["progression"].split(" "),
             program = x["program"]
             ) for x in corpus_data]
                 
-        return cls(pieces = pieces[:10])
+        return cls(pieces = pieces[:50])
     
     @property
     def programs(self) -> List[str]:
@@ -114,94 +113,6 @@ def compressed_encoding_size(programs_test: List[str], programs_train: List[str]
     return encoding_size_with_abstractions(programs_test, abs_from_train)
 
 
-def normalize_symmetric_compression_distance(p_x: List[str], p_y: List[str], stitch_config:Dict) -> float:
-    """
-    the normalized symmetric compreesion distance between two programs p_x and p_y,
-    using the compressed_encoding_size
-    
-    """
-    c_x = compressed_encoding_size(programs_test=p_x, programs_train=p_x, stitch_config=stitch_config)
-    c_y = compressed_encoding_size(programs_test=p_y, programs_train=p_y, stitch_config=stitch_config)
-    c_xy = compressed_encoding_size(programs_test=p_x, programs_train=p_y, stitch_config=stitch_config)
-    c_yx = compressed_encoding_size(programs_test=p_y, programs_train=p_x, stitch_config=stitch_config)
-    
-    return max(c_xy, c_yx) / max(c_x, c_y)
-
-## caching experiment data
-def pairwise_normalized_symmetric_compression_distance(corpus: Corpus, 
-                                                       stitch_config: Dict, 
-                                                       save_json: Optional[str] = None) -> pd.DataFrame:
-    """
-    Compute pairwise NSCD for all program pairs in the corpus.
-
-    Returns a long-form dataframe with one row per (x, y) pair.
-    """
-    programs = corpus.programs
-    titles = corpus.titles if corpus.titles else [f"program_{i}" for i in range(len(programs))]
-    n = len(programs)
-
-    if n == 0:
-        empty_df = pd.DataFrame(columns=["i", "j", "x", "y", "nscd", "c_xy", "c_yx", "c_x", "c_y"])
-        if save_json:
-            with open(save_json, "w") as f:
-                json.dump([], f, indent=2)
-        return empty_df
-
-    print(f'learning the individual libraries ...')
-    # compress each single program once
-    abstractions_by_program = [
-        learned_abstractions_from_programs(programs=[program], stitch_config=stitch_config)
-        for program in programs
-    ]
-
-    # compute all directional encoding sizes C(i|j) and cache them as dictionary with (i,j) as key.
-    single_programs = [[p] for p in programs]
-    c_by_pair: Dict[tuple[int, int], float] = {
-        (i, j): float(
-            encoding_size_with_abstractions(
-                programs=single_programs[i],
-                abstractions=abstractions_by_program[j],
-            )
-        )
-        for i in range(n)
-        for j in range(n)
-    }
-
-    # self-compression terms C(i) are diagonal entries C(i|i).
-    c_self = {i: c_by_pair[(i, i)] for i in range(n)}
-
-    # build final pairwise records with NSCD.
-    records: List[Dict[str, Any]] = []
-    print(f'builidng records for piece {i} ...')
-    for i in range(n):
-        for j in range(n):
-            c_xy = c_by_pair[(i, j)]
-            c_yx = c_by_pair[(j, i)]
-            c_x = c_self[i]
-            c_y = c_self[j]
-            nscd = max(c_xy, c_yx) / max(c_x, c_y)
-
-            records.append(
-                {
-                    "x": titles[i],
-                    "y": titles[j],
-                    "nscd": nscd,
-                    "c_xy": c_xy,
-                    "c_yx": c_yx,
-                    "c_x": c_x,
-                    "c_y": c_y,
-                }
-            )
-
-    if save_json:
-        with open(save_json, "w") as f:
-            json.dump(records, f, indent=2)
-        
-        print(f'Individual library saved to {save_json} !')
-
-
-    return pd.DataFrame(records)
-
 def get_global_library(corpus:Corpus, stitch_config: Dict) -> List[Abstraction]:
     """
     get the global library
@@ -225,32 +136,3 @@ def rewrite_individual_using_global_lib(corpus:Corpus,
     if save_json_path:
         save_json_file(fpath=save_json_path, res=res)
     return res
-
-
-
-def run(path_preprocessed:str,path_output:str):
-    corpus = Corpus.from_json(fpath=path_preprocessed)
-
-    stitch_cfg = {
-        "iterations": 100,
-        "cost_app": 0,
-        "cost_ivar": 1,
-        "cost_lam": 0,
-        "cost_prim_default": 1,
-        "cost_var": 1,
-        "allow_single_task": True,
-        "no_mismatch_check": True,  # if this is False we will see an assertion error from Rust
-    }
-    
-
-    print(f'Computing corpus statistics ...')
-    get_corpus_stats(corpus=corpus, stitch_config=stitch_cfg, save_json_path=f"{path_output}/corpus_stats.json")
-    
-    print(f'Computing the global library ...')
-    get_global_library(corpus=corpus,stitch_config=stitch_cfg)
-    
-    # print(f'Running pairwise similarity measure ...)')
-    # pairwise_normalized_symmetric_compression_distance(corpus=corpus, 
-    #                                                    stitch_config=stitch_cfg, 
-    #                                                    save_json_path=f"{path_output}/pairwise_similarity_stats.json")
-    
