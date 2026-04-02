@@ -1,7 +1,7 @@
 
 from dataclasses import dataclass
 from typing import Callable, Dict, List, Protocol
-import src.model.stitchCompression.runStitch as runStitch
+import model.stitchCompression.runStitch as runStitch
 
 # a function of type (a,a) -> float
 type SimMeasure[a]= Callable[[a,a],float]
