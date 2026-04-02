@@ -37,10 +37,10 @@ def distance(
 
 
 def compress_seq(
-    seq: NDArray[np.int_],
-    pretrain_seq: NDArray[np.int_] | None,
-    alphabet_size: int,
-    aggregation: Callable,
+    seq: ArrayLike,
+    pretrain_seq: ArrayLike | None = None,
+    alphabet_size: int | None = None,
+    aggregation: Callable = np.mean,
 ) -> float:
     """
     Compress a single sequence.
@@ -48,14 +48,19 @@ def compress_seq(
     If no `pretrain_seq`, train and predict `seq`.
     """
     if pretrain_seq:
+        alphabet = np.unique(np.concatenate([seq, pretrain_seq]))
+        iseq = as_iseq(seq, alphabet)
+        pretrain_iseq = as_iseq(pretrain_seq, alphabet)
         # i.e. an LTM+
         model = ppm.new_ppm_simple(alphabet_size, update_exclusion=False, escape="c")
-        ppm.model_seq(model, pretrain_seq, train=True, predict=False)
-        res = ppm.model_seq(model, seq, train=True, predict=True)
+        ppm.model_seq(model, pretrain_iseq, train=True, predict=False)
+        res = ppm.model_seq(model, iseq, train=True, predict=True)
     else:
+        alphabet = np.unique(seq)
+        iseq = as_iseq(seq, alphabet)
         # i.e. an STM
         model = ppm.new_ppm_simple(alphabet_size, update_exclusion=True, escape="ax")
-        res = ppm.model_seq(model, seq, train=True, predict=True)
+        res = ppm.model_seq(model, iseq, train=True, predict=True)
     return aggregation(res.rx2("information_content"))
 
 
