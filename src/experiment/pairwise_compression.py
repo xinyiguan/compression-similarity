@@ -1,9 +1,12 @@
 from typing import Callable, Dict, List, Tuple
 
+import numpy as np
+
 # from model.PPMCompression.ppm_compression_distance import compress_seq
 from model.similarity import compression_distance
 from model.stitchCompression.runStitch import Corpus, compressed_encoding_size
 from model.stitchCompression.utils import save_json
+from model.PPMCompression.ppm_compression_distance import compress_seq
 
     
 def pairwise_NCD[a](
@@ -46,10 +49,14 @@ def run(corpus_path:str,output_path:str, stitch_config):
         corpus=corpus.pieces,
         models=[
             ("stitch",
-             lambda x,y: compressed_encoding_size([x.program],[y.program],stitch_config = stitch_config))
-            # ("ppm",
-            #  lambda x,y: compress_seq(seq=x,pretrain_seq=y,alphabet_size=300)
-            #  )
+             lambda x,y: compressed_encoding_size([x.program],[y.program],stitch_config = stitch_config)),
+            ("ppm",
+             lambda x,y: compress_seq(
+                seq=x.progression,
+                pretrain_seq=y.progression,
+                alphabet_size=300,
+                aggregation=np.mean)
+             )
         ],
         title_of= lambda x: x.title)
     print(json)
