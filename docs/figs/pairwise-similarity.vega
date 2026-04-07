@@ -1,11 +1,84 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "description": "description",
-  "title":"Pair-wise compression distance",
-  "data": {"url": "../../data/result/pairwise_similarity.json"},
-  "mark": {"type": "point", "tooltip": {"content": "data"}},
-  "encoding": {
-    "x": {"field": "D_ppm", "type": "quantitative"},
-    "y": {"field": "D_stitch", "type": "quantitative"}    
+  "title": "Pair-wise compression distance",
+  "data": {
+    "url": "../../data/result/pairwise_similarity.json"
+  },
+  "spacing": 15,
+  "bounds": "flush",
+  "vconcat": [
+    {
+      "mark": "bar",
+      "height": 50,
+      "width": 400,
+      "encoding": {
+        "x": {
+          "bin": {
+            "maxbins": 50
+          },
+          "field": "D_ppm"
+        },
+        "y": {
+          "aggregate": "count"
+        }
+      }
+    },
+    {
+      "spacing": 15,
+      "bounds": "flush",
+      "hconcat": [
+        {
+          "height": 400,
+          "width": 400,
+          "mark": {
+            "type": "rect",
+            "tooltip": {
+              "content": "data"
+            }
+          },
+          "encoding": {
+            "x": {
+              "bin": {
+                "maxbins": 50
+              },
+              "field": "D_ppm"
+            },
+            "y": {
+              "bin": {
+                "maxbins": 50
+              },
+              "field": "D_stitch"
+            },
+            "color": {
+              "aggregate": "count"
+            }
+          }
+        },
+        {
+          "mark": "bar",
+          "height": 400,
+          "width": 60,
+          "encoding": {
+            "y": {
+              "bin": {
+                "maxbins": 50
+              },
+              "field": "D_stitch",
+              "axis": null
+            },
+            "x": {
+              "aggregate": "count",
+              "title": ""
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": "transparent"
+    }
   }
 }
