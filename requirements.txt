@@ -4,3 +4,4 @@ seaborn
 matplotlib
 music21
 rpy2
+ppm@git+https://github.com/etrhall/ppm.py

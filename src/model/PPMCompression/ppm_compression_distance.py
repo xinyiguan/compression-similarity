@@ -14,7 +14,7 @@ def distance(
 ) -> float:
     """
     Normalised symetric compression distance using Prediction by Partial Matching.
-    Reimplimentation of IDyOM compression distance used by Pearce & Mullensiefen (2017).
+    Reimplementation of IDyOM compression distance used by Pearce & Mullensiefen (2017).
 
     :param x: A list of symbols (note: symbols must be accepted by np.searchsorted)
     :param y: Another list
@@ -28,22 +28,22 @@ def distance(
 
     seq_x = as_iseq(x, alphabet)
     seq_y = as_iseq(y, alphabet)
-    c_x = compress_seq(seq_x, None, n, aggregation)
-    c_y = compress_seq(seq_y, None, n, aggregation)
-    c_xy = compress_seq(seq_x, seq_y, n, aggregation)
-    c_yx = compress_seq(seq_y, seq_x, n, aggregation)
+    c_x = compress_seq_idyom(seq_x, None, n, aggregation)
+    c_y = compress_seq_idyom(seq_y, None, n, aggregation)
+    c_xy = compress_seq_idyom(seq_x, seq_y, n, aggregation)
+    c_yx = compress_seq_idyom(seq_y, seq_x, n, aggregation)
 
     return max(c_xy, c_yx) / max(c_x, c_y)
 
 
-def compress_seq(
+def compress_seq_idyom(
     seq: ArrayLike,
     pretrain_seq: ArrayLike | None = None,
     alphabet_size: int | None = None,
     aggregation: Callable = np.mean,
 ) -> float:
     """
-    Compress a single sequence.
+    Compress a single sequence following IDyOM implementation and R PPM.
     If pretraining sequence is given, first train on `pretrain_seq`, then predict `seq`.
     If no `pretrain_seq`, train and predict `seq`.
     """
@@ -61,6 +61,28 @@ def compress_seq(
         # i.e. an STM
         model = ppm.new_ppm_simple(alphabet_size, update_exclusion=True, escape="ax")
         res = ppm.model_seq(model, iseq, train=True, predict=True)
+    return aggregation(res.rx2("information_content"))
+
+
+def compress_seq_ltm(
+    seq: ArrayLike,
+    pretrain_seq: ArrayLike,
+    alphabet_size: int | None = None,
+    aggregation: Callable = np.mean,
+) -> float:
+    """
+    Compress a single sequence only usng LTMs from R PPM.
+    If pretraining sequence is given, first train on `pretrain_seq`, then predict `seq`.
+    If no `pretrain_seq`, train and predict `seq`.
+    """
+    alphabet = np.unique(np.concatenate([seq, pretrain_seq]))
+    iseq = as_iseq(seq, alphabet)
+    pretrain_iseq = as_iseq(pretrain_seq, alphabet)
+    # LTM
+    model = ppm.new_ppm_simple(alphabet_size, update_exclusion=True, escape="ax")
+    ppm.model_seq(model, pretrain_iseq, train=True, predict=False)
+    ppm.model_seq(model, iseq, train=True, predict=False)
+    res = ppm.model_seq(model, iseq, train=False, predict=True)
     return aggregation(res.rx2("information_content"))
 
 
