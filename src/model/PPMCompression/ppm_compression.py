@@ -1,31 +1,36 @@
 import numpy as np
 from collections.abc import Callable
+from itertools import chain
 from ppm import PPMSimple
 
 
 def compress(
-    a: list,
-    b: list | None = None,
-    pretrain_a: bool = True,
+    target_seqs: list[list],
+    training_seqs: list[list] = [],
     alphabet_size: int | None = None,
     aggregation: Callable = np.mean,
     ppm_params: dict = {},
 ) -> float:
     """
-    Compress a sequence using PPM.
-    If ``pretrain_a`` is True, first train model on ``a``, then predict.
-    If sequence b is also given, first train on ``b``, then predict ``a``.
+    Compress sequences using PPM.
+    Model pretrained on all sequences in ``training_seqs``.
+    Model predicts all sequences in ``target_seqs``, without training.
+    Returns aggregated information content across all events in seqs.
     """
-    if not alphabet_size and not b:
-        alphabet_size = len(set(a))
-    elif not alphabet_size and b:
-        alphabet_size = len(set(a + b))
+    for seq in target_seqs:
+        assert isinstance(seq, list), "sequence must be a list"
+    for seq in training_seqs:
+        assert isinstance(seq, list), "sequence must be a list"
+
+    if not alphabet_size:
+        alphabet_size = len(set(chain(*target_seqs, *training_seqs)))
 
     model = PPMSimple(alphabet_size, **ppm_params)
-    if pretrain_a:
-        model.model_seq(a, train=True, predict=False)
-    if b:
-        model.model_seq(b, train=True, predict=False)
-    result = model.model_seq(a, train=False, predict=True)
+    for seq in training_seqs:
+        model.model_seq(seq, train=True, predict=False)
+    result = []
+    for seq in target_seqs:
+        output = model.model_seq(seq, train=False, predict=True)
+        result += output.information_content.tolist()
 
-    return float(aggregation(result.information_content))
+    return float(aggregation(result))

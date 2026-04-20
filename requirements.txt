@@ -1,6 +1,8 @@
 stitch_core == 0.1.29
 numpy
+pandas
 seaborn
+itertools
 matplotlib
 music21
 rpy2
