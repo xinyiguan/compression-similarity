@@ -1,9 +1,7 @@
 from typing import Any, Dict, List, Optional
 
-from stitch_core import compress
-
 import model.stitchCompression.runStitch
-from model.stitchCompression.utils import save_json
+from src.model.utils import save_json
 
 
 def get_corpus_stats(corpus:model.stitchCompression.runStitch.Corpus, 
