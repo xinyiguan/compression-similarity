@@ -1,10 +1,7 @@
-from typing import Callable, Dict, List, NamedTuple, Optional
-
-import numpy as np
-
+from typing import Any, Callable, Dict, List, NamedTuple, Optional
 from model.stitchCompression.runStitch import Corpus, rewrite_with_abstractions
 from model.utils import load_json, save_json
-from model.PPMCompression.ppm_compression_distance import compress_seq
+import model.PPMCompression.ppm_compression as ppm
 
 
 class Model[a](NamedTuple):
@@ -64,10 +61,15 @@ def run(
     corpus = Corpus.from_json(fpath=corpus_path)
     stitchResults = []
     ppmResults = []
+    alphabet_size = 311
+    aggregation = sum
     print(f'Computing C_xy ...')
+
     for i, x in enumerate(corpus.pieces):
         print(f"Running {i}-th piece...")
         for y in corpus.pieces:
+
+            # STITCH
             stitchResults.append(
                 {
                     "pieceX": x.title,
@@ -79,17 +81,18 @@ def run(
                     ),  # C_stitch(xy) := rewrite (xy, pat(xy))
                 }
             )
+
+            # PPM
             ppmResults.append(
                 {
                     "pieceX": x.title,
                     "pieceY": y.title,
-                    # TODO: check!
-                    # C_ppm(xy) :=  train on x and y, test on x and y
-                    "ppm_Cxy": compress_seq(
-                        seq=x.progression + y.progression,
-                        pretrain_seq=x.progression + y.progression,
-                        alphabet_size=300,
-                        aggregation=np.mean,
+                    # C_ppm(xy) :=  compress([x, y], [x, y])
+                    "ppm_Cxy": ppm.compress(
+                        target_seqs=[x.progression, y.progression],
+                        training_seqs=[x.progression, y.progression],
+                        alphabet_size=alphabet_size,
+                        aggregation=aggregation
                     ),
                 }
             )
@@ -100,28 +103,34 @@ def run(
         if entry.get("pieceX") == x.title and entry.get("pieceY") == y.title
     ][0]
 
-    print(f"Computing stitch C ...")
-    stitch_C = lambda x: rewrite_with_abstractions(
-        programs_test=[x.program],
-        programs_train=[x.program],
-        stitch_config=stitch_config,
-    )["compressed_encoding_size"]
-
     ppm_Cxy = lambda x, y: [
         entry["ppm_Cxy"]
         for entry in ppmResults
         if entry["pieceX"] == x.title and entry["pieceY"] == y.title
     ][0]
 
-    print(f"Computing ppm C ...")
-    ppm_C = lambda x: compress_seq(
-        seq=x.progression, pretrain_seq=None, alphabet_size=300, aggregation=np.mean
+    print(f"Computing stitch C_x ...")
+    stitch_C = lambda x: rewrite_with_abstractions(
+        programs_test=[x.program],
+        programs_train=[x.program],
+        stitch_config=stitch_config,
+    )["compressed_encoding_size"]
+
+    print(f"Computing ppm C_x ...") 
+    # C(x) -->  compress([x], [x])
+    ppm_C = lambda x: ppm.compress(
+        target_seqs=[x.progression],
+        training_seqs=[x.progression],
+        alphabet_size=alphabet_size,
+        aggregation=aggregation
     )
 
     print(f'Computing NCD ...')
     json = pairwise_NCD(
         corpus=corpus.pieces,
-        models=[Model("stitch", stitch_Cxy, stitch_C), Model("ppm", ppm_Cxy, ppm_C)],
+        models=[
+            Model("stitch", stitch_Cxy, stitch_C), 
+            Model("ppm", ppm_Cxy, ppm_C)],
         title_of=lambda x: x.title,
     )
 
@@ -144,3 +153,26 @@ def get_self_similarity_result(
 
     save_json(fpath=save_d_fpath, res=self_d)
     save_json(fpath=save_stitch_fpath, res=self_stitch)
+
+
+def unique_pairs_result(res_path: str, exclude_self: bool=False, 
+                        save_json_path: Optional[str]=False):
+    data: List[Dict[str, Any]] = load_json(res_path)
+    seen = set()
+    result = []
+
+    for item in data:
+        key = tuple(sorted([item["nameX"], item["nameY"]]))
+
+        if key not in seen:
+            seen.add(key)
+            result.append(item)
+
+    if exclude_self:
+        result = [r for r in result if r["nameX"]!=r["nameY"]]
+
+    if save_json_path:
+        assert isinstance(save_json_path, str)
+        save_json(fpath=save_json_path, res=result)
+
+    return result

@@ -1,0 +1,30 @@
+\begin{table}
+\caption{Top 20 most similar pieces (stitch)}
+\label{tab:topk_stitch}
+\begin{tabular}{rlll}
+\toprule
+Rank & Piece X & Piece Y & NCD \\
+\midrule
+1 & (Valid)Hot House & (Valid)Subconscious Lee & 0.3056 \\
+2 & (Valid)Equinox & (Valid)Mr. P.C. & 0.3158 \\
+3 & (Valid)Hot House & (Valid)What Is This Thing Called Love & 0.3889 \\
+4 & (Valid)Subconscious Lee & (Valid)What Is This Thing Called Love & 0.3889 \\
+5 & (Valid)Equinox & (Valid)Jody Grind & 0.4737 \\
+6 & (Valid)Jody Grind &  The & 0.4737 \\
+7 & (Valid)In A Mellow Tone (In A Mellotone) & (Valid)Rose Room & 0.5000 \\
+8 & (Valid)Bluesette & (Valid)I'll Close My Eyes & 0.5238 \\
+9 & (Valid)Equinox & (Valid)Footprints & 0.5417 \\
+10 & (Valid)Footprints & (Valid)Mr. P.C. & 0.5417 \\
+11 & (Valid)Little Boat (O Barquinho) & (Valid)On The Trail & 0.5517 \\
+12 & (Valid)Hot House & (Valid)Tune Up & 0.5610 \\
+13 & (Valid)Subconscious Lee & (Valid)Tune Up & 0.5610 \\
+14 & (Valid)Tune Up & (Valid)What Is This Thing Called Love & 0.5610 \\
+15 & (Valid)Avalon & (Valid)When You're Smilin' & 0.5625 \\
+16 & (Valid)Blues For Wood & (Valid)Equinox & 0.5833 \\
+17 & (Valid)Blues For Wood & (Valid)Jody Grind & 0.5833 \\
+18 & (Valid)Blues For Wood & (Valid)Mr. P.C. & 0.5833 \\
+19 & (Valid)So Danco Samba & (Valid)Tune Up & 0.5854 \\
+20 & (Valid)Equinox & (Valid)Minor Strain & 0.6000 \\
+\bottomrule
+\end{tabular}
+\end{table}

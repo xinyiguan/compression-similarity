@@ -1,5 +1,8 @@
 import experiment.pairwise_compression
 import experiment.pairwise_distance
+from scipy.stats import kendalltau, pearsonr, spearmanrho
+from experiment.topK import get_topK_similar_pair, pprint_topK_table
+from model.utils import load_json
 
 def log(f):
     def _f (*args,**kwargs):
@@ -23,15 +26,24 @@ stitch_cfg = {
 
 if __name__ == "__main__":
     corpusPath = "data/corpus/preprocessed/converted_corpus_rep.json"
+    res_path="data/result/unique_pairwise_similarity.json"
 
-    res = experiment.pairwise_distance.run(corpus_path=corpusPath,
-                                           output_path="data/result/pairwise_distances.json",
-                                           save_result=True
-                                           )
+    # data = load_json(res_path)
+    # d_stitch = [e["D_stitch"] for e in data]
+    # d_ppm= [e["D_ppm"] for e in data]
 
-    print(f'{res=}')
+    # r = pearsonr(x=d_stitch, y=d_ppm)
+    # print(f'{r=}')
+    # assert False
+
+    k_ppm = get_topK_similar_pair(res_path=res_path, model="ppm", k=20)
+    k_stitch = get_topK_similar_pair(res_path=res_path, model="stitch", k=20)
+
+    pp_ppm = pprint_topK_table(topK_res=k_ppm, save_fpath="data/result/top20_ppm.txt")
+    pp_stitch = pprint_topK_table(topK_res=k_stitch, save_fpath="data/result/top20_stitch.txt")
 
     assert False
+
     # log(preprocessing.data_formatting.run)(
     #     path_treebank="data/corpus/original/treebank.json",
     #     path_output = "data/corpus/preprocessed/converted_corpus_rep.json"
@@ -46,7 +58,7 @@ if __name__ == "__main__":
         corpus_path=corpusPath,
         output_path="data/result/pairwise_similarity.json",
         stitch_config=stitch_cfg,
-        save_results=False,
+        save_results=True,
         stitch_res_path="data/result/pairwise_stitch_compression.json",
         ppm_res_path="data/result/pairwise_ppm_compression.json"
     )
