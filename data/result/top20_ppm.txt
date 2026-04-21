@@ -1,0 +1,30 @@
+\begin{table}
+\caption{Top 20 most similar pieces (ppm)}
+\label{tab:topk_ppm}
+\begin{tabular}{rlll}
+\toprule
+Rank & Piece X & Piece Y & NCD \\
+\midrule
+1 & (Valid)Equinox & (Valid)Mr. P.C. & 0.4149 \\
+2 & (Valid)Half Nelson & (Valid)Lady Bird & 0.6677 \\
+3 & (Valid)Good Life &  The & 0.8163 \\
+4 & (Valid)Hot House & (Valid)Subconscious Lee & 0.8236 \\
+5 & (Valid)Birk's Works & (Valid)Interplay & 0.8328 \\
+6 & (Valid)Subconscious Lee & (Valid)What Is This Thing Called Love & 0.8562 \\
+7 & (Valid)Hot House & (Valid)What Is This Thing Called Love & 0.8562 \\
+8 & (Valid)Got A Match? & (Valid)Sugar & 0.8597 \\
+9 & (Valid)I Fall In Love Too Easily & (Valid)Shadow Of Your Smile & 0.8714 \\
+10 & (Valid)Bluesette & (Valid)Freight Train & 0.8714 \\
+11 & (Valid)Corcovado & (Valid)Just Friends & 0.8759 \\
+12 & (Valid)Serenade To A Cuckoo & (Valid)Summertime & 0.8809 \\
+13 & (Valid)In A Little Spanish Town & (Valid)Shine & 0.8869 \\
+14 & (Valid)I've Got A Crush On You & (Valid)Just Friends & 0.8881 \\
+15 & (Valid)Best Things In Life Are Free &  The & 0.8952 \\
+16 & (Valid)Israel & (Valid)Serenade To A Cuckoo & 0.9022 \\
+17 & (Valid)Corcovado & (Valid)Fine Romance & 0.9050 \\
+18 & (Valid)Bluesette & (Valid)I'll Close My Eyes & 0.9061 \\
+19 & (Valid)Good Life &  The & 0.9075 \\
+20 & (Valid)Cool One &  The & 0.9147 \\
+\bottomrule
+\end{tabular}
+\end{table}

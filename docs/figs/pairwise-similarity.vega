@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "description": "description",
-  "title": "Pair-wise compression distance",
+  "title": "Pairwise compression distance",
   "data": {
-    "url": "../../data/result/pairwise_similarity.json"
+    "url": "../../data/result/unique_pairwise_similarity.json"
   },
   "spacing": 15,
   "bounds": "flush",
