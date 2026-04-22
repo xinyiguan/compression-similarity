@@ -8,3 +8,4 @@ __pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+data/result/self_stitch_compression.json

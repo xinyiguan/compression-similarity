@@ -1,29 +1,41 @@
 # Compression Similarity
 
-This research article asks if sequence representation or program representation gives better distance metric to capture perceived music similarity. Here we focus on symbolic music that are sequentially organized and can be derived under a musical grammar.
+This project asks if sequence representation or program representation gives better distance metric to capture perceived music similarity. Here we focus on symbolic music that are sequentially organized and can be derived under a musical grammar.
 
 One interesting distance metric is **compression distance**.
 
-- Compression distance between x and y in the most general form is defined as the length of the shortest program that transform x to y. However, this value is intractable to compute.
-- In practice [citation], it is approximated with "normalized compression distance (NCD)". Given a function $C(x|y)$ representing the encoding size of $x$ using information about $y$, the normalized compression distance is defined as
-$$NCD(x,y) := \frac{max(C(x|y),C(y|x))}{max(C(x),C(y))}$$
-- In this article, we compare two choices of the function $C$, one is based on a sequential model (PPM), the other is based on library learning of programs.
-  - In the PPM case, $C_{ppm}(x|y) := \sum_{x_i \in x} h_{m_y}(x_i)$
-    - "aggregated surprisal on $x$ for a prediction model trained on $y$"
-  - In the Stitch case, $C_{stitch}(x|y) := size(rewrite(x,pat(y)))$
-    - "size of x refactored using patterns in y (counting definition size of the used patterns)"
+Compression distance between x and y in the most general form is defined as the length of the shortest program that transform x to y. However, this value is intractable to compute.
+
+In practice, it is approximated with "normalized compression distance (NCD)." $C(xy)$ denotes the compressed encoding size of the concatenation of $x$ and $y$. $C(x)$ is the compressed encoding size of $x$ and, $C(y)$ is the compressed encoding size of $y$.
+
+<!-- NCD(x,y) := \frac{max(C(x|y),C(y|x))}{max(C(x),C(y))} -->
+
+$$
+NCD(x,y) := \frac{C(xy)-min(C(x),C(y))} {max(C(x),C(y))}
+$$
+
+Here, we compare two choices of the function $C$, one is based on a sequential model (PPM), the other is based on library learning of programs.
+
+- In the PPM case, $C_{ppm}(xy)= ...$
+<!--$C_{ppm}(x|y) := \sum_{x_i \in x} h_{m_y}(x_i)$ "aggregated surprisal on $x$ for a prediction model trained on $y$" -->
+
+- In the Stitch case, $C(xy) := size(rewrite(xy, pat(xy)))$
+  - "total compressed size of the $x$ and $y$, using the abstractions jointly learned from $x$ and $y$".
+  
+<!--$C_{stitch}(x|y) := size(rewrite(x,pat(y)))$>
+[//]:<"size of x refactored using patterns in y (counting definition size of the used patterns)" -->
 
 ## Set-up
 
 install Python packages
 
-``` zsh
+```zsh
 pip install -r requirements.txt
 ```
 
 To reproduce the results, do
 
-``` zsh
+```zsh
 python src/main.py
 ```
 
