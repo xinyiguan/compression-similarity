@@ -1,0 +1,107 @@
+[
+  {
+    "pieceTitle": "(Valid)Red Clay",
+    "program": "(rightHeaded-0-m7-m7 T (rightHeaded-5-sus-m7 (rightHeaded-2-sus-sus (rightHeaded-2-sus-sus (rightHeaded-5-m7-sus T (rightHeaded-2-sus-sus T T)) T) T) (rightHeaded-0-m7-m7 T (rightHeaded-5-7-m7 (rightHeaded-11-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) T) (rightHeaded-5-%7-7 T T)) T))))",
+    "progression": "10-m7-m7 3-m7-sus 2-sus-sus 2-sus-sus 2-sus-sus 5-sus-m7 10-m7-m7 5-m7-7 5-7-^7 6-^7-%7 5-%7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Equinox",
+    "program": "(rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeade d-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 T T)) (rightHeaded-7-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 T T))) (rightHeaded-5-7-m7 (rightHeaded-11-7-7 T T) (rightHeaded-0-m7-m7 T T)))",
+    "progression": "0-m7-m7 0-m7-m7 0-m7-m7 5-m7-m7 0-m7-m7 7-m7-m7 0-m7-m7 8-m7-7 11-7-7 5-7-m7 0-m7-m7"
+  },
+  {
+    "pieceTitle": "(Valid)Jody Grind, The",
+    "program": "(rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 T T)) (rightHeaded-7-7-m7 (rightHeaded-0-7-7 T T) (rightHeaded-0-m7-m7 T T))) (rightHeaded-11-7-m7 (rightHeaded-2-7-7 T T) (rightHeaded-0-m7-m7 T T)))",
+    "progression": "0-m7-m7 0-m7-m7 0-m7-m7 5-m7-7 0-7-7 7-7-m7 0-m7-m7 11-m7-7 2-7-7 11-7-m7 0-m7-m7"
+  },
+  {
+    "pieceTitle": "(Valid)Mr. P.C.",
+    "program": "(rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 T T)) (rightHeaded-7-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 T T))) (rightHeaded-5-7-m7 (rightHeaded-11-7-7 T T) (rightHeaded-0-m7-m7 T T)))",
+    "progression": "0-m7-m7 0-m7-m7 0-m7-m7 5-m7-m7 0-m7-m7 7-m7-m7 0-m7-m7 8-m7-7 11-7-7 5-7-m7 0-m7-m7"
+  },
+  {
+    "pieceTitle": "(Valid)Blues For Wood",
+    "program": "(rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 T T)) (rightHeaded-4-7-m7 (rightHeaded-0-7-7 T T) (rightHeaded-0-m7-m7 T T))) (rightHeaded-5-7-m7 (rightHeaded-2-^7-7 (rightHeaded-9-7-^7 T T) (rightHeaded-5-%7-7 T T)) T))",
+    "progression": "0-m7-m7 0-m7-m7 0-m7-m7 8-m7-7 0-7-7 4-7-m7 0-m7-m7 8-m7-7 9-7-^7 9-^7-%7 5-%7-7 5-7-m7"
+  },
+  {
+    "pieceTitle": "(Valid)Interplay",
+    "program": "(rightHeaded-0-m6-m6 (rightHeaded-0-m6-m6 (rightHeaded-0-m6-m6 (rightHeaded-0-m6-m6 T T) (rightHeaded-0-m6-m6 T T)) (rightHeaded-7-m7-m6 (rightHeaded-5-7-m7 T (rightHeaded-0-m7-m7 T T)) (rightHeaded-0-m6-m6 T T))) (rightHeaded-5-7-m6 (rightHeaded-11-7-7 T T) T))",
+    "progression": "0-m6-m6 0-m6-m6 0-m6-m6 0-m6-7 5-7-m7 0-m7-m7 7-m7-m6 0-m6-m6 8-m6-7 11-7-7 5-7-m6 2-m6-%7 5-%7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Solar",
+    "program": "(rightHeaded-0-m^7-m^7 (rightHeaded-0-m^7-m^7 T T) (rightHeaded-11-^7-m^7 (rightHeaded-5-7-^7 (rightHeaded-5-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T)) (rightHeaded-5-m7-7 T T)) T) (rightHeaded-5-m7-7 T T)) T) (rightHeaded-5-7-m^7 (rightHeaded-5-%7-7 T T) T)))",
+    "progression": "0-m^7-m^7 7-m^7-m7 5-m7-7 5-7-^7 0-^7-^7 0-^7-m7 5-m7-7 5-7-^7 0-^7-m7 5-m7-7 5-7-^7 1-^7-%7 5-%7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Birk's Works",
+    "program": "(rightHeaded-0-m6-m6 (rightHeaded-0-m6-m6 (rightHeaded-0-m6-m6 T (rightHeaded-5-7-m6 (rightHeaded-5-%7-7 T T) T)) (rightHeaded-7-m7-m6 (rightHeaded-5-7-m7 (rightHeaded-5-%7-7 T T) (rightHeaded-0-m7-m7 T T)) (rightHeaded-0-m6-m6 T T))) (rightHeaded-5-7-m6 (rightHeaded-11-7-7 (rightHeaded-5-m7-7 T T) (rightHeaded-5-%7-7 T T)) (rightHeaded-0-m6-m6 T T)))",
+    "progression": "2-m6-%7 5-%7-7 5-7-m6 7-m6-%7 5-%7-7 5-7-m7 0-m7-m7 7-m7-m6 0-m6-m6 3-m6-m7 5-m7-7 6-7-%7 5-%7-7 5-7-m6 0-m6-m6"
+  },
+  {
+    "pieceTitle": "(Valid)Blue In Green",
+    "program": "(rightHeaded-0-m7-m6 (rightHeaded-0-m6-m7 (rightHeaded-0-m7-m6 (rightHeaded-5-7-m7 (rightHeaded-2-m6-7 T T) T) (rightHeaded-5-7-m6 (rightHeaded-11-^7-7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 (rightHeaded-11-7-m7 T T) T) T) T) T)) (rightHeaded-5-m7-m7 (rightHeaded-5-7-m7 T T) T)) (rightHeaded-5-7-m6 (rightHeaded-2-m6-7 T T) (rightHeaded-0-m6-m6 T T)))",
+    "progression": "2-m6-7 5-7-m7 11-m7-7 11-7-m7 5-m7-7 5-7-^7 11-^7-7 5-7-m6 2-m6-7 5-7-m7 5-m7-m7 5-m7-m6 2-m6-7 5-7-m6 0-m6-m6"
+  },
+  {
+    "pieceTitle": "(Valid)Booker's Waltz",
+    "program": "(rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 T (rightHeaded-3-m7-^7 (rightHeaded-5-7-m7 (rightHeaded-9-7-7 T (rightHeaded-5-%7-7 T T)) T) (rightHeaded-7-7-^7 (rightHeaded-3-7-7 (rightHeaded-9-7-7 T T) T) T))) (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 (rightHeaded-11-7-m7 T T) T) (rightHeaded-0-^7-^7 T T)))",
+    "progression": "7-^7-7 4-7-%7 5-%7-7 5-7-m7 8-m7-7 9-7-7 3-7-7 7-7-^7 3-^7-7 11-7-m7 5-m7-7 5-7-^7 0-^7-^7 1-^7-7 0-7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Contemplation",
+    "program": "(rightHeaded-5-7-m7 (rightHeaded-7-m7-7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 T T)) (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 T T))) (rightHeaded-11-^7-7 (rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 T T) (rightHeaded-0-^7-^7 T T)) (rightHeaded-0-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-0-7-7 T T)))) T)",
+    "progression": "0-m7-m7 0-m7-m7 0-m7-m7 0-m7-m7 0-m7-m7 0-m7-m7 0-m7-m7 8-m7-^7 0-^7-^7 0-^7-^7 0-^7-^7 11-^7-7 0-7-7 0-7-7 0-7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Friday The 13th",
+    "program": "(rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-9-7-7 T (rightHeaded-11-7-7 T T)) (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-9-7-7 T (rightHeaded-11-7-7 T T)) (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-9-7-7 T (rightHeaded-11-7-7 T T)) (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-9-7-7 T (rightHeaded-11-7-7 T T)) T))))))))",
+    "progression": "10-^7-7 10-7-7 11-7-7 5-7-^7 10-^7-7 10-7-7 11-7-7 5-7-^7 10-^7-7 10-7-7 11-7-7 5-7-^7 10-^7-7 10-7-7 11-7-7"
+  },
+  {
+    "pieceTitle": "(Valid)If You Never Come To Me",
+    "program": "(rightHeaded-0-^7-^7 T (rightHeaded-2-7-^7 (rightHeaded-8-m7-7 (rightHeaded-5-7-m7 (rightHeaded-11-^7-7 (rightHeaded-11-^7-^7 T T) T) (rightHeaded-0-m7-m7 T T)) (rightHeaded-5-m7-7 T T)) (rightHeaded-5-7-^7 (rightHeaded-5-7-7 (rightHeaded-5-7-7 (rightHeaded-5-7-7 T T) T) T) (rightHeaded-7-7-^7 (rightHeaded-5-7-7 T T) T))))",
+    "progression": "11-^7-^7 11-^7-^7 11-^7-7 5-7-m7 0-m7-m7 3-m7-m7 5-m7-7 6-7-7 5-7-7 5-7-7 5-7-7 5-7-7 5-7-7 7-7-^7 1-^7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Pent Up House",
+    "program": "(rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T)) (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T))) (rightHeaded-2-7-^7 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-m7-7 T T) T) T) (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T))))",
+    "progression": "5-m7-7 5-7-^7 0-^7-^7 2-^7-m7 5-m7-7 5-7-^7 0-^7-^7 7-^7-m7 5-m7-7 5-7-m7 5-m7-7 4-7-m7 5-m7-7 5-7-^7 0-^7-^7"
+  },
+  {
+    "pieceTitle": "(Valid)Sweet Georgia Bright",
+    "program": "(rightHeaded-0-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-2-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-0-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-2-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-11-7-7 (rightHeaded-11-7-7 (rightHeaded-11-7-7 (rightHeaded-0-7-7 (rightHeaded-0-7-7 T T) (rightHeaded-0-7-7 T T)) T) T) (rightHeaded-0-7-7 T T))))))",
+    "progression": "0-7-7 10-7-7 0-7-7 2-7-7 0-7-7 10-7-7 0-7-7 5-7-7 0-7-7 0-7-7 0-7-7 11-7-7 11-7-7 11-7-7 0-7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Valse Hot",
+    "program": "(rightHeaded-0-^7-^7 (rightHeaded-0-^7-^7 T (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-m7-7 (rightHeaded-11-^7-m7 T T) T) T) T) T)) (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 (rightHeaded-5-m7-7 (rightHeaded-2-m7-m7 (rightHeaded-5-7-m7 T T) (rightHeaded-11-m7-m7 T T)) T) T) T) T))",
+    "progression": "5-^7-^7 11-^7-m7 5-m7-7 5-7-m7 5-m7-7 5-7-^7 9-^7-7 5-7-m7 3-m7-m7 11-m7-m7 5-m7-7 5-7-m7 5-m7-7 5-7-^7 7-^7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Wayne's Thang",
+    "program": "(rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-5-7-m7 (rightHeaded-11-6-7 (rightHeaded-0-6-6 T T) (rightHeaded-0-7-7 T T)) (rightHeaded-0-m7-m7 T T))) (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-5-7-m7 (rightHeaded-11-6-7 (rightHeaded-0-6-6 T T) (rightHeaded-0-7-7 T T)) (rightHeaded-0-m7-m7 T T))))",
+    "progression": "0-m7-m7 8-m7-6 0-6-6 11-6-7 0-7-7 5-7-m7 0-m7-m7 0-m7-m7 0-m7-m7 8-m7-6 0-6-6 11-6-7 0-7-7 5-7-m7 0-m7-m7"
+  },
+  {
+    "pieceTitle": "(Valid)We Will Meet Again",
+    "program": "(rightHeaded-0-m6-m6 (rightHeaded-0-m6-m6 (rightHeaded-0-m6-m6 T T) (rightHeaded-5-7-m6 (rightHeaded-2-m7-7 (rightHeaded-0-m7-m7 T T) (rightHeaded-5-%7-7 T T)) (rightHeaded-0-m6-m6 T T))) (rightHeaded-5-7-m6 (rightHeaded-7-m6-7 (rightHeaded-5-7-m6 (rightHeaded-11-^7-7 T T) (rightHeaded-0-m6-m6 T T)) (rightHeaded-5-7-7 (rightHeaded-5-%7-7 T T) (rightHeaded-0-sus-7 T T))) T))",
+    "progression": "0-m6-m6 5-m6-m7 0-m7-m7 9-m7-%7 5-%7-7 5-7-m6 0-m6-m6 8-m6-^7 11-^7-7 5-7-m6 0-m6-m6 9-m6-%7 5-%7-7 5-7-sus 0-sus-7"
+  },
+  {
+    "pieceTitle": "(Valid)Blue Bossa",
+    "program": "(rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-5-7-m7 (rightHeaded-2-m7-7 (rightHeaded-0-m7-m7 T T) (rightHeaded-5-%7-7 T T)) (rightHeaded-0-m7-m7 T T))) (rightHeaded-11-^7-m7 (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 T T) (rightHeaded-0-^7-^7 T T)) (rightHeaded-5-7-m7 (rightHeaded-5-%7-7 T T) T)))",
+    "progression": "0-m7-m7 5-m7-m7 0-m7-m7 9-m7-%7 5-%7-7 5-7-m7 0-m7-m7 3-m7-m7 5-m7-7 5-7-^7 0-^7-^7 1-^7-%7 5-%7-7 5-7-m7 2-m7-%7 5-%7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Israel",
+    "program": "(rightHeaded-0-m-m (leftHeaded-0-m-m6 (leftHeaded-0-m-m7 T T) T) (rightHeaded-9-^7-m (rightHeaded-5-7-^7 (rightHeaded-5-m7-7 (rightHeaded-5-7-m7 T T) T) T) (rightHeaded-5-7-m (rightHeaded-11-^7-7 T (rightHeaded-5-%7-7 T T)) T)))",
+    "progression": "0-m-m7 0-m7-m6 0-m6-7 5-7-m7 5-m7-7 5-7-^7 5-^7-^7 6-^7-%7 5-%7-7 5-7-m 3-m-7 5-7-7 11-7-7"
+  },
+  {
+    "pieceTitle": "(Valid)Mac The Knife",
+    "program": "(rightHeaded-0-6-6 (rightHeaded-0-6-6 (rightHeaded-0-6-6 T T) (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-7-7 T T)) (rightHeaded-0-6-6 T T))) (rightHeaded-5-7-6 (rightHeaded-5-m7-7 (rightHeaded-5-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 (rightHeaded-0-m7-m7 T T) (rightHeaded-0-m7-m7 T T))) T) (rightHeaded-0-6-6 T T)))",
+    "progression": "0-6-6 2-6-m7 0-m7-m7 5-m7-7 0-7-7 5-7-6 0-6-6 9-6-m7 0-m7-m7 5-m7-m7 0-m7-m7 0-m7-m7 0-m7-m7 5-m7-7 5-7-6 0-6-6"
+  }
+]
