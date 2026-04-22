@@ -8,7 +8,7 @@ def compress(
     target_seqs: list[list],
     training_seqs: list[list] = [],
     alphabet_size: int | None = None,
-    aggregation: Callable = np.mean,
+    aggregation: Callable = sum,
     ppm_params: dict = {},
 ) -> float:
     """
