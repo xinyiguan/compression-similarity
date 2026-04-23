@@ -1,6 +1,6 @@
 from typing import Any, Dict, List, Optional, Tuple
 import pandas as pd
-from scipy.stats import kendalltau, pearsonr, spearmanrho, zscore
+from scipy.stats import kendalltau, pearsonr, spearmanrho, zscore, linregress
 
 from model.utils import load_json, save_json
 
@@ -47,6 +47,18 @@ def corr_rank_report(
         "Kendall tau": f"{kendall_tau:.4f} (p={kendall_p:.4e})",
     }
 
+    print(f' == regression ==')
+    linRes = linregress(x=df[f"D_{m2}"], y=df[f"D_{m1}"], nan_policy="raise")
+
+    regression_report = {
+        "slope": linRes.slope,
+        "intercept": linRes.intercept,
+        "rval": linRes.rvalue,
+        "R^2": (linRes.rvalue) * (linRes.rvalue),
+        "pval": linRes.pvalue,
+        "stderr": linRes.stderr,
+    }
+
     # zscored distance =====
     print(f'Computing the z-scored distance')
     df[f"D_{m1}(z-score)"] = zscore(df[f"D_{m1}"])
@@ -57,30 +69,17 @@ def corr_rank_report(
     df["abs_dist_diff"] = df["dist_diff"].abs()
 
     # largest rank disagreement
-    top_rank_disagree = df.sort_values("abs_dist_diff", ascending=False)
-
-    # m1 says similar but m2 says dissimilar
-    low_m1 = df[f"D_{m1}(z-score)"].quantile(0.25)  # bottom 25% = "similar"
-    high_m2 = df[f"D_{m2}(z-score)"].quantile(0.75)  # top 25% = "dissimilar"
-
-    m1_sim_m2_diff = df[
-        (df[f"D_{m1}(z-score)"] <= low_m1) & (df[f"D_{m2}(z-score)"] >= high_m2)
-    ].sort_values("abs_dist_diff", ascending=False)
-
-    # m2 says similar but m1 says dissimilar
-    low_m2 = df[f"D_{m2}(z-score)"].quantile(0.25) 
-    high_m1 = df[f"D_{m1}(z-score)"].quantile(0.75)
-
-    m2_sim_m1_diff = df[
-        (df[f"D_{m2}(z-score)"] <= low_m2) & (df[f"D_{m1}(z-score)"] >= high_m1)
-    ].sort_values("abs_dist_diff", ascending=False)
+    top_k_disagree = df.sort_values("dist_diff", ascending=False)
+    top_k_agree = df.sort_values("dist_diff", ascending=True)
+    bottom_k_disagree = df.sort_values("abs_dist_diff", ascending=True)
 
     report = {
-        "models in comparison": f"{m1} and {m2}", 
+        "models in comparison": f"{m1} and {m2}",
         "correlation results": corr_report,
-        "Largest distance disagreement": top_rank_disagree.to_dict(orient="records"),
-        f" {m1} similar / {m2} dissimilar": m1_sim_m2_diff.to_dict(orient="records"),
-        f" {m2} similar / {m1} dissimilar": m2_sim_m1_diff.to_dict(orient="records")
+        "regression results": regression_report,
+        "Top k disagree": top_k_disagree.to_dict(orient="records"),
+        f"To k agree": top_k_agree.to_dict(orient="records"),
+        f"Bottom k disagree": bottom_k_disagree.to_dict(orient="records"),
     }
 
     if save_report_fpath:
@@ -89,26 +88,25 @@ def corr_rank_report(
     if show_results:
         # showing results
         show(
-            df_subset=top_rank_disagree,
+            df_subset=top_k_disagree,
             models=(m1, m2),
-            title="Largest disagreement",
+            title="Top k disagree",
             k=10,
         )
 
         show(
-            df_subset=m1_sim_m2_diff,
+            df_subset=top_k_agree,
             models=(m1, m2),
-            title=f" {m1} similar / {m2} dissimilar",
+            title=f"To k agree",
             k=10,
         )
 
         show(
-            df_subset=m2_sim_m1_diff,
+            df_subset=bottom_k_disagree,
             models=(m1, m2),
-            title=f" {m2} similar / {m1} dissimilar",
+            title=f"Bottom k disagree",
             k=10,
         )
-
 
 
 def show(df_subset:pd.DataFrame, models: Tuple[str, str], title:str, k:int):
@@ -125,6 +123,6 @@ def show(df_subset:pd.DataFrame, models: Tuple[str, str], title:str, k:int):
         "dist_diff"
         # "abs_dist_diff",
     ]
-    res=df_subset[cols].head(k).to_string(index=False)
-    print(res)
+    res=df_subset[cols].head(k)
+    print(res.to_string(index=False))
     return res

@@ -22,6 +22,7 @@ class Piece:
 class Corpus:
     pieces: List[Piece]
 
+
     @classmethod
     def from_json(cls, fpath: str) -> Corpus:
         """Load corpus metadata and programs from a JSON file."""
@@ -47,8 +48,8 @@ class Corpus:
         return [x.title for x in self.pieces]
 
     @property
-    def progressions(self) -> List[str]:
-        return [x.progressions for x in self.pieces]
+    def progressions(self) -> List[List[str]]:
+        return [x.progression for x in self.pieces]
 
 
 def save_json(fpath:str, res:List|Dict):

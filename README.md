@@ -11,17 +11,18 @@ In practice, it is approximated with "normalized compression distance (NCD)." $C
 <!-- NCD(x,y) := \frac{max(C(x|y),C(y|x))}{max(C(x),C(y))} -->
 
 $$
-NCD(x,y) := \frac{C(xy)-min(C(x),C(y))} {max(C(x),C(y))}
+NCD(x,y,ctx) := \frac{C(\{x,y\} + ctx)-min(C(x + ctx),C(y + ctx))} {max(C(x ),C(y ))}
 $$
 
 Here, we compare two choices of the function $C$, one is based on a sequential model (PPM), the other is based on library learning of programs.
 
 - In the PPM case, $C_{ppm}(xy)= ...$
+
 <!--$C_{ppm}(x|y) := \sum_{x_i \in x} h_{m_y}(x_i)$ "aggregated surprisal on $x$ for a prediction model trained on $y$" -->
 
 - In the Stitch case, $C(xy) := size(rewrite(xy, pat(xy)))$
   - "total compressed size of the $x$ and $y$, using the abstractions jointly learned from $x$ and $y$".
-  
+
 <!--$C_{stitch}(x|y) := size(rewrite(x,pat(y)))$>
 [//]:<"size of x refactored using patterns in y (counting definition size of the used patterns)" -->
 

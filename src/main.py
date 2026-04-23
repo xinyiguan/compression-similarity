@@ -1,6 +1,7 @@
 from typing import List, Literal, Tuple
 
 import experiment.pairwise_compression
+import experiment.pairwise_compression_corpus
 import experiment.pairwise_distance
 from experiment.topK import get_topK_similar_pair, pprint_topK_table
 from model.utils import load_json
@@ -42,6 +43,8 @@ if __name__ == "__main__":
     corpusPath = "data/corpus/preprocessed/converted_corpus_rep.json"
     res="data/result/unique_pairwise_similarity.json"
 
+    # mini_corpus = "data/corpus/preprocessed/mini_corpus.json"
+
     corr_rank_report(
         res_file=res,
         models=("stitch", "ppm"),
@@ -50,7 +53,6 @@ if __name__ == "__main__":
     )
 
     assert False
-    r, p = corr(res_file=res_path, models=["ppm", "stitch"], method="spearman")
 
     # data = load_json(res_path)
     # d_stitch = [e["D_stitch"] for e in data]
@@ -59,8 +61,6 @@ if __name__ == "__main__":
     # r = pearsonr(x=d_stitch, y=d_ppm)
     # print(f'{r=}')
     # assert False
-
-    assert False
 
     # log(preprocessing.data_formatting.run)(
     #     path_treebank="data/corpus/original/treebank.json",
@@ -72,25 +72,11 @@ if __name__ == "__main__":
     # )
 
     # pair-wise cross compression
-    experiment.pairwise_compression.run(
+    experiment.pairwise_compression_corpus.run(
         corpus_path=corpusPath,
-        output_path="data/result/pairwise_similarity.json",
+        output_path="data/result/pairwise_similarity_context(corpus).json",
         stitch_config=stitch_cfg,
         save_results=True,
-        stitch_res_path="data/result/pairwise_stitch_compression.json",
-        ppm_res_path="data/result/pairwise_ppm_compression.json"
+        stitch_res_path="data/result/stitch_context(corpus).json",
+        ppm_res_path="data/result/ppm_context(corpus).json",
     )
-    # experiment.pairwise_compression.get_self_similarity_result(d_res_fpath="data/result/pairwise_similarity.json",
-    #                                                            stitch_res_fpath="data/result/pairwise_stitch_compression.json",
-    #                                                            save_d_fpath="data/result/self_similarity.json",
-    #                                                            save_stitch_fpath="data/result/self_stitch_compression.json")
-
-    # # top k similar pairs:
-    # ppm_topK_similar = get_topK_similar_pair(res_path="data/result/pairwise_similarity.json", k=15, model="ppm",
-    #                                          save_fpath="data/result/topK_ppm_similar_pairs.json")
-    # stitch_topK_similar = get_topK_similar_pair(res_path="data/result/pairwise_similarity.json", k=15, model="stitch",
-    #                                             save_fpath="data/result/topK_stitch_similar_pairs.json")
-
-    # test
-
-    # model.stitchCompression.runStitch.test(corpusPath=corpusPath, stitch_config=stitch_cfg)
