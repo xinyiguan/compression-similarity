@@ -1,3 +1,4 @@
+from itertools import combinations
 from typing import Any, Callable, Dict, List, NamedTuple, Optional
 from model.stitchCompression.runStitch import Corpus, rewrite_with_abstractions
 from model.utils import load_json, save_json
@@ -18,8 +19,10 @@ def pairwise_NCD[a](
 
     json = [
         build_record(x, y, models=models, title_of=title_of)
-        for x in corpus
-        for y in corpus
+        # for x in corpus
+        # for y in corpus
+        for x, y in combinations(corpus, 2)
+        if title_of(x) != title_of(y)
     ]
     return json
 

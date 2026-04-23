@@ -1,6 +1,7 @@
+from itertools import combinations
 from typing import Any, Callable, Dict, List, NamedTuple, Optional
-from model.stitchCompression.runStitch import Corpus, rewrite_with_abstractions
-from model.utils import load_json, save_json
+from model.stitchCompression.runStitch import Corpus, get_global_library, rewrite_with_abstractions, stitch_compress
+from model.utils import Piece, load_json, save_json
 import model.PPMCompression.ppm_compression as ppm
 
 
@@ -17,26 +18,23 @@ def pairwise_NCD[a](
 ) -> List[Dict]:
 
     json = [
-        build_record(x, y, models=models, title_of=title_of, corpus=corpus)
-        for x in corpus
-        for y in corpus
+        build_record(x, y, models=models, title_of=title_of)
+        # for x in corpus
+        # for y in corpus
+        for x, y in combinations(corpus, 2)
+        if title_of(x) != title_of(y)
     ]
     return json
 
-
 def build_record[a](
-    x: a, y: a, models: List[Model[a]], title_of: Callable[[a], str], corpus: Corpus
+    x: a, y: a, models: List[Model[a]], title_of: Callable[[a], str]
 ) -> Dict:
 
     result = {"nameX": title_of(x), "nameY": title_of(y)}
     for model_name, c_xy, c in models:
-        corpus_exclxy = corpus.copy()
-        corpus_exclxy.remove(x)
-        corpus_exclxy.remove(y)
-
         c_xy_val = c_xy(x, y)
-        c_x_val = c(x, corpus_exclxy)
-        c_y_val = c(y, corpus_exclxy)
+        c_x_val = c(x)
+        c_y_val = c(y)
         d_val = (c_xy_val - min(c_x_val, c_y_val)) / max(c_x_val, c_y_val)
         result.update(
             {
@@ -63,81 +61,77 @@ def run(
     """
 
     corpus = Corpus.from_json(fpath=corpus_path)
+
     stitchResults = []
     ppmResults = []
     alphabet_size = 311
     aggregation = sum
+    ctx = corpus.pieces
+
     print(f"Computing C_xy ...")
+    pairs = pairs = [
+        (p, q) for p, q in combinations(corpus.pieces, 2) if p.title != q.title
+    ]
 
-    for i, x in enumerate(corpus.pieces):
-        print(f"Running {i}-th piece...")
-        for y in corpus.pieces:
-            # STITCH
-            stitchResults.append(
-                {
-                    "pieceX": x.title,
-                    "pieceY": y.title,
-                    "stitch_xy_res": rewrite_with_abstractions(
-                        programs_test=[x.program] + [y.program],
-                        programs_train=[x.program] + [y.program],
-                        stitch_config=stitch_config,
-                    ),  # C_stitch(xy) := rewrite (xy, pat(xy))
-                }
-            )
+    for i, (x,y) in enumerate(pairs):
+        print(f"Running {i}-th pair...") 
+        stitchResults.append(
+            {
+                "pieceX": x.title,
+                "pieceY": y.title,
+                "stitch_xy": stitch_compress(programs= Corpus([x,y] + ctx).programs, stitch_config=stitch_config)
+            }
+        )
 
-            # PPM
-            ppmResults.append(
-                {
-                    "pieceX": x.title,
-                    "pieceY": y.title,
-                    # C_ppm(xy) :=  compress([x, y], [x, y])
-                    "ppm_Cxy": ppm.compress(
-                        target_seqs=[x.progression, y.progression],
-                        training_seqs=corpus.progressions,
-                        alphabet_size=alphabet_size,
-                        aggregation=aggregation,
-                    ),
-                }
-            )
+        # PPM
+        ppmResults.append(
+            {
+                "pieceX": x.title,
+                "pieceY": y.title,
+                "ppm_Cxy": ppm.compress(
+                    target_seqs=[x.progression, y.progression]
+                    + Corpus(ctx).progressions,
+                    training_seqs=[x.progression, y.progression]
+                    + Corpus(ctx).progressions,
+                    alphabet_size=alphabet_size,
+                    aggregation=aggregation
+                )
+            }
+        )
 
-    def stitch_Cxy(x, y):
-        return [
-            entry["stitch_xy_res"]["compressed_encoding_size"]
+    print(f'{stitchResults[0]["stitch_xy"]=}')
+    
+    stitch_Cxy = lambda x, y: [
+            entry["stitch_xy"]["compressed_encoding_size"]
             for entry in stitchResults
             if entry.get("pieceX") == x.title and entry.get("pieceY") == y.title
         ][0]
 
-    def ppm_Cxy(x, y):
-        return [
-            entry["ppm_Cxy"]
-            for entry in ppmResults
-            if entry["pieceX"] == x.title and entry["pieceY"] == y.title
-        ][0]
+    ppm_Cxy = lambda x, y: [
+        entry["ppm_Cxy"]
+        for entry in ppmResults
+        if entry["pieceX"] == x.title and entry["pieceY"] == y.title
+    ][0]
 
-    print(f"Computing stitch C_x ...")
+    print(f"Computing C ...")
 
-    def stitch_C(x, corpus_exclxy: Corpus):
-        return rewrite_with_abstractions(
-            programs_test=[x.program],
-            programs_train=[x.program],
-            stitch_config=stitch_config,
+
+    stitch_C = lambda x: stitch_compress(
+        programs=Corpus([x] + ctx).programs, stitch_config=stitch_config
         )["compressed_encoding_size"]
 
-    print(f"Computing ppm C_x ...")
-    # C(x) -->  compress([x], [x])
-
-    def ppm_C(x, corpus_exclxy: Corpus):
-        return ppm.compress(
-            target_seqs=[x.progression],
-            training_seqs=[x.progression] + corpus_exclxy.progressions,
-            alphabet_size=alphabet_size,
-            aggregation=aggregation,
-        )
+    ppm_C = lambda x: ppm.compress(
+        target_seqs=[x.progression] + Corpus(ctx).progressions,
+                    training_seqs=[x.progression] + Corpus(ctx).progressions,
+                    alphabet_size=alphabet_size,
+                    aggregation=aggregation)
 
     print(f"Computing NCD ...")
     json = pairwise_NCD(
         corpus=corpus.pieces,
-        models=[Model("stitch", stitch_Cxy, stitch_C), Model("ppm", ppm_Cxy, ppm_C)],
+        models=[
+            Model("stitch", stitch_Cxy, stitch_C), 
+            Model("ppm", ppm_Cxy, ppm_C)],
         title_of=lambda x: x.title,
     )
 
@@ -147,19 +141,6 @@ def run(
         save_json(stitch_res_path, stitchResults)
         save_json(ppm_res_path, ppmResults)
         save_json(output_path, json)
-
-
-def get_self_similarity_result(
-    d_res_fpath: str, stitch_res_fpath: str, save_d_fpath: str, save_stitch_fpath: str
-):
-    d_res = load_json(fpath=d_res_fpath)
-    stitch_res = load_json(fpath=stitch_res_fpath)
-
-    self_d = [entry for entry in d_res if entry["nameX"] == entry["nameY"]]
-    self_stitch = [entry for entry in stitch_res if entry["pieceX"] == entry["pieceY"]]
-
-    save_json(fpath=save_d_fpath, res=self_d)
-    save_json(fpath=save_stitch_fpath, res=self_stitch)
 
 
 def unique_pairs_result(
