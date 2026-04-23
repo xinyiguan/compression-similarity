@@ -3,7 +3,6 @@ from typing import List, Literal, Tuple
 import experiment.pairwise_compression
 import experiment.pairwise_compression_corpus
 import experiment.pairwise_distance
-from experiment.topK import get_topK_similar_pair, pprint_topK_table
 from model.utils import load_json
 from experiment.report import corr_rank_report
 
@@ -26,17 +25,6 @@ stitch_cfg = {
         "no_mismatch_check": True,  # if this is False we will see an assertion error from Rust
     }
 
-
-def topK_pairs_tables(res_file: str, k:int, topK_similiar:bool=True, save_latex:bool=True):
-
-    k_ppm = get_topK_similar_pair(res_path=res_file, model="ppm", k=20)
-    k_stitch = get_topK_similar_pair(res_path=res_file, model="stitch", k=20)
-
-    if save_latex:
-        pp_ppm = pprint_topK_table(topK_res=k_ppm, save_fpath="data/result/top20_ppm.txt")
-        pp_stitch = pprint_topK_table(topK_res=k_stitch, save_fpath="data/result/top20_stitch.txt")
-
-    return pp_ppm, pp_stitch
 
 
 if __name__ == "__main__":
