@@ -1,0 +1,110 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "description",
+    "title": "Pairwise compression distance",
+    "data": {
+        "url": "../../../data/result/(ctx=True)/pairwise_similarity.json"
+    },
+    "spacing": 15,
+    "bounds": "flush",
+    "vconcat": [
+        {
+            "mark": "bar",
+            "height": 50,
+            "width": 400,
+            "encoding": {
+                "x": {
+                    "bin": {
+                        "maxbins": 50
+                    },
+                    "field": "D_ppm"
+                },
+                "y": {
+                    "aggregate": "count"
+                }
+            }
+        },
+        {
+            "spacing": 15,
+            "bounds": "flush",
+            "hconcat": [
+                {
+                    "layer": [
+                        {
+                            "height": 400,
+                            "width": 400,
+                            "mark": {
+                                "type": "rect",
+                                "tooltip": {
+                                    "content": "data"
+                                }
+                            },
+                            "encoding": {
+                                "x": {
+                                    "bin": {
+                                        "maxbins": 100
+                                    },
+                                    "field": "D_ppm"
+                                },
+                                "y": {
+                                    "bin": {
+                                        "maxbins": 100
+                                    },
+                                    "field": "D_stitch"
+                                },
+                                "color": {
+                                    "aggregate": "count"
+                                }
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "line",
+                                "color": "grey"
+                            },
+                            "transform": [
+                                {
+                                    "regression": "D_stitch",
+                                    "on": "D_ppm"
+                                }
+                            ],
+                            "encoding": {
+                                "x": {
+                                    "field": "D_ppm",
+                                    "type": "quantitative"
+                                },
+                                "y": {
+                                    "field": "D_stitch",
+                                    "type": "quantitative"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "mark": "bar",
+                    "height": 400,
+                    "width": 60,
+                    "encoding": {
+                        "y": {
+                            "bin": {
+                                "maxbins": 50
+                            },
+                            "field": "D_stitch",
+                            "axis": null
+                        },
+                        "x": {
+                            "aggregate": "count",
+                            "title": ""
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": "transparent"
+        }
+    }
+}

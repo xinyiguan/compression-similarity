@@ -1,0 +1,42 @@
+\documentclass{report}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\begin{document}
+
+\section{(ctx=False)}
+
+\subsection{model disagreement}
+\input{figs/(ctx=False)/largestDiff(pos).tex}
+\vfill
+\input{figs/(ctx=False)/largestDiff(neg).tex}
+\vfill
+\input{figs/(ctx=False)/smallestDiff(abs).tex}
+
+\subsection{model similarity ranking}
+\paragraph{most similar}
+\input{figs/(ctx=False)/stitch(sorted z-score)(ascending=True).tex}
+\input{figs/(ctx=False)/ppm(sorted z-score)(ascending=True).tex}
+
+\paragraph{least similar}
+\input{figs/(ctx=False)/stitch(sorted z-score)(ascending=False).tex}
+\input{figs/(ctx=False)/ppm(sorted z-score)(ascending=False).tex}
+
+\section{(ctx=True)}
+\subsection{model disagreement}
+\input{figs/(ctx=True)/largestDiff(pos).tex}
+\vfill
+\input{figs/(ctx=True)/largestDiff(neg).tex}
+\vfill
+\input{figs/(ctx=True)/smallestDiff(abs).tex}
+
+\subsection{model similarity ranking}
+
+\paragraph{most similar}
+\input{figs/(ctx=True)/stitch(sorted z-score)(ascending=True).tex}
+\input{figs/(ctx=True)/ppm(sorted z-score)(ascending=True).tex}
+
+\paragraph{least similar}
+\input{figs/(ctx=True)/stitch(sorted z-score)(ascending=False).tex}
+\input{figs/(ctx=True)/ppm(sorted z-score)(ascending=False).tex}
+
+\end{document}

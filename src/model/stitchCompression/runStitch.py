@@ -23,7 +23,7 @@ def library_size(lib: List[Abstraction]) -> int:
     return sum([program_size(program=ab.body) for ab in lib])
 
 
-def stitch_compress(programs : List[str], stitch_config: Dict) -> float:
+def stitch_compress(programs : List[str], stitch_config: Dict) -> Dict[str,Any]:
     
     res = compress(programs=programs, **stitch_config)
 

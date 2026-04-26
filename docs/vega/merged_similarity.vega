@@ -1,0 +1,270 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "description": "description",
+    "title": "Pairwise compression distance",
+    "vconcat": [
+        {
+            "data": {
+                "url": "../../data/result/(ctx=False)/pairwise_similarity.json"
+            },
+            "bounds": "flush",
+            "vconcat": [
+                {
+                    "mark": "bar",
+                    "height": 50,
+                    "width": 400,
+                    "encoding": {
+                        "x": {
+                            "bin": {
+                                "maxbins": 50
+                            },
+                            "field": "D_ppm"
+                        },
+                        "y": {
+                            "aggregate": "count"
+                        }
+                    }
+                },
+                {
+                    "bounds": "flush",
+                    "hconcat": [
+                        {
+                            "layer": [
+                                {
+                                    "height": 400,
+                                    "width": 400,
+                                    "mark": {
+                                        "type": "rect",
+                                        "tooltip": {
+                                            "content": "data"
+                                        }
+                                    },
+                                    "encoding": {
+                                        "x": {
+                                            "bin": {
+                                                "maxbins": 100
+                                            },
+                                            "field": "D_ppm"
+                                        },
+                                        "y": {
+                                            "bin": {
+                                                "maxbins": 100
+                                            },
+                                            "field": "D_stitch"
+                                        },
+                                        "color": {
+                                            "aggregate": "count"
+                                        }
+                                    }
+                                },
+                                {
+                                    "mark": {
+                                        "type": "line",
+                                        "color": "grey"
+                                    },
+                                    "transform": [
+                                        {
+                                            "regression": "D_stitch",
+                                            "on": "D_ppm"
+                                        }
+                                    ],
+                                    "encoding": {
+                                        "x": {
+                                            "field": "D_ppm",
+                                            "type": "quantitative"
+                                        },
+                                        "y": {
+                                            "field": "D_stitch",
+                                            "type": "quantitative"
+                                        }
+                                    }
+                                },
+                                {
+                                    "transform": [
+                                        {
+                                            "regression": "D_stitch",
+                                            "on": "D_ppm",
+                                            "params": true
+                                        },
+                                        {
+                                            "calculate": "['slope: ' + format(datum.coef[1], '.2f') , 'intercept: ' + format(datum.coef[0], '.2f'), 'R²: ' + format(datum.rSquared, '.2f')]",
+                                            "as": "params"
+                                        }
+                                    ],
+                                    "mark": {
+                                        "type": "text",
+                                        "color": "firebrick",
+                                        "x": "width",
+                                        "align": "right",
+                                        "y": 10
+                                    },
+                                    "encoding": {
+                                        "text": {
+                                            "type": "nominal",
+                                            "field": "params"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "mark": "bar",
+                            "height": 400,
+                            "width": 60,
+                            "encoding": {
+                                "y": {
+                                    "bin": {
+                                        "maxbins": 50
+                                    },
+                                    "field": "D_stitch",
+                                    "axis": null
+                                },
+                                "x": {
+                                    "aggregate": "count",
+                                    "title": ""
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "config": {
+                "view": {
+                    "stroke": "transparent"
+                }
+            }
+        },
+        {
+            "data": {
+                "url": "../../data/result/(ctx=True)/pairwise_similarity.json"
+            },
+            "bounds": "flush",
+            "vconcat": [
+                {
+                    "mark": "bar",
+                    "height": 50,
+                    "width": 400,
+                    "encoding": {
+                        "x": {
+                            "bin": {
+                                "maxbins": 50
+                            },
+                            "field": "D_ppm"
+                        },
+                        "y": {
+                            "aggregate": "count"
+                        }
+                    }
+                },
+                {
+                    "bounds": "flush",
+                    "hconcat": [
+                        {
+                            "layer": [
+                                {
+                                    "height": 400,
+                                    "width": 400,
+                                    "mark": {
+                                        "type": "rect",
+                                        "tooltip": {
+                                            "content": "data"
+                                        }
+                                    },
+                                    "encoding": {
+                                        "x": {
+                                            "bin": {
+                                                "maxbins": 100
+                                            },
+                                            "field": "D_ppm"
+                                        },
+                                        "y": {
+                                            "bin": {
+                                                "maxbins": 100
+                                            },
+                                            "field": "D_stitch"
+                                        },
+                                        "color": {
+                                            "aggregate": "count"
+                                        }
+                                    }
+                                },
+                                {
+                                    "mark": {
+                                        "type": "line",
+                                        "color": "grey"
+                                    },
+                                    "transform": [
+                                        {
+                                            "regression": "D_stitch",
+                                            "on": "D_ppm"
+                                        }
+                                    ],
+                                    "encoding": {
+                                        "x": {
+                                            "field": "D_ppm",
+                                            "type": "quantitative"
+                                        },
+                                        "y": {
+                                            "field": "D_stitch",
+                                            "type": "quantitative"
+                                        }
+                                    }
+                                },
+                                {
+                                    "transform": [
+                                        {
+                                            "regression": "D_stitch",
+                                            "on": "D_ppm",
+                                            "params": true
+                                        },
+                                        {
+                                            "calculate": "['slope: ' + format(datum.coef[1], '.2f') , 'intercept: ' + format(datum.coef[0], '.2f'), 'R²: ' + format(datum.rSquared, '.2f')]",
+                                            "as": "params"
+                                        }
+                                      
+                                    ],
+                                    "mark": {
+                                        "type": "text",
+                                        "color": "firebrick",
+                                        "x": "width",
+                                        "align": "right",
+                                        "y": 10
+                                    },
+                                    "encoding": {
+                                        "text": {
+                                            "type": "nominal",
+                                            "field": "params"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "mark": "bar",
+                            "height": 400,
+                            "width": 60,
+                            "encoding": {
+                                "y": {
+                                    "bin": {
+                                        "maxbins": 50
+                                    },
+                                    "field": "D_stitch",
+                                    "axis": null
+                                },
+                                "x": {
+                                    "aggregate": "count",
+                                    "title": ""
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "config": {
+                "view": {
+                    "stroke": "transparent"
+                }
+            }
+        }
+    ]
+}
