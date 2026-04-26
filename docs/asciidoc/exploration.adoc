@@ -1,0 +1,104 @@
+== Exploration
+A dashboard for all the result data.
+
+
+// .learned library from Stitch
+// ----
+// include::../data/result/stitch_res/global_lib.json[]
+// ----
+
+=== Phase 1: [Without context] Comparing compression distance between PPM and Stitch 
+
+.Pair-wise compression distance (to model similarity). This is based on the normalized compression distance (D) paramatrized by a custom function C(x|y).
+
+vegalite::figs/pairwise-similarity.vega[svg, role=chart,align=center,subs="attributes+"]
+
+// placeholder (scatterplot: x=D_ppm, y=D_stitch) highlight top + bottom N data points
+==== Result 1.1
+.Correlating compression distance D_ppm and D_stitch 
+- [x] Heatmap with projected histogram
+- [x] Pearson correlation
+// placeholder correlation statistics (r, p)
+
+// .Top N pairs that are highest/lowest D in each model
+// ----
+// data := [(nameX = ..., nameY=...,D_ppm = ..., D_stitch = ...),...]
+// ----
+
+==== Result 1.2
+.Top N pairs that where the two D's agrees/disagree (in z-scores: low z-score means the pair of pieces are similar)
+Three tables
+
+|===
+|pair | D_stitch_z | D_ppm_z | z_diff
+|name1/name2 | a | b | a-b
+|===
+
+
+.topN `D_ppm_zscore - D_stitch_zscore`
+[%collapsible]
+====
+[%header,format=tsv]
+|===
+include::table/largestDiff(pos).tsv[]
+|===
+====
+
+.lastN `D_ppm_zscore - D_stitch_zscore`
+[%collapsible]
+====
+[%header,format=tsv]
+|===
+include::table/largestDiff(neg).tsv[]
+|===
+====
+
+.smallestN `|D_ppm_zscore - D_stitch_zscore|`
+[%collapsible]
+====
+[%header,format=tsv]
+|===
+include::table/smallestDiff(abs).tsv[]
+|===
+====
+
+
+
+=== Phase 2: [With context]
+[latexmath]
+
+```
+D(x,y,ctx) 
+    C([x,y] + ctx) - min(C([x]+ctx),C([y]+ctx)) 
+=   -------------------------------------------
+        max(C([x]),C([y]))
+```
+
+this is analogous to partial derivatives at `ctx`
+
+`(f(a+[dx,dy]) - min (f(a+dx),f(a+dy))) / max(f(dx),f(dy))`
+
+// [%header,format=json]
+// |===
+// include::../data/result/report(stitch_ppm).json[]
+// |===
+
+```
+a:=C([x,x]) ~?~ b:=C([x])
+for ppm
+    a-b is 
+for stitch:
+    a-b is small
+
+```
+
+==== Result 2.1
+
+==== Result 2.2
+
+// .Clustering of pieces based on similarity?
+
+
+
+
+

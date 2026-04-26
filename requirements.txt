@@ -2,7 +2,14 @@ stitch_core == 0.1.29
 numpy
 pandas
 seaborn
-itertools
 matplotlib
 music21
+Jinja2
+vl-convert-python
+Levenshtein
+zss
+apted
+scipy
+multiprocessing
+tqdm
 ppm@git+https://github.com/etrhall/ppm.py

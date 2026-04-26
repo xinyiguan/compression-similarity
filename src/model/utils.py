@@ -4,7 +4,7 @@ import os
 from typing import Dict, List
 
 
-@dataclass
+@dataclass(frozen=True)
 class Piece:
     title: str
     progression: List[str]

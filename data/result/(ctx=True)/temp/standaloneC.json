@@ -1,0 +1,602 @@
+{
+  "(Valid)Solar": {
+    "stitch": 25,
+    "ppm": 12.928257302548865
+  },
+  "(Valid)Jody Grind, The": {
+    "stitch": 18,
+    "ppm": 12.40325437003002
+  },
+  "(Valid)Equinox": {
+    "stitch": 19,
+    "ppm": 12.092405979437617
+  },
+  "(Valid)Red Clay": {
+    "stitch": 25,
+    "ppm": 12.963346721133588
+  },
+  "(Valid)Blue In Green": {
+    "stitch": 31,
+    "ppm": 17.129808762012846
+  },
+  "(Valid)Blues For Wood": {
+    "stitch": 24,
+    "ppm": 13.742486130069109
+  },
+  "(Valid)Mr. P.C.": {
+    "stitch": 19,
+    "ppm": 12.092405979437617
+  },
+  "(Valid)Interplay": {
+    "stitch": 23,
+    "ppm": 15.570891021899598
+  },
+  "(Valid)Birk's Works": {
+    "stitch": 28,
+    "ppm": 17.09162062156674
+  },
+  "(Valid)Booker's Waltz": {
+    "stitch": 27,
+    "ppm": 18.73659162054527
+  },
+  "(Valid)Friday The 13th": {
+    "stitch": 14,
+    "ppm": 7.27971391536225
+  },
+  "(Valid)Sweet Georgia Bright": {
+    "stitch": 19,
+    "ppm": 15.019883175917087
+  },
+  "(Valid)If You Never Come To Me": {
+    "stitch": 29,
+    "ppm": 16.599766688909817
+  },
+  "(Valid)Pent Up House": {
+    "stitch": 20,
+    "ppm": 13.726396665749675
+  },
+  "(Valid)Contemplation": {
+    "stitch": 22,
+    "ppm": 16.57364823025566
+  },
+  "(Valid)Valse Hot": {
+    "stitch": 25,
+    "ppm": 15.027069364321346
+  },
+  "(Valid)Wayne's Thang": {
+    "stitch": 17,
+    "ppm": 11.838446376514108
+  },
+  "(Valid)We Will Meet Again": {
+    "stitch": 28,
+    "ppm": 17.385158856380716
+  },
+  "(Valid)Israel": {
+    "stitch": 22,
+    "ppm": 16.478812743691325
+  },
+  "(Valid)Blue Bossa": {
+    "stitch": 25,
+    "ppm": 17.83920577831373
+  },
+  "(Valid)When The Saints Go Marching In": {
+    "stitch": 30,
+    "ppm": 19.372937429930055
+  },
+  "(Valid)Sugar": {
+    "stitch": 31,
+    "ppm": 18.125655491768207
+  },
+  "(Valid)Beatrice": {
+    "stitch": 32,
+    "ppm": 19.0223624256564
+  },
+  "(Valid)Work Song": {
+    "stitch": 25,
+    "ppm": 17.793312614724343
+  },
+  "(Valid)Lady Bird": {
+    "stitch": 21,
+    "ppm": 18.870739785849658
+  },
+  "(Valid)Mac The Knife": {
+    "stitch": 26,
+    "ppm": 16.83235704630529
+  },
+  "(Valid)Jackie-ing": {
+    "stitch": 27,
+    "ppm": 17.504017241473438
+  },
+  "(Valid)Peace": {
+    "stitch": 32,
+    "ppm": 18.701785431302913
+  },
+  "(Valid)On The Trail": {
+    "stitch": 25,
+    "ppm": 19.61467899546508
+  },
+  "(Valid)United": {
+    "stitch": 26,
+    "ppm": 16.214936298357042
+  },
+  "(Valid)Funkallero": {
+    "stitch": 32,
+    "ppm": 17.109747676888723
+  },
+  "(Valid)Sunny": {
+    "stitch": 27,
+    "ppm": 14.736844599152212
+  },
+  "(Valid)Blues For Alice": {
+    "stitch": 35,
+    "ppm": 17.133335408374332
+  },
+  "(Valid)Yesterdays": {
+    "stitch": 32,
+    "ppm": 17.519438057644617
+  },
+  "(Valid)Afro Blue": {
+    "stitch": 26,
+    "ppm": 16.220696591642138
+  },
+  "(Valid)Brotherhood Of Man": {
+    "stitch": 34,
+    "ppm": 21.06087449170368
+  },
+  "(Valid)Freight Train": {
+    "stitch": 34,
+    "ppm": 18.900060732820375
+  },
+  "(Valid)Got A Match?": {
+    "stitch": 33,
+    "ppm": 20.5857390706458
+  },
+  "(Valid)Half Nelson": {
+    "stitch": 23,
+    "ppm": 21.032472431931627
+  },
+  "(Valid)Leaving": {
+    "stitch": 34,
+    "ppm": 21.519345903345556
+  },
+  "(Valid)Recordame": {
+    "stitch": 34,
+    "ppm": 17.31827794916598
+  },
+  "(Valid)Old Country, The": {
+    "stitch": 35,
+    "ppm": 19.65528692812517
+  },
+  "(Valid)Just A Gigolo": {
+    "stitch": 40,
+    "ppm": 23.58331205607147
+  },
+  "(Valid)Armando's Rhumba": {
+    "stitch": 34,
+    "ppm": 22.183997558066086
+  },
+  "(Valid)Little Boat (O Barquinho)": {
+    "stitch": 29,
+    "ppm": 16.901524663083855
+  },
+  "(Valid)Summertime": {
+    "stitch": 36,
+    "ppm": 22.7656124922421
+  },
+  "(Valid)Why Don't You Do Right?": {
+    "stitch": 31,
+    "ppm": 17.007592716336028
+  },
+  "(Valid)Bluesette": {
+    "stitch": 40,
+    "ppm": 20.173294687203033
+  },
+  "(Valid)Footprints": {
+    "stitch": 24,
+    "ppm": 22.50045307721329
+  },
+  "(Valid)Central Park West": {
+    "stitch": 24,
+    "ppm": 17.509559260718614
+  },
+  "(Valid)Serenity": {
+    "stitch": 39,
+    "ppm": 23.945098428803213
+  },
+  "(Valid)Paper Doll": {
+    "stitch": 43,
+    "ppm": 26.358577213657377
+  },
+  "(Valid)Four On Six": {
+    "stitch": 37,
+    "ppm": 23.6646382315937
+  },
+  "(Valid)Light Blue": {
+    "stitch": 42,
+    "ppm": 24.277445714727193
+  },
+  "(Valid)Simone": {
+    "stitch": 40,
+    "ppm": 22.48031326324634
+  },
+  "(Valid)Ballade": {
+    "stitch": 42,
+    "ppm": 25.82528313957301
+  },
+  "(Valid)St. Thomas": {
+    "stitch": 37,
+    "ppm": 20.79312590540132
+  },
+  "(Valid)Song For My Father": {
+    "stitch": 31,
+    "ppm": 20.756929860840753
+  },
+  "(Valid)Night Dreamer": {
+    "stitch": 27,
+    "ppm": 17.67661589426432
+  },
+  "(Valid)If You Ever Should Leave": {
+    "stitch": 35,
+    "ppm": 19.524048731230163
+  },
+  "(Valid)Witch Hunt": {
+    "stitch": 39,
+    "ppm": 26.271473970960397
+  },
+  "(Valid)Boo Boo's Birthday": {
+    "stitch": 36,
+    "ppm": 21.755884330046943
+  },
+  "(Valid)Minor Strain": {
+    "stitch": 20,
+    "ppm": 19.681285527232998
+  },
+  "(Valid)Girl Talk": {
+    "stitch": 52,
+    "ppm": 28.558920393516622
+  },
+  "(Valid)It's Been A Long Long Time": {
+    "stitch": 49,
+    "ppm": 31.40148276053062
+  },
+  "(Valid)Serenade To A Cuckoo": {
+    "stitch": 30,
+    "ppm": 17.327212289470413
+  },
+  "(Valid)My Ideal": {
+    "stitch": 47,
+    "ppm": 26.498140556167485
+  },
+  "(Valid)Chucho": {
+    "stitch": 40,
+    "ppm": 25.469030650745797
+  },
+  "(Valid)Bemsha Swing": {
+    "stitch": 36,
+    "ppm": 24.685064510889095
+  },
+  "(Valid)I Wish I Knew How It Would Feel To Be Free": {
+    "stitch": 48,
+    "ppm": 28.00845597844513
+  },
+  "(Valid)Idle Moments": {
+    "stitch": 40,
+    "ppm": 25.110205989927096
+  },
+  "(Valid)When You're Smilin'": {
+    "stitch": 48,
+    "ppm": 25.958872528772307
+  },
+  "(Valid)Avalon": {
+    "stitch": 47,
+    "ppm": 26.488748084686474
+  },
+  "(Valid)Gary's Notebook": {
+    "stitch": 44,
+    "ppm": 25.909021836935104
+  },
+  "(Valid)Backstage Sally": {
+    "stitch": 53,
+    "ppm": 30.744141119031198
+  },
+  "(Valid)Glad To Be Unhappy": {
+    "stitch": 50,
+    "ppm": 28.29391898293109
+  },
+  "(Valid)In A Mellow Tone (In A Mellotone)": {
+    "stitch": 52,
+    "ppm": 29.370613504032722
+  },
+  "(Valid)Hot House": {
+    "stitch": 36,
+    "ppm": 22.216594765003208
+  },
+  "(Valid)I've Found A New Baby v2": {
+    "stitch": 41,
+    "ppm": 23.824980202922323
+  },
+  "(Valid)Hungaria": {
+    "stitch": 44,
+    "ppm": 25.13528111879013
+  },
+  "(Valid)Lennie's Pennies": {
+    "stitch": 46,
+    "ppm": 29.871348267237703
+  },
+  "(Valid)Move": {
+    "stitch": 36,
+    "ppm": 20.558236828759778
+  },
+  "(Valid)So Danco Samba": {
+    "stitch": 41,
+    "ppm": 24.382277138570778
+  },
+  "(Valid)Someday My Prince Will Come": {
+    "stitch": 48,
+    "ppm": 25.500428068827905
+  },
+  "(Valid)Subconscious Lee": {
+    "stitch": 36,
+    "ppm": 22.21659476500321
+  },
+  "(Valid)Tune Up": {
+    "stitch": 41,
+    "ppm": 20.127807082407138
+  },
+  "(Valid)Cool One, The": {
+    "stitch": 44,
+    "ppm": 24.861305307190165
+  },
+  "(Valid)Bossa Antigua": {
+    "stitch": 48,
+    "ppm": 26.995714553859358
+  },
+  "(Valid)What Is This Thing Called Love": {
+    "stitch": 36,
+    "ppm": 22.786431031540037
+  },
+  "(Valid)Bright Mississippi": {
+    "stitch": 38,
+    "ppm": 29.228022025986746
+  },
+  "(Valid)Fine And Dandy": {
+    "stitch": 44,
+    "ppm": 25.44184290276164
+  },
+  "(Valid)I've Got A Crush On You": {
+    "stitch": 46,
+    "ppm": 29.613180161141038
+  },
+  "(Valid)Minor Mood": {
+    "stitch": 55,
+    "ppm": 32.690050353728196
+  },
+  "(Valid)Jeannie's Song": {
+    "stitch": 44,
+    "ppm": 27.26098806644688
+  },
+  "(Valid)O Grande Amor": {
+    "stitch": 53,
+    "ppm": 29.066400839574065
+  },
+  "(Valid)Autumn Leaves": {
+    "stitch": 48,
+    "ppm": 27.020840959969203
+  },
+  "(Valid)Nothing Personal": {
+    "stitch": 34,
+    "ppm": 30.581749774794723
+  },
+  "(Valid)All Of Me": {
+    "stitch": 46,
+    "ppm": 29.731807441844364
+  },
+  "(Valid)Fools Rush In": {
+    "stitch": 47,
+    "ppm": 26.685391172223188
+  },
+  "(Valid)Boy Next Door": {
+    "stitch": 54,
+    "ppm": 30.39015347468492
+  },
+  "(Valid)I Fall In Love Too Easily": {
+    "stitch": 51,
+    "ppm": 32.99744409573896
+  },
+  "(Valid)In A Shanty In Old Shanty Town": {
+    "stitch": 50,
+    "ppm": 29.672483692575675
+  },
+  "(Valid)Rose Room": {
+    "stitch": 44,
+    "ppm": 24.943357289124936
+  },
+  "(Valid)Shadow Of Your Smile, The": {
+    "stitch": 50,
+    "ppm": 33.47479517705063
+  },
+  "(Valid)Smile": {
+    "stitch": 45,
+    "ppm": 26.249044850581093
+  },
+  "(Valid)Shine": {
+    "stitch": 49,
+    "ppm": 28.472193572354435
+  },
+  "(Valid)Struttin' With Some Barbecue": {
+    "stitch": 52,
+    "ppm": 33.338655917370104
+  },
+  "(Valid)Weaver Of Dreams, A": {
+    "stitch": 46,
+    "ppm": 28.780653188453748
+  },
+  "(Valid)502 Blues": {
+    "stitch": 46,
+    "ppm": 25.11444154208769
+  },
+  "(Valid)Bill Bailey": {
+    "stitch": 52,
+    "ppm": 31.319875195787038
+  },
+  "(Valid)Blue Lou": {
+    "stitch": 51,
+    "ppm": 25.250386223417284
+  },
+  "(Valid)Dearly Beloved": {
+    "stitch": 35,
+    "ppm": 27.631821450019604
+  },
+  "(Valid)Broadway": {
+    "stitch": 47,
+    "ppm": 27.938296327924263
+  },
+  "(Valid)In A Little Spanish Town": {
+    "stitch": 49,
+    "ppm": 31.52430773067106
+  },
+  "(Valid)I Love Paris": {
+    "stitch": 55,
+    "ppm": 33.38547285103084
+  },
+  "(Valid)Good Life, The": {
+    "stitch": 46,
+    "ppm": 31.006127108434075
+  },
+  "(Valid)I Love You": {
+    "stitch": 50,
+    "ppm": 30.68328579188164
+  },
+  "(Valid)Look For The Silver Lining": {
+    "stitch": 58,
+    "ppm": 33.094295712729156
+  },
+  "(Valid)My Melancholy Baby": {
+    "stitch": 55,
+    "ppm": 30.857814632660816
+  },
+  "(Valid)Nuages": {
+    "stitch": 50,
+    "ppm": 30.96744537737476
+  },
+  "(Valid)Remember": {
+    "stitch": 42,
+    "ppm": 25.063446262545067
+  },
+  "(Valid)So Nice (Summer Samba)": {
+    "stitch": 50,
+    "ppm": 30.701801153285032
+  },
+  "(Valid)Stella By Starlight": {
+    "stitch": 60,
+    "ppm": 35.187881025254015
+  },
+  "(Valid)Them There Eyes": {
+    "stitch": 51,
+    "ppm": 35.518785461131785
+  },
+  "(Valid)Time On My Hands": {
+    "stitch": 50,
+    "ppm": 31.954786807693697
+  },
+  "(Valid)Why Do I Love You?": {
+    "stitch": 47,
+    "ppm": 28.97341850829461
+  },
+  "(Valid)Zingaro (Retrato Em Branco E Preto)": {
+    "stitch": 49,
+    "ppm": 30.96343328520055
+  },
+  "(Valid)Baubles, Bangles And Beads": {
+    "stitch": 47,
+    "ppm": 25.848293180909852
+  },
+  "(Valid)Beautiful Love": {
+    "stitch": 49,
+    "ppm": 28.13275340746408
+  },
+  "(Valid)Dancing In The Dark": {
+    "stitch": 52,
+    "ppm": 32.835271905754276
+  },
+  "(Valid)Candy": {
+    "stitch": 43,
+    "ppm": 24.92705073837845
+  },
+  "(Valid)Donna Lee": {
+    "stitch": 59,
+    "ppm": 29.931076630651244
+  },
+  "(Valid)Fine Romance, A": {
+    "stitch": 51,
+    "ppm": 31.093541256701673
+  },
+  "(Valid)Hackensack": {
+    "stitch": 45,
+    "ppm": 25.576941714774406
+  },
+  "(Valid)I Can't Believe...You're In Love...": {
+    "stitch": 49,
+    "ppm": 25.53774941011876
+  },
+  "(Valid)I'll Close My Eyes": {
+    "stitch": 42,
+    "ppm": 23.66637777208805
+  },
+  "(Valid)Jersey Bounce": {
+    "stitch": 44,
+    "ppm": 25.605366700738436
+  },
+  "(Valid)Just Friends": {
+    "stitch": 46,
+    "ppm": 31.25080549352603
+  },
+  "(Valid)This Can't Be Love": {
+    "stitch": 50,
+    "ppm": 28.46139912908034
+  },
+  "(Valid)Take The A Train": {
+    "stitch": 46,
+    "ppm": 25.28959724504549
+  },
+  "(Valid)Just In Time": {
+    "stitch": 55,
+    "ppm": 35.66525384654128
+  },
+  "(Valid)You Stepped Out Of A Dream": {
+    "stitch": 45,
+    "ppm": 33.23915241185468
+  },
+  "(Valid)Beautiful Friendship, A": {
+    "stitch": 51,
+    "ppm": 27.991074116034344
+  },
+  "(Valid)Across The Valley From The Alamo": {
+    "stitch": 55,
+    "ppm": 27.653687120098045
+  },
+  "(Valid)Best Things In Life Are Free, The": {
+    "stitch": 56,
+    "ppm": 36.35405581121724
+  },
+  "(Valid)Don't Worry 'Bout Me": {
+    "stitch": 56,
+    "ppm": 33.873689454178695
+  },
+  "(Valid)Exactly Like You": {
+    "stitch": 49,
+    "ppm": 28.004900372125384
+  },
+  "(Valid)Corcovado": {
+    "stitch": 55,
+    "ppm": 33.05536330733928
+  },
+  "(Valid)I've Found A New Baby": {
+    "stitch": 45,
+    "ppm": 23.88393915822287
+  },
+  "(Valid)How High The Moon": {
+    "stitch": 55,
+    "ppm": 31.58646800824682
+  }
+}
