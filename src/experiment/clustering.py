@@ -43,7 +43,6 @@ def to_adjacency_matrix(pairwise_sim_path: str, model_name: str) -> pd.DataFrame
 
 
 def cluster_test(result_folder):
-  # to_adjacency_matrix("data/result/(ctx=False)/pairwise_similarity.json")
   clustering_result = defaultdict(lambda: defaultdict(dict))
   for model_name in ["ppm", "stitch"]:
     for with_context in [True, False]:
@@ -58,13 +57,6 @@ def cluster_test(result_folder):
         "partition" : partition,
         "embedding" : embedding,
         }
-
-  # tuple_flattened = {
-  #     (outer_k, inner_k): values
-  #     for outer_k, inner_v in clustering_result.items()
-  #     for inner_k, values in inner_v.items()
-  # }
-  # df = pd.DataFrame.from_dict(tuple_flattened)
-  # print(df)
-  # df.to_latex('temp.tex')
+  
+  
   save_json(f"{result_folder}/clustering.json", clustering_result)

@@ -4,7 +4,7 @@
         "url": "../../data/result/clustering.json",
         "format": {
             "type": "json",
-            "property": "stitch.ctx_False.embedding"
+            "property": "stitch.ctx_True.embedding"
         }
     },
     "layer": [

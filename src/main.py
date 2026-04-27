@@ -63,11 +63,11 @@ if __name__ == "__main__":
 
     # pair-wise cross compression
 
-    experiment.pairwise_distance.run(
-        corpus_path=corpusPath,
-        output_path=f"data/result/edit_distances.json", save_result=True
-    )
-    assert False
+    # experiment.pairwise_distance.run(
+    #     corpus_path=corpusPath,
+    #     output_path=f"data/result/edit_distances.json", save_result=True
+    # )
+    # assert False
     for with_ctx in [False, True]:
 
         out_folder = f"data/result/(ctx={with_ctx})"
