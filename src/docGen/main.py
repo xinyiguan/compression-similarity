@@ -27,21 +27,22 @@ def format_and_save_to_tex_csv(output_folder,filename,table):
                 )
 
 
-def zscore_result_to_tsv(zscore_result:Dict,output_folder:str):
-    df = pd.DataFrame.from_records(zscore_result["Top k disagree"])
-    # df.style.format({
-    #     "nameX": lambda x: x[::10],
-    #     "nameY": lambda x: x[:2]
-    #     })
-    
+def to_be_discarded(z_score1 : float,z_score2: float ) -> bool:
+    all_outliers = abs(z_score1) > 2 and abs(z_score2) > 2
+    same_direction = z_score1 * z_score2 >= 0
+    return all_outliers and same_direction
     
 
+def zscore_result_to_tsv(zscore_result:Dict,output_folder:str):
+    df = pd.DataFrame.from_records(zscore_result["Top k disagree"])
     
     for model_name in ['stitch','ppm']:
         for ascending in [True,False]:
             _df = df[["nameX","nameY",f"D_{model_name}(z-score)"]].sort_values(f"D_{model_name}(z-score)",ascending = ascending).head(10)
             format_and_save_to_tex_csv(output_folder,f"{model_name}(sorted z-score)(ascending={ascending})",_df)
     
+    # for the diff z-score, filter out entry that: both pieces are outliers (|z| > 2) in the same direction
+    df = df[df.apply(lambda entry: not to_be_discarded(entry["D_stitch(z-score)"],entry["D_ppm(z-score)"]),axis=1)]
     
     table_largestDiff = df[["nameX","nameY","D_stitch(z-score)","D_ppm(z-score)","dist_diff"]]
     table_smallestDiff = df[["nameX","nameY","D_stitch(z-score)","D_ppm(z-score)","abs_dist_diff"]]
