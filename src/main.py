@@ -82,7 +82,8 @@ if __name__ == "__main__":
         
         corr_rank_report(
             res_file=similarity_file,
-            models=["ppm", "stitch"],
+            model_x="ppm",
+            model_y="stitch",
             save_report_fpath=regression_topk_file,
             show_results=False,
         )
