@@ -1,0 +1,4234 @@
+{
+  "ppm": {
+    "ctx_True": {
+      "partition": {
+        "0": [
+          "All Of Me",
+          "Backstage Sally",
+          "Best Things In Life Are Free, The",
+          "Bill Bailey",
+          "Boy Next Door",
+          "Bright Mississippi",
+          "Broadway",
+          "Dancing In The Dark",
+          "Don't Worry 'Bout Me",
+          "Donna Lee",
+          "Fine Romance, A",
+          "Fools Rush In",
+          "Glad To Be Unhappy",
+          "Good Life, The",
+          "How High The Moon",
+          "Hungaria",
+          "I Fall In Love Too Easily",
+          "I Love Paris",
+          "I Love You",
+          "I Wish I Knew How It Would Feel To Be Free",
+          "In A Mellow Tone (In A Mellotone)",
+          "In A Shanty In Old Shanty Town",
+          "Just In Time",
+          "Minor Strain",
+          "My Melancholy Baby",
+          "Nuages",
+          "O Grande Amor",
+          "Shadow Of Your Smile, The",
+          "Shine",
+          "So Nice (Summer Samba)",
+          "Stella By Starlight",
+          "Struttin' With Some Barbecue",
+          "Them There Eyes",
+          "This Can't Be Love",
+          "Time On My Hands",
+          "Weaver Of Dreams, A",
+          "Why Do I Love You?",
+          "You Stepped Out Of A Dream",
+          "Zingaro (Retrato Em Branco E Preto)"
+        ],
+        "1": [
+          "Afro Blue",
+          "Beatrice",
+          "Birk's Works",
+          "Blue In Green",
+          "Blues For Alice",
+          "Blues For Wood",
+          "Boo Boo's Birthday",
+          "Central Park West",
+          "Contemplation",
+          "Equinox",
+          "Friday The 13th",
+          "Funkallero",
+          "If You Never Come To Me",
+          "Interplay",
+          "Israel",
+          "Jackie-ing",
+          "Jody Grind, The",
+          "Just A Gigolo",
+          "Lennie's Pennies",
+          "Mr. P.C.",
+          "Nothing Personal",
+          "Pent Up House",
+          "Recordame",
+          "Red Clay",
+          "Serenade To A Cuckoo",
+          "Solar",
+          "Song For My Father",
+          "St. Thomas",
+          "Sunny",
+          "Sweet Georgia Bright",
+          "Tune Up",
+          "United",
+          "Valse Hot",
+          "Wayne's Thang",
+          "We Will Meet Again",
+          "When The Saints Go Marching In",
+          "Why Don't You Do Right?",
+          "Work Song",
+          "Yesterdays"
+        ],
+        "2": [
+          "502 Blues",
+          "Across The Valley From The Alamo",
+          "Armando's Rhumba",
+          "Autumn Leaves",
+          "Avalon",
+          "Ballade",
+          "Baubles, Bangles And Beads",
+          "Beautiful Friendship, A",
+          "Beautiful Love",
+          "Bemsha Swing",
+          "Blue Bossa",
+          "Blue Lou",
+          "Bluesette",
+          "Booker's Waltz",
+          "Bossa Antigua",
+          "Brotherhood Of Man",
+          "Candy",
+          "Chucho",
+          "Cool One, The",
+          "Dearly Beloved",
+          "Fine And Dandy",
+          "Footprints",
+          "Four On Six",
+          "Freight Train",
+          "Girl Talk",
+          "Got A Match?",
+          "Half Nelson",
+          "I Can't Believe...You're In Love...",
+          "I'll Close My Eyes",
+          "I've Found A New Baby",
+          "I've Found A New Baby v2",
+          "I've Got A Crush On You",
+          "If You Ever Should Leave",
+          "Jeannie's Song",
+          "Jersey Bounce",
+          "Just Friends",
+          "Lady Bird",
+          "Light Blue",
+          "Little Boat (O Barquinho)",
+          "Mac The Knife",
+          "Old Country, The",
+          "On The Trail",
+          "Peace",
+          "Remember",
+          "Rose Room",
+          "Serenity",
+          "Simone",
+          "Smile",
+          "So Danco Samba",
+          "Someday My Prince Will Come",
+          "Subconscious Lee",
+          "Sugar",
+          "Summertime",
+          "Take The A Train",
+          "What Is This Thing Called Love",
+          "When You're Smilin'",
+          "Witch Hunt"
+        ],
+        "3": [
+          "Exactly Like You",
+          "Gary's Notebook",
+          "Hackensack",
+          "Hot House",
+          "Idle Moments",
+          "In A Little Spanish Town",
+          "It's Been A Long Long Time",
+          "Leaving",
+          "Look For The Silver Lining",
+          "Minor Mood",
+          "Move",
+          "My Ideal",
+          "Night Dreamer",
+          "Paper Doll"
+        ]
+      },
+      "embedding": [
+        {
+          "piece_name": "502 Blues",
+          "x": 0.0011106328769300872,
+          "y": 0.00045002083740171094,
+          "category": 2
+        },
+        {
+          "piece_name": "Across The Valley From The Alamo",
+          "x": -0.0009577163774017357,
+          "y": 0.00013847419982946675,
+          "category": 2
+        },
+        {
+          "piece_name": "Afro Blue",
+          "x": 0.010715070916225354,
+          "y": -0.0012305897561623272,
+          "category": 1
+        },
+        {
+          "piece_name": "All Of Me",
+          "x": -0.007150307703374574,
+          "y": 0.00013678744215324252,
+          "category": 0
+        },
+        {
+          "piece_name": "Armando's Rhumba",
+          "x": 0.0027944223028577757,
+          "y": 0.00015945738779062554,
+          "category": 2
+        },
+        {
+          "piece_name": "Autumn Leaves",
+          "x": 4.919134710568843e-05,
+          "y": 0.00020340496505179197,
+          "category": 2
+        },
+        {
+          "piece_name": "Avalon",
+          "x": -2.437751511459302e-05,
+          "y": 0.00028374197960103864,
+          "category": 2
+        },
+        {
+          "piece_name": "Backstage Sally",
+          "x": -0.006366946756175082,
+          "y": -7.954276555124332e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Ballade",
+          "x": -0.004775535172181686,
+          "y": 0.0006738970926785338,
+          "category": 2
+        },
+        {
+          "piece_name": "Baubles, Bangles And Beads",
+          "x": -0.0001624213440612464,
+          "y": 0.0004200552658693266,
+          "category": 2
+        },
+        {
+          "piece_name": "Beatrice",
+          "x": 0.003679404705687252,
+          "y": -0.00014295150708208988,
+          "category": 1
+        },
+        {
+          "piece_name": "Beautiful Friendship, A",
+          "x": -0.002491735528248511,
+          "y": 0.00014201031866117053,
+          "category": 2
+        },
+        {
+          "piece_name": "Beautiful Love",
+          "x": -0.000888608448883155,
+          "y": 0.00011092216099685043,
+          "category": 2
+        },
+        {
+          "piece_name": "Bemsha Swing",
+          "x": 0.00357475435867665,
+          "y": 0.0003708378171638083,
+          "category": 2
+        },
+        {
+          "piece_name": "Best Things In Life Are Free, The",
+          "x": -0.007317045875914695,
+          "y": -0.0002743005741630761,
+          "category": 0
+        },
+        {
+          "piece_name": "Bill Bailey",
+          "x": -0.0041284418249642844,
+          "y": -0.00022060288094245988,
+          "category": 0
+        },
+        {
+          "piece_name": "Birk's Works",
+          "x": 0.003258583092645022,
+          "y": -0.0004954059901284269,
+          "category": 1
+        },
+        {
+          "piece_name": "Blue Bossa",
+          "x": 0.0016557644409554144,
+          "y": -0.0001318774256731457,
+          "category": 2
+        },
+        {
+          "piece_name": "Blue In Green",
+          "x": 0.0037771501135258592,
+          "y": -0.0005470225741007283,
+          "category": 1
+        },
+        {
+          "piece_name": "Blue Lou",
+          "x": 0.0016660865563410882,
+          "y": 0.0004129249059616187,
+          "category": 2
+        },
+        {
+          "piece_name": "Blues For Alice",
+          "x": 0.0031051990084202644,
+          "y": -0.0004609017905263944,
+          "category": 1
+        },
+        {
+          "piece_name": "Blues For Wood",
+          "x": 0.005920933758058123,
+          "y": -0.000557728024023638,
+          "category": 1
+        },
+        {
+          "piece_name": "Bluesette",
+          "x": -0.0025786975983026358,
+          "y": 0.0006357592762841644,
+          "category": 2
+        },
+        {
+          "piece_name": "Boo Boo's Birthday",
+          "x": 0.0051183025994155805,
+          "y": -5.41277294450501e-05,
+          "category": 1
+        },
+        {
+          "piece_name": "Booker's Waltz",
+          "x": 0.0014815967860687587,
+          "y": 6.649507301725119e-05,
+          "category": 2
+        },
+        {
+          "piece_name": "Bossa Antigua",
+          "x": -0.003668291328716448,
+          "y": 0.0003466599225411967,
+          "category": 2
+        },
+        {
+          "piece_name": "Boy Next Door",
+          "x": -0.005858666342834624,
+          "y": -4.0125389522918484e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Bright Mississippi",
+          "x": -0.005134079534220165,
+          "y": 0.0001184439862696418,
+          "category": 0
+        },
+        {
+          "piece_name": "Broadway",
+          "x": -0.005015028746053604,
+          "y": 0.00026586859108158385,
+          "category": 0
+        },
+        {
+          "piece_name": "Brotherhood Of Man",
+          "x": 0.0029822520692694295,
+          "y": 3.6123165893092665e-05,
+          "category": 2
+        },
+        {
+          "piece_name": "Candy",
+          "x": -0.0006704964155922973,
+          "y": 0.0005440952243733037,
+          "category": 2
+        },
+        {
+          "piece_name": "Central Park West",
+          "x": 0.006977647766144223,
+          "y": -0.0008170208486160048,
+          "category": 1
+        },
+        {
+          "piece_name": "Chucho",
+          "x": -0.002017947204006463,
+          "y": 0.0005445168431372499,
+          "category": 2
+        },
+        {
+          "piece_name": "Contemplation",
+          "x": 0.0050155538055149645,
+          "y": -0.0007467211868479022,
+          "category": 1
+        },
+        {
+          "piece_name": "Cool One, The",
+          "x": -0.0016036905738167147,
+          "y": 0.0006183671780199013,
+          "category": 2
+        },
+        {
+          "piece_name": "Dancing In The Dark",
+          "x": -0.0053563086367686965,
+          "y": -0.0023346273884749407,
+          "category": 0
+        },
+        {
+          "piece_name": "Dearly Beloved",
+          "x": -0.0033295412568713784,
+          "y": 0.002764527566030343,
+          "category": 2
+        },
+        {
+          "piece_name": "Don't Worry 'Bout Me",
+          "x": -0.0046468680536614895,
+          "y": -0.0019212251295908293,
+          "category": 0
+        },
+        {
+          "piece_name": "Donna Lee",
+          "x": -0.004367584914739014,
+          "y": -0.0020515744396842396,
+          "category": 0
+        },
+        {
+          "piece_name": "Equinox",
+          "x": 0.0012009040032689385,
+          "y": 0.008103026604429317,
+          "category": 1
+        },
+        {
+          "piece_name": "Exactly Like You",
+          "x": 0.0011205881477911585,
+          "y": -0.008498224219010211,
+          "category": 3
+        },
+        {
+          "piece_name": "Fine And Dandy",
+          "x": -0.0004948226145050868,
+          "y": 0.0025872194308356054,
+          "category": 2
+        },
+        {
+          "piece_name": "Fine Romance, A",
+          "x": -0.002073112435241632,
+          "y": 0.00044304010014051574,
+          "category": 0
+        },
+        {
+          "piece_name": "Fools Rush In",
+          "x": -0.002921205317935172,
+          "y": -0.0017635405413178498,
+          "category": 0
+        },
+        {
+          "piece_name": "Footprints",
+          "x": 0.0014980870514065077,
+          "y": 0.0017420364342141201,
+          "category": 2
+        },
+        {
+          "piece_name": "Four On Six",
+          "x": -0.0004749014748088008,
+          "y": 0.0016320866976056473,
+          "category": 2
+        },
+        {
+          "piece_name": "Freight Train",
+          "x": -0.0014204322875813991,
+          "y": 0.0035768833853136797,
+          "category": 2
+        },
+        {
+          "piece_name": "Friday The 13th",
+          "x": 0.002330401123559103,
+          "y": -0.0015513097370879662,
+          "category": 1
+        },
+        {
+          "piece_name": "Funkallero",
+          "x": 0.004575634497384831,
+          "y": -0.0016264158943867816,
+          "category": 1
+        },
+        {
+          "piece_name": "Gary's Notebook",
+          "x": 0.0035004744409847426,
+          "y": -0.004596098250954815,
+          "category": 3
+        },
+        {
+          "piece_name": "Girl Talk",
+          "x": -0.00018980462609987443,
+          "y": 0.0038874557835130346,
+          "category": 2
+        },
+        {
+          "piece_name": "Glad To Be Unhappy",
+          "x": -0.0031064994376772963,
+          "y": -0.0006339895527974537,
+          "category": 0
+        },
+        {
+          "piece_name": "Good Life, The",
+          "x": -0.0037906910987382963,
+          "y": -0.001891950151481554,
+          "category": 0
+        },
+        {
+          "piece_name": "Got A Match?",
+          "x": -0.0035147553085429035,
+          "y": 0.010133641070079821,
+          "category": 2
+        },
+        {
+          "piece_name": "Hackensack",
+          "x": 0.00018174099551521785,
+          "y": -0.012699588405640547,
+          "category": 3
+        },
+        {
+          "piece_name": "Half Nelson",
+          "x": -0.00022422812417677933,
+          "y": 0.014023914609064748,
+          "category": 2
+        },
+        {
+          "piece_name": "Hot House",
+          "x": -0.0006815400197508882,
+          "y": -0.009832689400876274,
+          "category": 3
+        },
+        {
+          "piece_name": "How High The Moon",
+          "x": -0.0017242367221575144,
+          "y": 0.0027409618983885503,
+          "category": 0
+        },
+        {
+          "piece_name": "Hungaria",
+          "x": -0.001586262592679551,
+          "y": -0.0024895827581331155,
+          "category": 0
+        },
+        {
+          "piece_name": "I Can't Believe...You're In Love...",
+          "x": 0.0025405467628221022,
+          "y": 0.0010459218894758144,
+          "category": 2
+        },
+        {
+          "piece_name": "I Fall In Love Too Easily",
+          "x": -0.002327802902603094,
+          "y": 0.0020819307778942565,
+          "category": 0
+        },
+        {
+          "piece_name": "I Love Paris",
+          "x": -0.005578511966085652,
+          "y": -0.002081409514273676,
+          "category": 0
+        },
+        {
+          "piece_name": "I Love You",
+          "x": -0.004638822986841511,
+          "y": 0.0014973573498370688,
+          "category": 0
+        },
+        {
+          "piece_name": "I Wish I Knew How It Would Feel To Be Free",
+          "x": -0.0024781040790919345,
+          "y": -0.0029812412612587975,
+          "category": 0
+        },
+        {
+          "piece_name": "I'll Close My Eyes",
+          "x": 0.0006273704777353131,
+          "y": 0.0031229617505147884,
+          "category": 2
+        },
+        {
+          "piece_name": "I've Found A New Baby",
+          "x": 0.0017493587120811763,
+          "y": -0.0022237133676976718,
+          "category": 2
+        },
+        {
+          "piece_name": "I've Found A New Baby v2",
+          "x": 0.003185020582616119,
+          "y": 0.0009477633018161564,
+          "category": 2
+        },
+        {
+          "piece_name": "I've Got A Crush On You",
+          "x": -0.0019069446288373399,
+          "y": 0.0029330925980241853,
+          "category": 2
+        },
+        {
+          "piece_name": "Idle Moments",
+          "x": -0.0011315563261907367,
+          "y": -0.00471103836592847,
+          "category": 3
+        },
+        {
+          "piece_name": "If You Ever Should Leave",
+          "x": 0.004065038452142199,
+          "y": 0.0032659695511652953,
+          "category": 2
+        },
+        {
+          "piece_name": "If You Never Come To Me",
+          "x": 0.0032861490747154135,
+          "y": 0.005314881069228771,
+          "category": 1
+        },
+        {
+          "piece_name": "In A Little Spanish Town",
+          "x": -0.0017130969413589139,
+          "y": -0.007754574983019605,
+          "category": 3
+        },
+        {
+          "piece_name": "In A Mellow Tone (In A Mellotone)",
+          "x": -0.0044476921980067105,
+          "y": 0.0008233218755914981,
+          "category": 0
+        },
+        {
+          "piece_name": "In A Shanty In Old Shanty Town",
+          "x": -0.0036237643943559782,
+          "y": -0.0003334111185534552,
+          "category": 0
+        },
+        {
+          "piece_name": "Interplay",
+          "x": 9.736134220730948e-05,
+          "y": 0.0032584510783220102,
+          "category": 1
+        },
+        {
+          "piece_name": "Israel",
+          "x": 0.00460259023238686,
+          "y": 0.002283271250931093,
+          "category": 1
+        },
+        {
+          "piece_name": "It's Been A Long Long Time",
+          "x": -0.0026553984192621218,
+          "y": -0.00752452608804958,
+          "category": 3
+        },
+        {
+          "piece_name": "Jackie-ing",
+          "x": -0.0002209641858683668,
+          "y": 0.003371011070699929,
+          "category": 1
+        },
+        {
+          "piece_name": "Jeannie's Song",
+          "x": 0.0006891632483584277,
+          "y": -0.0010069210830166906,
+          "category": 2
+        },
+        {
+          "piece_name": "Jersey Bounce",
+          "x": -0.0028617494270018287,
+          "y": -0.0033027506036682444,
+          "category": 2
+        },
+        {
+          "piece_name": "Jody Grind, The",
+          "x": 0.003585140174142189,
+          "y": 0.005800904833911476,
+          "category": 1
+        },
+        {
+          "piece_name": "Just A Gigolo",
+          "x": 0.0014499233317570106,
+          "y": -0.0018189631913389374,
+          "category": 1
+        },
+        {
+          "piece_name": "Just Friends",
+          "x": -0.00584145208775279,
+          "y": -0.00037031299559702743,
+          "category": 2
+        },
+        {
+          "piece_name": "Just In Time",
+          "x": -0.0065612290889780584,
+          "y": -0.004955552270026001,
+          "category": 0
+        },
+        {
+          "piece_name": "Lady Bird",
+          "x": -0.0020672817007895534,
+          "y": 0.011159842064193206,
+          "category": 2
+        },
+        {
+          "piece_name": "Leaving",
+          "x": 0.0016610274369307644,
+          "y": -0.009901913426116437,
+          "category": 3
+        },
+        {
+          "piece_name": "Lennie's Pennies",
+          "x": 2.3597856433106712e-05,
+          "y": 0.0025948888759532284,
+          "category": 1
+        },
+        {
+          "piece_name": "Light Blue",
+          "x": -0.0018876415063587557,
+          "y": -0.0010352923207410242,
+          "category": 2
+        },
+        {
+          "piece_name": "Little Boat (O Barquinho)",
+          "x": 0.002408773291970449,
+          "y": 0.006850276908386243,
+          "category": 2
+        },
+        {
+          "piece_name": "Look For The Silver Lining",
+          "x": -0.001270420954326749,
+          "y": -0.009630056578700003,
+          "category": 3
+        },
+        {
+          "piece_name": "Mac The Knife",
+          "x": -0.0004661255665330773,
+          "y": 0.009629090821180264,
+          "category": 2
+        },
+        {
+          "piece_name": "Minor Mood",
+          "x": -0.0010071743561223558,
+          "y": -0.00995666374976152,
+          "category": 3
+        },
+        {
+          "piece_name": "Minor Strain",
+          "x": -0.0023147496628599215,
+          "y": 0.008067705346792842,
+          "category": 0
+        },
+        {
+          "piece_name": "Move",
+          "x": 0.004812866570471098,
+          "y": -0.011071402626187164,
+          "category": 3
+        },
+        {
+          "piece_name": "Mr. P.C.",
+          "x": 0.0061465162774782265,
+          "y": 0.012392597265514402,
+          "category": 1
+        },
+        {
+          "piece_name": "My Ideal",
+          "x": 0.0010714504156628427,
+          "y": -0.008501534327300043,
+          "category": 3
+        },
+        {
+          "piece_name": "My Melancholy Baby",
+          "x": -0.004736258522019906,
+          "y": 0.0037360942591242925,
+          "category": 0
+        },
+        {
+          "piece_name": "Night Dreamer",
+          "x": 0.00494627933209776,
+          "y": -0.01018468902109656,
+          "category": 3
+        },
+        {
+          "piece_name": "Nothing Personal",
+          "x": 0.005181205433725867,
+          "y": 0.00807953511813593,
+          "category": 1
+        },
+        {
+          "piece_name": "Nuages",
+          "x": -0.004215499698415992,
+          "y": -0.0021534020885645272,
+          "category": 0
+        },
+        {
+          "piece_name": "O Grande Amor",
+          "x": -0.002811658582026028,
+          "y": -0.00030536611309393694,
+          "category": 0
+        },
+        {
+          "piece_name": "Old Country, The",
+          "x": -0.0006981278264933143,
+          "y": 0.004543011161131575,
+          "category": 2
+        },
+        {
+          "piece_name": "On The Trail",
+          "x": 0.0005360828788112655,
+          "y": 0.0023126666783211554,
+          "category": 2
+        },
+        {
+          "piece_name": "Paper Doll",
+          "x": -0.0018880193824391035,
+          "y": -0.006596217595071513,
+          "category": 3
+        },
+        {
+          "piece_name": "Peace",
+          "x": -0.0008307706228830241,
+          "y": 0.006181860383569027,
+          "category": 2
+        },
+        {
+          "piece_name": "Pent Up House",
+          "x": 0.0030753369691964684,
+          "y": -0.002003944378659651,
+          "category": 1
+        },
+        {
+          "piece_name": "Recordame",
+          "x": 0.004607197659646515,
+          "y": -0.0023613686764214544,
+          "category": 1
+        },
+        {
+          "piece_name": "Red Clay",
+          "x": 0.004890893961920341,
+          "y": 0.0025686513402295454,
+          "category": 1
+        },
+        {
+          "piece_name": "Remember",
+          "x": 0.0026492040311084752,
+          "y": 0.0003853832699352288,
+          "category": 2
+        },
+        {
+          "piece_name": "Rose Room",
+          "x": 0.0034987914603828137,
+          "y": 0.00036090376481265335,
+          "category": 2
+        },
+        {
+          "piece_name": "Serenade To A Cuckoo",
+          "x": 0.004585401407940648,
+          "y": -0.0006012324244250739,
+          "category": 1
+        },
+        {
+          "piece_name": "Serenity",
+          "x": -0.004929570631835255,
+          "y": 0.0008435268060874758,
+          "category": 2
+        },
+        {
+          "piece_name": "Shadow Of Your Smile, The",
+          "x": -0.008349258977549769,
+          "y": -0.00029247398197487356,
+          "category": 0
+        },
+        {
+          "piece_name": "Shine",
+          "x": -0.006065668096799173,
+          "y": 0.00031392150455207513,
+          "category": 0
+        },
+        {
+          "piece_name": "Simone",
+          "x": 0.00026961833585086454,
+          "y": 0.0003528614191647342,
+          "category": 2
+        },
+        {
+          "piece_name": "Smile",
+          "x": -0.0016194393002605214,
+          "y": 0.00041080310373758406,
+          "category": 2
+        },
+        {
+          "piece_name": "So Danco Samba",
+          "x": -0.004118354241843248,
+          "y": 0.000781029051798138,
+          "category": 2
+        },
+        {
+          "piece_name": "So Nice (Summer Samba)",
+          "x": -0.004360881318806856,
+          "y": -0.00015575533284167828,
+          "category": 0
+        },
+        {
+          "piece_name": "Solar",
+          "x": 0.004939901735454298,
+          "y": -0.00030115167620400906,
+          "category": 1
+        },
+        {
+          "piece_name": "Someday My Prince Will Come",
+          "x": -0.002293312544929682,
+          "y": 0.0005836532024471417,
+          "category": 2
+        },
+        {
+          "piece_name": "Song For My Father",
+          "x": 0.007425744152733059,
+          "y": -0.00026422003862366846,
+          "category": 1
+        },
+        {
+          "piece_name": "St. Thomas",
+          "x": 0.004111108267211112,
+          "y": -4.68024206098317e-05,
+          "category": 1
+        },
+        {
+          "piece_name": "Stella By Starlight",
+          "x": -0.005704537316577944,
+          "y": -0.0003103348332597093,
+          "category": 0
+        },
+        {
+          "piece_name": "Struttin' With Some Barbecue",
+          "x": -0.005365712290937604,
+          "y": -0.0003602390843318206,
+          "category": 0
+        },
+        {
+          "piece_name": "Subconscious Lee",
+          "x": 0.0024018101260531925,
+          "y": 0.00024248882720815038,
+          "category": 2
+        },
+        {
+          "piece_name": "Sugar",
+          "x": 0.001828842570292274,
+          "y": -0.00012163033317786206,
+          "category": 2
+        },
+        {
+          "piece_name": "Summertime",
+          "x": -0.0024696328932296723,
+          "y": 0.00055704450301711,
+          "category": 2
+        },
+        {
+          "piece_name": "Sunny",
+          "x": 0.005554247785368722,
+          "y": -0.0005913775620691457,
+          "category": 1
+        },
+        {
+          "piece_name": "Sweet Georgia Bright",
+          "x": 0.004586419848103288,
+          "y": -0.0005104232037591722,
+          "category": 1
+        },
+        {
+          "piece_name": "Take The A Train",
+          "x": -0.004852085029526684,
+          "y": 0.0007970716865008555,
+          "category": 2
+        },
+        {
+          "piece_name": "Them There Eyes",
+          "x": -0.006418592977140154,
+          "y": -0.0003107290124511187,
+          "category": 0
+        },
+        {
+          "piece_name": "This Can't Be Love",
+          "x": -0.003859910132666933,
+          "y": 0.00016308357253697972,
+          "category": 0
+        },
+        {
+          "piece_name": "Time On My Hands",
+          "x": -0.004826254260348627,
+          "y": -0.00031765795592953713,
+          "category": 0
+        },
+        {
+          "piece_name": "Tune Up",
+          "x": 0.012751660455228622,
+          "y": -0.0005549980179464874,
+          "category": 1
+        },
+        {
+          "piece_name": "United",
+          "x": 0.004986986880531194,
+          "y": -0.0007031081748504375,
+          "category": 1
+        },
+        {
+          "piece_name": "Valse Hot",
+          "x": 0.0043598468146381604,
+          "y": -0.0004703128306402542,
+          "category": 1
+        },
+        {
+          "piece_name": "Wayne's Thang",
+          "x": 0.005857398025399873,
+          "y": -0.0003583823739096032,
+          "category": 1
+        },
+        {
+          "piece_name": "We Will Meet Again",
+          "x": 0.0038227293643149853,
+          "y": -0.0005001700375837534,
+          "category": 1
+        },
+        {
+          "piece_name": "Weaver Of Dreams, A",
+          "x": -0.006870810372414566,
+          "y": 0.00023387679095369422,
+          "category": 0
+        },
+        {
+          "piece_name": "What Is This Thing Called Love",
+          "x": 0.0010568449579084393,
+          "y": 0.000400206168824926,
+          "category": 2
+        },
+        {
+          "piece_name": "When The Saints Go Marching In",
+          "x": 0.00467126632173547,
+          "y": -0.00023695236394456092,
+          "category": 1
+        },
+        {
+          "piece_name": "When You're Smilin'",
+          "x": -0.00027984063674306925,
+          "y": 0.00038490926434996446,
+          "category": 2
+        },
+        {
+          "piece_name": "Why Do I Love You?",
+          "x": -0.004637494414446004,
+          "y": 0.00014641161154644444,
+          "category": 0
+        },
+        {
+          "piece_name": "Why Don't You Do Right?",
+          "x": 0.00988425018497418,
+          "y": -0.0011713883222309283,
+          "category": 1
+        },
+        {
+          "piece_name": "Witch Hunt",
+          "x": -3.7733791267346254e-05,
+          "y": 0.0003098135138504618,
+          "category": 2
+        },
+        {
+          "piece_name": "Work Song",
+          "x": 0.004030156233956144,
+          "y": -0.0005335003606702167,
+          "category": 1
+        },
+        {
+          "piece_name": "Yesterdays",
+          "x": 0.0023894207434458324,
+          "y": -0.00028748686598929524,
+          "category": 1
+        },
+        {
+          "piece_name": "You Stepped Out Of A Dream",
+          "x": -0.006412538624809806,
+          "y": -0.00036104928216620593,
+          "category": 0
+        },
+        {
+          "piece_name": "Zingaro (Retrato Em Branco E Preto)",
+          "x": -0.0037023924587867114,
+          "y": -0.0001522415366528092,
+          "category": 0
+        }
+      ]
+    },
+    "ctx_False": {
+      "partition": {
+        "0": [
+          "502 Blues",
+          "Across The Valley From The Alamo",
+          "Afro Blue",
+          "All Of Me",
+          "Armando's Rhumba",
+          "Autumn Leaves",
+          "Avalon",
+          "Backstage Sally",
+          "Ballade",
+          "Baubles, Bangles And Beads",
+          "Beatrice",
+          "Beautiful Friendship, A",
+          "Beautiful Love",
+          "Bemsha Swing",
+          "Best Things In Life Are Free, The",
+          "Bill Bailey",
+          "Birk's Works",
+          "Blue Bossa",
+          "Blue In Green",
+          "Blue Lou",
+          "Blues For Alice",
+          "Blues For Wood",
+          "Bluesette",
+          "Boo Boo's Birthday",
+          "Booker's Waltz",
+          "Bossa Antigua",
+          "Boy Next Door",
+          "Bright Mississippi",
+          "Broadway",
+          "Brotherhood Of Man",
+          "Candy",
+          "Central Park West",
+          "Chucho",
+          "Contemplation",
+          "Cool One, The",
+          "Dancing In The Dark",
+          "Don't Worry 'Bout Me",
+          "Fine Romance, A",
+          "Footprints",
+          "Freight Train",
+          "Funkallero",
+          "Girl Talk",
+          "Good Life, The",
+          "Hackensack",
+          "I Love Paris",
+          "I Wish I Knew How It Would Feel To Be Free",
+          "I'll Close My Eyes",
+          "I've Found A New Baby v2",
+          "I've Got A Crush On You",
+          "If You Ever Should Leave",
+          "In A Little Spanish Town",
+          "In A Shanty In Old Shanty Town",
+          "Interplay",
+          "It's Been A Long Long Time",
+          "Jeannie's Song",
+          "Lennie's Pennies",
+          "Little Boat (O Barquinho)",
+          "Mac The Knife",
+          "Minor Strain",
+          "Pent Up House",
+          "Red Clay",
+          "Remember",
+          "Rose Room",
+          "Serenade To A Cuckoo",
+          "Serenity",
+          "Shadow Of Your Smile, The",
+          "Shine",
+          "Simone",
+          "Smile",
+          "So Danco Samba",
+          "So Nice (Summer Samba)",
+          "Solar",
+          "Someday My Prince Will Come",
+          "Song For My Father",
+          "St. Thomas",
+          "Stella By Starlight",
+          "Struttin' With Some Barbecue",
+          "Subconscious Lee",
+          "Sugar",
+          "Summertime",
+          "Sunny",
+          "Sweet Georgia Bright",
+          "Take The A Train",
+          "Them There Eyes",
+          "This Can't Be Love",
+          "Time On My Hands",
+          "Tune Up",
+          "United",
+          "Valse Hot",
+          "Wayne's Thang",
+          "We Will Meet Again",
+          "Weaver Of Dreams, A",
+          "What Is This Thing Called Love",
+          "When The Saints Go Marching In",
+          "When You're Smilin'",
+          "Why Do I Love You?",
+          "Why Don't You Do Right?",
+          "Witch Hunt",
+          "Work Song",
+          "Yesterdays",
+          "You Stepped Out Of A Dream",
+          "Zingaro (Retrato Em Branco E Preto)"
+        ],
+        "1": [
+          "Fools Rush In",
+          "Four On Six",
+          "Friday The 13th",
+          "Gary's Notebook",
+          "Glad To Be Unhappy",
+          "Hot House",
+          "Hungaria",
+          "I Fall In Love Too Easily",
+          "I Love You",
+          "I've Found A New Baby",
+          "Idle Moments",
+          "If You Never Come To Me",
+          "In A Mellow Tone (In A Mellotone)",
+          "Jackie-ing",
+          "Jersey Bounce",
+          "Just A Gigolo",
+          "Just In Time",
+          "Leaving",
+          "Light Blue",
+          "Look For The Silver Lining",
+          "Minor Mood",
+          "Nuages",
+          "Old Country, The",
+          "Paper Doll"
+        ],
+        "2": [
+          "Dearly Beloved",
+          "Donna Lee",
+          "Exactly Like You",
+          "Israel",
+          "Jody Grind, The",
+          "Just Friends",
+          "Move",
+          "My Ideal",
+          "Night Dreamer"
+        ],
+        "3": [
+          "Equinox",
+          "Fine And Dandy",
+          "Got A Match?",
+          "Half Nelson",
+          "How High The Moon",
+          "I Can't Believe...You're In Love...",
+          "Lady Bird",
+          "Mr. P.C.",
+          "My Melancholy Baby",
+          "Nothing Personal",
+          "O Grande Amor",
+          "On The Trail",
+          "Peace",
+          "Recordame"
+        ]
+      },
+      "embedding": [
+        {
+          "piece_name": "502 Blues",
+          "x": 0.0002904819166219192,
+          "y": -0.000608444064699842,
+          "category": 0
+        },
+        {
+          "piece_name": "Across The Valley From The Alamo",
+          "x": 1.965777576159851e-06,
+          "y": -0.0002317112861362261,
+          "category": 0
+        },
+        {
+          "piece_name": "Afro Blue",
+          "x": -0.00031809197450230524,
+          "y": 0.0004786204689587246,
+          "category": 0
+        },
+        {
+          "piece_name": "All Of Me",
+          "x": -0.0005628918757043722,
+          "y": 0.00031372639713333805,
+          "category": 0
+        },
+        {
+          "piece_name": "Armando's Rhumba",
+          "x": -0.0003183651186103285,
+          "y": 0.0002753493086464314,
+          "category": 0
+        },
+        {
+          "piece_name": "Autumn Leaves",
+          "x": 0.00037286534871796314,
+          "y": -0.0001804351423702317,
+          "category": 0
+        },
+        {
+          "piece_name": "Avalon",
+          "x": -2.9507464740847392e-05,
+          "y": 2.946251290660462e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Backstage Sally",
+          "x": 0.0002875515580900349,
+          "y": -0.00046795283321760005,
+          "category": 0
+        },
+        {
+          "piece_name": "Ballade",
+          "x": 6.276269841875829e-05,
+          "y": 0.0003670101163988649,
+          "category": 0
+        },
+        {
+          "piece_name": "Baubles, Bangles And Beads",
+          "x": 0.00035673108646768604,
+          "y": -0.0003983555845871223,
+          "category": 0
+        },
+        {
+          "piece_name": "Beatrice",
+          "x": -0.00019543914085209024,
+          "y": -4.632647505355103e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Beautiful Friendship, A",
+          "x": 0.00027623287872863343,
+          "y": -3.9293884604480975e-06,
+          "category": 0
+        },
+        {
+          "piece_name": "Beautiful Love",
+          "x": 0.00014832235389457268,
+          "y": 0.0002348465116883851,
+          "category": 0
+        },
+        {
+          "piece_name": "Bemsha Swing",
+          "x": -0.00018268048808858453,
+          "y": -0.00017180527196970443,
+          "category": 0
+        },
+        {
+          "piece_name": "Best Things In Life Are Free, The",
+          "x": -0.0006198178878525005,
+          "y": 9.293979609928481e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Bill Bailey",
+          "x": -5.898124413762715e-05,
+          "y": -0.0004222628672009607,
+          "category": 0
+        },
+        {
+          "piece_name": "Birk's Works",
+          "x": 0.00019471636701038717,
+          "y": 0.00012340778475929346,
+          "category": 0
+        },
+        {
+          "piece_name": "Blue Bossa",
+          "x": -1.6734952236496983e-05,
+          "y": 5.165802697064521e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Blue In Green",
+          "x": -0.00023231591157758225,
+          "y": 0.0005841283699275746,
+          "category": 0
+        },
+        {
+          "piece_name": "Blue Lou",
+          "x": 0.0005867783574376608,
+          "y": -0.0005655817437520977,
+          "category": 0
+        },
+        {
+          "piece_name": "Blues For Alice",
+          "x": 0.0002735552231045801,
+          "y": 3.667972225567778e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Blues For Wood",
+          "x": -0.000725859548576352,
+          "y": 0.0004338154790286614,
+          "category": 0
+        },
+        {
+          "piece_name": "Bluesette",
+          "x": -0.00010904608823451195,
+          "y": -0.0004331048684983671,
+          "category": 0
+        },
+        {
+          "piece_name": "Boo Boo's Birthday",
+          "x": -0.0003839063006375483,
+          "y": 0.00022863679315655706,
+          "category": 0
+        },
+        {
+          "piece_name": "Booker's Waltz",
+          "x": -0.00040523119271581226,
+          "y": -0.00016383044051756877,
+          "category": 0
+        },
+        {
+          "piece_name": "Bossa Antigua",
+          "x": 0.0004386330861525321,
+          "y": -6.704080435999161e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Boy Next Door",
+          "x": 0.00024906765635859443,
+          "y": -5.966544220142231e-06,
+          "category": 0
+        },
+        {
+          "piece_name": "Bright Mississippi",
+          "x": 0.0003799734158522855,
+          "y": -0.0006842759807878869,
+          "category": 0
+        },
+        {
+          "piece_name": "Broadway",
+          "x": -8.765041973002361e-05,
+          "y": -0.00023853598375781724,
+          "category": 0
+        },
+        {
+          "piece_name": "Brotherhood Of Man",
+          "x": 0.0005102213828748607,
+          "y": 0.00012957337843505772,
+          "category": 0
+        },
+        {
+          "piece_name": "Candy",
+          "x": 0.00041253140346798607,
+          "y": -0.000467527408568969,
+          "category": 0
+        },
+        {
+          "piece_name": "Central Park West",
+          "x": 0.00016659368912039777,
+          "y": 0.00017719960755396583,
+          "category": 0
+        },
+        {
+          "piece_name": "Chucho",
+          "x": 0.0005347633737399919,
+          "y": 9.512968823685174e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Contemplation",
+          "x": -0.0007328204190752383,
+          "y": -0.00013763144533939862,
+          "category": 0
+        },
+        {
+          "piece_name": "Cool One, The",
+          "x": 0.0002613514794365122,
+          "y": -0.000432659178343557,
+          "category": 0
+        },
+        {
+          "piece_name": "Dancing In The Dark",
+          "x": 0.008054333122391589,
+          "y": -0.0011366549669509314,
+          "category": 0
+        },
+        {
+          "piece_name": "Dearly Beloved",
+          "x": -0.008351787377468434,
+          "y": -0.0013175097737015116,
+          "category": 2
+        },
+        {
+          "piece_name": "Don't Worry 'Bout Me",
+          "x": 0.006403670706259026,
+          "y": 0.0026186468831998944,
+          "category": 0
+        },
+        {
+          "piece_name": "Donna Lee",
+          "x": -0.01257109266656735,
+          "y": 0.00011247086812523207,
+          "category": 2
+        },
+        {
+          "piece_name": "Equinox",
+          "x": 0.024929432678096535,
+          "y": -0.010071777127364293,
+          "category": 3
+        },
+        {
+          "piece_name": "Exactly Like You",
+          "x": -0.02188261678172653,
+          "y": 0.016737133186767627,
+          "category": 2
+        },
+        {
+          "piece_name": "Fine And Dandy",
+          "x": 0.008440001807750704,
+          "y": -0.014310749583568542,
+          "category": 3
+        },
+        {
+          "piece_name": "Fine Romance, A",
+          "x": -0.0033656422038753388,
+          "y": 0.009454799150797211,
+          "category": 0
+        },
+        {
+          "piece_name": "Fools Rush In",
+          "x": 0.0003300177520822421,
+          "y": -0.004144360363247955,
+          "category": 1
+        },
+        {
+          "piece_name": "Footprints",
+          "x": 0.004399501178850258,
+          "y": 0.0015507878187870552,
+          "category": 0
+        },
+        {
+          "piece_name": "Four On Six",
+          "x": 0.00031209187318754524,
+          "y": -0.00548245413093994,
+          "category": 1
+        },
+        {
+          "piece_name": "Freight Train",
+          "x": -0.009108264457309098,
+          "y": 0.0045305785986379825,
+          "category": 0
+        },
+        {
+          "piece_name": "Friday The 13th",
+          "x": 0.010316458144892538,
+          "y": 0.001231919594423277,
+          "category": 1
+        },
+        {
+          "piece_name": "Funkallero",
+          "x": -0.009279944051313825,
+          "y": -0.0015402448397699412,
+          "category": 0
+        },
+        {
+          "piece_name": "Gary's Notebook",
+          "x": 0.008697106494656884,
+          "y": -0.0006686227120705843,
+          "category": 1
+        },
+        {
+          "piece_name": "Girl Talk",
+          "x": -0.006843029330923298,
+          "y": 0.0027678262355081227,
+          "category": 0
+        },
+        {
+          "piece_name": "Glad To Be Unhappy",
+          "x": 0.007674321735626299,
+          "y": -0.005077733055337432,
+          "category": 1
+        },
+        {
+          "piece_name": "Good Life, The",
+          "x": -0.008168800574994967,
+          "y": 0.006281130603558417,
+          "category": 0
+        },
+        {
+          "piece_name": "Got A Match?",
+          "x": 0.003260818335155898,
+          "y": -0.010416920646796765,
+          "category": 3
+        },
+        {
+          "piece_name": "Hackensack",
+          "x": 0.004179022636381417,
+          "y": 0.01591241053195503,
+          "category": 0
+        },
+        {
+          "piece_name": "Half Nelson",
+          "x": -0.010754777457783946,
+          "y": -0.02151174773009369,
+          "category": 3
+        },
+        {
+          "piece_name": "Hot House",
+          "x": 0.012805783147216181,
+          "y": 0.022739905639016685,
+          "category": 1
+        },
+        {
+          "piece_name": "How High The Moon",
+          "x": -0.009788632656354178,
+          "y": -0.01715392902655743,
+          "category": 3
+        },
+        {
+          "piece_name": "Hungaria",
+          "x": 0.005090801494800708,
+          "y": 0.014728107161398883,
+          "category": 1
+        },
+        {
+          "piece_name": "I Can't Believe...You're In Love...",
+          "x": -0.001360291822933575,
+          "y": -0.013130422319617073,
+          "category": 3
+        },
+        {
+          "piece_name": "I Fall In Love Too Easily",
+          "x": 0.0007581797224642389,
+          "y": 0.0087213669188088,
+          "category": 1
+        },
+        {
+          "piece_name": "I Love Paris",
+          "x": -0.00040756972388850484,
+          "y": -0.006084736867053886,
+          "category": 0
+        },
+        {
+          "piece_name": "I Love You",
+          "x": 0.001093785341515991,
+          "y": 0.006866615113775946,
+          "category": 1
+        },
+        {
+          "piece_name": "I Wish I Knew How It Would Feel To Be Free",
+          "x": 0.001309950118929389,
+          "y": -0.005772117902393949,
+          "category": 0
+        },
+        {
+          "piece_name": "I'll Close My Eyes",
+          "x": -0.006000522654142412,
+          "y": 0.0010998084310327046,
+          "category": 0
+        },
+        {
+          "piece_name": "I've Found A New Baby",
+          "x": 0.005479564846725878,
+          "y": -0.0008135107115630248,
+          "category": 1
+        },
+        {
+          "piece_name": "I've Found A New Baby v2",
+          "x": 0.0015668908525515444,
+          "y": 0.002212742325260608,
+          "category": 0
+        },
+        {
+          "piece_name": "I've Got A Crush On You",
+          "x": -0.006125582807260912,
+          "y": -0.0033236131092356557,
+          "category": 0
+        },
+        {
+          "piece_name": "Idle Moments",
+          "x": 0.007037367537799528,
+          "y": 0.0016054560562381145,
+          "category": 1
+        },
+        {
+          "piece_name": "If You Ever Should Leave",
+          "x": -0.005739704850263142,
+          "y": 0.00029534572181259903,
+          "category": 0
+        },
+        {
+          "piece_name": "If You Never Come To Me",
+          "x": 0.006193152710917921,
+          "y": 0.0009220776975838845,
+          "category": 1
+        },
+        {
+          "piece_name": "In A Little Spanish Town",
+          "x": -0.00579899098658751,
+          "y": -0.004531146560442794,
+          "category": 0
+        },
+        {
+          "piece_name": "In A Mellow Tone (In A Mellotone)",
+          "x": 0.0036683708029185635,
+          "y": 0.005521123092400317,
+          "category": 1
+        },
+        {
+          "piece_name": "In A Shanty In Old Shanty Town",
+          "x": -0.004566098197034555,
+          "y": -0.004138146638645675,
+          "category": 0
+        },
+        {
+          "piece_name": "Interplay",
+          "x": 0.007802257968215641,
+          "y": 0.0021935665126679104,
+          "category": 0
+        },
+        {
+          "piece_name": "Israel",
+          "x": -0.010209534250180601,
+          "y": -0.0015804953097444444,
+          "category": 2
+        },
+        {
+          "piece_name": "It's Been A Long Long Time",
+          "x": 0.0061187849353777565,
+          "y": 0.0007198546719242449,
+          "category": 0
+        },
+        {
+          "piece_name": "Jackie-ing",
+          "x": -0.000995900943699789,
+          "y": 0.0009043039863591509,
+          "category": 1
+        },
+        {
+          "piece_name": "Jeannie's Song",
+          "x": -0.006896167733970843,
+          "y": -0.0028070088404996843,
+          "category": 0
+        },
+        {
+          "piece_name": "Jersey Bounce",
+          "x": 0.011908659509627845,
+          "y": 0.002841576418450421,
+          "category": 1
+        },
+        {
+          "piece_name": "Jody Grind, The",
+          "x": -0.013302193613670054,
+          "y": 0.00030338895231436406,
+          "category": 2
+        },
+        {
+          "piece_name": "Just A Gigolo",
+          "x": 0.015597798170976559,
+          "y": -0.0008421636908834406,
+          "category": 1
+        },
+        {
+          "piece_name": "Just Friends",
+          "x": -0.01728243657413914,
+          "y": -0.0033962230613324334,
+          "category": 2
+        },
+        {
+          "piece_name": "Just In Time",
+          "x": 0.014815366339528123,
+          "y": 0.010941492838440729,
+          "category": 1
+        },
+        {
+          "piece_name": "Lady Bird",
+          "x": -0.013944895242353088,
+          "y": -0.018554451819446777,
+          "category": 3
+        },
+        {
+          "piece_name": "Leaving",
+          "x": 0.0147683098387323,
+          "y": 0.016644708513852198,
+          "category": 1
+        },
+        {
+          "piece_name": "Lennie's Pennies",
+          "x": -0.009095146103983221,
+          "y": -0.007779674651996681,
+          "category": 0
+        },
+        {
+          "piece_name": "Light Blue",
+          "x": 0.0024968262322842276,
+          "y": 0.0025594276418166887,
+          "category": 1
+        },
+        {
+          "piece_name": "Little Boat (O Barquinho)",
+          "x": -0.0019184576801987941,
+          "y": -3.951810269259275e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Look For The Silver Lining",
+          "x": 0.0015618777533136306,
+          "y": -0.0025042962009150177,
+          "category": 1
+        },
+        {
+          "piece_name": "Mac The Knife",
+          "x": -0.00023133706092097185,
+          "y": 0.0034289468121761965,
+          "category": 0
+        },
+        {
+          "piece_name": "Minor Mood",
+          "x": -0.0014276883399150938,
+          "y": 0.00045978341062043307,
+          "category": 1
+        },
+        {
+          "piece_name": "Minor Strain",
+          "x": 0.005594437405945689,
+          "y": -0.00588360482387934,
+          "category": 0
+        },
+        {
+          "piece_name": "Move",
+          "x": -0.011886306720272789,
+          "y": 0.01125628617715519,
+          "category": 2
+        },
+        {
+          "piece_name": "Mr. P.C.",
+          "x": 0.021477339445823793,
+          "y": -0.01625550818869637,
+          "category": 3
+        },
+        {
+          "piece_name": "My Ideal",
+          "x": -0.023626226601201488,
+          "y": 0.015100685425686402,
+          "category": 2
+        },
+        {
+          "piece_name": "My Melancholy Baby",
+          "x": 0.01227696660485869,
+          "y": -0.010842731686716118,
+          "category": 3
+        },
+        {
+          "piece_name": "Night Dreamer",
+          "x": -0.006980758627048924,
+          "y": 0.010145456454194972,
+          "category": 2
+        },
+        {
+          "piece_name": "Nothing Personal",
+          "x": 0.0050625959028784764,
+          "y": -0.009143139766872074,
+          "category": 3
+        },
+        {
+          "piece_name": "Nuages",
+          "x": -0.0021740354928611524,
+          "y": 0.009226686266370234,
+          "category": 1
+        },
+        {
+          "piece_name": "O Grande Amor",
+          "x": -0.0021278541320137734,
+          "y": -0.010696172856150054,
+          "category": 3
+        },
+        {
+          "piece_name": "Old Country, The",
+          "x": 0.0059486104129796115,
+          "y": 0.012322628361316302,
+          "category": 1
+        },
+        {
+          "piece_name": "On The Trail",
+          "x": -0.007719812548753589,
+          "y": -0.01286522996391942,
+          "category": 3
+        },
+        {
+          "piece_name": "Paper Doll",
+          "x": 0.0061141257344487585,
+          "y": 0.01406304727683968,
+          "category": 1
+        },
+        {
+          "piece_name": "Peace",
+          "x": -0.001644396077265753,
+          "y": -0.013707775931881576,
+          "category": 3
+        },
+        {
+          "piece_name": "Pent Up House",
+          "x": -0.000249713414578884,
+          "y": 0.013599870934005602,
+          "category": 0
+        },
+        {
+          "piece_name": "Recordame",
+          "x": 0.0015314591751941404,
+          "y": -0.01103800102542317,
+          "category": 3
+        },
+        {
+          "piece_name": "Red Clay",
+          "x": -0.0034765439491965013,
+          "y": 0.006506533300904396,
+          "category": 0
+        },
+        {
+          "piece_name": "Remember",
+          "x": -0.00024371305427758604,
+          "y": 3.1581323358551627e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Rose Room",
+          "x": -0.00034887813443965434,
+          "y": -0.00013597596260329773,
+          "category": 0
+        },
+        {
+          "piece_name": "Serenade To A Cuckoo",
+          "x": 0.00031962527906240326,
+          "y": -0.0002626943080272024,
+          "category": 0
+        },
+        {
+          "piece_name": "Serenity",
+          "x": 0.00016443918575676831,
+          "y": -0.0006686927190916807,
+          "category": 0
+        },
+        {
+          "piece_name": "Shadow Of Your Smile, The",
+          "x": 0.00023045360988347457,
+          "y": -7.011910264346901e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Shine",
+          "x": 0.0011898081184254633,
+          "y": 6.526755918217815e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Simone",
+          "x": 0.0005254203690124499,
+          "y": -0.00029800405600347604,
+          "category": 0
+        },
+        {
+          "piece_name": "Smile",
+          "x": -0.00011621551258196897,
+          "y": -0.0003884179153749127,
+          "category": 0
+        },
+        {
+          "piece_name": "So Danco Samba",
+          "x": -0.0010986806716072797,
+          "y": 0.00020280093542338485,
+          "category": 0
+        },
+        {
+          "piece_name": "So Nice (Summer Samba)",
+          "x": 0.0005811033797068557,
+          "y": -0.0002527758746534357,
+          "category": 0
+        },
+        {
+          "piece_name": "Solar",
+          "x": -0.00021821560756166866,
+          "y": 0.00044296241834880973,
+          "category": 0
+        },
+        {
+          "piece_name": "Someday My Prince Will Come",
+          "x": 0.00020878560823577217,
+          "y": 0.00019212292121150785,
+          "category": 0
+        },
+        {
+          "piece_name": "Song For My Father",
+          "x": -0.0002627999144263419,
+          "y": 0.0005207476786958788,
+          "category": 0
+        },
+        {
+          "piece_name": "St. Thomas",
+          "x": 0.0008104628185444633,
+          "y": 4.7493563732277304e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Stella By Starlight",
+          "x": 3.124546476723861e-05,
+          "y": 0.00014302606152957615,
+          "category": 0
+        },
+        {
+          "piece_name": "Struttin' With Some Barbecue",
+          "x": 0.00015514585783596034,
+          "y": 0.000154917107592135,
+          "category": 0
+        },
+        {
+          "piece_name": "Subconscious Lee",
+          "x": -0.00046058638529521806,
+          "y": -0.0010835029442962168,
+          "category": 0
+        },
+        {
+          "piece_name": "Sugar",
+          "x": -0.0009088778610863973,
+          "y": 1.3819854861015187e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Summertime",
+          "x": 0.00020518677571961178,
+          "y": -0.0005082671045294416,
+          "category": 0
+        },
+        {
+          "piece_name": "Sunny",
+          "x": 0.0001764691488064776,
+          "y": 2.6141567417545193e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Sweet Georgia Bright",
+          "x": -0.0005588302976059532,
+          "y": 0.000828097386424543,
+          "category": 0
+        },
+        {
+          "piece_name": "Take The A Train",
+          "x": -0.0002224466365812989,
+          "y": -0.0009432764993055799,
+          "category": 0
+        },
+        {
+          "piece_name": "Them There Eyes",
+          "x": -0.0004121445494005199,
+          "y": -0.00026319789365383144,
+          "category": 0
+        },
+        {
+          "piece_name": "This Can't Be Love",
+          "x": 0.0001034144355885206,
+          "y": -0.00020244270886927857,
+          "category": 0
+        },
+        {
+          "piece_name": "Time On My Hands",
+          "x": 0.00014162945321072578,
+          "y": 0.000201183771120809,
+          "category": 0
+        },
+        {
+          "piece_name": "Tune Up",
+          "x": 0.0004284679494353758,
+          "y": -0.00042695431052505056,
+          "category": 0
+        },
+        {
+          "piece_name": "United",
+          "x": 0.0003046730353465132,
+          "y": 0.000571422561438312,
+          "category": 0
+        },
+        {
+          "piece_name": "Valse Hot",
+          "x": 0.0003454011176401878,
+          "y": 0.0008862870415551777,
+          "category": 0
+        },
+        {
+          "piece_name": "Wayne's Thang",
+          "x": -0.0003188244755160553,
+          "y": 0.0010134461280073806,
+          "category": 0
+        },
+        {
+          "piece_name": "We Will Meet Again",
+          "x": 6.863460098651799e-05,
+          "y": 0.0006304614517235187,
+          "category": 0
+        },
+        {
+          "piece_name": "Weaver Of Dreams, A",
+          "x": -0.0008456657262288423,
+          "y": 0.0002742605782096476,
+          "category": 0
+        },
+        {
+          "piece_name": "What Is This Thing Called Love",
+          "x": 0.00020926358899575105,
+          "y": -0.0005927497011529125,
+          "category": 0
+        },
+        {
+          "piece_name": "When The Saints Go Marching In",
+          "x": -0.00012549935028616184,
+          "y": 0.00044074842768443927,
+          "category": 0
+        },
+        {
+          "piece_name": "When You're Smilin'",
+          "x": -0.0004481201087221947,
+          "y": -0.0001880515708801826,
+          "category": 0
+        },
+        {
+          "piece_name": "Why Do I Love You?",
+          "x": 0.0006228052707964972,
+          "y": 0.0004500475420903596,
+          "category": 0
+        },
+        {
+          "piece_name": "Why Don't You Do Right?",
+          "x": -0.0003501543655100289,
+          "y": 0.0008461444283371063,
+          "category": 0
+        },
+        {
+          "piece_name": "Witch Hunt",
+          "x": -0.00041452854923584387,
+          "y": -5.311650236131054e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Work Song",
+          "x": -0.0005257419410097867,
+          "y": 0.00028401277825744253,
+          "category": 0
+        },
+        {
+          "piece_name": "Yesterdays",
+          "x": 0.00021490333287698925,
+          "y": -8.076192478062424e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "You Stepped Out Of A Dream",
+          "x": 0.00031359185694058707,
+          "y": -0.0004296409801318543,
+          "category": 0
+        },
+        {
+          "piece_name": "Zingaro (Retrato Em Branco E Preto)",
+          "x": -0.0001628083928227825,
+          "y": -0.0001167028226638745,
+          "category": 0
+        }
+      ]
+    }
+  },
+  "stitch": {
+    "ctx_True": {
+      "partition": {
+        "0": [
+          "Afro Blue",
+          "Armando's Rhumba",
+          "Ballade",
+          "Bemsha Swing",
+          "Birk's Works",
+          "Blue Bossa",
+          "Blue In Green",
+          "Blues For Wood",
+          "Central Park West",
+          "Contemplation",
+          "Footprints",
+          "Four On Six",
+          "Freight Train",
+          "Friday The 13th",
+          "Got A Match?",
+          "Half Nelson",
+          "Hot House",
+          "I've Found A New Baby v2",
+          "Idle Moments",
+          "If You Never Come To Me",
+          "In A Little Spanish Town",
+          "Interplay",
+          "Jackie-ing",
+          "Just A Gigolo",
+          "Lady Bird",
+          "Leaving",
+          "Little Boat (O Barquinho)",
+          "Look For The Silver Lining",
+          "Minor Mood",
+          "Minor Strain",
+          "Mr. P.C.",
+          "Night Dreamer",
+          "Nothing Personal",
+          "On The Trail",
+          "Paper Doll",
+          "Recordame",
+          "Red Clay",
+          "Serenade To A Cuckoo",
+          "Serenity",
+          "So Danco Samba",
+          "Solar",
+          "Song For My Father",
+          "St. Thomas",
+          "Subconscious Lee",
+          "Sugar",
+          "Sunny",
+          "Sweet Georgia Bright",
+          "United",
+          "Valse Hot",
+          "Wayne's Thang",
+          "We Will Meet Again",
+          "What Is This Thing Called Love",
+          "Why Don't You Do Right?",
+          "Work Song",
+          "Yesterdays"
+        ],
+        "1": [
+          "502 Blues",
+          "Across The Valley From The Alamo",
+          "All Of Me",
+          "Autumn Leaves",
+          "Avalon",
+          "Backstage Sally",
+          "Beautiful Friendship, A",
+          "Beautiful Love",
+          "Best Things In Life Are Free, The",
+          "Bill Bailey",
+          "Bluesette",
+          "Bossa Antigua",
+          "Boy Next Door",
+          "Bright Mississippi",
+          "Broadway",
+          "Cool One, The",
+          "Dancing In The Dark",
+          "Don't Worry 'Bout Me",
+          "Equinox",
+          "Fine And Dandy",
+          "Fools Rush In",
+          "Gary's Notebook",
+          "Glad To Be Unhappy",
+          "Hungaria",
+          "I Fall In Love Too Easily",
+          "I Love Paris",
+          "I Love You",
+          "I Wish I Knew How It Would Feel To Be Free",
+          "I've Found A New Baby",
+          "In A Shanty In Old Shanty Town",
+          "Jersey Bounce",
+          "Light Blue",
+          "Peace",
+          "Remember",
+          "Rose Room",
+          "Shine",
+          "So Nice (Summer Samba)",
+          "Someday My Prince Will Come",
+          "Stella By Starlight",
+          "Struttin' With Some Barbecue",
+          "Take The A Train",
+          "Them There Eyes",
+          "This Can't Be Love",
+          "Time On My Hands",
+          "Tune Up",
+          "Weaver Of Dreams, A",
+          "When The Saints Go Marching In",
+          "When You're Smilin'",
+          "Why Do I Love You?",
+          "You Stepped Out Of A Dream",
+          "Zingaro (Retrato Em Branco E Preto)"
+        ],
+        "2": [
+          "Baubles, Bangles And Beads",
+          "Beatrice",
+          "Blue Lou",
+          "Blues For Alice",
+          "Boo Boo's Birthday",
+          "Booker's Waltz",
+          "Brotherhood Of Man",
+          "Candy",
+          "Chucho",
+          "Israel",
+          "It's Been A Long Long Time",
+          "O Grande Amor",
+          "Old Country, The",
+          "Shadow Of Your Smile, The",
+          "Simone",
+          "Smile",
+          "Summertime",
+          "Witch Hunt"
+        ],
+        "3": [
+          "Dearly Beloved",
+          "Donna Lee",
+          "Exactly Like You",
+          "Fine Romance, A",
+          "Funkallero",
+          "Girl Talk",
+          "Good Life, The",
+          "Hackensack",
+          "How High The Moon",
+          "I Can't Believe...You're In Love...",
+          "I'll Close My Eyes",
+          "I've Got A Crush On You",
+          "If You Ever Should Leave",
+          "In A Mellow Tone (In A Mellotone)",
+          "Jeannie's Song",
+          "Jody Grind, The",
+          "Just Friends",
+          "Just In Time",
+          "Lennie's Pennies",
+          "Mac The Knife",
+          "Move",
+          "My Ideal",
+          "My Melancholy Baby",
+          "Nuages",
+          "Pent Up House"
+        ]
+      },
+      "embedding": [
+        {
+          "piece_name": "502 Blues",
+          "x": 0.010822631626471157,
+          "y": 0.025921260953348,
+          "category": 1
+        },
+        {
+          "piece_name": "Across The Valley From The Alamo",
+          "x": -0.008203790418309088,
+          "y": 0.005837070731950148,
+          "category": 1
+        },
+        {
+          "piece_name": "Afro Blue",
+          "x": 0.015590028999925142,
+          "y": -0.02457808332887318,
+          "category": 0
+        },
+        {
+          "piece_name": "All Of Me",
+          "x": -0.006837557910712147,
+          "y": 0.0007121706961587091,
+          "category": 1
+        },
+        {
+          "piece_name": "Armando's Rhumba",
+          "x": -0.00874738675216122,
+          "y": -0.009333911657560113,
+          "category": 0
+        },
+        {
+          "piece_name": "Autumn Leaves",
+          "x": -0.00654886230450889,
+          "y": 0.003797329855791967,
+          "category": 1
+        },
+        {
+          "piece_name": "Avalon",
+          "x": -0.004517646216330343,
+          "y": 0.02423904438448456,
+          "category": 1
+        },
+        {
+          "piece_name": "Backstage Sally",
+          "x": 0.00022366937226180584,
+          "y": 0.018668731889302553,
+          "category": 1
+        },
+        {
+          "piece_name": "Ballade",
+          "x": 0.0010584947143865877,
+          "y": -0.006786956792182126,
+          "category": 0
+        },
+        {
+          "piece_name": "Baubles, Bangles And Beads",
+          "x": 0.010241387111612224,
+          "y": 0.005711725187165821,
+          "category": 2
+        },
+        {
+          "piece_name": "Beatrice",
+          "x": 0.022206454680732665,
+          "y": 0.0001651207221680197,
+          "category": 2
+        },
+        {
+          "piece_name": "Beautiful Friendship, A",
+          "x": -0.008179528626818333,
+          "y": 0.023825340440524614,
+          "category": 1
+        },
+        {
+          "piece_name": "Beautiful Love",
+          "x": -0.0037805229508788615,
+          "y": 0.016543979970882534,
+          "category": 1
+        },
+        {
+          "piece_name": "Bemsha Swing",
+          "x": -0.0005320091382135222,
+          "y": -0.010814754653041629,
+          "category": 0
+        },
+        {
+          "piece_name": "Best Things In Life Are Free, The",
+          "x": -0.008398488784131177,
+          "y": 0.005577655380721713,
+          "category": 1
+        },
+        {
+          "piece_name": "Bill Bailey",
+          "x": -0.006881947134591667,
+          "y": 0.01034284110308907,
+          "category": 1
+        },
+        {
+          "piece_name": "Birk's Works",
+          "x": -0.002251080887157891,
+          "y": -0.010200924794951008,
+          "category": 0
+        },
+        {
+          "piece_name": "Blue Bossa",
+          "x": -0.009085780614585816,
+          "y": -0.016626207347289552,
+          "category": 0
+        },
+        {
+          "piece_name": "Blue In Green",
+          "x": -0.009124136316898462,
+          "y": -0.012745346752163501,
+          "category": 0
+        },
+        {
+          "piece_name": "Blue Lou",
+          "x": 0.011565307080213362,
+          "y": 0.011280490203680296,
+          "category": 2
+        },
+        {
+          "piece_name": "Blues For Alice",
+          "x": 0.02759095238112815,
+          "y": -0.010100110406984032,
+          "category": 2
+        },
+        {
+          "piece_name": "Blues For Wood",
+          "x": -0.00996976046304251,
+          "y": -0.01735367718733259,
+          "category": 0
+        },
+        {
+          "piece_name": "Bluesette",
+          "x": -0.007792503529095273,
+          "y": 0.003788425026657113,
+          "category": 1
+        },
+        {
+          "piece_name": "Boo Boo's Birthday",
+          "x": 0.07190511870878184,
+          "y": -0.0032715056815303587,
+          "category": 2
+        },
+        {
+          "piece_name": "Booker's Waltz",
+          "x": 0.027953605742912613,
+          "y": 0.00043344273412845613,
+          "category": 2
+        },
+        {
+          "piece_name": "Bossa Antigua",
+          "x": -0.0018132132919788876,
+          "y": 0.023485775644283627,
+          "category": 1
+        },
+        {
+          "piece_name": "Boy Next Door",
+          "x": -0.009145334199895305,
+          "y": 0.01009002900625149,
+          "category": 1
+        },
+        {
+          "piece_name": "Bright Mississippi",
+          "x": -0.0035437138493991265,
+          "y": 0.0033350197573540122,
+          "category": 1
+        },
+        {
+          "piece_name": "Broadway",
+          "x": -0.009653345379947706,
+          "y": 0.0021761499090260142,
+          "category": 1
+        },
+        {
+          "piece_name": "Brotherhood Of Man",
+          "x": 0.03586940530716969,
+          "y": -0.0008120803957502103,
+          "category": 2
+        },
+        {
+          "piece_name": "Candy",
+          "x": 0.007813828143387953,
+          "y": 0.0018623990443569984,
+          "category": 2
+        },
+        {
+          "piece_name": "Central Park West",
+          "x": -0.008246697055713776,
+          "y": -0.02407537307828223,
+          "category": 0
+        },
+        {
+          "piece_name": "Chucho",
+          "x": 0.019888243916431594,
+          "y": 0.007560556170457817,
+          "category": 2
+        },
+        {
+          "piece_name": "Contemplation",
+          "x": -0.006043701777714828,
+          "y": -0.01988062979294611,
+          "category": 0
+        },
+        {
+          "piece_name": "Cool One, The",
+          "x": -0.0016080769339303137,
+          "y": 0.02436102046282712,
+          "category": 1
+        },
+        {
+          "piece_name": "Dancing In The Dark",
+          "x": 0.0034366107087408703,
+          "y": 0.019004542557442237,
+          "category": 1
+        },
+        {
+          "piece_name": "Dearly Beloved",
+          "x": 0.0024797765102348257,
+          "y": 0.006384065047345596,
+          "category": 3
+        },
+        {
+          "piece_name": "Don't Worry 'Bout Me",
+          "x": -0.004312891006734033,
+          "y": 0.004611673063256823,
+          "category": 1
+        },
+        {
+          "piece_name": "Donna Lee",
+          "x": 0.009832405276925707,
+          "y": 0.028118068509134658,
+          "category": 3
+        },
+        {
+          "piece_name": "Equinox",
+          "x": 0.003721468854050474,
+          "y": 0.001147373315792874,
+          "category": 1
+        },
+        {
+          "piece_name": "Exactly Like You",
+          "x": -0.008617209454200149,
+          "y": -0.001233898827473217,
+          "category": 3
+        },
+        {
+          "piece_name": "Fine And Dandy",
+          "x": -0.004839343930705741,
+          "y": 0.011873963096717132,
+          "category": 1
+        },
+        {
+          "piece_name": "Fine Romance, A",
+          "x": -0.006283224119013373,
+          "y": 0.013848088734052418,
+          "category": 3
+        },
+        {
+          "piece_name": "Fools Rush In",
+          "x": -0.007736244895481351,
+          "y": 0.007307302370844724,
+          "category": 1
+        },
+        {
+          "piece_name": "Footprints",
+          "x": -0.00937543976394301,
+          "y": -0.009096761670682125,
+          "category": 0
+        },
+        {
+          "piece_name": "Four On Six",
+          "x": -0.007464205428578082,
+          "y": -0.014096772878332286,
+          "category": 0
+        },
+        {
+          "piece_name": "Freight Train",
+          "x": -0.006551017778181676,
+          "y": -0.003927275758193543,
+          "category": 0
+        },
+        {
+          "piece_name": "Friday The 13th",
+          "x": 0.0045531375875446315,
+          "y": -0.014345750309439485,
+          "category": 0
+        },
+        {
+          "piece_name": "Funkallero",
+          "x": 0.002966589161008722,
+          "y": -0.010204834706016968,
+          "category": 3
+        },
+        {
+          "piece_name": "Gary's Notebook",
+          "x": 0.0007963601729670251,
+          "y": -0.00010140985403057982,
+          "category": 1
+        },
+        {
+          "piece_name": "Girl Talk",
+          "x": 0.011226584021364595,
+          "y": 0.010508134293196915,
+          "category": 3
+        },
+        {
+          "piece_name": "Glad To Be Unhappy",
+          "x": 0.00156122456635221,
+          "y": 0.008842395906726083,
+          "category": 1
+        },
+        {
+          "piece_name": "Good Life, The",
+          "x": -0.0081698735019309,
+          "y": 0.007808469712010939,
+          "category": 3
+        },
+        {
+          "piece_name": "Got A Match?",
+          "x": 0.0034557587522901414,
+          "y": -0.007987638603603232,
+          "category": 0
+        },
+        {
+          "piece_name": "Hackensack",
+          "x": 0.01323256701901423,
+          "y": -0.00027400309435935056,
+          "category": 3
+        },
+        {
+          "piece_name": "Half Nelson",
+          "x": 0.0020459531740335867,
+          "y": -0.008306612940867389,
+          "category": 0
+        },
+        {
+          "piece_name": "Hot House",
+          "x": -0.008464854310964111,
+          "y": -0.01097266417635689,
+          "category": 0
+        },
+        {
+          "piece_name": "How High The Moon",
+          "x": -0.008561620780646713,
+          "y": 0.004107542514639288,
+          "category": 3
+        },
+        {
+          "piece_name": "Hungaria",
+          "x": -0.008549357320195045,
+          "y": 0.0027348665774245763,
+          "category": 1
+        },
+        {
+          "piece_name": "I Can't Believe...You're In Love...",
+          "x": -0.007046073812976552,
+          "y": 0.0026714657218421243,
+          "category": 3
+        },
+        {
+          "piece_name": "I Fall In Love Too Easily",
+          "x": -0.0017124747396498362,
+          "y": 0.0065626706341198986,
+          "category": 1
+        },
+        {
+          "piece_name": "I Love Paris",
+          "x": -0.0018701510748291086,
+          "y": 0.01388127618566862,
+          "category": 1
+        },
+        {
+          "piece_name": "I Love You",
+          "x": -0.004703354519087186,
+          "y": 0.027664017113575586,
+          "category": 1
+        },
+        {
+          "piece_name": "I Wish I Knew How It Would Feel To Be Free",
+          "x": 0.0032994473689765794,
+          "y": 0.021061997804944995,
+          "category": 1
+        },
+        {
+          "piece_name": "I'll Close My Eyes",
+          "x": 0.003656428563837037,
+          "y": 0.01248951522323226,
+          "category": 3
+        },
+        {
+          "piece_name": "I've Found A New Baby",
+          "x": -0.002313331113461414,
+          "y": 0.0021610128703136344,
+          "category": 1
+        },
+        {
+          "piece_name": "I've Found A New Baby v2",
+          "x": -0.0062778036051897275,
+          "y": -0.004455553582230192,
+          "category": 0
+        },
+        {
+          "piece_name": "I've Got A Crush On You",
+          "x": -0.006058769873571196,
+          "y": -0.0014569518236765462,
+          "category": 3
+        },
+        {
+          "piece_name": "Idle Moments",
+          "x": 0.002958482511945383,
+          "y": -0.004455199533571335,
+          "category": 0
+        },
+        {
+          "piece_name": "If You Ever Should Leave",
+          "x": 0.007735635180342412,
+          "y": -0.0025530881761016157,
+          "category": 3
+        },
+        {
+          "piece_name": "If You Never Come To Me",
+          "x": -0.005284416882804669,
+          "y": -0.010930028600331619,
+          "category": 0
+        },
+        {
+          "piece_name": "In A Little Spanish Town",
+          "x": -0.008384292242259325,
+          "y": -0.004562045708189108,
+          "category": 0
+        },
+        {
+          "piece_name": "In A Mellow Tone (In A Mellotone)",
+          "x": -0.003789565234853016,
+          "y": 0.010611359120510222,
+          "category": 3
+        },
+        {
+          "piece_name": "In A Shanty In Old Shanty Town",
+          "x": -0.004315734670892078,
+          "y": 0.00911170181082545,
+          "category": 1
+        },
+        {
+          "piece_name": "Interplay",
+          "x": 0.003597204711852303,
+          "y": -0.00847628148604393,
+          "category": 0
+        },
+        {
+          "piece_name": "Israel",
+          "x": 0.02028094616134105,
+          "y": -0.012379253145035024,
+          "category": 2
+        },
+        {
+          "piece_name": "It's Been A Long Long Time",
+          "x": 0.020645667516780857,
+          "y": 0.003629187043234959,
+          "category": 2
+        },
+        {
+          "piece_name": "Jackie-ing",
+          "x": 0.002057029215417308,
+          "y": -0.007315533795909955,
+          "category": 0
+        },
+        {
+          "piece_name": "Jeannie's Song",
+          "x": -0.006518488255016188,
+          "y": -0.008690092000459925,
+          "category": 3
+        },
+        {
+          "piece_name": "Jersey Bounce",
+          "x": -0.007867893718504174,
+          "y": 0.0027967900504846984,
+          "category": 1
+        },
+        {
+          "piece_name": "Jody Grind, The",
+          "x": -0.012067424650342282,
+          "y": -0.0037876103841906704,
+          "category": 3
+        },
+        {
+          "piece_name": "Just A Gigolo",
+          "x": 0.002394447887372993,
+          "y": -0.010947408082878135,
+          "category": 0
+        },
+        {
+          "piece_name": "Just Friends",
+          "x": 0.0033224163332293065,
+          "y": 0.0038312456500891818,
+          "category": 3
+        },
+        {
+          "piece_name": "Just In Time",
+          "x": -0.007611814890782979,
+          "y": 0.0077319153970505415,
+          "category": 3
+        },
+        {
+          "piece_name": "Lady Bird",
+          "x": -0.008314698179980788,
+          "y": -0.007200520794812845,
+          "category": 0
+        },
+        {
+          "piece_name": "Leaving",
+          "x": 0.0027084574579922176,
+          "y": -0.015812668145666692,
+          "category": 0
+        },
+        {
+          "piece_name": "Lennie's Pennies",
+          "x": 0.004699966713484882,
+          "y": -0.0007267323895525451,
+          "category": 3
+        },
+        {
+          "piece_name": "Light Blue",
+          "x": -0.0067496206334116985,
+          "y": 0.002797729986970495,
+          "category": 1
+        },
+        {
+          "piece_name": "Little Boat (O Barquinho)",
+          "x": -0.00716429591437987,
+          "y": -0.006466124665088994,
+          "category": 0
+        },
+        {
+          "piece_name": "Look For The Silver Lining",
+          "x": 0.0011689079681884234,
+          "y": -0.004345105435445738,
+          "category": 0
+        },
+        {
+          "piece_name": "Mac The Knife",
+          "x": 0.0009794129123168395,
+          "y": 7.219112661221805e-05,
+          "category": 3
+        },
+        {
+          "piece_name": "Minor Mood",
+          "x": -0.008972949095525314,
+          "y": -0.002965722441630123,
+          "category": 0
+        },
+        {
+          "piece_name": "Minor Strain",
+          "x": -0.010225922174892339,
+          "y": -0.004528827715752611,
+          "category": 0
+        },
+        {
+          "piece_name": "Move",
+          "x": 0.004155602879091085,
+          "y": -0.01599207580766467,
+          "category": 3
+        },
+        {
+          "piece_name": "Mr. P.C.",
+          "x": 0.0038979796203901275,
+          "y": -0.01759689858093265,
+          "category": 0
+        },
+        {
+          "piece_name": "My Ideal",
+          "x": -0.007949567520631865,
+          "y": -0.0002771034754278873,
+          "category": 3
+        },
+        {
+          "piece_name": "My Melancholy Baby",
+          "x": 0.001022039994817944,
+          "y": 0.011987698663776055,
+          "category": 3
+        },
+        {
+          "piece_name": "Night Dreamer",
+          "x": 0.007664752337650615,
+          "y": -0.011546676151618366,
+          "category": 0
+        },
+        {
+          "piece_name": "Nothing Personal",
+          "x": 0.0019347304281736584,
+          "y": -0.014845553818922554,
+          "category": 0
+        },
+        {
+          "piece_name": "Nuages",
+          "x": 0.0017859439571922102,
+          "y": 0.0016570680690191782,
+          "category": 3
+        },
+        {
+          "piece_name": "O Grande Amor",
+          "x": 0.01218893836635962,
+          "y": 0.007471135011834094,
+          "category": 2
+        },
+        {
+          "piece_name": "Old Country, The",
+          "x": 0.02234786897088587,
+          "y": 0.008642968989645044,
+          "category": 2
+        },
+        {
+          "piece_name": "On The Trail",
+          "x": 0.009103610008584237,
+          "y": -0.007326868622215797,
+          "category": 0
+        },
+        {
+          "piece_name": "Paper Doll",
+          "x": -0.009688492812253086,
+          "y": -0.007986643122012079,
+          "category": 0
+        },
+        {
+          "piece_name": "Peace",
+          "x": -0.006158876106276708,
+          "y": 0.0071530532474130175,
+          "category": 1
+        },
+        {
+          "piece_name": "Pent Up House",
+          "x": -0.005486196107832989,
+          "y": -0.00920379419109784,
+          "category": 3
+        },
+        {
+          "piece_name": "Recordame",
+          "x": -0.008757712803202982,
+          "y": -0.012923505310403245,
+          "category": 0
+        },
+        {
+          "piece_name": "Red Clay",
+          "x": 0.005991527096513606,
+          "y": -0.008683975375911295,
+          "category": 0
+        },
+        {
+          "piece_name": "Remember",
+          "x": -0.00032307777832909547,
+          "y": 0.024197145328902974,
+          "category": 1
+        },
+        {
+          "piece_name": "Rose Room",
+          "x": -0.009906865505127774,
+          "y": 0.009885029518088714,
+          "category": 1
+        },
+        {
+          "piece_name": "Serenade To A Cuckoo",
+          "x": -0.006975631652585204,
+          "y": -0.014192678326790099,
+          "category": 0
+        },
+        {
+          "piece_name": "Serenity",
+          "x": -0.007263856339519595,
+          "y": -0.0075326662087415825,
+          "category": 0
+        },
+        {
+          "piece_name": "Shadow Of Your Smile, The",
+          "x": 0.013588598336258738,
+          "y": 0.012909717370548844,
+          "category": 2
+        },
+        {
+          "piece_name": "Shine",
+          "x": -0.00880735853233917,
+          "y": 0.009470833807473164,
+          "category": 1
+        },
+        {
+          "piece_name": "Simone",
+          "x": 0.014943838725303546,
+          "y": 0.013955495009888394,
+          "category": 2
+        },
+        {
+          "piece_name": "Smile",
+          "x": 0.009462402131555761,
+          "y": 0.0024800682198069693,
+          "category": 2
+        },
+        {
+          "piece_name": "So Danco Samba",
+          "x": -0.007604215800778753,
+          "y": -0.005540879352877997,
+          "category": 0
+        },
+        {
+          "piece_name": "So Nice (Summer Samba)",
+          "x": -0.009793878387309314,
+          "y": 0.009463562664745441,
+          "category": 1
+        },
+        {
+          "piece_name": "Solar",
+          "x": -0.0028141997929565328,
+          "y": -0.007790307007630414,
+          "category": 0
+        },
+        {
+          "piece_name": "Someday My Prince Will Come",
+          "x": 0.0055264755473420305,
+          "y": 0.008781095750765027,
+          "category": 1
+        },
+        {
+          "piece_name": "Song For My Father",
+          "x": -0.007368225791770421,
+          "y": -0.014510964630516085,
+          "category": 0
+        },
+        {
+          "piece_name": "St. Thomas",
+          "x": -0.008455643785840409,
+          "y": -0.00525859932364025,
+          "category": 0
+        },
+        {
+          "piece_name": "Stella By Starlight",
+          "x": -0.004953014899374754,
+          "y": 0.04149043453409029,
+          "category": 1
+        },
+        {
+          "piece_name": "Struttin' With Some Barbecue",
+          "x": -0.00987789745917916,
+          "y": 0.009996262136171913,
+          "category": 1
+        },
+        {
+          "piece_name": "Subconscious Lee",
+          "x": -0.005849184593356954,
+          "y": -0.0012574446689682679,
+          "category": 0
+        },
+        {
+          "piece_name": "Sugar",
+          "x": 0.015313835016627227,
+          "y": -0.019322604592098967,
+          "category": 0
+        },
+        {
+          "piece_name": "Summertime",
+          "x": 0.017637539192829024,
+          "y": -0.0057595630071370345,
+          "category": 2
+        },
+        {
+          "piece_name": "Sunny",
+          "x": -0.00594875909959373,
+          "y": -0.016631167631289447,
+          "category": 0
+        },
+        {
+          "piece_name": "Sweet Georgia Bright",
+          "x": -0.009395246201493906,
+          "y": -0.021667876075986834,
+          "category": 0
+        },
+        {
+          "piece_name": "Take The A Train",
+          "x": -0.007061267513823906,
+          "y": 0.0048246844399985065,
+          "category": 1
+        },
+        {
+          "piece_name": "Them There Eyes",
+          "x": -0.008640278357959821,
+          "y": 0.011168493769903247,
+          "category": 1
+        },
+        {
+          "piece_name": "This Can't Be Love",
+          "x": -0.005997999396100766,
+          "y": 0.0071393903369807495,
+          "category": 1
+        },
+        {
+          "piece_name": "Time On My Hands",
+          "x": -0.006995489405071288,
+          "y": 0.01602146022596843,
+          "category": 1
+        },
+        {
+          "piece_name": "Tune Up",
+          "x": -0.009084380012994978,
+          "y": 0.003944044958390318,
+          "category": 1
+        },
+        {
+          "piece_name": "United",
+          "x": -0.008974212159414383,
+          "y": -0.017982051076822575,
+          "category": 0
+        },
+        {
+          "piece_name": "Valse Hot",
+          "x": -0.007145843372554977,
+          "y": -0.01621951529745228,
+          "category": 0
+        },
+        {
+          "piece_name": "Wayne's Thang",
+          "x": -0.009768214239866459,
+          "y": -0.022348437035597843,
+          "category": 0
+        },
+        {
+          "piece_name": "We Will Meet Again",
+          "x": -0.00825107817326357,
+          "y": -0.011789237491222258,
+          "category": 0
+        },
+        {
+          "piece_name": "Weaver Of Dreams, A",
+          "x": -0.009630235622060753,
+          "y": 0.0041461385590082014,
+          "category": 1
+        },
+        {
+          "piece_name": "What Is This Thing Called Love",
+          "x": -0.009006856654730456,
+          "y": -0.0004956355093697919,
+          "category": 0
+        },
+        {
+          "piece_name": "When The Saints Go Marching In",
+          "x": -0.0020143129899462043,
+          "y": 0.0017512427539511793,
+          "category": 1
+        },
+        {
+          "piece_name": "When You're Smilin'",
+          "x": -0.009977285063133562,
+          "y": 0.010013431368189817,
+          "category": 1
+        },
+        {
+          "piece_name": "Why Do I Love You?",
+          "x": -0.004102597031765968,
+          "y": 0.028777691133298956,
+          "category": 1
+        },
+        {
+          "piece_name": "Why Don't You Do Right?",
+          "x": -0.00440589040202319,
+          "y": -0.015317094793336405,
+          "category": 0
+        },
+        {
+          "piece_name": "Witch Hunt",
+          "x": 0.019202084283040325,
+          "y": -0.004223321923251224,
+          "category": 2
+        },
+        {
+          "piece_name": "Work Song",
+          "x": -0.009261222532194337,
+          "y": -0.02180339583095157,
+          "category": 0
+        },
+        {
+          "piece_name": "Yesterdays",
+          "x": 0.0004204380212525221,
+          "y": -0.00878973276954778,
+          "category": 0
+        },
+        {
+          "piece_name": "You Stepped Out Of A Dream",
+          "x": -0.007923664098450136,
+          "y": 0.0028904111136985764,
+          "category": 1
+        },
+        {
+          "piece_name": "Zingaro (Retrato Em Branco E Preto)",
+          "x": -0.010452936824115853,
+          "y": 0.020138846232289197,
+          "category": 1
+        }
+      ]
+    },
+    "ctx_False": {
+      "partition": {
+        "0": [
+          "502 Blues",
+          "Across The Valley From The Alamo",
+          "Afro Blue",
+          "All Of Me",
+          "Armando's Rhumba",
+          "Autumn Leaves",
+          "Avalon",
+          "Backstage Sally",
+          "Ballade",
+          "Baubles, Bangles And Beads",
+          "Beatrice",
+          "Beautiful Friendship, A",
+          "Beautiful Love",
+          "Bemsha Swing",
+          "Best Things In Life Are Free, The",
+          "Bill Bailey",
+          "Birk's Works",
+          "Blue Bossa",
+          "Blue In Green",
+          "Blue Lou",
+          "Blues For Alice",
+          "Blues For Wood",
+          "Bluesette",
+          "Boo Boo's Birthday",
+          "Booker's Waltz",
+          "Bossa Antigua",
+          "Boy Next Door",
+          "Bright Mississippi",
+          "Broadway",
+          "Brotherhood Of Man",
+          "Candy",
+          "Central Park West",
+          "Chucho",
+          "Contemplation",
+          "Cool One, The",
+          "Dancing In The Dark",
+          "Don't Worry 'Bout Me",
+          "Donna Lee",
+          "Fine And Dandy",
+          "Fools Rush In",
+          "Friday The 13th",
+          "Gary's Notebook",
+          "Glad To Be Unhappy",
+          "Good Life, The",
+          "How High The Moon",
+          "I Can't Believe...You're In Love...",
+          "I Love You",
+          "I'll Close My Eyes",
+          "I've Found A New Baby v2",
+          "Idle Moments",
+          "In A Little Spanish Town",
+          "In A Shanty In Old Shanty Town",
+          "It's Been A Long Long Time",
+          "Jeannie's Song",
+          "Just Friends",
+          "Lennie's Pennies",
+          "Light Blue",
+          "My Melancholy Baby",
+          "Nothing Personal",
+          "O Grande Amor",
+          "Pent Up House",
+          "Recordame",
+          "Red Clay",
+          "Remember",
+          "Rose Room",
+          "Serenade To A Cuckoo",
+          "Serenity",
+          "Shadow Of Your Smile, The",
+          "Shine",
+          "Simone",
+          "Smile",
+          "So Danco Samba",
+          "So Nice (Summer Samba)",
+          "Solar",
+          "Someday My Prince Will Come",
+          "Song For My Father",
+          "St. Thomas",
+          "Stella By Starlight",
+          "Struttin' With Some Barbecue",
+          "Subconscious Lee",
+          "Sugar",
+          "Summertime",
+          "Sunny",
+          "Sweet Georgia Bright",
+          "Take The A Train",
+          "Them There Eyes",
+          "This Can't Be Love",
+          "Time On My Hands",
+          "United",
+          "Valse Hot",
+          "Wayne's Thang",
+          "We Will Meet Again",
+          "Weaver Of Dreams, A",
+          "What Is This Thing Called Love",
+          "When The Saints Go Marching In",
+          "When You're Smilin'",
+          "Why Do I Love You?",
+          "Why Don't You Do Right?",
+          "Witch Hunt",
+          "Work Song",
+          "Yesterdays",
+          "You Stepped Out Of A Dream",
+          "Zingaro (Retrato Em Branco E Preto)"
+        ],
+        "1": [
+          "Hackensack",
+          "Hot House",
+          "Hungaria",
+          "I Love Paris",
+          "I Wish I Knew How It Would Feel To Be Free",
+          "I've Found A New Baby",
+          "If You Ever Should Leave",
+          "Israel",
+          "Jackie-ing",
+          "Jersey Bounce",
+          "Just In Time",
+          "Leaving",
+          "Look For The Silver Lining",
+          "Old Country, The",
+          "Paper Doll"
+        ],
+        "2": [
+          "Dearly Beloved",
+          "Exactly Like You",
+          "Fine Romance, A",
+          "Four On Six",
+          "Freight Train",
+          "Funkallero",
+          "Girl Talk",
+          "Got A Match?",
+          "Half Nelson",
+          "I Fall In Love Too Easily",
+          "I've Got A Crush On You",
+          "If You Never Come To Me",
+          "In A Mellow Tone (In A Mellotone)",
+          "Interplay",
+          "Just A Gigolo",
+          "Lady Bird",
+          "Little Boat (O Barquinho)",
+          "Minor Mood",
+          "Move",
+          "My Ideal",
+          "Night Dreamer",
+          "Nuages",
+          "On The Trail",
+          "Peace",
+          "Tune Up"
+        ],
+        "3": [
+          "Equinox",
+          "Footprints",
+          "Jody Grind, The",
+          "Mac The Knife",
+          "Minor Strain",
+          "Mr. P.C."
+        ]
+      },
+      "embedding": [
+        {
+          "piece_name": "502 Blues",
+          "x": 0.0005772983933547481,
+          "y": -0.0005951017622389363,
+          "category": 0
+        },
+        {
+          "piece_name": "Across The Valley From The Alamo",
+          "x": -0.0025012741644058513,
+          "y": 0.00024384567336749327,
+          "category": 0
+        },
+        {
+          "piece_name": "Afro Blue",
+          "x": -1.1940162907606347e-06,
+          "y": -0.0011864118809612654,
+          "category": 0
+        },
+        {
+          "piece_name": "All Of Me",
+          "x": 3.403217472421786e-05,
+          "y": -0.0007770858986310203,
+          "category": 0
+        },
+        {
+          "piece_name": "Armando's Rhumba",
+          "x": 5.601866772998094e-05,
+          "y": -0.0010544820475488956,
+          "category": 0
+        },
+        {
+          "piece_name": "Autumn Leaves",
+          "x": 0.0006380117737542404,
+          "y": -0.0015736669991736414,
+          "category": 0
+        },
+        {
+          "piece_name": "Avalon",
+          "x": -0.0025760200131691086,
+          "y": 0.0016511954463597014,
+          "category": 0
+        },
+        {
+          "piece_name": "Backstage Sally",
+          "x": -0.00014751591199516374,
+          "y": -9.525071206968242e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "Ballade",
+          "x": 2.8887081504766684e-05,
+          "y": 0.00013048738586812707,
+          "category": 0
+        },
+        {
+          "piece_name": "Baubles, Bangles And Beads",
+          "x": 0.0003070425430999897,
+          "y": -0.0016499626548409283,
+          "category": 0
+        },
+        {
+          "piece_name": "Beatrice",
+          "x": 0.0011342164091350333,
+          "y": 0.0006423563239525583,
+          "category": 0
+        },
+        {
+          "piece_name": "Beautiful Friendship, A",
+          "x": -2.677475846025515e-06,
+          "y": -0.0030544295208351046,
+          "category": 0
+        },
+        {
+          "piece_name": "Beautiful Love",
+          "x": -9.97630597340567e-05,
+          "y": 0.0002041970160657614,
+          "category": 0
+        },
+        {
+          "piece_name": "Bemsha Swing",
+          "x": -0.0006141714171738444,
+          "y": -0.0005418502398075523,
+          "category": 0
+        },
+        {
+          "piece_name": "Best Things In Life Are Free, The",
+          "x": -0.0003905560534769777,
+          "y": -0.0003462706040641797,
+          "category": 0
+        },
+        {
+          "piece_name": "Bill Bailey",
+          "x": 0.00010814031045926853,
+          "y": -0.003051674465508241,
+          "category": 0
+        },
+        {
+          "piece_name": "Birk's Works",
+          "x": 5.474481946628396e-05,
+          "y": -0.0005911810013028433,
+          "category": 0
+        },
+        {
+          "piece_name": "Blue Bossa",
+          "x": -0.0008370403227376487,
+          "y": 0.001807543093125573,
+          "category": 0
+        },
+        {
+          "piece_name": "Blue In Green",
+          "x": 0.0010109917651638745,
+          "y": -0.0006217347642649966,
+          "category": 0
+        },
+        {
+          "piece_name": "Blue Lou",
+          "x": 0.0009368839381536534,
+          "y": 0.0019119124020680993,
+          "category": 0
+        },
+        {
+          "piece_name": "Blues For Alice",
+          "x": 0.0008635076022490259,
+          "y": -0.0003904166455164414,
+          "category": 0
+        },
+        {
+          "piece_name": "Blues For Wood",
+          "x": 0.0018013298487489465,
+          "y": -0.0034595706676289364,
+          "category": 0
+        },
+        {
+          "piece_name": "Bluesette",
+          "x": 0.002223565913587497,
+          "y": 0.0007794081114123142,
+          "category": 0
+        },
+        {
+          "piece_name": "Boo Boo's Birthday",
+          "x": 0.0005114321931342866,
+          "y": 0.0038393711514722326,
+          "category": 0
+        },
+        {
+          "piece_name": "Booker's Waltz",
+          "x": -0.000933241586946933,
+          "y": -0.00019360741166625031,
+          "category": 0
+        },
+        {
+          "piece_name": "Bossa Antigua",
+          "x": 0.0007748787077583898,
+          "y": -0.002265674989337191,
+          "category": 0
+        },
+        {
+          "piece_name": "Boy Next Door",
+          "x": -0.0005062151613993487,
+          "y": 0.0014169980998766274,
+          "category": 0
+        },
+        {
+          "piece_name": "Bright Mississippi",
+          "x": -0.0003463350917653144,
+          "y": -0.0019124247336086558,
+          "category": 0
+        },
+        {
+          "piece_name": "Broadway",
+          "x": -0.00015227776656335807,
+          "y": -0.0009603207045165034,
+          "category": 0
+        },
+        {
+          "piece_name": "Brotherhood Of Man",
+          "x": -9.341108152938026e-05,
+          "y": 0.0018246350780432596,
+          "category": 0
+        },
+        {
+          "piece_name": "Candy",
+          "x": -0.0004537352426073843,
+          "y": -0.005260345085570117,
+          "category": 0
+        },
+        {
+          "piece_name": "Central Park West",
+          "x": -0.0013893222368852561,
+          "y": -0.0004111409738768262,
+          "category": 0
+        },
+        {
+          "piece_name": "Chucho",
+          "x": 0.00039235834757536664,
+          "y": 0.003020869664195935,
+          "category": 0
+        },
+        {
+          "piece_name": "Contemplation",
+          "x": -0.00037210696710505997,
+          "y": 0.002786135016137792,
+          "category": 0
+        },
+        {
+          "piece_name": "Cool One, The",
+          "x": -0.0003431313939565705,
+          "y": -0.00021690070984432363,
+          "category": 0
+        },
+        {
+          "piece_name": "Dancing In The Dark",
+          "x": 0.008576725469924024,
+          "y": -0.004323314315265251,
+          "category": 0
+        },
+        {
+          "piece_name": "Dearly Beloved",
+          "x": -0.0064900116499585665,
+          "y": 0.001828334233523895,
+          "category": 2
+        },
+        {
+          "piece_name": "Don't Worry 'Bout Me",
+          "x": 0.0016551775500396819,
+          "y": -0.00037213355889067427,
+          "category": 0
+        },
+        {
+          "piece_name": "Donna Lee",
+          "x": -0.00629224585147802,
+          "y": -0.0006953920139902944,
+          "category": 0
+        },
+        {
+          "piece_name": "Equinox",
+          "x": 0.027323866275265153,
+          "y": -4.553171415015044e-06,
+          "category": 3
+        },
+        {
+          "piece_name": "Exactly Like You",
+          "x": -0.02754991479940799,
+          "y": -0.002081153782759601,
+          "category": 2
+        },
+        {
+          "piece_name": "Fine And Dandy",
+          "x": 0.004811590371372305,
+          "y": -0.006472510564445486,
+          "category": 0
+        },
+        {
+          "piece_name": "Fine Romance, A",
+          "x": 0.0013811358671540178,
+          "y": 0.016077587683449128,
+          "category": 2
+        },
+        {
+          "piece_name": "Fools Rush In",
+          "x": -0.005822814811566721,
+          "y": -0.006941464748645741,
+          "category": 0
+        },
+        {
+          "piece_name": "Footprints",
+          "x": 0.019154500199571472,
+          "y": -0.003007530631435425,
+          "category": 3
+        },
+        {
+          "piece_name": "Four On Six",
+          "x": -0.012441933407950663,
+          "y": 0.007419013841299285,
+          "category": 2
+        },
+        {
+          "piece_name": "Freight Train",
+          "x": -0.002963406414237106,
+          "y": 0.008351320738208733,
+          "category": 2
+        },
+        {
+          "piece_name": "Friday The 13th",
+          "x": 0.004914916314146676,
+          "y": -0.01323390243032427,
+          "category": 0
+        },
+        {
+          "piece_name": "Funkallero",
+          "x": -0.0019845319014288932,
+          "y": 0.010404282043323734,
+          "category": 2
+        },
+        {
+          "piece_name": "Gary's Notebook",
+          "x": -0.001180840087489296,
+          "y": -0.009756760450131262,
+          "category": 0
+        },
+        {
+          "piece_name": "Girl Talk",
+          "x": -0.0008343528504067714,
+          "y": 0.007061956123065069,
+          "category": 2
+        },
+        {
+          "piece_name": "Glad To Be Unhappy",
+          "x": 0.0015573357768460044,
+          "y": -0.005457661978439154,
+          "category": 0
+        },
+        {
+          "piece_name": "Good Life, The",
+          "x": -0.005027258649975356,
+          "y": -0.0003772625613699835,
+          "category": 0
+        },
+        {
+          "piece_name": "Got A Match?",
+          "x": 0.005132362569971447,
+          "y": 0.013916026426928999,
+          "category": 2
+        },
+        {
+          "piece_name": "Hackensack",
+          "x": -0.0005575630844971333,
+          "y": -0.01532165427000472,
+          "category": 1
+        },
+        {
+          "piece_name": "Half Nelson",
+          "x": -0.00567928920115149,
+          "y": 0.019441827976355172,
+          "category": 2
+        },
+        {
+          "piece_name": "Hot House",
+          "x": 0.004419963152023505,
+          "y": -0.01861298178033424,
+          "category": 1
+        },
+        {
+          "piece_name": "How High The Moon",
+          "x": -0.0012154882186015414,
+          "y": 0.006688007276640123,
+          "category": 0
+        },
+        {
+          "piece_name": "Hungaria",
+          "x": -0.000427616788028446,
+          "y": -0.0006873292787472418,
+          "category": 1
+        },
+        {
+          "piece_name": "I Can't Believe...You're In Love...",
+          "x": 0.0013201124386848636,
+          "y": -0.011213910874640496,
+          "category": 0
+        },
+        {
+          "piece_name": "I Fall In Love Too Easily",
+          "x": 0.0025349697386102474,
+          "y": 0.018057094987912334,
+          "category": 2
+        },
+        {
+          "piece_name": "I Love Paris",
+          "x": -0.00270672705006148,
+          "y": -0.014359004135506226,
+          "category": 1
+        },
+        {
+          "piece_name": "I Love You",
+          "x": 0.0012738449650387823,
+          "y": 0.011042025913094273,
+          "category": 0
+        },
+        {
+          "piece_name": "I Wish I Knew How It Would Feel To Be Free",
+          "x": 0.001581200975135046,
+          "y": -0.012726545302084667,
+          "category": 1
+        },
+        {
+          "piece_name": "I'll Close My Eyes",
+          "x": -0.0016387767508893813,
+          "y": 0.011988056523175793,
+          "category": 0
+        },
+        {
+          "piece_name": "I've Found A New Baby",
+          "x": 0.00024843574170519176,
+          "y": -0.0034473929454179484,
+          "category": 1
+        },
+        {
+          "piece_name": "I've Found A New Baby v2",
+          "x": 0.0006502989995873978,
+          "y": -0.00894850629837169,
+          "category": 0
+        },
+        {
+          "piece_name": "I've Got A Crush On You",
+          "x": -0.003406643303654401,
+          "y": 0.005661760739949944,
+          "category": 2
+        },
+        {
+          "piece_name": "Idle Moments",
+          "x": 0.005329413051274498,
+          "y": 0.003062266065338884,
+          "category": 0
+        },
+        {
+          "piece_name": "If You Ever Should Leave",
+          "x": -0.008880131928462457,
+          "y": -0.018045464146449294,
+          "category": 1
+        },
+        {
+          "piece_name": "If You Never Come To Me",
+          "x": 0.010108568452390358,
+          "y": 0.019655864021029115,
+          "category": 2
+        },
+        {
+          "piece_name": "In A Little Spanish Town",
+          "x": -0.00864190495355184,
+          "y": -0.009496505455118855,
+          "category": 0
+        },
+        {
+          "piece_name": "In A Mellow Tone (In A Mellotone)",
+          "x": 0.004530333642107765,
+          "y": 0.004877408680602812,
+          "category": 2
+        },
+        {
+          "piece_name": "In A Shanty In Old Shanty Town",
+          "x": -0.005024254586794199,
+          "y": -0.012536155254523377,
+          "category": 0
+        },
+        {
+          "piece_name": "Interplay",
+          "x": 0.009635504745903977,
+          "y": 0.016402296633144686,
+          "category": 2
+        },
+        {
+          "piece_name": "Israel",
+          "x": -0.0049013194785282165,
+          "y": -0.011324465961702173,
+          "category": 1
+        },
+        {
+          "piece_name": "It's Been A Long Long Time",
+          "x": -0.0011885453580943671,
+          "y": 0.004153522641725061,
+          "category": 0
+        },
+        {
+          "piece_name": "Jackie-ing",
+          "x": -0.0036640951796629386,
+          "y": 0.0031187596072924186,
+          "category": 1
+        },
+        {
+          "piece_name": "Jeannie's Song",
+          "x": 0.00326555752625149,
+          "y": 0.00413526434493226,
+          "category": 0
+        },
+        {
+          "piece_name": "Jersey Bounce",
+          "x": -0.00634651403367644,
+          "y": -0.014977828215659688,
+          "category": 1
+        },
+        {
+          "piece_name": "Jody Grind, The",
+          "x": 0.02229970584806338,
+          "y": 0.006574642647969259,
+          "category": 3
+        },
+        {
+          "piece_name": "Just A Gigolo",
+          "x": -0.019389363647440403,
+          "y": 0.0025759734357173355,
+          "category": 2
+        },
+        {
+          "piece_name": "Just Friends",
+          "x": 0.004036296756265633,
+          "y": 0.00567011848011613,
+          "category": 0
+        },
+        {
+          "piece_name": "Just In Time",
+          "x": 0.0032908175951578906,
+          "y": -0.017217994333429756,
+          "category": 1
+        },
+        {
+          "piece_name": "Lady Bird",
+          "x": -0.007985502918299008,
+          "y": 0.017847222372023495,
+          "category": 2
+        },
+        {
+          "piece_name": "Leaving",
+          "x": 0.010809898784748752,
+          "y": -0.012268871883100538,
+          "category": 1
+        },
+        {
+          "piece_name": "Lennie's Pennies",
+          "x": -0.005533408839024202,
+          "y": 0.0004394940588076562,
+          "category": 0
+        },
+        {
+          "piece_name": "Light Blue",
+          "x": 0.001649362283915559,
+          "y": -0.0032297093183444366,
+          "category": 0
+        },
+        {
+          "piece_name": "Little Boat (O Barquinho)",
+          "x": -0.007515175019319303,
+          "y": 0.015252484019562213,
+          "category": 2
+        },
+        {
+          "piece_name": "Look For The Silver Lining",
+          "x": 0.001324202829061677,
+          "y": -0.01185668363541787,
+          "category": 1
+        },
+        {
+          "piece_name": "Mac The Knife",
+          "x": 0.01297415081122474,
+          "y": 0.0011943611487820653,
+          "category": 3
+        },
+        {
+          "piece_name": "Minor Mood",
+          "x": -0.014613502617791504,
+          "y": 0.0023947340313794333,
+          "category": 2
+        },
+        {
+          "piece_name": "Minor Strain",
+          "x": 0.0218905361977857,
+          "y": 0.0021450962111109334,
+          "category": 3
+        },
+        {
+          "piece_name": "Move",
+          "x": -0.024365906425095212,
+          "y": -0.005255222098100264,
+          "category": 2
+        },
+        {
+          "piece_name": "Mr. P.C.",
+          "x": 0.030156259274575235,
+          "y": 0.005216731477372032,
+          "category": 3
+        },
+        {
+          "piece_name": "My Ideal",
+          "x": -0.027536630217553173,
+          "y": 0.0013363126022605057,
+          "category": 2
+        },
+        {
+          "piece_name": "My Melancholy Baby",
+          "x": 0.009990061636108436,
+          "y": -0.0029096203527715376,
+          "category": 0
+        },
+        {
+          "piece_name": "Night Dreamer",
+          "x": -0.0049059531304476494,
+          "y": 0.007134982675202394,
+          "category": 2
+        },
+        {
+          "piece_name": "Nothing Personal",
+          "x": 0.00029055320252378424,
+          "y": -0.010713428394997181,
+          "category": 0
+        },
+        {
+          "piece_name": "Nuages",
+          "x": 0.0003172810424462704,
+          "y": 0.007777611275077694,
+          "category": 2
+        },
+        {
+          "piece_name": "O Grande Amor",
+          "x": 0.0015501373563108522,
+          "y": 0.0038123079919337713,
+          "category": 0
+        },
+        {
+          "piece_name": "Old Country, The",
+          "x": 0.0017549576927611795,
+          "y": -0.007070245848871977,
+          "category": 1
+        },
+        {
+          "piece_name": "On The Trail",
+          "x": -0.010462955133844874,
+          "y": 0.016152992180832177,
+          "category": 2
+        },
+        {
+          "piece_name": "Paper Doll",
+          "x": 0.00962142070873698,
+          "y": -0.013764221300527365,
+          "category": 1
+        },
+        {
+          "piece_name": "Peace",
+          "x": -0.0009965824343834977,
+          "y": 0.00697506594166801,
+          "category": 2
+        },
+        {
+          "piece_name": "Pent Up House",
+          "x": -0.005717210609310104,
+          "y": 0.002305553827518991,
+          "category": 0
+        },
+        {
+          "piece_name": "Recordame",
+          "x": 0.0049882135485944295,
+          "y": 0.0010650662446074148,
+          "category": 0
+        },
+        {
+          "piece_name": "Red Clay",
+          "x": 0.0002990622597081706,
+          "y": -0.002397369784041114,
+          "category": 0
+        },
+        {
+          "piece_name": "Remember",
+          "x": -0.0004835236203034384,
+          "y": 0.00027985703593817865,
+          "category": 0
+        },
+        {
+          "piece_name": "Rose Room",
+          "x": -0.0023035367502226025,
+          "y": 0.0060797707873127445,
+          "category": 0
+        },
+        {
+          "piece_name": "Serenade To A Cuckoo",
+          "x": -0.000989398674861635,
+          "y": 0.000680784304730219,
+          "category": 0
+        },
+        {
+          "piece_name": "Serenity",
+          "x": 0.00027828926032556756,
+          "y": 0.0016106775491043777,
+          "category": 0
+        },
+        {
+          "piece_name": "Shadow Of Your Smile, The",
+          "x": 0.0013953889023214385,
+          "y": -0.002739891624683828,
+          "category": 0
+        },
+        {
+          "piece_name": "Shine",
+          "x": -0.0009052190746439383,
+          "y": -0.001573707841042801,
+          "category": 0
+        },
+        {
+          "piece_name": "Simone",
+          "x": 0.0005260249248545053,
+          "y": 0.0001898312236186135,
+          "category": 0
+        },
+        {
+          "piece_name": "Smile",
+          "x": 0.0009260352015836407,
+          "y": -0.0016808246287105485,
+          "category": 0
+        },
+        {
+          "piece_name": "So Danco Samba",
+          "x": 0.0006856422059698978,
+          "y": -0.0017138743199681566,
+          "category": 0
+        },
+        {
+          "piece_name": "So Nice (Summer Samba)",
+          "x": 0.00023312784265458984,
+          "y": -0.005793540443019865,
+          "category": 0
+        },
+        {
+          "piece_name": "Solar",
+          "x": -0.0003830191059355307,
+          "y": 0.0014462615472825464,
+          "category": 0
+        },
+        {
+          "piece_name": "Someday My Prince Will Come",
+          "x": -0.0014628620969301541,
+          "y": 0.004169780021850176,
+          "category": 0
+        },
+        {
+          "piece_name": "Song For My Father",
+          "x": -0.0002997489906308521,
+          "y": -0.003520340620068089,
+          "category": 0
+        },
+        {
+          "piece_name": "St. Thomas",
+          "x": -0.0002749513297094333,
+          "y": 0.0004027508747651713,
+          "category": 0
+        },
+        {
+          "piece_name": "Stella By Starlight",
+          "x": -0.0006154835174943577,
+          "y": -0.0018451475166269384,
+          "category": 0
+        },
+        {
+          "piece_name": "Struttin' With Some Barbecue",
+          "x": -7.895219263926774e-05,
+          "y": -0.0026229636645853857,
+          "category": 0
+        },
+        {
+          "piece_name": "Subconscious Lee",
+          "x": 8.2131241074749e-05,
+          "y": -0.0005759315168571449,
+          "category": 0
+        },
+        {
+          "piece_name": "Sugar",
+          "x": 0.00012867374939961755,
+          "y": 0.00043299606793680115,
+          "category": 0
+        },
+        {
+          "piece_name": "Summertime",
+          "x": -3.819390568306926e-05,
+          "y": -0.00019191066632085735,
+          "category": 0
+        },
+        {
+          "piece_name": "Sunny",
+          "x": 0.00076869355674918,
+          "y": -0.0012957164949800766,
+          "category": 0
+        },
+        {
+          "piece_name": "Sweet Georgia Bright",
+          "x": -0.00025871056387507683,
+          "y": 0.0010610995979175003,
+          "category": 0
+        },
+        {
+          "piece_name": "Take The A Train",
+          "x": 0.0010694257316205377,
+          "y": -0.0005622865983184415,
+          "category": 0
+        },
+        {
+          "piece_name": "Them There Eyes",
+          "x": -0.001067734685258375,
+          "y": 4.596757444413475e-05,
+          "category": 0
+        },
+        {
+          "piece_name": "This Can't Be Love",
+          "x": 0.00014380400021279732,
+          "y": 0.000560227334154101,
+          "category": 0
+        },
+        {
+          "piece_name": "Time On My Hands",
+          "x": 0.0009809593936303041,
+          "y": -0.002056379659718932,
+          "category": 0
+        },
+        {
+          "piece_name": "Tune Up",
+          "x": 9.013907381475356e-05,
+          "y": 0.013283949153013229,
+          "category": 2
+        },
+        {
+          "piece_name": "United",
+          "x": 0.00010970894719013351,
+          "y": 0.0007353046524708792,
+          "category": 0
+        },
+        {
+          "piece_name": "Valse Hot",
+          "x": -0.0010466568795263465,
+          "y": -0.0005828861161721011,
+          "category": 0
+        },
+        {
+          "piece_name": "Wayne's Thang",
+          "x": -0.00035068952636902167,
+          "y": -0.000248607176907719,
+          "category": 0
+        },
+        {
+          "piece_name": "We Will Meet Again",
+          "x": -0.0007457222025458166,
+          "y": 0.0013041760811780278,
+          "category": 0
+        },
+        {
+          "piece_name": "Weaver Of Dreams, A",
+          "x": -0.0012765428441358845,
+          "y": -0.0005527116190869668,
+          "category": 0
+        },
+        {
+          "piece_name": "What Is This Thing Called Love",
+          "x": -0.0002073137391193278,
+          "y": -0.0024428344441277407,
+          "category": 0
+        },
+        {
+          "piece_name": "When The Saints Go Marching In",
+          "x": 0.0006304970869119997,
+          "y": 0.0007319211307435528,
+          "category": 0
+        },
+        {
+          "piece_name": "When You're Smilin'",
+          "x": 0.0012457782149218853,
+          "y": -0.0013634429777285623,
+          "category": 0
+        },
+        {
+          "piece_name": "Why Do I Love You?",
+          "x": -0.0003276063750696813,
+          "y": 0.001351875668031698,
+          "category": 0
+        },
+        {
+          "piece_name": "Why Don't You Do Right?",
+          "x": 0.0013808612198081618,
+          "y": 0.00038115522189407575,
+          "category": 0
+        },
+        {
+          "piece_name": "Witch Hunt",
+          "x": -0.00011089850362369088,
+          "y": -0.00114464342861481,
+          "category": 0
+        },
+        {
+          "piece_name": "Work Song",
+          "x": 0.0006692557552390493,
+          "y": 0.00110279839582204,
+          "category": 0
+        },
+        {
+          "piece_name": "Yesterdays",
+          "x": 0.00022596430856507832,
+          "y": 0.00039668755824696396,
+          "category": 0
+        },
+        {
+          "piece_name": "You Stepped Out Of A Dream",
+          "x": 0.000732954790502063,
+          "y": -0.000932601853008762,
+          "category": 0
+        },
+        {
+          "piece_name": "Zingaro (Retrato Em Branco E Preto)",
+          "x": -0.00039014204871876937,
+          "y": -0.0021685590453168475,
+          "category": 0
+        }
+      ]
+    }
+  }
+}

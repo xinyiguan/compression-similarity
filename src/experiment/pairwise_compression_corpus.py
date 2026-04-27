@@ -32,7 +32,8 @@ type ModelName = str
 def pairwise_NCD(c_result: CResult[PieceName], model_names: List[str]) -> List[Dict]:
     json = []
     for x, y in c_result.pairwise_C_ctx.keys():
-        entry = {"nameX": x, "nameY": y}
+
+        entry = {"nameX": x.replace('(Valid)',''), "nameY": y.replace('(Valid)','')}
         for model_name in model_names:
             c_xy_ctx = c_result.get_pairwise_C_ctx(x, y, model_name)
             c_x_ctx = c_result.get_individual_C_ctx(x, model_name)

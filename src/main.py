@@ -5,9 +5,8 @@ import experiment.pairwise_compression_corpus
 import experiment.edit_distance
 from model.utils import load_json,Corpus
 from experiment.report import corr_rank_report
-
-# import docGen.main
-
+import docGen.main
+from experiment.clustering import cluster_test
 def log(f):
     def _f(*args, **kwargs):
         print(f"[Start] {f.__module__}.{f.__name__}")
@@ -93,3 +92,8 @@ if __name__ == "__main__":
             heatmap_vega_path = f"docs/vega/(ctx={with_ctx})/pairwise-similarity.vega",
             output_folder = f"docs/latex/figs/(ctx={with_ctx})"
         )
+        
+        cluster_test("data/result")
+        
+        
+        

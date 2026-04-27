@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from itertools import combinations
 import re
 from typing import List, Literal, Optional, Sequence, Tuple
 import Levenshtein
@@ -204,3 +205,12 @@ class Tree:
         label_str = self._label_to_string(self.label)
         res = APTEDNode(label_str, [child.to_apted() for child in self.children])
         return res
+
+def compute_edit_distance(corpus:Corpus[Piece]):
+    result = DefaultDict(dict)
+    pairs = [(p, q) for p, q in combinations(corpus.pieces, 2) if p.title != q.title]
+    for x,y in pairs:
+        for dist_type in ['str_edit','tree_edit']: 
+            result[x.title][y.title][dist_type] = ...
+    
+        
