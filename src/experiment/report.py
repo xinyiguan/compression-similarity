@@ -19,14 +19,15 @@ def remove_valid_in_titles(data:List[Dict[str, Any]]):
 
 def corr_rank_report(
     res_file: str,
-    models: Tuple[str, str],
+    model_x: str,
+    model_y: str,
     save_report_fpath: Optional[str],
     show_results: bool,
 ):
     _data = load_json(res_file)
     data = remove_valid_in_titles(_data)
-    m1 = models[0]
-    m2 = models[1]
+    m1 = model_x
+    m2 = model_y
 
     print(f"Comparing model {m1} and {m2} \n")
 
@@ -48,7 +49,7 @@ def corr_rank_report(
     }
 
     print(f' == regression ==')
-    linRes = linregress(x=df[f"D_{m2}"], y=df[f"D_{m1}"], nan_policy="raise")
+    linRes = linregress(x=df[f"D_{m1}"], y=df[f"D_{m2}"], nan_policy="raise")
 
     regression_report = {
         "slope": linRes.slope,
