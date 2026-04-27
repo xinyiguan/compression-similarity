@@ -1,0 +1,2116 @@
+{
+  "SED": {
+    "partition": {
+      "0": [
+        "(Valid)502 Blues",
+        "(Valid)Across The Valley From The Alamo",
+        "(Valid)Afro Blue",
+        "(Valid)All Of Me",
+        "(Valid)Armando's Rhumba",
+        "(Valid)Autumn Leaves",
+        "(Valid)Avalon",
+        "(Valid)Backstage Sally",
+        "(Valid)Ballade",
+        "(Valid)Baubles, Bangles And Beads",
+        "(Valid)Beatrice",
+        "(Valid)Beautiful Friendship, A",
+        "(Valid)Beautiful Love",
+        "(Valid)Bemsha Swing",
+        "(Valid)Best Things In Life Are Free, The",
+        "(Valid)Bill Bailey",
+        "(Valid)Birk's Works",
+        "(Valid)Blue Bossa",
+        "(Valid)Blue In Green",
+        "(Valid)Blue Lou",
+        "(Valid)Blues For Alice",
+        "(Valid)Blues For Wood",
+        "(Valid)Bluesette",
+        "(Valid)Boo Boo's Birthday",
+        "(Valid)Booker's Waltz",
+        "(Valid)Bossa Antigua",
+        "(Valid)Boy Next Door",
+        "(Valid)Bright Mississippi",
+        "(Valid)Broadway",
+        "(Valid)Brotherhood Of Man",
+        "(Valid)Candy",
+        "(Valid)Central Park West",
+        "(Valid)Chucho",
+        "(Valid)Contemplation",
+        "(Valid)Cool One, The",
+        "(Valid)Dearly Beloved",
+        "(Valid)Fine Romance, A",
+        "(Valid)Freight Train",
+        "(Valid)Funkallero",
+        "(Valid)Girl Talk",
+        "(Valid)Good Life, The",
+        "(Valid)Hackensack",
+        "(Valid)How High The Moon",
+        "(Valid)I Can't Believe...You're In Love...",
+        "(Valid)I Love Paris",
+        "(Valid)I've Found A New Baby v2",
+        "(Valid)If You Ever Should Leave",
+        "(Valid)In A Little Spanish Town",
+        "(Valid)In A Shanty In Old Shanty Town",
+        "(Valid)Interplay",
+        "(Valid)It's Been A Long Long Time",
+        "(Valid)Jeannie's Song",
+        "(Valid)Just Friends",
+        "(Valid)Lennie's Pennies",
+        "(Valid)Little Boat (O Barquinho)",
+        "(Valid)Mac The Knife",
+        "(Valid)Minor Strain",
+        "(Valid)My Melancholy Baby",
+        "(Valid)Nothing Personal",
+        "(Valid)Nuages",
+        "(Valid)On The Trail",
+        "(Valid)Pent Up House",
+        "(Valid)Recordame",
+        "(Valid)Red Clay",
+        "(Valid)Remember",
+        "(Valid)Rose Room",
+        "(Valid)Serenade To A Cuckoo",
+        "(Valid)Serenity",
+        "(Valid)Shadow Of Your Smile, The",
+        "(Valid)Shine",
+        "(Valid)Simone",
+        "(Valid)Smile",
+        "(Valid)So Danco Samba",
+        "(Valid)So Nice (Summer Samba)",
+        "(Valid)Solar",
+        "(Valid)Someday My Prince Will Come",
+        "(Valid)Song For My Father",
+        "(Valid)St. Thomas",
+        "(Valid)Stella By Starlight",
+        "(Valid)Struttin' With Some Barbecue",
+        "(Valid)Subconscious Lee",
+        "(Valid)Sugar",
+        "(Valid)Summertime",
+        "(Valid)Sunny",
+        "(Valid)Sweet Georgia Bright",
+        "(Valid)Take The A Train",
+        "(Valid)Them There Eyes",
+        "(Valid)This Can't Be Love",
+        "(Valid)Time On My Hands",
+        "(Valid)Tune Up",
+        "(Valid)United",
+        "(Valid)Valse Hot",
+        "(Valid)Wayne's Thang",
+        "(Valid)We Will Meet Again",
+        "(Valid)Weaver Of Dreams, A",
+        "(Valid)What Is This Thing Called Love",
+        "(Valid)When The Saints Go Marching In",
+        "(Valid)When You're Smilin'",
+        "(Valid)Why Do I Love You?",
+        "(Valid)Why Don't You Do Right?",
+        "(Valid)Witch Hunt",
+        "(Valid)Work Song",
+        "(Valid)Yesterdays",
+        "(Valid)You Stepped Out Of A Dream",
+        "(Valid)Zingaro (Retrato Em Branco E Preto)"
+      ],
+      "1": [
+        "(Valid)Don't Worry 'Bout Me",
+        "(Valid)Fine And Dandy",
+        "(Valid)Fools Rush In",
+        "(Valid)Four On Six",
+        "(Valid)Gary's Notebook",
+        "(Valid)Glad To Be Unhappy",
+        "(Valid)Got A Match?",
+        "(Valid)Half Nelson",
+        "(Valid)I Fall In Love Too Easily",
+        "(Valid)I Love You",
+        "(Valid)I'll Close My Eyes",
+        "(Valid)I've Got A Crush On You",
+        "(Valid)If You Never Come To Me",
+        "(Valid)In A Mellow Tone (In A Mellotone)",
+        "(Valid)Jackie-ing",
+        "(Valid)Lady Bird",
+        "(Valid)Light Blue",
+        "(Valid)Look For The Silver Lining",
+        "(Valid)Minor Mood",
+        "(Valid)Night Dreamer",
+        "(Valid)O Grande Amor",
+        "(Valid)Peace"
+      ],
+      "2": [
+        "(Valid)Dancing In The Dark",
+        "(Valid)Equinox",
+        "(Valid)Footprints",
+        "(Valid)Friday The 13th",
+        "(Valid)Hot House",
+        "(Valid)Hungaria",
+        "(Valid)I Wish I Knew How It Would Feel To Be Free",
+        "(Valid)I've Found A New Baby",
+        "(Valid)Idle Moments",
+        "(Valid)Jody Grind, The",
+        "(Valid)Just In Time",
+        "(Valid)Leaving",
+        "(Valid)Mr. P.C.",
+        "(Valid)Old Country, The",
+        "(Valid)Paper Doll"
+      ],
+      "3": [
+        "(Valid)Donna Lee",
+        "(Valid)Exactly Like You",
+        "(Valid)Israel",
+        "(Valid)Jersey Bounce",
+        "(Valid)Just A Gigolo",
+        "(Valid)Move",
+        "(Valid)My Ideal"
+      ]
+    },
+    "embedding": [
+      {
+        "piece_name": "(Valid)502 Blues",
+        "x": 0.00021373290105445564,
+        "y": -0.0002600649875788853,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Across The Valley From The Alamo",
+        "x": 0.0007967342262516708,
+        "y": 0.0011473570539714698,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Afro Blue",
+        "x": -0.00016444318208618953,
+        "y": -0.0003764060815987114,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)All Of Me",
+        "x": -0.0009649919373974762,
+        "y": 0.0004572073134349086,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Armando's Rhumba",
+        "x": 0.00010786564463429554,
+        "y": -0.0005047180684074445,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Autumn Leaves",
+        "x": 0.0016278891506997565,
+        "y": 0.0006826495290856739,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Avalon",
+        "x": 0.000915053581400165,
+        "y": 0.00039779673579743065,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Backstage Sally",
+        "x": 0.0005674416284302065,
+        "y": 0.0009721472538870512,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Ballade",
+        "x": -0.002202653135006648,
+        "y": 0.00035449847425134866,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Baubles, Bangles And Beads",
+        "x": 0.00022510626033076986,
+        "y": -0.000483385327343231,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Beatrice",
+        "x": -0.0003316678219359041,
+        "y": -0.0004959085729835812,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Beautiful Friendship, A",
+        "x": 0.0007865711784797394,
+        "y": -0.00030314424838899355,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Beautiful Love",
+        "x": -0.00019632201401124935,
+        "y": -0.0005383054511715136,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bemsha Swing",
+        "x": 0.0005321620672094963,
+        "y": -2.8386664880734083e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Best Things In Life Are Free, The",
+        "x": -0.00038022831732466327,
+        "y": 0.00048167161683215017,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bill Bailey",
+        "x": 0.0006736420990929696,
+        "y": 0.0002825653758126372,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Birk's Works",
+        "x": -0.00016259702695364383,
+        "y": -0.0013994620280525698,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blue Bossa",
+        "x": 0.0003017555776316276,
+        "y": -0.00020942887790592875,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blue In Green",
+        "x": 0.001033124859335223,
+        "y": -0.0009443455507782082,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blue Lou",
+        "x": 0.0007659108025286992,
+        "y": -0.0001230833558993834,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blues For Alice",
+        "x": 0.002033662678629032,
+        "y": 0.00022535542895722036,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blues For Wood",
+        "x": -0.000910178109713468,
+        "y": -0.00025425526441004854,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bluesette",
+        "x": -0.0012274480801770804,
+        "y": -0.0017981855995013248,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Boo Boo's Birthday",
+        "x": -0.000984914794928813,
+        "y": -0.0003313969384796095,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Booker's Waltz",
+        "x": 0.0011800804025992905,
+        "y": 9.806045502115954e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bossa Antigua",
+        "x": -0.0008607244104933,
+        "y": -0.00040598243650363574,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Boy Next Door",
+        "x": 0.0009479457622541532,
+        "y": 0.0007044886134573786,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bright Mississippi",
+        "x": -0.0007247304796099367,
+        "y": 2.7625817930239415e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Broadway",
+        "x": -0.0008154241288647735,
+        "y": 9.084560283851041e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Brotherhood Of Man",
+        "x": 0.00032559292375506336,
+        "y": 2.3566305037978845e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Candy",
+        "x": 0.0008747129139905799,
+        "y": -0.00034963856555009746,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Central Park West",
+        "x": -0.0020103371870492143,
+        "y": -0.0010870953985115052,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Chucho",
+        "x": 0.00010189032810267155,
+        "y": 8.415524713425484e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Contemplation",
+        "x": 0.0004214692155563785,
+        "y": 0.00022640382523024527,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Cool One, The",
+        "x": -0.00044187950955608434,
+        "y": 0.0007731020677545124,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Dancing In The Dark",
+        "x": 0.012339203596434667,
+        "y": 0.0025320763633927203,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Dearly Beloved",
+        "x": -0.013592019325868674,
+        "y": 0.002419973462234344,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Don't Worry 'Bout Me",
+        "x": 0.007326537907881369,
+        "y": -0.00670196815578383,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Donna Lee",
+        "x": -0.005651222188708486,
+        "y": 0.009994542221859573,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Equinox",
+        "x": 0.025777877502585794,
+        "y": -0.012305323486295944,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Exactly Like You",
+        "x": -0.024909219417200368,
+        "y": 0.020167483288047634,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Fine And Dandy",
+        "x": 0.0002520554706037151,
+        "y": -0.017619604281777928,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Fine Romance, A",
+        "x": 0.005174290868073905,
+        "y": 0.009265915427988653,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Fools Rush In",
+        "x": -0.006116290311714808,
+        "y": -0.006952700304261865,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Footprints",
+        "x": 0.018858712085122593,
+        "y": 0.004451942909849186,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Four On Six",
+        "x": -0.010251659273609864,
+        "y": -0.00929146245175344,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Freight Train",
+        "x": -0.011869045628973271,
+        "y": 0.0033229873114762254,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Friday The 13th",
+        "x": 0.011453339543323476,
+        "y": 0.004960620651112965,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Funkallero",
+        "x": -0.0020213401853134663,
+        "y": 0.000574287717099946,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Gary's Notebook",
+        "x": -1.7960405175750418e-05,
+        "y": -0.003086699194525606,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Girl Talk",
+        "x": -0.0011416687418713974,
+        "y": 0.0016940083780610418,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Glad To Be Unhappy",
+        "x": -0.0016640963309186958,
+        "y": -2.6099020938055928e-05,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Good Life, The",
+        "x": 0.0010450679341498354,
+        "y": -0.0044703399006446294,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Got A Match?",
+        "x": 0.0033354900965514847,
+        "y": -0.0017470130685316326,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Hackensack",
+        "x": -0.0037279990940768614,
+        "y": 0.014007660241574639,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Half Nelson",
+        "x": -0.006457281399104967,
+        "y": -0.019714092737726067,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Hot House",
+        "x": 0.013030949934384311,
+        "y": 0.01740139753329517,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)How High The Moon",
+        "x": -0.011921760811383861,
+        "y": -0.013754668838633981,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Hungaria",
+        "x": 0.007009067880092112,
+        "y": 0.014760418828223593,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)I Can't Believe...You're In Love...",
+        "x": -0.003094874767817203,
+        "y": 0.0023444451431193663,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)I Fall In Love Too Easily",
+        "x": 0.003798620938283855,
+        "y": -0.011601285961723244,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)I Love Paris",
+        "x": 0.00027212065521445056,
+        "y": 0.008598444854882158,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)I Love You",
+        "x": -0.005434797973897349,
+        "y": -0.013687438997466468,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)I Wish I Knew How It Would Feel To Be Free",
+        "x": 0.010850272060270722,
+        "y": 0.015220211069796888,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)I'll Close My Eyes",
+        "x": -0.012832647199088356,
+        "y": -0.016006303071406013,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)I've Found A New Baby",
+        "x": 0.012828144415968681,
+        "y": 0.010329413574426174,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)I've Found A New Baby v2",
+        "x": -0.00040424219884078636,
+        "y": 0.00791719853242997,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)I've Got A Crush On You",
+        "x": -0.010843739744369705,
+        "y": -0.015271081777411804,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Idle Moments",
+        "x": 0.011848195256295532,
+        "y": 0.005962926301409056,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)If You Ever Should Leave",
+        "x": -0.005481932609304274,
+        "y": 0.008953905576382903,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)If You Never Come To Me",
+        "x": 0.00554792080304854,
+        "y": -0.010030370259592735,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)In A Little Spanish Town",
+        "x": -0.010291321788762249,
+        "y": 0.0009495697482866862,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)In A Mellow Tone (In A Mellotone)",
+        "x": 0.007188478043312182,
+        "y": 0.0009128942666065571,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)In A Shanty In Old Shanty Town",
+        "x": -0.004183984487162222,
+        "y": 0.008702438968140016,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Interplay",
+        "x": 0.009734353784325333,
+        "y": -0.009556519093000041,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Israel",
+        "x": -0.007161204083040153,
+        "y": 0.0031603277482913196,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)It's Been A Long Long Time",
+        "x": -0.0007022911155843734,
+        "y": -0.003694269668356327,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Jackie-ing",
+        "x": 0.001970212942906671,
+        "y": 0.0001167717577210643,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Jeannie's Song",
+        "x": -0.005563702807056588,
+        "y": -0.006248141908580088,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Jersey Bounce",
+        "x": -0.0011371205440417096,
+        "y": 0.018627580777847968,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Jody Grind, The",
+        "x": 0.01808672772158766,
+        "y": -0.016105859926975576,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Just A Gigolo",
+        "x": -0.01462512327844663,
+        "y": 0.006374797919903002,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Just Friends",
+        "x": -0.004889678738824724,
+        "y": -0.008116262961639855,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Just In Time",
+        "x": 0.00953327120223488,
+        "y": 0.015659333261795298,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Lady Bird",
+        "x": -0.011059924597150649,
+        "y": -0.01800810033560388,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Leaving",
+        "x": 0.017787769144755283,
+        "y": 0.011154094971437656,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Lennie's Pennies",
+        "x": -0.008821772897558734,
+        "y": 0.0028693461449021637,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Light Blue",
+        "x": 0.0004986326143450192,
+        "y": -0.0007932840143201706,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Little Boat (O Barquinho)",
+        "x": -0.009763058397087921,
+        "y": -0.010507193568156901,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Look For The Silver Lining",
+        "x": 0.005312228729793345,
+        "y": 0.003914776086205066,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Mac The Knife",
+        "x": 0.0059674523686362654,
+        "y": 0.006281192259810767,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Minor Mood",
+        "x": -0.0015320334011025168,
+        "y": -0.0031405358805979312,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Minor Strain",
+        "x": 0.007971511353748403,
+        "y": -0.004728536166192839,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Move",
+        "x": -0.019422229704390562,
+        "y": 0.01287349937289162,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Mr. P.C.",
+        "x": 0.028056213180101743,
+        "y": -0.01660705491155925,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)My Ideal",
+        "x": -0.021587876286892203,
+        "y": 0.014661489828241954,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)My Melancholy Baby",
+        "x": 0.0020853476997396547,
+        "y": -0.01288104691332793,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Night Dreamer",
+        "x": 0.0023045881519428903,
+        "y": 0.0059105490923743505,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Nothing Personal",
+        "x": 0.0012940568042483249,
+        "y": 0.001218927915846902,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Nuages",
+        "x": -0.0005361421236116449,
+        "y": 0.00556184610959374,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)O Grande Amor",
+        "x": -0.002401738632813959,
+        "y": -0.013555762107095753,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Old Country, The",
+        "x": 0.005977014922970652,
+        "y": 0.010406226846032183,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)On The Trail",
+        "x": -0.01154728036919939,
+        "y": -0.009415020657074512,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Paper Doll",
+        "x": 0.007310133558581548,
+        "y": 0.013407575598387749,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Peace",
+        "x": 3.453503714202472e-05,
+        "y": -0.00860466423201544,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Pent Up House",
+        "x": -0.0069280580637615975,
+        "y": -0.004672034714484176,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Recordame",
+        "x": 0.00243773606730699,
+        "y": 0.0049258951606643,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Red Clay",
+        "x": 0.005641445175763803,
+        "y": 0.002216535466359999,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Remember",
+        "x": 1.7623411693523982e-05,
+        "y": 6.210780919519338e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Rose Room",
+        "x": -0.001998921650828913,
+        "y": -0.0008054729543994677,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Serenade To A Cuckoo",
+        "x": -0.0015128109785766352,
+        "y": -0.0007170418562380313,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Serenity",
+        "x": -0.0010034210639017823,
+        "y": 9.915123050996736e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Shadow Of Your Smile, The",
+        "x": -4.434291406822376e-05,
+        "y": -0.00010937754637702856,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Shine",
+        "x": -0.00016281873312554496,
+        "y": 0.0012973148417319952,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Simone",
+        "x": -0.00017235093014348024,
+        "y": -0.00041814442782332295,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Smile",
+        "x": 0.0005889792225378835,
+        "y": 0.0013347623794377236,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)So Danco Samba",
+        "x": -0.0023337317221385667,
+        "y": 0.000565326927506662,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)So Nice (Summer Samba)",
+        "x": 0.001424511673332556,
+        "y": 0.0003517775053118467,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Solar",
+        "x": -0.001096366460673789,
+        "y": -0.00025702598045702544,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Someday My Prince Will Come",
+        "x": 0.0003249008777578643,
+        "y": 0.0009665704981386769,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Song For My Father",
+        "x": -0.0013283473821984033,
+        "y": -0.0006914361634933566,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)St. Thomas",
+        "x": -0.0004132901459138386,
+        "y": 0.0004909158164222153,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Stella By Starlight",
+        "x": -0.00028730048589483174,
+        "y": 0.00015168513173938986,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Struttin' With Some Barbecue",
+        "x": -0.000834851508444823,
+        "y": -8.590588905813145e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Subconscious Lee",
+        "x": -0.0016915014003676047,
+        "y": -0.0004503945015580113,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Sugar",
+        "x": 0.000427914955656548,
+        "y": -0.0007170867428579614,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Summertime",
+        "x": 0.0005876387292905475,
+        "y": -0.0011804393974157617,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Sunny",
+        "x": 3.1301456425084464e-06,
+        "y": -0.0012793998781602002,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Sweet Georgia Bright",
+        "x": -0.0003614681228683795,
+        "y": -0.00011565793919314771,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Take The A Train",
+        "x": 0.0004603558815526715,
+        "y": 4.940628707224515e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Them There Eyes",
+        "x": 0.0013241964720092823,
+        "y": 0.0006788642411939282,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)This Can't Be Love",
+        "x": -4.31955194827764e-05,
+        "y": -3.98487906728238e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Time On My Hands",
+        "x": 0.0007849866887651486,
+        "y": 0.000324555623740456,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Tune Up",
+        "x": -0.00275745928047401,
+        "y": -0.0017073242515672294,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)United",
+        "x": -0.0007959829247917098,
+        "y": -0.0011227990282357857,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Valse Hot",
+        "x": 0.0004639053969337426,
+        "y": -0.0005535398524663262,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Wayne's Thang",
+        "x": 0.00032327951751367074,
+        "y": -0.0007780835072374738,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)We Will Meet Again",
+        "x": -0.0003071112474384439,
+        "y": -0.0002767639273792114,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Weaver Of Dreams, A",
+        "x": -0.0003484028242265497,
+        "y": 0.0008448626891465488,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)What Is This Thing Called Love",
+        "x": -0.0008365721390975189,
+        "y": 0.000495444339313056,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)When The Saints Go Marching In",
+        "x": 0.0009834710788390944,
+        "y": 0.0001852768582174225,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)When You're Smilin'",
+        "x": 0.00015499708049117179,
+        "y": 0.0004112119889402256,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Why Do I Love You?",
+        "x": -0.0005032540703520899,
+        "y": 0.0010269367516707406,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Why Don't You Do Right?",
+        "x": 3.64701969274425e-05,
+        "y": -0.0004122390560265953,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Witch Hunt",
+        "x": -0.0008855348488036815,
+        "y": -0.00038431372850441175,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Work Song",
+        "x": -0.0005611531310716803,
+        "y": -0.0009890802222483736,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Yesterdays",
+        "x": 0.0001287306994636194,
+        "y": -6.06087271856265e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)You Stepped Out Of A Dream",
+        "x": -0.0009700333842002382,
+        "y": -0.0005095625896964463,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Zingaro (Retrato Em Branco E Preto)",
+        "x": 0.0005473009693791956,
+        "y": 0.0007199781785580164,
+        "category": 0
+      }
+    ]
+  },
+  "TED(zss)": {
+    "partition": {
+      "0": [
+        "(Valid)502 Blues",
+        "(Valid)Across The Valley From The Alamo",
+        "(Valid)Afro Blue",
+        "(Valid)All Of Me",
+        "(Valid)Armando's Rhumba",
+        "(Valid)Autumn Leaves",
+        "(Valid)Avalon",
+        "(Valid)Backstage Sally",
+        "(Valid)Ballade",
+        "(Valid)Baubles, Bangles And Beads",
+        "(Valid)Beatrice",
+        "(Valid)Beautiful Friendship, A",
+        "(Valid)Beautiful Love",
+        "(Valid)Bemsha Swing",
+        "(Valid)Best Things In Life Are Free, The",
+        "(Valid)Bill Bailey",
+        "(Valid)Birk's Works",
+        "(Valid)Blue Bossa",
+        "(Valid)Blue In Green",
+        "(Valid)Blue Lou",
+        "(Valid)Blues For Alice",
+        "(Valid)Blues For Wood",
+        "(Valid)Bluesette",
+        "(Valid)Boo Boo's Birthday",
+        "(Valid)Booker's Waltz",
+        "(Valid)Bossa Antigua",
+        "(Valid)Boy Next Door",
+        "(Valid)Bright Mississippi",
+        "(Valid)Broadway",
+        "(Valid)Brotherhood Of Man",
+        "(Valid)Candy",
+        "(Valid)Central Park West",
+        "(Valid)Chucho",
+        "(Valid)Contemplation",
+        "(Valid)Cool One, The",
+        "(Valid)Dancing In The Dark",
+        "(Valid)Dearly Beloved",
+        "(Valid)Don't Worry 'Bout Me",
+        "(Valid)Donna Lee",
+        "(Valid)Fine And Dandy",
+        "(Valid)Fools Rush In",
+        "(Valid)Four On Six",
+        "(Valid)Girl Talk",
+        "(Valid)I Can't Believe...You're In Love...",
+        "(Valid)I Fall In Love Too Easily",
+        "(Valid)I Love You",
+        "(Valid)I've Got A Crush On You",
+        "(Valid)If You Ever Should Leave",
+        "(Valid)If You Never Come To Me",
+        "(Valid)In A Mellow Tone (In A Mellotone)",
+        "(Valid)In A Shanty In Old Shanty Town",
+        "(Valid)Israel",
+        "(Valid)Jackie-ing",
+        "(Valid)Jeannie's Song",
+        "(Valid)Just A Gigolo",
+        "(Valid)Just Friends",
+        "(Valid)Just In Time",
+        "(Valid)Lady Bird",
+        "(Valid)Lennie's Pennies",
+        "(Valid)Light Blue",
+        "(Valid)Look For The Silver Lining",
+        "(Valid)Minor Mood",
+        "(Valid)My Ideal",
+        "(Valid)Nuages",
+        "(Valid)O Grande Amor",
+        "(Valid)On The Trail",
+        "(Valid)Peace",
+        "(Valid)Recordame",
+        "(Valid)Red Clay",
+        "(Valid)Remember",
+        "(Valid)Rose Room",
+        "(Valid)Serenade To A Cuckoo",
+        "(Valid)Serenity",
+        "(Valid)Shadow Of Your Smile, The",
+        "(Valid)Shine",
+        "(Valid)Simone",
+        "(Valid)Smile",
+        "(Valid)So Danco Samba",
+        "(Valid)So Nice (Summer Samba)",
+        "(Valid)Solar",
+        "(Valid)Someday My Prince Will Come",
+        "(Valid)Song For My Father",
+        "(Valid)St. Thomas",
+        "(Valid)Stella By Starlight",
+        "(Valid)Struttin' With Some Barbecue",
+        "(Valid)Subconscious Lee",
+        "(Valid)Sugar",
+        "(Valid)Summertime",
+        "(Valid)Sunny",
+        "(Valid)Sweet Georgia Bright",
+        "(Valid)Take The A Train",
+        "(Valid)Them There Eyes",
+        "(Valid)This Can't Be Love",
+        "(Valid)Time On My Hands",
+        "(Valid)Tune Up",
+        "(Valid)United",
+        "(Valid)Valse Hot",
+        "(Valid)Wayne's Thang",
+        "(Valid)We Will Meet Again",
+        "(Valid)Weaver Of Dreams, A",
+        "(Valid)What Is This Thing Called Love",
+        "(Valid)When The Saints Go Marching In",
+        "(Valid)When You're Smilin'",
+        "(Valid)Why Do I Love You?",
+        "(Valid)Why Don't You Do Right?",
+        "(Valid)Witch Hunt",
+        "(Valid)Work Song",
+        "(Valid)Yesterdays",
+        "(Valid)You Stepped Out Of A Dream",
+        "(Valid)Zingaro (Retrato Em Branco E Preto)"
+      ],
+      "1": [
+        "(Valid)Footprints",
+        "(Valid)Friday The 13th",
+        "(Valid)Gary's Notebook",
+        "(Valid)Glad To Be Unhappy",
+        "(Valid)Got A Match?",
+        "(Valid)Hot House",
+        "(Valid)Hungaria",
+        "(Valid)I Love Paris",
+        "(Valid)I Wish I Knew How It Would Feel To Be Free",
+        "(Valid)I've Found A New Baby",
+        "(Valid)Idle Moments",
+        "(Valid)Leaving",
+        "(Valid)Night Dreamer",
+        "(Valid)Old Country, The",
+        "(Valid)Paper Doll",
+        "(Valid)Pent Up House"
+      ],
+      "2": [
+        "(Valid)Equinox",
+        "(Valid)Half Nelson",
+        "(Valid)Interplay",
+        "(Valid)Jody Grind, The",
+        "(Valid)Minor Strain",
+        "(Valid)Mr. P.C."
+      ],
+      "3": [
+        "(Valid)Exactly Like You",
+        "(Valid)Fine Romance, A",
+        "(Valid)Freight Train",
+        "(Valid)Funkallero",
+        "(Valid)Good Life, The",
+        "(Valid)Hackensack",
+        "(Valid)How High The Moon",
+        "(Valid)I'll Close My Eyes",
+        "(Valid)I've Found A New Baby v2",
+        "(Valid)In A Little Spanish Town",
+        "(Valid)It's Been A Long Long Time",
+        "(Valid)Jersey Bounce",
+        "(Valid)Little Boat (O Barquinho)",
+        "(Valid)Mac The Knife",
+        "(Valid)Move",
+        "(Valid)My Melancholy Baby",
+        "(Valid)Nothing Personal"
+      ]
+    },
+    "embedding": [
+      {
+        "piece_name": "(Valid)502 Blues",
+        "x": -8.36070558439329e-05,
+        "y": 0.001602934665100388,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Across The Valley From The Alamo",
+        "x": -6.264021673273282e-05,
+        "y": -0.001230529122551069,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Afro Blue",
+        "x": -0.0004526543492348592,
+        "y": -0.0011650142184279795,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)All Of Me",
+        "x": -0.0006912832838195153,
+        "y": -0.001607774734720878,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Armando's Rhumba",
+        "x": -0.0007080498907203813,
+        "y": 0.001520973781009311,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Autumn Leaves",
+        "x": 0.0006843104130070268,
+        "y": -0.0002805410097245697,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Avalon",
+        "x": -0.0003489607725818576,
+        "y": 0.0002014459589503141,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Backstage Sally",
+        "x": -0.0011002635834493613,
+        "y": 0.00116447899481923,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Ballade",
+        "x": -0.0006053861360310039,
+        "y": -0.00010506378627895058,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Baubles, Bangles And Beads",
+        "x": 0.0006278163111425627,
+        "y": 0.0019803004355561085,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Beatrice",
+        "x": 0.00028878029339272335,
+        "y": 0.00056915567345636,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Beautiful Friendship, A",
+        "x": 0.00018736405099736107,
+        "y": -0.0009727203130457527,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Beautiful Love",
+        "x": 0.00030101920473325056,
+        "y": 0.0005869679162676863,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bemsha Swing",
+        "x": 0.0003589081399258346,
+        "y": -0.0017739384078489383,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Best Things In Life Are Free, The",
+        "x": 0.00017060449797475804,
+        "y": -0.00025624656858177667,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bill Bailey",
+        "x": 0.0005999835039445116,
+        "y": 0.00025340082358427666,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Birk's Works",
+        "x": 0.00013249663046121892,
+        "y": -0.0002486815732775681,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blue Bossa",
+        "x": 0.0001717698398136681,
+        "y": 0.0016468191940235111,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blue In Green",
+        "x": 0.0010836226610948403,
+        "y": -0.000601647863287793,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blue Lou",
+        "x": 0.0005920939872268628,
+        "y": 0.0006806313478530502,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blues For Alice",
+        "x": -0.0010563395968843819,
+        "y": 7.348666322652423e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Blues For Wood",
+        "x": -2.9122740815145536e-05,
+        "y": 0.0022420046214938695,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bluesette",
+        "x": -0.000669044845664133,
+        "y": -0.0005783646269928512,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Boo Boo's Birthday",
+        "x": -0.000853283237078546,
+        "y": 0.0018633097867908242,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Booker's Waltz",
+        "x": -0.00012663892225637174,
+        "y": 0.0006776123663733629,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bossa Antigua",
+        "x": 0.0011678657526703027,
+        "y": -0.001494481672671016,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Boy Next Door",
+        "x": 0.0008983729054232867,
+        "y": 0.0018161554142498509,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Bright Mississippi",
+        "x": -0.0009107414327225407,
+        "y": -0.0012723158012128185,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Broadway",
+        "x": -0.00012919068533370052,
+        "y": 0.0005755698984581657,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Brotherhood Of Man",
+        "x": 0.00043080923088273626,
+        "y": -0.0023274858531832938,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Candy",
+        "x": -0.00048615641936314676,
+        "y": -0.000272897376708763,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Central Park West",
+        "x": -0.00057380362104933,
+        "y": -2.9814025815697188e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Chucho",
+        "x": -0.0010863222342024392,
+        "y": 0.001643785390332091,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Contemplation",
+        "x": 0.0005098467830097701,
+        "y": 0.0014886105020402026,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Cool One, The",
+        "x": 0.0015103310950831395,
+        "y": 3.7974053863678904e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Dancing In The Dark",
+        "x": 0.0038683125854353474,
+        "y": 0.006498387681621839,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Dearly Beloved",
+        "x": -0.005550713922647532,
+        "y": -0.005549094187336914,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Don't Worry 'Bout Me",
+        "x": 0.005226594398089766,
+        "y": -0.0013739429447603751,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Donna Lee",
+        "x": -0.0041005816366505065,
+        "y": 0.010522764168505018,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Equinox",
+        "x": 0.023162608991136886,
+        "y": -0.013797172421000209,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Exactly Like You",
+        "x": -0.03299210455450759,
+        "y": 0.005521825915166188,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Fine And Dandy",
+        "x": 0.011611142992799611,
+        "y": 0.000946404126592834,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Fine Romance, A",
+        "x": -0.002321118536790286,
+        "y": -0.0003752736691424721,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Fools Rush In",
+        "x": -0.001258852253645271,
+        "y": 0.008672925422023517,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Footprints",
+        "x": 0.009738787796182952,
+        "y": -0.019270028203774957,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Four On Six",
+        "x": -0.00363234635476547,
+        "y": 0.010528060975663112,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Freight Train",
+        "x": 6.371400386267943e-05,
+        "y": 0.008542412123983293,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Friday The 13th",
+        "x": -0.0005402849745163147,
+        "y": -0.009547824298140705,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Funkallero",
+        "x": 0.0025512746793580825,
+        "y": 0.0049927565515958785,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Gary's Notebook",
+        "x": -0.00874748514802714,
+        "y": -0.011746454477298548,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Girl Talk",
+        "x": 0.006292052312280487,
+        "y": 0.021209464321862978,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Glad To Be Unhappy",
+        "x": -0.0038046352204458827,
+        "y": -0.01959205551130244,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Good Life, The",
+        "x": -0.0017434134387840485,
+        "y": 0.01916024780514831,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Got A Match?",
+        "x": 0.010573015608835381,
+        "y": -0.014013310153908467,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Hackensack",
+        "x": -0.018238741554482685,
+        "y": -0.0007071161226414899,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Half Nelson",
+        "x": 0.020156803880360875,
+        "y": 0.015461130228863966,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Hot House",
+        "x": -0.013835272295609232,
+        "y": -0.024931866199596045,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)How High The Moon",
+        "x": -0.0007338993663487781,
+        "y": 0.027426877581122316,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Hungaria",
+        "x": 0.0004502172045147944,
+        "y": -0.02664387097249358,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)I Can't Believe...You're In Love...",
+        "x": -0.002033592259474852,
+        "y": 0.007820325387253885,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)I Fall In Love Too Easily",
+        "x": 0.003933786224952394,
+        "y": 0.004691476687959413,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)I Love Paris",
+        "x": -0.0018983273104686317,
+        "y": -0.009010653518021432,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)I Love You",
+        "x": -0.0018265781798567362,
+        "y": 0.011171185278319383,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)I Wish I Knew How It Would Feel To Be Free",
+        "x": 0.00407031575284787,
+        "y": -0.015730913029503284,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)I'll Close My Eyes",
+        "x": -0.0014505219018249994,
+        "y": 0.019706627851479468,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)I've Found A New Baby",
+        "x": 0.002085742174263913,
+        "y": -0.02039545280233158,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)I've Found A New Baby v2",
+        "x": -0.0011648097891211386,
+        "y": -0.00035488982729271984,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)I've Got A Crush On You",
+        "x": 0.0006675110714510379,
+        "y": 0.016461914643316606,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Idle Moments",
+        "x": -0.0002477903164022176,
+        "y": -0.013078274908624744,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)If You Ever Should Leave",
+        "x": -0.0029218299834597897,
+        "y": 0.0025259925009796466,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)If You Never Come To Me",
+        "x": 0.009153975997584649,
+        "y": 0.004970599883635073,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)In A Little Spanish Town",
+        "x": -0.012224768347353145,
+        "y": -0.00034363795499309924,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)In A Mellow Tone (In A Mellotone)",
+        "x": 0.0038463124985652413,
+        "y": -0.00015832453495754367,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)In A Shanty In Old Shanty Town",
+        "x": -0.003329833224471957,
+        "y": -0.0012567275751621443,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Interplay",
+        "x": 0.014481724004594722,
+        "y": -0.0037544664911794414,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Israel",
+        "x": -0.003554493704501521,
+        "y": 0.0035376250022271308,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)It's Been A Long Long Time",
+        "x": -0.008944988960180379,
+        "y": 0.0025775438451270207,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Jackie-ing",
+        "x": 0.009140649961993213,
+        "y": -0.00211848314869033,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Jeannie's Song",
+        "x": -0.004388629459507784,
+        "y": 0.0027817192870984433,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Jersey Bounce",
+        "x": -0.011989110481226424,
+        "y": -0.004403226256383023,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Jody Grind, The",
+        "x": 0.030841520580203584,
+        "y": -0.002575710983723661,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Just A Gigolo",
+        "x": -0.019348138726301038,
+        "y": 0.0040977997960209974,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Just Friends",
+        "x": -0.0003937938078035809,
+        "y": 0.0024165945209811634,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Just In Time",
+        "x": -0.001474641421190161,
+        "y": -0.0017926787696248008,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Lady Bird",
+        "x": 0.011213531827982934,
+        "y": 0.011404528449859288,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Leaving",
+        "x": -0.0032022135399974007,
+        "y": -0.016105044911646542,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Lennie's Pennies",
+        "x": -0.007710741200935611,
+        "y": 0.003837030175606517,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Light Blue",
+        "x": 0.0014852262030951664,
+        "y": 0.0070523071153570285,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Little Boat (O Barquinho)",
+        "x": 0.0015567517235054772,
+        "y": 0.0022019442897273436,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Look For The Silver Lining",
+        "x": -0.0052485919675734774,
+        "y": -0.001796174526768518,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Mac The Knife",
+        "x": 0.0070301355648493885,
+        "y": -0.00792786698448149,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Minor Mood",
+        "x": -0.009161835874991066,
+        "y": 0.0030879348198882806,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Minor Strain",
+        "x": 0.021470375090386278,
+        "y": -0.0020643942344578704,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)Move",
+        "x": -0.030342291895367586,
+        "y": -0.0004947799522596403,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Mr. P.C.",
+        "x": 0.034454296312414305,
+        "y": -0.004034811321029955,
+        "category": 2
+      },
+      {
+        "piece_name": "(Valid)My Ideal",
+        "x": -0.026641094200510227,
+        "y": 0.005783115161100477,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)My Melancholy Baby",
+        "x": 0.006660951197358638,
+        "y": 0.010123705570136752,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Night Dreamer",
+        "x": -0.0003239132188994076,
+        "y": -0.010384017582952234,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Nothing Personal",
+        "x": -0.0051814966908680865,
+        "y": -0.0062958481167208254,
+        "category": 3
+      },
+      {
+        "piece_name": "(Valid)Nuages",
+        "x": -0.0014357151006404965,
+        "y": -0.0005450888396523368,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)O Grande Amor",
+        "x": 0.006374950957290564,
+        "y": 0.014201624061613002,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Old Country, The",
+        "x": -0.001850733771286713,
+        "y": -0.019162019876374108,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)On The Trail",
+        "x": 0.006515971677063007,
+        "y": 0.01879937864537767,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Paper Doll",
+        "x": -0.010019409695752862,
+        "y": -0.012719188034086917,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Peace",
+        "x": 0.007768258700944683,
+        "y": 0.01249814458905004,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Pent Up House",
+        "x": 0.0020433821756262287,
+        "y": -0.012069010412408583,
+        "category": 1
+      },
+      {
+        "piece_name": "(Valid)Recordame",
+        "x": -0.003818226698705334,
+        "y": 0.011044967849919698,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Red Clay",
+        "x": 0.0013051155633339744,
+        "y": -0.006551461191196901,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Remember",
+        "x": 0.0008955340478247696,
+        "y": -0.0009135036544646923,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Rose Room",
+        "x": -0.0016994324797338376,
+        "y": -0.0018377101406445342,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Serenade To A Cuckoo",
+        "x": 0.0001225626998911615,
+        "y": 0.0006646784874178024,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Serenity",
+        "x": -0.001252232119359394,
+        "y": -0.0005313683961158964,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Shadow Of Your Smile, The",
+        "x": -0.001873851659904851,
+        "y": 0.0006546970516726616,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Shine",
+        "x": -0.00012228189458836721,
+        "y": -0.0009217810679962212,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Simone",
+        "x": -1.2650092206695884e-05,
+        "y": -0.0003793876481372689,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Smile",
+        "x": 1.3000873106480595e-05,
+        "y": 0.0009237976741738342,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)So Danco Samba",
+        "x": -0.0006251609143142909,
+        "y": 0.0008136623975117314,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)So Nice (Summer Samba)",
+        "x": 0.0008075782187601616,
+        "y": -0.002510820741857479,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Solar",
+        "x": 0.00046021745035042445,
+        "y": 0.0008512630539772167,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Someday My Prince Will Come",
+        "x": -0.0006165590971810979,
+        "y": 0.0005683478338856643,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Song For My Father",
+        "x": -0.00016020398038597746,
+        "y": 0.002668276519449586,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)St. Thomas",
+        "x": -0.00046845141612888324,
+        "y": -0.0020252404726361826,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Stella By Starlight",
+        "x": 0.0003835780846475549,
+        "y": 0.00013203887990809415,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Struttin' With Some Barbecue",
+        "x": -0.00041429448308225747,
+        "y": 0.00045743557179468036,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Subconscious Lee",
+        "x": 0.000991974256169465,
+        "y": 0.0006240748431667893,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Sugar",
+        "x": 0.0008069898889477446,
+        "y": 0.001719779292806928,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Summertime",
+        "x": -0.0001420799142837939,
+        "y": -0.0006389106665279357,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Sunny",
+        "x": 0.0005150298258808825,
+        "y": -0.00030495038395606845,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Sweet Georgia Bright",
+        "x": -0.0003378425484023327,
+        "y": 0.0003044731903834918,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Take The A Train",
+        "x": 0.0003261557047957415,
+        "y": -0.0018539639162202708,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Them There Eyes",
+        "x": 0.0007955133102427129,
+        "y": -0.0007329575939976268,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)This Can't Be Love",
+        "x": 6.595373502015952e-05,
+        "y": -0.0010057721404440596,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Time On My Hands",
+        "x": -8.472108592800343e-05,
+        "y": 0.0005886038695334326,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Tune Up",
+        "x": -0.00012658498823880378,
+        "y": 0.0005142740108683368,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)United",
+        "x": 0.0013273980006921506,
+        "y": 0.0009942018641576438,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Valse Hot",
+        "x": -0.0005759194009068348,
+        "y": -0.000527497188399247,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Wayne's Thang",
+        "x": 0.0005011495802711449,
+        "y": 6.503072643103615e-05,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)We Will Meet Again",
+        "x": 3.850658073166004e-05,
+        "y": -0.00047508862815083417,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Weaver Of Dreams, A",
+        "x": -0.00011049363711262264,
+        "y": -0.0007596465228632473,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)What Is This Thing Called Love",
+        "x": 0.0006832455537461183,
+        "y": -0.00038576386898496863,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)When The Saints Go Marching In",
+        "x": 0.0005616634049514371,
+        "y": 0.0002714303936905811,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)When You're Smilin'",
+        "x": -0.00021049998394454583,
+        "y": -0.0020684630864730717,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Why Do I Love You?",
+        "x": 0.00033474473413407926,
+        "y": -0.0009713171877152372,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Why Don't You Do Right?",
+        "x": -4.50493508895953e-05,
+        "y": 0.0004824688267924134,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Witch Hunt",
+        "x": -0.0006982638827437031,
+        "y": 0.0014550865222732509,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Work Song",
+        "x": 0.000504841905365883,
+        "y": -0.00010567002816424249,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Yesterdays",
+        "x": -0.0003287842018180399,
+        "y": -0.0013355704685578543,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)You Stepped Out Of A Dream",
+        "x": -0.000620327405924307,
+        "y": 0.0007905718971652023,
+        "category": 0
+      },
+      {
+        "piece_name": "(Valid)Zingaro (Retrato Em Branco E Preto)",
+        "x": -0.0002898116625613581,
+        "y": -0.0017180358859598679,
+        "category": 0
+      }
+    ]
+  }
+}

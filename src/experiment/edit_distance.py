@@ -3,14 +3,16 @@ from itertools import combinations
 import re
 from typing import List, Literal, Optional, Sequence, Tuple
 import Levenshtein
+from tqdm import tqdm
 from zss import simple_distance, Node
 from apted.helpers import Tree as APTEDNode
 from apted import APTED,Config
 
-from model.utils import Corpus, Piece, save_json
+from model.utils import Corpus, save_json
+from model.stitchCompression.runStitch import program_size
 
-def string_edit_distance(s1: str, s2: str) ->float:
-    return Levenshtein.distance(s1, s2)
+def string_edit_distance(s1: List[str], s2: List[str]) ->float:
+    return Levenshtein.distance(s1, s2) / max(len(s1), len(s2))
 
 def tree_edit_distance(p1: str, p2: str, method: Literal["zss", "apted"]) -> float:
     """
@@ -25,8 +27,9 @@ def tree_edit_distance(p1: str, p2: str, method: Literal["zss", "apted"]) -> flo
         # Tree -> zss format
         z1 = t1.to_zss()
         z2 = t2.to_zss()
-        return simple_distance(z1, z2)
-    
+
+        return simple_distance(z1, z2) / max(program_size(p1), program_size(p2))
+
     elif method == "apted":
         # Tree -> apted trees
         a1 = t1.to_apted()
@@ -45,21 +48,15 @@ def run(corpus_path: str,
     corpus = Corpus.from_json(fpath=corpus_path)
 
     res = []
-
-    for i, pieceX in enumerate(corpus.pieces):
-        print(f'Computing distances for {i}-th piece')
-        progX = pieceX.program
-        
-        for pieceY in corpus.pieces:
-            progY = pieceY.program
-            res.append(
-                {
-                    "nameX": pieceX.title,
-                    "nameY": pieceY.title,
-                    "SED": string_edit_distance(pieceX.progression, pieceY.progression),
-                    "TED(zss)": tree_edit_distance(progX, progY, "zss"),
-                }
-            )
+    for x,y in tqdm(corpus.unique_pairs()):
+        res.append(
+            {
+                "nameX": x.title,
+                "nameY": y.title,
+                "SED": string_edit_distance(x.progression, y.progression),
+                "TED(zss)": tree_edit_distance(x.program, y.program, "zss"),
+            }
+        )
 
     if save_result:
         if output_path is None:
@@ -129,7 +126,7 @@ class Tree:
             raise ValueError(f"Unparsed tokens: {remaining}")
 
         return tree
-
+    
     @staticmethod
     def _tokenize(program:str) -> List[str]:
         """

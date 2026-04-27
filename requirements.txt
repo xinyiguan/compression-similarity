@@ -10,7 +10,7 @@ Levenshtein
 zss
 apted
 scipy
-multiprocessing
+# multiprocessing
 tqdm
 scikit-learn
 ppm@git+https://github.com/etrhall/ppm.py

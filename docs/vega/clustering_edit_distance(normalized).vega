@@ -1,0 +1,70 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "data": {
+        "url": "../../data/result/clustering_edit_distance(normalized).json",
+        "format": {
+            "type": "json",
+            "property": "TED(zss).embedding"
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "point",
+                "shape": "square"
+            },
+            "width": 600,
+            "height": 600,
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative",
+                    "axis": null
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative",
+                    "axis": null
+                },
+                "color": {
+                    "field": "category",
+                    "type": "nominal"
+                },
+                "tooltip": [
+                    {
+                        "field": "piece_name"
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "size": 10,
+                "dy": 10
+            },
+            "width": 400,
+            "height": 400,
+            "encoding": {
+                "x": {
+                    "field": "x",
+                    "type": "quantitative",
+                    "axis": null
+                },
+                "y": {
+                    "field": "y",
+                    "type": "quantitative",
+                    "axis": null
+                },
+                "color": {
+                    "field": "category",
+                    "type": "nominal"
+                },
+                "text": {
+                    "field": "piece_name",
+                    "type": "nominal"
+                }
+            }
+        }
+    ]
+}
