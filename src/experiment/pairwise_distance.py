@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 import re
-from typing import Callable, Dict, List, Literal, NamedTuple, Optional, Sequence, Tuple
+from typing import List, Literal, Optional, Sequence, Tuple
 import Levenshtein
 from zss import simple_distance, Node
 from apted.helpers import Tree as APTEDNode
@@ -53,11 +53,10 @@ def run(corpus_path: str,
             progY = pieceY.program
             res.append(
                 {
-                    "pieceX": pieceX.title,
-                    "pieceY": pieceY.title,
+                    "nameX": pieceX.title,
+                    "nameY": pieceY.title,
                     "SED": string_edit_distance(pieceX.progression, pieceY.progression),
                     "TED(zss)": tree_edit_distance(progX, progY, "zss"),
-                    # "TED(apted)": tree_edit_distance(progX, progY, "apted"),
                 }
             )
 
