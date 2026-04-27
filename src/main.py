@@ -63,9 +63,11 @@ if __name__ == "__main__":
 
     # pair-wise cross compression
 
-    
-    
-    
+    experiment.pairwise_distance.run(
+        corpus_path=corpusPath,
+        output_path=f"data/result/edit_distances.json", save_result=True
+    )
+    assert False
     for with_ctx in [False, True]:
 
         out_folder = f"data/result/(ctx={with_ctx})"
@@ -76,10 +78,9 @@ if __name__ == "__main__":
             with_ctx=with_ctx,
         )
 
-        
         similarity_file = f"{out_folder}/pairwise_similarity.json"
         regression_topk_file = f"{out_folder}/regression_and_topk.json"
-        
+
         corr_rank_report(
             res_file=similarity_file,
             model_x="ppm",
@@ -87,7 +88,7 @@ if __name__ == "__main__":
             save_report_fpath=regression_topk_file,
             show_results=False,
         )
-        
+
         docGen.main.main(
             table_json_path = regression_topk_file,
             heatmap_vega_path = f"docs/vega/(ctx={with_ctx})/pairwise-similarity.vega",
