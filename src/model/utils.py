@@ -1,7 +1,8 @@
 from dataclasses import dataclass
+from itertools import combinations
 import json
 import os
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 
 @dataclass(frozen=True)
@@ -21,7 +22,6 @@ class Piece:
 @dataclass
 class Corpus:
     pieces: List[Piece]
-
 
     @classmethod
     def from_json(cls, fpath: str) -> Corpus:
@@ -51,6 +51,9 @@ class Corpus:
     def progressions(self) -> List[List[str]]:
         return [x.progression for x in self.pieces]
 
+    def unique_pairs(self) -> List[Tuple[Piece,Piece]]:
+        pairs = [(p, q) for p, q in combinations(self.pieces, 2) if p.title != q.title]
+        return pairs
 
 def save_json(fpath:str, res:List|Dict):
     dirpath = os.path.dirname(fpath)

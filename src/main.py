@@ -2,9 +2,10 @@ from typing import List, Literal, Tuple
 
 import experiment.pairwise_compression
 import experiment.pairwise_compression_corpus
-import experiment.pairwise_distance
-from model.utils import load_json
+import experiment.edit_distance
+from model.utils import load_json,Corpus
 from experiment.report import corr_rank_report
+
 # import docGen.main
 
 def log(f):
@@ -31,9 +32,7 @@ stitch_cfg = {
 
 if __name__ == "__main__":
     corpusPath = "data/corpus/preprocessed/converted_corpus_rep.json"
-    # res = "data/result/unique_pairwise_similarity.json"
 
-    # mini_corpus = "data/corpus/preprocessed/mini_corpus.json"
 
     # corr_rank_report(
     #     res_file=res,
@@ -63,9 +62,9 @@ if __name__ == "__main__":
 
     # pair-wise cross compression
 
-    experiment.pairwise_distance.run(
+    experiment.edit_distance.run(
         corpus_path=corpusPath,
-        output_path=f"data/result/edit_distances.json", save_result=True
+        output_path=f"data/result/edit_distances(normalized).json", save_result=True
     )
     assert False
     for with_ctx in [False, True]:
