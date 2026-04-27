@@ -1,22 +1,70 @@
-from sklearn.cluster import SpectralClustering
+from collections import defaultdict
+
+from sklearn.cluster import spectral_clustering
+from sklearn.manifold import spectral_embedding
 import pandas as pd
 
+from model.utils import save_json
 
 
-def cluster_on_data(pairwise_sim_path:str):
-    adjacency_matrix = to_adjacency_matrix(pairwise_sim_path)
-    categories = SpectralClustering(n_clusters = 8,affinity='precomputed').fit(adjacency_matrix)
+def cluster_on_data(pairwise_sim_path: str, model_name: str):
+    adjacency_matrix = to_adjacency_matrix(pairwise_sim_path, model_name)
+    npMatrix = adjacency_matrix.to_numpy()
+
+    embedding = spectral_embedding(adjacency=npMatrix, n_components=2)
+    print(embedding)
+    coordinates = [
+        {
+            "piece_name": piece_name,
+            "x": float(embedding[i][0]),
+            "y": float(embedding[i][1]),
+        }
+        for i, piece_name in enumerate(adjacency_matrix.index.to_list())
+    ]
+    # print(coordinates)
+
+    # print(npMatrix)
+    categories = spectral_clustering(n_clusters=4, affinity=npMatrix)
+
+    # print(categories)
+    labeled = pd.Series(categories, index=adjacency_matrix.index)
+    grouped = {k: v.to_list() for k, v in labeled.groupby(labeled).groups.items()}
+    return (labeled.to_dict(),grouped, coordinates)
 
 
-def to_adjacency_matrix(pairwise_sim_path:str) -> pd.DataFrame:
+def to_adjacency_matrix(pairwise_sim_path: str, model_name: str) -> pd.DataFrame:
     df = pd.read_json(pairwise_sim_path)
-    df_cropped = df.pivot(index="nameX",columns=["nameY"],values=["D_stitch","D_ppm"])
-    
-    print(df_cropped)
-    df_cropped.to_csv("temp.csv")
+    df = df.pivot(index="nameX", columns="nameY", values=f"D_{model_name}")
+    adjacency = df.fillna(df.T)
+    adjacency = adjacency.fillna(
+        0
+    )  # since we didn't calculate d(x,x), fill it with zero for d to be a distance
+    return adjacency
 
-def test():
-    to_adjacency_matrix("data/result/(ctx=False)/pairwise_similarity.json")
 
-if __name__ == "__main__":
-    test()
+def cluster_test(result_folder):
+  # to_adjacency_matrix("data/result/(ctx=False)/pairwise_similarity.json")
+  clustering_result = defaultdict(lambda: defaultdict(dict))
+  for model_name in ["ppm", "stitch"]:
+    for with_context in [True, False]:
+      categories,partition, embedding = cluster_on_data(
+          f"{result_folder}/(ctx={with_context})/pairwise_similarity.json",
+          model_name,
+      )
+      ctxName = f"ctx_{with_context}"
+      for entry in embedding:
+        entry["category"]=categories[entry["piece_name"]]
+      clustering_result[model_name][ctxName]= {
+        "partition" : partition,
+        "embedding" : embedding,
+        }
+
+  # tuple_flattened = {
+  #     (outer_k, inner_k): values
+  #     for outer_k, inner_v in clustering_result.items()
+  #     for inner_k, values in inner_v.items()
+  # }
+  # df = pd.DataFrame.from_dict(tuple_flattened)
+  # print(df)
+  # df.to_latex('temp.tex')
+  save_json(f"{result_folder}/clustering.json", clustering_result)

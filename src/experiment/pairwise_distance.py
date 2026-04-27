@@ -1,12 +1,13 @@
 from dataclasses import dataclass
+from itertools import combinations
 import re
-from typing import Callable, Dict, List, Literal, NamedTuple, Optional, Sequence, Tuple
+from typing import Callable, DefaultDict, Dict, List, Literal, NamedTuple, Optional, Sequence, Tuple
 import Levenshtein
 from zss import simple_distance, Node
 from apted.helpers import Tree as APTEDNode
 from apted import APTED,Config
 
-from model.utils import Corpus, save_json
+from model.utils import Corpus, Piece, save_json
 
 def string_edit_distance(s1: str, s2: str) ->float:
     return Levenshtein.distance(s1, s2)
@@ -208,3 +209,12 @@ class Tree:
         label_str = self._label_to_string(self.label)
         res = APTEDNode(label_str, [child.to_apted() for child in self.children])
         return res
+
+def compute_edit_distance(corpus:Corpus[Piece]):
+    result = DefaultDict(dict)
+    pairs = [(p, q) for p, q in combinations(corpus.pieces, 2) if p.title != q.title]
+    for x,y in pairs:
+        for dist_type in ['str_edit','tree_edit']: 
+            result[x.title][y.title][dist_type] = ...
+    
+        
