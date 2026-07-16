@@ -1,0 +1,107 @@
+[
+  {
+    "Matrix 1": "SED",
+    "Matrix 2": "TED",
+    "corr": 0.4953718119663,
+    "p_value": 9.999000099990002e-05,
+    "n": 150
+  },
+  {
+    "Matrix 1": "SED",
+    "Matrix 2": "PPM_iso",
+    "corr": 0.35233733572295695,
+    "p_value": 9.999000099990002e-05,
+    "n": 150
+  },
+  {
+    "Matrix 1": "SED",
+    "Matrix 2": "STITCH_iso",
+    "corr": 0.38474594612869173,
+    "p_value": 9.999000099990002e-05,
+    "n": 150
+  },
+  {
+    "Matrix 1": "SED",
+    "Matrix 2": "PPM_ctx",
+    "corr": 0.27106065676879365,
+    "p_value": 9.999000099990002e-05,
+    "n": 150
+  },
+  {
+    "Matrix 1": "SED",
+    "Matrix 2": "STITCH_ctx",
+    "corr": 0.020061140530973152,
+    "p_value": 0.5731426857314269,
+    "n": 150
+  },
+  {
+    "Matrix 1": "TED",
+    "Matrix 2": "PPM_iso",
+    "corr": 0.09251504932807986,
+    "p_value": 0.0006999300069993001,
+    "n": 150
+  },
+  {
+    "Matrix 1": "TED",
+    "Matrix 2": "STITCH_iso",
+    "corr": 0.37011465271476457,
+    "p_value": 9.999000099990002e-05,
+    "n": 150
+  },
+  {
+    "Matrix 1": "TED",
+    "Matrix 2": "PPM_ctx",
+    "corr": 0.08546785060599627,
+    "p_value": 0.012098790120987902,
+    "n": 150
+  },
+  {
+    "Matrix 1": "TED",
+    "Matrix 2": "STITCH_ctx",
+    "corr": 0.015840577285564095,
+    "p_value": 0.5745425457454254,
+    "n": 150
+  },
+  {
+    "Matrix 1": "PPM_iso",
+    "Matrix 2": "STITCH_iso",
+    "corr": 0.2672273259928649,
+    "p_value": 9.999000099990002e-05,
+    "n": 150
+  },
+  {
+    "Matrix 1": "PPM_iso",
+    "Matrix 2": "PPM_ctx",
+    "corr": 0.2940450494328834,
+    "p_value": 9.999000099990002e-05,
+    "n": 150
+  },
+  {
+    "Matrix 1": "PPM_iso",
+    "Matrix 2": "STITCH_ctx",
+    "corr": 0.030479856161630164,
+    "p_value": 0.39786021397860216,
+    "n": 150
+  },
+  {
+    "Matrix 1": "STITCH_iso",
+    "Matrix 2": "PPM_ctx",
+    "corr": 0.09443996214504517,
+    "p_value": 0.0461953804619538,
+    "n": 150
+  },
+  {
+    "Matrix 1": "STITCH_iso",
+    "Matrix 2": "STITCH_ctx",
+    "corr": 0.04014444482229609,
+    "p_value": 0.29447055294470553,
+    "n": 150
+  },
+  {
+    "Matrix 1": "PPM_ctx",
+    "Matrix 2": "STITCH_ctx",
+    "corr": 0.009390350061532987,
+    "p_value": 0.8544145585441456,
+    "n": 150
+  }
+]

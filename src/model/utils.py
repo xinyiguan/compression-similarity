@@ -39,6 +39,9 @@ class Corpus:
 
         return cls(pieces=pieces)
 
+    def get_piece(self, piece_name:str) -> Piece:
+        return [p for p in self.pieces if p.title==piece_name][0]
+    
     @property
     def programs(self) -> List[str]:
         return [x.program for x in self.pieces]
