@@ -8,6 +8,9 @@ from experiment.report import corr_rank_report
 import docGen.main
 from experiment.clustering import cluster_edit_distances, cluster_test
 from experiment.case_study import stitch_on_equinox_jody
+from experiment.mantel_test import mantel_tests
+from experiment.mixed_effect_model import transform_to_long_form_df
+
 def log(f):
     def _f(*args, **kwargs):
         print(f"[Start] {f.__module__}.{f.__name__}")
@@ -75,6 +78,21 @@ if __name__ == "__main__":
     # main()
     corpusPath = "data/corpus/preprocessed/converted_corpus_rep.json"
 
-    stitch_on_equinox_jody(corpus_path=corpusPath,stitch_config=stitch_cfg,
-                           save_res=f'data/result/stitch(equinox_jody).json'
-                           )
+    # stitch_on_equinox_jody(corpus_path=corpusPath,stitch_config=stitch_cfg,
+    #                        save_res=f'data/result/stitch(equinox_jody).json'
+    #                        )
+
+    # mantel_tests(save_json_path="data/result/mantel_tests.json")
+    #  transform_to_long_form_df(
+    #     json_fpath="data/result/(ctx=True)/pairwise_similarity.json"
+    # )
+
+    transform_to_long_form_df(
+        json_fpath="data/result/(ctx=True)/pairwise_similarity.json",
+        save_csv_path="data/result/(ctx=True)/longform_pairwise_similarity.csv",
+    )
+
+    transform_to_long_form_df(
+        json_fpath="data/result/(ctx=False)/pairwise_similarity.json",
+        save_csv_path="data/result/(ctx=False)/longform_pairwise_similarity.csv",
+    )
