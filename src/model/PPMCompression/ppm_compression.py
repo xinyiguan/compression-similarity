@@ -33,4 +33,5 @@ def compress(
         output = model.model_seq(seq, train=False, predict=True)
         result += output.information_content.tolist()
 
+    print(result)
     return float(aggregation(result))

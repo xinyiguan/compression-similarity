@@ -1,0 +1,7 @@
+,D_stitch_noctx,D_ppm_noctx,D_stitch_ctx,D_ppm_ctx,SED
+D_stitch_noctx,--,,,,
+D_ppm_noctx,0.267,--,,,
+D_stitch_ctx,0.040,0.030,--,,
+D_ppm_ctx,0.094,0.294,0.009,--,
+SED,0.385,0.352,0.020,0.271,--
+TED(zss),0.370,0.093,0.016,0.085,0.495
