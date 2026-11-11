@@ -1,4 +1,4 @@
-# Compression-based model of harmonic similarity
+# compression-similarity
 
 This repository contains code and data from the publication:
 
